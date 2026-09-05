@@ -245,10 +245,23 @@ async def scrape(browser: Browser) -> None:
     if events := await get_events(cached_urls.keys()):
         log.info(f"Processing {len(events)} new URL(s)")
 
-        # Create context with adblocker disabled to avoid the 'engine' attribute error
-        async with network.event_context(browser, stealth=False, block_ads=False) as context:
+        # Create a simple browser context without adblocker
+        # This bypasses the adblock issues in webwork.py
+        context = await browser.new_context(
+            user_agent=network.UA,
+            viewport={"width": 1366, "height": 768},
+            locale="en-US",
+            timezone_id="America/New_York",
+            extra_http_headers={
+                "Accept-Language": "en-US,en;q=0.9",
+                "Upgrade-Insecure-Requests": "1",
+            }
+        )
+        
+        try:
             for i, ev in enumerate(events, start=1):
-                async with network.event_page(context) as page:
+                page = await context.new_page()
+                try:
                     handler = partial(
                         process_event,
                         url=ev.link,
@@ -281,8 +294,11 @@ async def scrape(browser: Browser) -> None:
 
                     if source:
                         valid_count += 1
-
                         urls[key] = entry
+                finally:
+                    await page.close()
+        finally:
+            await context.close()
 
         log.info(f"Collected and cached {valid_count - cached_count} new event(s)")
         
