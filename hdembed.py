@@ -59,7 +59,7 @@ async def process_event(
         resp = await page.goto(
             url,
             wait_until="domcontentloaded",
-            timeout=6_000,
+            timeout=10_000,  # Increased timeout
             referer=BASE_URL,
         )
 
@@ -70,7 +70,7 @@ async def process_event(
         wait_task = asyncio.create_task(got_one.wait())
 
         try:
-            await asyncio.wait_for(wait_task, timeout=6)
+            await asyncio.wait_for(wait_task, timeout=8)  # Increased timeout
         except TimeoutError:
             log.warning(f"URL {url_num}) Timed out waiting for M3U8.")
             return
@@ -245,7 +245,8 @@ async def scrape(browser: Browser) -> None:
     if events := await get_events(cached_urls.keys()):
         log.info(f"Processing {len(events)} new URL(s)")
 
-        async with network.event_context(browser) as context:
+        # Create context with adblocker disabled to avoid the 'engine' attribute error
+        async with network.event_context(browser, stealth=False, block_ads=False) as context:
             for i, ev in enumerate(events, start=1):
                 async with network.event_page(context) as page:
                     handler = partial(
