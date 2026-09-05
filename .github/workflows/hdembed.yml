@@ -1,0 +1,47 @@
+name: HDEmbed Updater
+
+on:
+  schedule:
+    - cron: '0 */1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install playwright "httpx[http2]" pytz "tzdata>=2026.3" "adblock>=0.6.0"
+        pip install aiohttp
+        playwright install chromium
+        playwright install-deps
+    
+    - name: Run HDEmbed scraper
+      run: |
+        python hdembed.py
+      env:
+        PYTHONUNBUFFERED: 1
+    
+    - name: Commit and push if changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add hdembed_vlc.m3u8 hdembed_tivimate.m3u8 cache_HDEMBED.json cache_HDEMBED-api.json 2>/dev/null || true
+        git diff --staged --quiet || git commit -m "Update HDEmbed streams $(date '+%Y-%m-%d %H:%M:%S')"
+        git push origin HEAD:main
