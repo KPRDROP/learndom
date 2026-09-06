@@ -1,96 +1,11 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Missouri State Bears - Texas A&M Aggies (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAAF] Missouri State Bears - Texas A&M Aggies (HDEMBED)
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Everton - Manchester United (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Live Events",[Premier League] Everton - Manchester United (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn12.zohanayaan.com:1686/hls/nespnhd.m3u8?md5=x8OA831maAFGPVZheai9xw&expires=1788671584
-#EXTINF:-1 tvg-chno="2" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Texas Tech Red Raiders - Abilene Christian Wildcats (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAAF] Texas Tech Red Raiders - Abilene Christian Wildcats (HDEMBED)
+https://cdn14.zohanayaan.com:1686/hls/neverton.m3u8?md5=eTL5FtpCAhIE9xzM3SPhwg&expires=1788705601
+#EXTINF:-1 tvg-chno="2" tvg-id="Racing.Dummy.us" tvg-name="[Formula 1] Italian Grand Prix (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[Formula 1] Italian Grand Prix (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn12.zohanayaan.com:1686/hls/nfsonehd.m3u8?md5=x14R_VuWRHKfVXJKqpRi1g&expires=1788671584
-#EXTINF:-1 tvg-chno="3" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Utah State Aggies - Idaho State Bengals (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAAF] Utah State Aggies - Idaho State Bengals (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn12.zohanayaan.com:1686/hls/ncbsn.m3u8?md5=tQgxhIKEkYCiavS1bthwig&expires=1788671585
-#EXTINF:-1 tvg-chno="4" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Abilene Christian Wildcats - Texas Tech Red Raiders (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAAF] Abilene Christian Wildcats - Texas Tech Red Raiders (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn14.zohanayaan.com:1686/hls/nfsonehd.m3u8?md5=iJfe3xP_vc5L9AlAgMhYUw&expires=1788671585
-#EXTINF:-1 tvg-chno="5" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Idaho State Bengals - Utah State Aggies (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAAF] Idaho State Bengals - Utah State Aggies (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn12.zohanayaan.com:1686/hls/ncbsn.m3u8?md5=dH_H9EtupU6YnvbD_NAq9A&expires=1788671586
-#EXTINF:-1 tvg-chno="6" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Dodgers - Washington Nationals (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Los Angeles Dodgers - Washington Nationals (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/mlosangelesdodgers.m3u8?md5=r6oYTiwmkkYP7A5VEbgqCA&expires=1788671587
-#EXTINF:-1 tvg-chno="7" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] LSU Tigers - Clemson Tigers (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAAF] LSU Tigers - Clemson Tigers (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/nabchd.m3u8?md5=SHF8DSxdb9ZMdtr0WfdybA&expires=1788671587
-#EXTINF:-1 tvg-chno="8" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Michigan Wolverines - Western Michigan Broncos (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAAF] Michigan Wolverines - Western Michigan Broncos (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/nnbchd.m3u8?md5=DiFMcrfv99ulwl2EKXaLgg&expires=1788671588
-#EXTINF:-1 tvg-chno="9" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Mississippi State Bulldogs - UL Monroe Warhawks (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAAF] Mississippi State Bulldogs - UL Monroe Warhawks (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn13.zohanayaan.com:1686/hls/nespnuhd.m3u8?md5=o3mw8cv4DpNfPAa1EW0H8A&expires=1788671588
-#EXTINF:-1 tvg-chno="10" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Virginia Tech Hokies - VMI Keydets (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAAF] Virginia Tech Hokies - VMI Keydets (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/naccn.m3u8?md5=Vd4_hOgsuLZtLwBJ10sAAw&expires=1788671589
-#EXTINF:-1 tvg-chno="11" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Clemson Tigers - LSU Tigers (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAAF] Clemson Tigers - LSU Tigers (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/nabchd.m3u8?md5=dNXrXdXh_5CK82v_eh_IqA&expires=1788671589
-#EXTINF:-1 tvg-chno="12" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Western Michigan Broncos - Michigan Wolverines (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAAF] Western Michigan Broncos - Michigan Wolverines (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn12.zohanayaan.com:1686/hls/nnbchd.m3u8?md5=KCvefQE99kuAgzSYPDonbA&expires=1788671590
-#EXTINF:-1 tvg-chno="13" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] UL Monroe Warhawks - Mississippi State Bulldogs (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAAF] UL Monroe Warhawks - Mississippi State Bulldogs (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn13.zohanayaan.com:1686/hls/nespnuhd.m3u8?md5=T6kywgyNVwCiW2mmFC9JQQ&expires=1788671590
-#EXTINF:-1 tvg-chno="14" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] VMI Keydets - Virginia Tech Hokies (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAAF] VMI Keydets - Virginia Tech Hokies (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn13.zohanayaan.com:1686/hls/naccn.m3u8?md5=dEw6WW09q6eoZmlLThUVRQ&expires=1788671591
-#EXTINF:-1 tvg-chno="15" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Seattle Mariners - Athletics (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Seattle Mariners - Athletics (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn14.zohanayaan.com:1686/hls/mseattlemariners.m3u8?md5=02hD8OwOQusW7upFwEKVKA&expires=1788671591
-#EXTINF:-1 tvg-chno="16" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Florida Gators - Florida Atlantic Owls (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAAF] Florida Gators - Florida Atlantic Owls (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn14.zohanayaan.com:1686/hls/nsecnet.m3u8?md5=rHcaUEj5d7lD3pQn-4nA-Q&expires=1788671592
-#EXTINF:-1 tvg-chno="17" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Florida Atlantic Owls - Florida Gators (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAAF] Florida Atlantic Owls - Florida Gators (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn13.zohanayaan.com:1686/hls/nsecnet.m3u8?md5=rHcaUEj5d7lD3pQn-4nA-Q&expires=1788671592
-#EXTINF:-1 tvg-chno="18" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Hampton Pirates - Maryland Terrapins (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAAF] Hampton Pirates - Maryland Terrapins (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn13.zohanayaan.com:1686/hls/nbtn.m3u8?md5=jRxOD7RyvPatDeC6EkJ82Q&expires=1788671593
-#EXTINF:-1 tvg-chno="19" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] South Dakota State Jackrabbits - Northwestern Wildcats (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAAF] South Dakota State Jackrabbits - Northwestern Wildcats (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn12.zohanayaan.com:1686/hls/nbtn.m3u8?md5=9QOsob77wUzk5rgCcUCZVA&expires=1788671594
+https://cdn14.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=NfcpB063nCuDRmidWgWRkw&expires=1788705602
