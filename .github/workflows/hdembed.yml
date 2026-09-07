@@ -42,6 +42,6 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add hdembed_vlc.m3u8 hdembed_tivimate.m3u8 cache_HDEMBED.json cache_HDEMBED-api.json 2>/dev/null || true
+        git add hdembed_vlc.m3u8 hdembed_tivimate.m3u8 2>/dev/null || true
         git diff --staged --quiet || git commit -m "Update HDEmbed streams $(date '+%Y-%m-%d %H:%M:%S')"
         git push origin HEAD:main
