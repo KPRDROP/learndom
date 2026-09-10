@@ -1,21 +1,26 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Atlanta Braves - Tampa Bay Rays (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Atlanta Braves - Tampa Bay Rays (HDEMBED)
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Champions League] Manchester United - Sabah Baku (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Live Events",[UEFA Champions League] Manchester United - Sabah Baku (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/matlantabraves.m3u8?md5=kQtsmzsDc8qVweRHt74_tA&expires=1789070965
-#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Champions League] PSV Eindhoven - Shakhtar Donetsk (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Live Events",[UEFA Champions League] PSV Eindhoven - Shakhtar Donetsk (HDEMBED)
+https://cdn11.zohanayaan.com:1686/hls/mevent15.m3u8?md5=trd_PvKC1AUw8pYl8eqm_A&expires=1789082823
+#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Champions League] Bayern Munich - Bodø/Glimt (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Live Events",[UEFA Champions League] Bayern Munich - Bodø/Glimt (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/mevent11.m3u8?md5=ELxiV5u7ZW3Xyjm2hGNybQ&expires=1789070966
-#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Champions League] Fenerbahçe - Roma (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Live Events",[UEFA Champions League] Fenerbahçe - Roma (HDEMBED)
+https://cdn12.zohanayaan.com:1686/hls/mevent14.m3u8?md5=RCD-T6_nKuejkIpnIrMp2Q&expires=1789082824
+#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Champions League] Slavia Prague - Lens (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Live Events",[UEFA Champions League] Slavia Prague - Lens (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn13.zohanayaan.com:1686/hls/mmevent10.m3u8?md5=hOULmpJ0CZqOzaSFcYEzLw&expires=1789070966
-#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Philadelphia Phillies - Houston Astros (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Philadelphia Phillies - Houston Astros (HDEMBED)
+https://cdn12.zohanayaan.com:1686/hls/mevent13.m3u8?md5=ZXODYBUCbZZFAM7pl1R_rQ&expires=1789082824
+#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Champions League] Como - RB Leipzig (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Live Events",[UEFA Champions League] Como - RB Leipzig (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn14.zohanayaan.com:1686/hls/mphiladelphiaphillies.m3u8?md5=ue-GHbQrFsyaYBFGxjFiPQ&expires=1789070967
+https://cdn11.zohanayaan.com:1686/hls/mevent12.m3u8?md5=qrfKWItVgvba7YivkbD2_w&expires=1789082825
+#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Seattle Mariners - Texas Rangers (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Seattle Mariners - Texas Rangers (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://cdn11.zohanayaan.com:1686/hls/mseattlemariners.m3u8?md5=Q2jk2xKnWz6qNWV6ZiCpqQ&expires=1789082825
