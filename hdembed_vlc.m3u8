@@ -1,11 +1,11 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] New York Yankees - Colorado Rockies (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] New York Yankees - Colorado Rockies (HDEMBED)
+#EXTINF:-1 tvg-chno="1" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Los Angeles Rams - San Francisco 49ers (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Los Angeles Rams - San Francisco 49ers (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn13.zohanayaan.com:1686/hls/mnewyorkyankees.m3u8?md5=gBP3ntzXIx14mD3LOTeQDQ&expires=1789091196
-#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago White Sox - Pittsburgh Pirates (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Chicago White Sox - Pittsburgh Pirates (HDEMBED)
+https://cdn14.zohanayaan.com:1686/hls/mlosangelesrams.m3u8?md5=DdpsIw7ehfZoRpnt0SGykQ&expires=1789103866
+#EXTINF:-1 tvg-chno="2" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Florida A&M Rattlers - Miami Hurricanes (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAAF] Florida A&M Rattlers - Miami Hurricanes (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn13.zohanayaan.com:1686/hls/mchicagowhitesox.m3u8?md5=Nvdjks6uwSYlvADL0T-zaA&expires=1789091197
+https://cdn14.zohanayaan.com:1686/hls/naccn.m3u8?md5=EMdz2d-t8UfEKi9uuhKTtQ&expires=1789103867
