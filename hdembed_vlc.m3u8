@@ -1,11 +1,16 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Boxing] Harry Powell - Nathan Sheppard (HDEMBED)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Boxing] Harry Powell - Nathan Sheppard (HDEMBED)
+#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Detroit Tigers - Colorado Rockies (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Detroit Tigers - Colorado Rockies (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn11.zohanayaan.com:1686/hls/mevent1.m3u8?md5=u-TKgH-jM68QWoSdopsaJw&expires=1789155264
-#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago Cubs - Pittsburgh Pirates (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Chicago Cubs - Pittsburgh Pirates (HDEMBED)
+https://cdn15.zohanayaan.com:1686/hls/mdetroittigers.m3u8?md5=vC-gTf_bK-HbdOXzxmfx_Q&expires=1789165990
+#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Washington Nationals - Los Angeles Angels (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Washington Nationals - Los Angeles Angels (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn15.zohanayaan.com:1686/hls/mchicagocubs.m3u8?md5=FBb5ngXP-XT9ghxFmudG6w&expires=1789155265
+https://cdn12.zohanayaan.com:1686/hls/mwashingtonnationals.m3u8?md5=K_5fz6wGDZy3_-BUcgEXzA&expires=1789165991
+#EXTINF:-1 tvg-chno="3" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Mma/pfl/bkfc] BKFC 93: Leonardo Perdomo - Bear Hill (HDEMBED)" tvg-logo="https://i.gyazo.com/4a5e9fa2525808ee4b65002b56d3450e.png" group-title="Live Events",[Mma/pfl/bkfc] BKFC 93: Leonardo Perdomo - Bear Hill (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://cdn14.zohanayaan.com:1686/hls/mevent2.m3u8?md5=Ecf_7AENpmNRt3YiFmUKmQ&expires=1789165992
