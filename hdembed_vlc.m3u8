@@ -1,11 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Los Angeles Rams - San Francisco 49ers (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Los Angeles Rams - San Francisco 49ers (HDEMBED)
+#EXTINF:-1 tvg-chno="1" tvg-id="Racing.Dummy.us" tvg-name="[Formula 1] Spanish Grand Prix Practice 1 (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[Formula 1] Spanish Grand Prix Practice 1 (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn14.zohanayaan.com:1686/hls/mlosangelesrams.m3u8?md5=DdpsIw7ehfZoRpnt0SGykQ&expires=1789103866
-#EXTINF:-1 tvg-chno="2" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Florida A&M Rattlers - Miami Hurricanes (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAAF] Florida A&M Rattlers - Miami Hurricanes (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://cdn14.zohanayaan.com:1686/hls/naccn.m3u8?md5=EMdz2d-t8UfEKi9uuhKTtQ&expires=1789103867
+https://cdn15.zohanayaan.com:1686/hls/nskyf1hdd.m3u8?md5=4qjYWmhKYqZdmyfe6RlKcQ&expires=1789139872
