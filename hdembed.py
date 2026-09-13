@@ -17,7 +17,7 @@ CACHE_FILE = Cache(TAG, exp=5_400)
 
 API_FILE = Cache(f"{TAG}-api", exp=28_800)
 
-BASE_URL = "https://rockystream.st"
+BASE_URL = "https://embedhd.st"
 
 # Output files
 OUTPUT_VLC = "hdembed_vlc.m3u8"
