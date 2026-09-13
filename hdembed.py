@@ -1,9 +1,9 @@
 import asyncio
 from collections.abc import KeysView
 from functools import partial
-from urllib.parse import urljoin
+from urllib.parse import urljoin, quote
 
-from playwright.async_api import Browser, Page
+from playwright.async_api import Browser, Page, async_playwright
 
 from utils import Cache, Event, Time, get_logger, leagues, network
 
@@ -18,7 +18,6 @@ CACHE_FILE = Cache(TAG, exp=5_400)
 API_FILE = Cache(f"{TAG}-api", exp=28_800)
 
 BASE_URL = "https://rockystream.st"
-#"https://embedhd.st"
 
 # Output files
 OUTPUT_VLC = "hdembed_vlc.m3u8"
@@ -29,13 +28,26 @@ REFERER = "https://forgemindly.com/"
 ORIGIN = "https://forgemindly.com/"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
 
+# Encoded user agent for Tivimate
+UA_ENC = quote(USER_AGENT, safe="")
+
 
 def fix_league(s: str) -> str:
     splits = s.split()
-
+    if not splits:
+        return s
     i = splits[0]
-
     return f"{i.upper() if len(i) <= 5 else i.capitalize()} {' '.join(x.capitalize() for x in splits[1:])}".strip()
+
+
+def clean_display_name(name: str) -> str:
+    """Clean display name by removing commas and extra spaces."""
+    import re
+    if not name:
+        return ""
+    cleaned = re.sub(r',\s*', ' ', name)
+    cleaned = re.sub(r'\s+', ' ', cleaned).strip()
+    return cleaned
 
 
 async def process_event(
@@ -45,7 +57,6 @@ async def process_event(
 ) -> str | None:
 
     captured: list[str] = []
-
     got_one = asyncio.Event()
 
     handler = partial(
@@ -60,7 +71,7 @@ async def process_event(
         resp = await page.goto(
             url,
             wait_until="domcontentloaded",
-            timeout=10_000,  # Increased timeout
+            timeout=6_000,
             referer=BASE_URL,
         )
 
@@ -71,7 +82,7 @@ async def process_event(
         wait_task = asyncio.create_task(got_one.wait())
 
         try:
-            await asyncio.wait_for(wait_task, timeout=8)  # Increased timeout
+            await asyncio.wait_for(wait_task, timeout=6)
         except TimeoutError:
             log.warning(f"URL {url_num}) Timed out waiting for M3U8.")
             return
@@ -79,7 +90,6 @@ async def process_event(
         finally:
             if not wait_task.done():
                 wait_task.cancel()
-
                 try:
                     await wait_task
                 except asyncio.CancelledError:
@@ -100,14 +110,13 @@ async def process_event(
 async def get_events(cached_keys: KeysView[str]) -> list[Event]:
     now = Time.rn()
 
-    if not (api_data := API_FILE.load(per_entry=False)):
+    if not (api_data := API_FILE.load(per_entry=False, ts_index=-1)):
         log.info("Refreshing API cache")
 
         api_data = {"timestamp": now.timestamp()}
 
         if r := await network.request(urljoin(BASE_URL, "api-event.php"), log=log):
             api_data: dict = r.json()
-
             api_data["timestamp"] = now.timestamp()
 
         API_FILE.write(api_data)
@@ -128,8 +137,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[Event]:
                 continue
 
             sport = fix_league(event_league)
-
-            event_name = event["title"]
+            event_name = clean_display_name(event["title"])
 
             if f"[{sport}] {event_name} ({TAG})" in cached_keys:
                 continue
@@ -155,13 +163,9 @@ async def get_events(cached_keys: KeysView[str]) -> list[Event]:
 def write_m3u8_files(events_data: dict[str, dict]) -> None:
     """Write the collected events to VLC and Tivimate m3u8 files."""
     
-    # VLC format (with EXTVLCOPT options)
     vlc_lines = ["#EXTM3U"]
-    
-    # Tivimate format (with pipe headers)
     tivimate_lines = ["#EXTM3U"]
     
-    # Count valid streams
     stream_count = 0
     channel_number = 1
     
@@ -172,48 +176,56 @@ def write_m3u8_files(events_data: dict[str, dict]) -> None:
         stream_url = data["source"]
         
         # Extract sport and name from key
-        # Format: "[Sport] Match Name (TAG)"
         if "]" in key:
             sport_part = key.split("]")[0].replace("[", "").strip()
             name_part = key.split("]")[1].replace(f" ({TAG})", "").strip()
         else:
-            sport_part = "Unknown"
+            sport_part = data.get("sport", "Unknown")
             name_part = key.replace(f" ({TAG})", "").strip()
         
-        # Get logo and tvg-id
+        # Clean display name
+        display_name = clean_display_name(f"[{sport_part}] {name_part} ({TAG})")
+        
         tvg_id = data.get("tvg-id", "Live.Event.us")
         logo = data.get("logo", "")
-        league = data.get("sport", sport_part)
-        
-        # Create display name
-        display_name = f"[{sport_part}] {name_part} ({TAG})"
+        group_title = data.get("sport", sport_part)
         
         # VLC format with EXTVLCOPT options
-        vlc_lines.append(f'#EXTINF:-1 tvg-chno="{channel_number}" tvg-id="{tvg_id}" tvg-name="{display_name}" tvg-logo="{logo}" group-title="Live Events",{display_name}')
+        vlc_lines.append(
+            f'#EXTINF:-1 tvg-chno="{channel_number}" '
+            f'tvg-id="{tvg_id}" '
+            f'tvg-name="{display_name}" '
+            f'tvg-logo="{logo}" '
+            f'group-title="{group_title}",{display_name}'
+        )
         vlc_lines.append(f"#EXTVLCOPT:http-referrer={REFERER}")
         vlc_lines.append(f"#EXTVLCOPT:http-origin={ORIGIN}")
         vlc_lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
         vlc_lines.append(stream_url)
         
         # Tivimate format with pipe headers
-        encoded_ua = USER_AGENT.replace("%", "%25").replace(" ", "%20")
-        tivimate_line = f"{stream_url}|referer={REFERER}|origin={ORIGIN}|user-agent={encoded_ua}"
-        tivimate_lines.append(f'#EXTINF:-1 tvg-chno="{channel_number}" tvg-id="{tvg_id}" tvg-name="{display_name}" tvg-logo="{logo}" group-title="Live Events",{display_name}')
-        tivimate_lines.append(tivimate_line)
+        tivimate_lines.append(
+            f'#EXTINF:-1 tvg-chno="{channel_number}" '
+            f'tvg-id="{tvg_id}" '
+            f'tvg-name="{display_name}" '
+            f'tvg-logo="{logo}" '
+            f'group-title="{group_title}",{display_name}'
+        )
+        tivimate_lines.append(
+            f"{stream_url}|referer={REFERER}|origin={ORIGIN}|user-agent={UA_ENC}"
+        )
         
         stream_count += 1
         channel_number += 1
     
     if stream_count == 0:
         log.warning("No streams to write to m3u8 files.")
-        # Create empty files with just the header
         with open(OUTPUT_VLC, "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
         with open(OUTPUT_TIVIMATE, "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
         return
     
-    # Write VLC file
     try:
         with open(OUTPUT_VLC, "w", encoding="utf-8") as f:
             f.write("\n".join(vlc_lines))
@@ -221,7 +233,6 @@ def write_m3u8_files(events_data: dict[str, dict]) -> None:
     except Exception as e:
         log.error(f"Failed to write VLC playlist: {e}")
     
-    # Write Tivimate file
     try:
         with open(OUTPUT_TIVIMATE, "w", encoding="utf-8") as f:
             f.write("\n".join(tivimate_lines))
@@ -234,35 +245,21 @@ async def scrape(browser: Browser) -> None:
     cached_urls = CACHE_FILE.load()
 
     valid_urls = {k: v for k, v in cached_urls.items() if v.get("source")}
-
     valid_count = cached_count = len(valid_urls)
 
     urls.update(valid_urls)
 
     log.info(f"Loaded {cached_count} event(s) from cache")
-
     log.info(f'Scraping from "{BASE_URL}"')
 
     if events := await get_events(cached_urls.keys()):
         log.info(f"Processing {len(events)} new URL(s)")
 
-        # Create a simple browser context without adblocker
-        # This bypasses the adblock issues in webwork.py
-        context = await browser.new_context(
-            user_agent=network.UA,
-            viewport={"width": 1366, "height": 768},
-            locale="en-US",
-            timezone_id="America/New_York",
-            extra_http_headers={
-                "Accept-Language": "en-US,en;q=0.9",
-                "Upgrade-Insecure-Requests": "1",
-            }
-        )
-        
-        try:
+        # Use network.event_context and network.event_page which properly
+        # handle adblock with service worker exception handling
+        async with network.event_context(browser) as context:
             for i, ev in enumerate(events, start=1):
-                page = await context.new_page()
-                try:
+                async with network.event_page(context) as page:
                     handler = partial(
                         process_event,
                         url=ev.link,
@@ -289,6 +286,7 @@ async def scrape(browser: Browser) -> None:
                         "tvg-id": tvg_id or "Live.Event.us",
                         "link": ev.link,
                         "sport": ev.sport,
+                        "name": ev.name,
                     }
 
                     cached_urls[key] = entry
@@ -296,13 +294,9 @@ async def scrape(browser: Browser) -> None:
                     if source:
                         valid_count += 1
                         urls[key] = entry
-                finally:
-                    await page.close()
-        finally:
-            await context.close()
 
         log.info(f"Collected and cached {valid_count - cached_count} new event(s)")
-        
+
         # Write m3u8 files
         write_m3u8_files(cached_urls)
 
@@ -314,18 +308,19 @@ async def scrape(browser: Browser) -> None:
 
 async def main():
     """Main entry point for the script."""
-    from playwright.async_api import async_playwright
-    
-    log.info("Starting HDEmbed scraper...")
+    log.info("Starting HDEmbed updater...")
     
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
+        browser = await p.chromium.launch(
+            headless=True,
+            args=['--no-sandbox', '--disable-setuid-sandbox']
+        )
         try:
             await scrape(browser)
         finally:
             await browser.close()
     
-    log.info("Scraping completed.")
+    log.info("Updating completed.")
 
 
 if __name__ == "__main__":
