@@ -3,7 +3,6 @@ import json
 import os
 import re
 from functools import partial
-from itertools import chain
 from pathlib import Path
 from typing import Any
 from urllib.parse import urljoin, quote, urlparse
@@ -53,19 +52,22 @@ SPORT_ENDPOINTS = [
 urls: dict[str, dict[str, Any]] = {}
 
 # --------------------------------------------------
-# Regex patterns (revised from original working code)
+# Regex patterns
 # --------------------------------------------------
 
+# Matches: file: "URL"  |  source = 'URL'  |  streamurls: "URL"  |  url="URL"
 VALID_M3U8 = re.compile(
     r"""(?:file|source|streamurls?|stream_url|url)\s*[:=]\s*['"]([^'"]+)['"]""",
     re.I,
 )
 
+# Matches array style: streamurls = ["URL"]  |  sources: ["URL"]  |  0x31c4 = ["URL"]
 VALID_M3U8_ARRAY = re.compile(
     r"""(?:streamurls|sources|0x31c4)\s*[:=]\s*\[\s*['"]([^'"]+)['"]""",
     re.I,
 )
 
+# Fallback alternate pattern
 VALID_M3U8_ALT = re.compile(
     r"""(?:file|source|streamurls?)\s*(?::|=)\s*(?:'|")([^"']*)(?:'|")""",
     re.I,
@@ -82,6 +84,7 @@ def extract_stream_id(stream_url: str) -> str | None:
         r"/([A-Z0-9]+)/index\.m3u8",
         r"stream=([A-Z0-9]+)",
         r"/stream/([A-Z0-9]+)\.m3u8",
+        r"/live/([^/]+)/index\.m3u8",
     ]
 
     for pattern in patterns:
@@ -97,14 +100,14 @@ def build_referer_from_stream(stream_url: str) -> str:
     stream_id = extract_stream_id(stream_url)
 
     if stream_id:
-        return f"https://instream.click/jwp-us.php?stream={stream_id}"
+        return f"https://instream.click/livetv.php?stream={stream_id}"
 
     parsed = urlparse(stream_url)
     if parsed.path:
         parts = parsed.path.split("/")
         if len(parts) > 2 and parts[1].upper() in ["US", "CA", "UK"]:
             if len(parts) > 2:
-                return f"https://instream.click/jwp-us.php?stream={parts[2]}"
+                return f"https://instream.click/livetv.php?stream={parts[2]}"
 
     return "https://instream.click/"
 
@@ -135,41 +138,36 @@ def clean_sport_name(sport: str) -> str:
 
 
 def clean_m3u(s: str) -> str:
-    return re.sub(r"\.live\n", ".pro", s)
+    """Remove trailing newlines but PRESERVE query tokens (st, e, etc.)."""
+    return re.sub(r"[\r\n]+$", "", s)
 
 
-# --------------------------------------------------
-def parse_m3u8_from_text(text: str) -> str | None:
-    """Extract M3U8 URL from page text using multiple regex strategies."""
-    # Strategy 1: primary pattern with named group
-    if match := VALID_M3U8.search(text):
-        try:
-            return json.loads(f'"{match[1]}"')
-        except (json.JSONDecodeError, IndexError):
-            return match[1]
+def extract_m3u8_with_token(text: str) -> str | None:
+    """Extract M3U8 URL including the full query string (st=..., e=...).
 
-    # Strategy 2: array style (streamurls = ["..."])
-    if match := VALID_M3U8_ARRAY.search(text):
-        try:
-            return json.loads(f'"{match[1]}"')
-        except (json.JSONDecodeError, IndexError):
-            return match[1]
+    The original code stripped the query string via split('?st')[0],
+    which removed the auth token. This function preserves the entire
+    URL including all query parameters.
+    """
+    for pattern in (VALID_M3U8, VALID_M3U8_ARRAY, VALID_M3U8_ALT):
+        if match := pattern.search(text):
+            raw = match.group(1)
+            try:
+                url = json.loads(f'"{raw}"')
+            except (json.JSONDecodeError, IndexError):
+                url = raw
 
-    # Strategy 3: fallback alternate pattern
-    if match := VALID_M3U8_ALT.search(text):
-        try:
-            return json.loads(f'"{match[1]}"')
-        except (json.JSONDecodeError, IndexError):
-            return match[1]
+            # Ensure we keep the FULL URL, including ?st=...&e=...
+            # Only strip whitespace/newlines, never the query string.
+            return url.strip()
 
     return None
 
 
 # --------------------------------------------------
 async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]:
-    """Extract M3U8 stream URL and referer from an event page.
+    """Extract M3U8 stream URL (WITH token) and referer from an event page.
 
-    Works for both direct iframe URLs and page URLs containing an iframe.
     Returns (m3u8_url, iframe_src) or (None, None) on failure.
     """
     nones = None, None
@@ -203,8 +201,8 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
 
         ifr_src_data_text = ifr_src_data.text
 
-    if stream_url := parse_m3u8_from_text(ifr_src_data_text):
-        log.info(f"URL {url_num}) Captured M3U8")
+    if stream_url := extract_m3u8_with_token(ifr_src_data_text):
+        log.info(f"URL {url_num}) Captured M3U8 (with token)")
         return stream_url, ifr_src
 
     log.warning(f"URL {url_num}) No source found.")
@@ -309,7 +307,7 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, Any]]:
         if not streams:
             continue
 
-        # Collect stream URLs, skipping auto_source entries (matches original)
+        # Collect stream URLs, skipping auto_source entries
         stream_urls: list[str] = []
         for stream in streams:
             if "auto_source" in stream:
@@ -400,15 +398,17 @@ async def scrape(browser: Browser) -> None:
                 failed_count += 1
                 continue
 
+            # Preserve referer from iframe; fallback to built referer
             referer = iframe_src or build_referer_from_stream(stream_url)
 
             key = f"[{ev['sport']}] {ev['event']} ({TAG})"
             tvg_id, logo = leagues.get_tvg_info(ev["sport"], ev["event"])
 
-            clean_stream_url = clean_m3u(stream_url.split("?st")[0])
+            # *** IMPORTANT: keep the FULL token URL (do NOT strip ?st=...&e=...) ***
+            full_stream_url = clean_m3u(stream_url)
 
             cached_urls[key] = {
-                "url": clean_stream_url,
+                "url": full_stream_url,
                 "logo": logo,
                 "base": BASE_URL,
                 "timestamp": ev["timestamp"],
@@ -464,13 +464,12 @@ def build_playlists(data: dict[str, dict]) -> None:
     )
 
     for name, e in sorted_items:
-        stream_url = e["url"]
+        # *** Keep full token URL — never split on '?st' ***
+        stream_url = clean_m3u(e["url"])
 
         referer = e.get("referer")
         if not referer:
             referer = build_referer_from_stream(stream_url)
-
-        stream_url = stream_url.split("?st")[0]
 
         vlc_lines = [
             f'#EXTINF:-1 tvg-chno="{ch}" tvg-id="{e["id"]}" '
