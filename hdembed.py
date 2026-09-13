@@ -323,7 +323,7 @@ async def main():
         finally:
             await browser.close()
 
-    log.info("Scraping completed.")
+    log.info("Updater completed.")
 
 
 if __name__ == "__main__":
