@@ -123,7 +123,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[Event]:
 
     events: list[Event] = []
 
-    start_dt = now.delta(hours=-3)
+    start_dt = now.delta(hours=-6)
     end_dt = now.delta(minutes=30)
 
     for info in api_data.get("days", []):
