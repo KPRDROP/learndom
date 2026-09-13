@@ -309,7 +309,10 @@ async def scrape(browser: Browser) -> None:
 async def main():
     """Main entry point for the script."""
     log.info("Starting HDEmbed updater...")
-    
+
+    # FIX: Initialize adblock engine before using event_context
+    await network.setup_adblock()
+
     async with async_playwright() as p:
         browser = await p.chromium.launch(
             headless=True,
@@ -319,8 +322,8 @@ async def main():
             await scrape(browser)
         finally:
             await browser.close()
-    
-    log.info("Updating completed.")
+
+    log.info("Scraping completed.")
 
 
 if __name__ == "__main__":
