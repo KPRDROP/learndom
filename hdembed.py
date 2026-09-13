@@ -25,7 +25,7 @@ OUTPUT_TIVIMATE = "hdembed_tivimate.m3u8"
 
 # Headers for streams
 REFERER = "https://forgemindly.com/"
-ORIGIN = "https://forgemindly.com/"
+ORIGIN = "https://forgemindly.com"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36"
 
 # Encoded user agent for Tivimate
