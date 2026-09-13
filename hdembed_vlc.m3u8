@@ -1,16 +1,111 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Coventry City - Brighton and Hove Albion (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Premier League",[Premier League] Coventry City - Brighton and Hove Albion (HDEMBED)
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Manchester United - Manchester City (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Premier League",[Premier League] Manchester United - Manchester City (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb20.strmd.st/secure/IMiJkxnZlciQcjWxxzNbprNAZqtCKufG/ingest/stream/nburnley/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-id="Racing.Dummy.us" tvg-name="[Formula 1] Spanish Grand Prix (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Formula 1",[Formula 1] Spanish Grand Prix (HDEMBED)
+https://lb18.strmd.st/secure/HPEkxWyFvnOCpneItStPPcTJEzcDqRlR/ingest/stream/nmanchestercity/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Detroit Tigers - Colorado Rockies (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Detroit Tigers - Colorado Rockies (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb2.strmd.st/secure/vQEljdWHcCJZYcnaWviViGjaYbEhOOvY/ingest/stream/nskyf1hdd/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[LA Liga] Levante - Barcelona (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="LA Liga",[LA Liga] Levante - Barcelona (HDEMBED)
+https://lb18.strmd.st/secure/yTvApIHwNixVoPzxDNgtYGURQLVrgqTL/ingest/stream/mdetroittigers/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="3" tvg-id="Football.Dummy.us" tvg-name="[NFL] NFL vs RedZone (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="NFL",[NFL] NFL vs RedZone (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb2.strmd.st/secure/CpnWjhcaXHhYFpfvaSYvyuyhtgJYAIbe/ingest/stream/nbarcelona/1/playlist.m3u8
+https://lb18.strmd.st/secure/KIDGmsypfRVZSadJeHaEIZpMBtaAQBLk/ingest/stream/nnflredzone/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="4" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Cincinnati Bengals - Tampa Bay Buccaneers (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Cincinnati Bengals - Tampa Bay Buccaneers (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb18.strmd.st/secure/tslwnFHyQqfzGLhBXhDKQLHomCIYFDKC/ingest/stream/mcincinnatibengals/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="5" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Detroit Lions - New Orleans Saints (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Detroit Lions - New Orleans Saints (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb18.strmd.st/secure/zIDkgOHBOpPiGBxSKPckBuVRlMjTEauL/ingest/stream/mdetroitlions/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="6" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Tennessee Titans - New York Jets (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Tennessee Titans - New York Jets (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb1.strmd.st/secure/BpxkmGUdxyrbtxQOUrSwTzXBsfJYOKSY/ingest/stream/mtennesseetitans/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="7" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Indianapolis Colts - Baltimore Ravens (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Indianapolis Colts - Baltimore Ravens (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb1.strmd.st/secure/DCbnFOmDTxEznIvzLmCZJEGwmoFEhjuv/ingest/stream/mindianapoliscolts/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="8" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Pittsburgh Steelers - Atlanta Falcons (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Pittsburgh Steelers - Atlanta Falcons (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb1.strmd.st/secure/hQGftYbJKyJmDSYnWRIpjFdlgEZKazVL/ingest/stream/mpittsburghsteelers/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="9" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Carolina Panthers - Chicago Bears (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Carolina Panthers - Chicago Bears (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb1.strmd.st/secure/NEEDvOqpsdxBnUZccLcfVHmaBteujkJq/ingest/stream/mcarolinapanthers/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="10" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Jacksonville Jaguars - Cleveland Browns (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Jacksonville Jaguars - Cleveland Browns (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb1.strmd.st/secure/XIQXuDnlQYEGIUMeNBfNfvwqevHPNDEN/ingest/stream/mjacksonvillejaguars/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="11" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Houston Texans - Buffalo Bills (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Houston Texans - Buffalo Bills (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb15.strmd.st/secure/sbbyDXsmZaQZoyxAJyfiJueusCGsOTYa/ingest/stream/mhoustontexans/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="12" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Washington Nationals - Los Angeles Angels (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Washington Nationals - Los Angeles Angels (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb15.strmd.st/secure/BTBXyNDQXsRupFKqSFJYTezkNSCeTwAM/ingest/stream/mwashingtonnationals/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="13" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Boston Red Sox - Kansas City Royals (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Boston Red Sox - Kansas City Royals (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb15.strmd.st/secure/IlVBDaKWjsjqlMbSEVXJoxZXiNLzFvRK/ingest/stream/mbostonredsox/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="14" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] New York Yankees - New York Mets (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] New York Yankees - New York Mets (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb15.strmd.st/secure/MpeTGSFLdUJMwppIZEolLFtCeCRWQqOZ/ingest/stream/mnewyorkyankees/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="15" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Atlanta Braves - Philadelphia Phillies (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Atlanta Braves - Philadelphia Phillies (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb15.strmd.st/secure/DWUgoxkOpYoWCJdyxNvoIOShhFmzroeh/ingest/stream/matlantabraves/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="16" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Toronto Blue Jays - Baltimore Orioles (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Toronto Blue Jays - Baltimore Orioles (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb13.strmd.st/secure/wmxTxYwoPHEWcDwIDyvZLsCnzuNBwARp/ingest/stream/mtorontobluejays/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="17" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Miami Marlins - Los Angeles Dodgers (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Miami Marlins - Los Angeles Dodgers (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb13.strmd.st/secure/YwhpaxbicVFUMfvMWjqTothWvEHzYMEQ/ingest/stream/mmiamimarlins/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="18" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Tampa Bay Rays - Houston Astros (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Tampa Bay Rays - Houston Astros (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb13.strmd.st/secure/ZOdKSOfCURasCIrISJidycZvfBqHneul/ingest/stream/mtampabayrays/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="19" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Milwaukee Brewers - Cincinnati Reds (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Milwaukee Brewers - Cincinnati Reds (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb13.strmd.st/secure/WWxHuEoUVPVFPEvwixkpifVYlMfIRIkA/ingest/stream/mmilwaukeebrewers/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="20" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Minnesota Twins - Cleveland Guardians (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Minnesota Twins - Cleveland Guardians (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb13.strmd.st/secure/jjmTyGqfpixPKFtbaZTsjHjlqtKMytqa/ingest/stream/mminnesotatwins/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="21" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] St. Louis Cardinals - Chicago White Sox (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] St. Louis Cardinals - Chicago White Sox (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb12.strmd.st/secure/fhznqgMXflWgcUIsfFFJHauhXdMElCvt/ingest/stream/mstlouiscardinals/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="22" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago Cubs - Pittsburgh Pirates (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Chicago Cubs - Pittsburgh Pirates (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb12.strmd.st/secure/dFMTavvOPdqeqlUvoGsONULafeofpiAj/ingest/stream/mchicagocubs/1/playlist.m3u8
