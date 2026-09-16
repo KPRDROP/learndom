@@ -1,5 +1,6 @@
 from collections.abc import KeysView
 from dataclasses import dataclass
+from datetime import datetime, timezone
 from functools import partial
 from typing import Any
 from urllib.parse import quote, urljoin
@@ -32,17 +33,99 @@ USER_AGENT = (
 VLC_FILE = "rdstrm_vlc.m3u8"
 TIVIMATE_FILE = "rdstrm_tivimate.m3u8"
 
+# Sports to include. Add/remove as needed. Empty set = include everything.
+ALLOWED_CATEGORIES: set[str] = {
+    "american-football",
+    "baseball",
+    "basketball",
+    "hockey",
+    "football",
+    "soccer",
+    "tennis",
+    "mma",
+    "boxing",
+    "ufc",
+    "motorsport",
+    "racing",
+    "golf",
+    "cricket",
+    "rugby",
+    "volleyball",
+    "handball",
+    "esports",
+}
+
+# How wide the "live now" window should be.
+WINDOW_MINUTES_BEFORE = 180
+WINDOW_MINUTES_AFTER = 180
+
 
 @dataclass(kw_only=True, slots=True)
 class REEDEvent(Event):
     logo: str | None = None
 
 
+def _to_epoch_seconds(value: Any) -> int | None:
+    """Normalize date/start_time values to epoch seconds."""
+    if value is None:
+        return None
+
+    # Numeric (int/float) — could be seconds or milliseconds
+    if isinstance(value, (int, float)):
+        v = int(value)
+        # Heuristic: > 10^12 → milliseconds
+        return v // 1000 if v > 10_000_000_000 else v
+
+    # String — could be digits, ISO-8601, etc.
+    if isinstance(value, str):
+        s = value.strip()
+        if s.isdigit():
+            v = int(s)
+            return v // 1000 if v > 10_000_000_000 else v
+
+        # Try ISO formats
+        for fmt in (
+            "%Y-%m-%dT%H:%M:%S.%fZ",
+            "%Y-%m-%dT%H:%M:%SZ",
+            "%Y-%m-%dT%H:%M:%S%z",
+            "%Y-%m-%d %H:%M:%S",
+            "%Y-%m-%d %H:%M",
+        ):
+            try:
+                dt = datetime.strptime(s, fmt)
+                if dt.tzinfo is None:
+                    dt = dt.replace(tzinfo=timezone.utc)
+                return int(dt.timestamp())
+            except ValueError:
+                continue
+
+    return None
+
+
+def _unwrap_api_payload(payload: Any) -> list[dict[str, Any]]:
+    """Return a flat list of event dicts from whatever shape the API returns."""
+    if isinstance(payload, list):
+        return [x for x in payload if isinstance(x, dict)]
+
+    if isinstance(payload, dict):
+        for key in ("matches", "data", "events", "results", "items"):
+            if isinstance(payload.get(key), list):
+                return [x for x in payload[key] if isinstance(x, dict)]
+
+    return []
+
+
 async def pre_process(url: str, url_num: int) -> str | None:
     if not (event_data := await network.request(url, url_num, log=log)):
         return
 
-    elif not (streams := event_data.json().get("streams")):
+    try:
+        payload = event_data.json()
+    except Exception as e:
+        log.warning(f"URL {url_num}) JSON decode failed: {e}")
+        return
+
+    if not (streams := payload.get("streams")):
         log.warning(f"URL {url_num}) No streams available")
         return
 
@@ -65,72 +148,114 @@ async def get_events(cached_keys: KeysView[str]) -> list[REEDEvent]:
 
     events: list[REEDEvent] = []
 
-    if not (api_data := API_FILE.load(per_entry=False, ts_index=-1)):
+    api_data = API_FILE.load(per_entry=False, ts_index=-1)
+
+    if not api_data:
         log.info("Refreshing API cache")
 
-        api_data = [{"timestamp": now.timestamp()}]
+        api_url = urljoin(f"https://api.{BASE_DOMAIN}", "api/matches/all")
 
-        if r := await network.request(
-            urljoin(f"https://api.{BASE_DOMAIN}", "api/matches/all"),
-            log=log,
-        ):
-            api_data: list[dict[str, Any]] = r.json()
+        if r := await network.request(api_url, log=log):
+            try:
+                raw = r.json()
+            except Exception as e:
+                log.error(f"API JSON decode failed: {e}")
+                return events
 
-            api_data[-1]["timestamp"] = now.timestamp()
+            api_data = _unwrap_api_payload(raw)
 
-        API_FILE.write(api_data)
+            if not api_data:
+                log.warning(f"API returned no usable events. Type={type(raw).__name__}")
+                return events
 
-    start_dt = now.delta(minutes=-30)
-    end_dt = now.delta(minutes=30)
+            # Show a sample so we can debug the schema in CI logs
+            sample = api_data[0]
+            log.info(f"API sample keys: {sorted(sample.keys())}")
+
+            API_FILE.write(api_data)
+        else:
+            log.warning("API request failed")
+            return events
+
+    start_dt = now.delta(minutes=-WINDOW_MINUTES_BEFORE)
+    end_dt = now.delta(minutes=WINDOW_MINUTES_AFTER)
 
     for event in api_data:
-        if not all(
-            values := [
-                event.get(x)
-                for x in (
-                    "category",
-                    "title",
-                    "league_name",
-                    "date",
-                    "id",
-                )
-            ]
-        ):
+        if not isinstance(event, dict):
             continue
 
-        category, name, sport, start_ts, stream_id = values
+        category = (
+            event.get("category")
+            or event.get("sport")
+            or event.get("league")
+            or ""
+        ).lower()
 
-        if category not in {
-            "american-football",
-            "baseball",
-            # "basketball",
-            # "hockey",
-        }:
+        name = event.get("title") or event.get("name") or event.get("match")
+        sport = event.get("league_name") or event.get("league") or category
+        raw_date = (
+            event.get("date")
+            or event.get("start_time")
+            or event.get("startTime")
+            or event.get("timestamp")
+        )
+        stream_id = (
+            event.get("id")
+            or event.get("match_id")
+            or event.get("stream_id")
+            or event.get("slug")
+        )
+
+        if not all([name, raw_date, stream_id]):
             continue
 
-        event_dt = Time.from_ts(event_ts := int(f"{start_ts}"[:-3]))
+        if ALLOWED_CATEGORIES and category and category not in ALLOWED_CATEGORIES:
+            continue
+
+        event_ts = _to_epoch_seconds(raw_date)
+        if event_ts is None:
+            continue
+
+        event_dt = Time.from_ts(event_ts)
 
         if not start_dt <= event_dt <= end_dt:
             continue
 
-        elif f"[{sport}] {name} ({TAG})" in cached_keys:
+        key = f"[{sport}] {name} ({TAG})"
+
+        if key in cached_keys:
             continue
+
+        poster = (
+            event.get("poster")
+            or event.get("image")
+            or event.get("logo")
+            or event.get("badge")
+        )
 
         logo = (
             urljoin(f"https://api.{BASE_DOMAIN}", poster)
-            if (poster := event.get("poster"))
+            if poster
             else None
         )
 
         events.append(
             REEDEvent(
-                sport=sport,
-                name=name,
+                sport=str(sport),
+                name=str(name),
                 logo=logo,
-                link=urljoin(f"https://links.{BASE_DOMAIN}", f"stream/{stream_id}"),
+                link=urljoin(
+                    f"https://links.{BASE_DOMAIN}",
+                    f"stream/{stream_id}",
+                ),
                 timestamp=event_ts,
             )
         )
+
+    log.info(
+        f"Matched {len(events)} event(s) in window "
+        f"[-{WINDOW_MINUTES_BEFORE}m, +{WINDOW_MINUTES_AFTER}m]"
+    )
 
     return events
 
@@ -202,6 +327,7 @@ async def scrape(browser: Browser) -> None:
         async with network.event_context(browser) as context:
             for i, ev in enumerate(events, start=1):
                 source = None
+                event_link = None
 
                 async with network.event_page(context) as page:
                     if event_link := await pre_process(ev.link, i):
@@ -267,7 +393,7 @@ async def main() -> None:
                 await browser.close()
 
     except Exception as e:
-        log.error(f"Fatal error during updater: {e}")
+        log.error(f"Fatal error during update: {e}")
         raise
 
 
