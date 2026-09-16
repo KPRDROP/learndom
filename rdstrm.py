@@ -18,7 +18,7 @@ CACHE_FILE = Cache(TAG, exp=10_800)
 
 API_FILE = Cache(f"{TAG}-api", exp=28_800)
 
-BASE_DOMAIN = "reedstreams.link"
+BASE_DOMAIN = "htts://reedstreams.link/"
 
 REFERER = "https://edgesport.cfd/"
 ORIGIN = "https://edgesport.cfd"
