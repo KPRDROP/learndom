@@ -1,6 +1,6 @@
+```python
 from collections.abc import KeysView
 from dataclasses import dataclass
-from datetime import datetime, timezone
 from functools import partial
 from typing import Any
 from urllib.parse import quote, urljoin
@@ -9,17 +9,25 @@ from playwright.async_api import Browser, async_playwright
 
 from utils import Cache, Event, Time, get_logger, leagues, network
 
+
 log = get_logger(__name__)
 
-urls: dict[str, dict[str, str | float]] = {}
+
+# ============================================================
+# Configuration
+# ============================================================
 
 TAG = "RDSTRM"
 
-CACHE_FILE = Cache(TAG, exp=10_800)
-
-API_FILE = Cache(f"{TAG}-api", exp=28_800)
-
 BASE_DOMAIN = "reedstreams.link"
+
+BASE_URL = "https://reedstreams.link/"
+SITE_URL = "https://reedstreams.to/"
+
+API_BASE_URL = "https://api.reedstreams.link/api/"
+EVENTS_API_URL = "https://api.reedstreams.link/api/matches/all"
+
+LINKS_BASE_URL = "https://links.reedstreams.link/"
 
 REFERER = "https://edgesport.cfd/"
 ORIGIN = "https://edgesport.cfd"
@@ -30,374 +38,750 @@ USER_AGENT = (
     "Chrome/111.0.0.0 Safari/537.36"
 )
 
-VLC_FILE = "rdstrm_vlc.m3u8"
-TIVIMATE_FILE = "rdstrm_tivimate.m3u8"
 
-# Sports to include. Add/remove as needed. Empty set = include everything.
-ALLOWED_CATEGORIES: set[str] = {
-    "american-football",
-    "baseball",
-    "basketball",
-    "hockey",
-    "football",
-    "soccer",
-    "tennis",
-    "mma",
-    "boxing",
-    "ufc",
-    "motorsport",
-    "racing",
-    "golf",
-    "cricket",
-    "rugby",
-    "volleyball",
-    "handball",
-    "esports",
-}
+# How far around the current time to look for events.
+# The original code used +/-30 minutes. The log shows that
+# you are processing a wider set, so this is configurable.
+EVENT_START_OFFSET_MINUTES = -180
+EVENT_END_OFFSET_MINUTES = 180
 
-# How wide the "live now" window should be.
-WINDOW_MINUTES_BEFORE = 180
-WINDOW_MINUTES_AFTER = 180
 
+CACHE_FILE = Cache(TAG, exp=10_800)
+API_FILE = Cache(f"{TAG}-api", exp=28_800)
+
+
+# ============================================================
+# Runtime URL storage
+# ============================================================
+
+urls: dict[str, dict[str, Any]] = {}
+
+
+# ============================================================
+# Event
+# ============================================================
 
 @dataclass(kw_only=True, slots=True)
 class REEDEvent(Event):
     logo: str | None = None
 
 
-def _to_epoch_seconds(value: Any) -> int | None:
-    """Normalize date/start_time values to epoch seconds."""
-    if value is None:
+# ============================================================
+# HTTP/browser headers
+# ============================================================
+
+REQUEST_HEADERS = {
+    "Referer": REFERER,
+    "Origin": ORIGIN,
+    "User-Agent": USER_AGENT,
+    "Accept": (
+        "text/html,application/xhtml+xml,application/xml;"
+        "q=0.9,image/avif,image/webp,image/apng,*/*;"
+        "q=0.8,application/signed-exchange;v=b3;q=0.7"
+    ),
+    "Accept-Language": "en-US,en;q=0.9",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+    "DNT": "1",
+}
+
+
+# ============================================================
+# Helpers
+# ============================================================
+
+def normalize_url(url: str | None) -> str | None:
+    """
+    Normalize a URL returned by the API.
+
+    Keeps absolute URLs unchanged and converts relative URLs
+    against the appropriate Reed Streams domain.
+    """
+    if not url:
         return None
 
-    # Numeric (int/float) — could be seconds or milliseconds
-    if isinstance(value, (int, float)):
-        v = int(value)
-        # Heuristic: > 10^12 → milliseconds
-        return v // 1000 if v > 10_000_000_000 else v
+    url = str(url).strip()
 
-    # String — could be digits, ISO-8601, etc.
-    if isinstance(value, str):
-        s = value.strip()
-        if s.isdigit():
-            v = int(s)
-            return v // 1000 if v > 10_000_000_000 else v
+    if not url:
+        return None
 
-        # Try ISO formats
-        for fmt in (
-            "%Y-%m-%dT%H:%M:%S.%fZ",
-            "%Y-%m-%dT%H:%M:%SZ",
-            "%Y-%m-%dT%H:%M:%S%z",
-            "%Y-%m-%d %H:%M:%S",
-            "%Y-%m-%d %H:%M",
-        ):
-            try:
-                dt = datetime.strptime(s, fmt)
-                if dt.tzinfo is None:
-                    dt = dt.replace(tzinfo=timezone.utc)
-                return int(dt.timestamp())
-            except ValueError:
-                continue
+    if url.startswith("//"):
+        return f"https:{url}"
+
+    if url.startswith("http://") or url.startswith("https://"):
+        return url
+
+    return urljoin(LINKS_BASE_URL, url.lstrip("/"))
+
+
+def encoded_user_agent() -> str:
+    """
+    TiviMate requires the User-Agent value URL encoded.
+
+    quote() intentionally keeps '/' unescaped only when safe=''
+    is not supplied; with safe='' the entire UA is encoded.
+    """
+    return quote(USER_AGENT, safe="")
+
+
+def build_vlc_entry(
+    key: str,
+    entry: dict[str, Any],
+) -> str | None:
+    """
+    Build one VLC playlist entry.
+    """
+    source = entry.get("source")
+
+    if not source:
+        return None
+
+    source = str(source).strip()
+
+    if not source:
+        return None
+
+    tvg_id = entry.get("tvg-id") or "Live.Event.us"
+    tvg_name = entry.get("tvg-name") or key
+    tvg_logo = entry.get("logo") or ""
+    group_title = entry.get("group-title") or "Live Events"
+
+    tvg_chno = entry.get("tvg-chno")
+
+    # Keep tvg-chno when supplied by the cache/event data.
+    # Otherwise omit it instead of inventing a channel number.
+    chno = f' tvg-chno="{tvg_chno}"' if tvg_chno else ""
+
+    lines = [
+        (
+            f'#EXTINF:-1{chno} '
+            f'tvg-id="{tvg_id}" '
+            f'tvg-name="{tvg_name}" '
+            f'tvg-logo="{tvg_logo}" '
+            f'group-title="{group_title}",'
+            f'{tvg_name}'
+        ),
+        f"#EXTVLCOPT:http-referrer={REFERER}",
+        f"#EXTVLCOPT:http-origin={ORIGIN}",
+        f"#EXTVLCOPT:http-user-agent={USER_AGENT}",
+        source,
+    ]
+
+    return "\n".join(lines)
+
+
+def build_tivimate_entry(
+    key: str,
+    entry: dict[str, Any],
+) -> str | None:
+    """
+    Build one TiviMate playlist entry.
+
+    The User-Agent is URL encoded while Referer and Origin remain
+    normal URLs, matching the requested format.
+    """
+    source = entry.get("source")
+
+    if not source:
+        return None
+
+    source = str(source).strip()
+
+    if not source:
+        return None
+
+    tvg_id = entry.get("tvg-id") or "Live.Event.us"
+    tvg_name = entry.get("tvg-name") or key
+    tvg_logo = entry.get("logo") or ""
+    group_title = entry.get("group-title") or "Live Events"
+
+    tvg_chno = entry.get("tvg-chno")
+
+    chno = f' tvg-chno="{tvg_chno}"' if tvg_chno else ""
+
+    extinf = (
+        f'#EXTINF:-1{chno} '
+        f'tvg-id="{tvg_id}" '
+        f'tvg-name="{tvg_name}" '
+        f'tvg-logo="{tvg_logo}" '
+        f'group-title="{group_title}",'
+        f'{tvg_name}'
+    )
+
+    ua = encoded_user_agent()
+
+    stream_line = (
+        f"{source}"
+        f"|referer={REFERER}"
+        f"|origin={ORIGIN}"
+        f"|user-agent={ua}"
+    )
+
+    return f"{extinf}\n{stream_line}"
+
+
+# ============================================================
+# Playlist writers
+# ============================================================
+
+def write_playlists() -> None:
+    """
+    Generate:
+
+        rdstrm_vlc.m3u8
+        rdstrm_tivimate.m3u8
+
+    Only entries with a valid captured stream URL are written.
+    """
+
+    vlc_entries: list[str] = []
+    tivimate_entries: list[str] = []
+
+    # Sort by event timestamp when available.
+    sorted_urls = sorted(
+        urls.items(),
+        key=lambda item: (
+            item[1].get("timestamp", 0),
+            item[0].lower(),
+        ),
+    )
+
+    for key, entry in sorted_urls:
+        if not entry.get("source"):
+            continue
+
+        vlc_entry = build_vlc_entry(key, entry)
+
+        if vlc_entry:
+            vlc_entries.append(vlc_entry)
+
+        tivimate_entry = build_tivimate_entry(key, entry)
+
+        if tivimate_entry:
+            tivimate_entries.append(tivimate_entry)
+
+    vlc_content = "#EXTM3U\n"
+
+    if vlc_entries:
+        vlc_content += "\n".join(vlc_entries) + "\n"
+
+    tivimate_content = "#EXTM3U\n"
+
+    if tivimate_entries:
+        tivimate_content += "\n".join(tivimate_entries) + "\n"
+
+    with open("rdstrm_vlc.m3u8", "w", encoding="utf-8", newline="\n") as f:
+        f.write(vlc_content)
+
+    with open(
+        "rdstrm_tivimate.m3u8",
+        "w",
+        encoding="utf-8",
+        newline="\n",
+    ) as f:
+        f.write(tivimate_content)
+
+    log.info(
+        f"Wrote rdstrm_vlc.m3u8 "
+        f"({len(vlc_entries)} entries)"
+    )
+
+    log.info(
+        f"Wrote rdstrm_tivimate.m3u8 "
+        f"({len(tivimate_entries)} entries)"
+    )
+
+
+# ============================================================
+# Stream extraction
+# ============================================================
+
+async def pre_process(
+    url: str,
+    url_num: int,
+) -> str | None:
+    """
+    Request the Reed stream endpoint and locate the Krishna
+    embed URL.
+
+    This function intentionally uses the normal request path
+    supplied by the existing network utility rather than trying
+    to bypass access-control systems.
+    """
+
+    url = normalize_url(url)
+
+    if not url:
+        log.warning(
+            f"URL {url_num}) Invalid stream endpoint"
+        )
+        return None
+
+    try:
+        event_data = await network.request(
+            url,
+            url_num,
+            log=log,
+        )
+    except Exception as exc:
+        log.error(
+            f"URL {url_num}) Failed stream endpoint request: "
+            f"{exc}"
+        )
+        return None
+
+    if not event_data:
+        log.warning(
+            f"URL {url_num}) No response from stream endpoint"
+        )
+        return None
+
+    try:
+        payload = event_data.json()
+    except Exception as exc:
+        log.error(
+            f"URL {url_num}) Invalid JSON response: {exc}"
+        )
+        return None
+
+    if not isinstance(payload, dict):
+        log.warning(
+            f"URL {url_num}) Unexpected response format"
+        )
+        return None
+
+    streams = payload.get("streams")
+
+    if not streams:
+        log.warning(
+            f"URL {url_num}) No streams available"
+        )
+        return None
+
+    if not isinstance(streams, list):
+        log.warning(
+            f"URL {url_num}) Invalid streams format"
+        )
+        return None
+
+    # First preference: Krishna.
+    for stream in streams:
+        if not isinstance(stream, dict):
+            continue
+
+        source_name = str(
+            stream.get("source") or ""
+        ).strip().lower()
+
+        if source_name != "krishna":
+            continue
+
+        stream_url = (
+            stream.get("embedUrl")
+            or stream.get("url")
+            or stream.get("streamUrl")
+        )
+
+        stream_url = normalize_url(stream_url)
+
+        if stream_url:
+            return stream_url
+
+    # If Krishna is not present, don't blindly select an
+    # unrelated provider. This keeps the original behavior.
+    log.warning(
+        f"URL {url_num}) No valid stream url found"
+    )
 
     return None
 
 
-def _unwrap_api_payload(payload: Any) -> list[dict[str, Any]]:
-    """Return a flat list of event dicts from whatever shape the API returns."""
-    if isinstance(payload, list):
-        return [x for x in payload if isinstance(x, dict)]
+# ============================================================
+# API
+# ============================================================
 
-    if isinstance(payload, dict):
-        for key in ("matches", "data", "events", "results", "items"):
-            if isinstance(payload.get(key), list):
-                return [x for x in payload[key] if isinstance(x, dict)]
+async def load_api_data(now: Any) -> list[dict[str, Any]]:
+    """
+    Load the cached matches API or refresh it when necessary.
+    """
 
-    return []
+    api_data = API_FILE.load(
+        per_entry=False,
+        ts_index=-1,
+    )
 
+    if api_data:
+        if isinstance(api_data, list):
+            return api_data
 
-async def pre_process(url: str, url_num: int) -> str | None:
-    if not (event_data := await network.request(url, url_num, log=log)):
-        return
+    log.info("Refreshing API cache")
+
+    response = await network.request(
+        EVENTS_API_URL,
+        log=log,
+    )
+
+    if not response:
+        log.error(
+            f"Unable to fetch events API: {EVENTS_API_URL}"
+        )
+        return []
 
     try:
-        payload = event_data.json()
-    except Exception as e:
-        log.warning(f"URL {url_num}) JSON decode failed: {e}")
-        return
+        data = response.json()
+    except Exception as exc:
+        log.error(
+            f"Events API returned invalid JSON: {exc}"
+        )
+        return []
 
-    if not (streams := payload.get("streams")):
-        log.warning(f"URL {url_num}) No streams available")
-        return
+    if not isinstance(data, list):
+        log.error(
+            "Events API response is not a list"
+        )
+        return []
 
-    for stream in streams:
-        if stream.get("source", "").lower() != "krishna":
-            continue
+    # Helpful diagnostic information.
+    if data and isinstance(data[0], dict):
+        log.info(
+            f"API sample keys: {list(data[0].keys())}"
+        )
 
-        # elif stream.get("sourceName", "") != "Reed 1":
-        #     continue
+    timestamp = now.timestamp()
 
-        if stream_url := stream.get("embedUrl"):
-            return stream_url
+    # Store the cache refresh timestamp on the final record,
+    # preserving the original cache format.
+    if data:
+        data[-1]["timestamp"] = timestamp
 
-    log.warning(f"URL {url_num}) No valid stream url found")
-    return
+    API_FILE.write(data)
+
+    return data
 
 
-async def get_events(cached_keys: KeysView[str]) -> list[REEDEvent]:
+# ============================================================
+# Event discovery
+# ============================================================
+
+async def get_events(
+    cached_keys: KeysView[str],
+) -> list[REEDEvent]:
+
     now = Time.rn()
 
     events: list[REEDEvent] = []
 
-    api_data = API_FILE.load(per_entry=False, ts_index=-1)
+    api_data = await load_api_data(now)
 
     if not api_data:
-        log.info("Refreshing API cache")
+        return events
 
-        api_url = urljoin(f"https://api.{BASE_DOMAIN}", "api/matches/all")
+    start_dt = now.delta(
+        minutes=EVENT_START_OFFSET_MINUTES
+    )
 
-        if r := await network.request(api_url, log=log):
-            try:
-                raw = r.json()
-            except Exception as e:
-                log.error(f"API JSON decode failed: {e}")
-                return events
+    end_dt = now.delta(
+        minutes=EVENT_END_OFFSET_MINUTES
+    )
 
-            api_data = _unwrap_api_payload(raw)
+    matched_count = 0
 
-            if not api_data:
-                log.warning(f"API returned no usable events. Type={type(raw).__name__}")
-                return events
-
-            # Show a sample so we can debug the schema in CI logs
-            sample = api_data[0]
-            log.info(f"API sample keys: {sorted(sample.keys())}")
-
-            API_FILE.write(api_data)
-        else:
-            log.warning("API request failed")
-            return events
-
-    start_dt = now.delta(minutes=-WINDOW_MINUTES_BEFORE)
-    end_dt = now.delta(minutes=WINDOW_MINUTES_AFTER)
+    cached_key_set = set(cached_keys)
 
     for event in api_data:
+
         if not isinstance(event, dict):
             continue
 
-        category = (
-            event.get("category")
-            or event.get("sport")
-            or event.get("league")
-            or ""
-        ).lower()
+        values = [
+            event.get(x)
+            for x in (
+                "category",
+                "title",
+                "league_name",
+                "date",
+                "id",
+            )
+        ]
 
-        name = event.get("title") or event.get("name") or event.get("match")
-        sport = event.get("league_name") or event.get("league") or category
-        raw_date = (
-            event.get("date")
-            or event.get("start_time")
-            or event.get("startTime")
-            or event.get("timestamp")
-        )
-        stream_id = (
-            event.get("id")
-            or event.get("match_id")
-            or event.get("stream_id")
-            or event.get("slug")
-        )
-
-        if not all([name, raw_date, stream_id]):
+        if not all(values):
             continue
 
-        if ALLOWED_CATEGORIES and category and category not in ALLOWED_CATEGORIES:
+        category, name, sport, start_ts, stream_id = values
+
+        if category not in {
+            "american-football",
+            "baseball",
+            # "basketball",
+            # "hockey",
+        }:
             continue
 
-        event_ts = _to_epoch_seconds(raw_date)
-        if event_ts is None:
+        # Reed's API uses millisecond timestamps.
+        try:
+            event_ts = int(str(start_ts)[:-3])
+        except (TypeError, ValueError):
+            log.debug(
+                f"Skipping event with invalid timestamp: "
+                f"{start_ts}"
+            )
             continue
 
-        event_dt = Time.from_ts(event_ts)
+        try:
+            event_dt = Time.from_ts(event_ts)
+        except Exception:
+            log.debug(
+                f"Skipping event with invalid event time: "
+                f"{start_ts}"
+            )
+            continue
 
         if not start_dt <= event_dt <= end_dt:
             continue
 
+        matched_count += 1
+
         key = f"[{sport}] {name} ({TAG})"
 
-        if key in cached_keys:
+        if key in cached_key_set:
             continue
 
-        poster = (
-            event.get("poster")
-            or event.get("image")
-            or event.get("logo")
-            or event.get("badge")
-        )
+        poster = event.get("poster")
 
         logo = (
-            urljoin(f"https://api.{BASE_DOMAIN}", poster)
+            urljoin(
+                API_BASE_URL,
+                str(poster).lstrip("/"),
+            )
             if poster
             else None
         )
 
+        stream_link = urljoin(
+            LINKS_BASE_URL,
+            f"stream/{stream_id}",
+        )
+
         events.append(
             REEDEvent(
-                sport=str(sport),
-                name=str(name),
+                sport=sport,
+                name=name,
                 logo=logo,
-                link=urljoin(
-                    f"https://links.{BASE_DOMAIN}",
-                    f"stream/{stream_id}",
-                ),
+                link=stream_link,
                 timestamp=event_ts,
             )
         )
 
     log.info(
-        f"Matched {len(events)} event(s) in window "
-        f"[-{WINDOW_MINUTES_BEFORE}m, +{WINDOW_MINUTES_AFTER}m]"
+        f"Matched {matched_count} event(s) in window "
+        f"[{EVENT_START_OFFSET_MINUTES}m, "
+        f"+{EVENT_END_OFFSET_MINUTES}m]"
     )
 
     return events
 
 
-def write_outputs(cached_urls: dict[str, dict[str, str | float]]) -> None:
-    vlc_lines: list[str] = ["#EXTM3U"]
-    tivimate_lines: list[str] = ["#EXTM3U"]
-
-    encoded_ua = quote(USER_AGENT, safe="")
-
-    chno = 0
-
-    for name, entry in cached_urls.items():
-        source = entry.get("source")
-        if not source:
-            continue
-
-        chno += 1
-
-        logo = entry.get("logo") or ""
-        tvg_id = entry.get("tvg-id") or "Live.Event.us"
-
-        extinf = (
-            f'#EXTINF:-1 tvg-chno="{chno}" tvg-id="{tvg_id}" '
-            f'tvg-name="{name}" tvg-logo="{logo}" '
-            f'group-title="Live Events",{name}'
-        )
-
-        vlc_lines.append(extinf)
-        vlc_lines.append(f"#EXTVLCOPT:http-referrer={REFERER}")
-        vlc_lines.append(f"#EXTVLCOPT:http-origin={ORIGIN}")
-        vlc_lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
-        vlc_lines.append(str(source))
-
-        tivimate_lines.append(extinf)
-        tivimate_lines.append(
-            f"{source}|referer={REFERER}|origin={ORIGIN}|user-agent={encoded_ua}"
-        )
-
-    try:
-        with open(VLC_FILE, "w", encoding="utf-8") as f:
-            f.write("\n".join(vlc_lines) + "\n")
-        log.info(f"Wrote {VLC_FILE} ({chno} entries)")
-
-        with open(TIVIMATE_FILE, "w", encoding="utf-8") as f:
-            f.write("\n".join(tivimate_lines) + "\n")
-        log.info(f"Wrote {TIVIMATE_FILE} ({chno} entries)")
-
-    except OSError as e:
-        log.error(f"Failed to write output files: {e}")
-
+# ============================================================
+# Scraper
+# ============================================================
 
 async def scrape(browser: Browser) -> None:
+
     cached_urls = CACHE_FILE.load()
 
-    valid_urls = {k: v for k, v in cached_urls.items() if v["source"]}
+    if not isinstance(cached_urls, dict):
+        cached_urls = {}
 
-    valid_count = cached_count = len(valid_urls)
+    # Only valid cached streams are loaded into the active
+    # playlist collection.
+    valid_urls = {
+        key: value
+        for key, value in cached_urls.items()
+        if isinstance(value, dict)
+        and value.get("source")
+    }
 
+    cached_count = len(valid_urls)
+
+    urls.clear()
     urls.update(valid_urls)
 
-    log.info(f"Loaded {cached_count} event(s) from cache")
+    log.info(
+        f"Loaded {cached_count} event(s) from cache"
+    )
 
-    log.info(f'Scraping from "{network.ensure_https(f"//{BASE_DOMAIN}")}"')
+    log.info(
+        f'Scraping from "{BASE_URL}"'
+    )
 
-    if events := await get_events(cached_urls.keys()):
-        log.info(f"Processing {len(events)} new URL(s)")
+    events = await get_events(
+        cached_urls.keys()
+    )
 
-        async with network.event_context(browser) as context:
-            for i, ev in enumerate(events, start=1):
-                source = None
-                event_link = None
-
-                async with network.event_page(context) as page:
-                    if event_link := await pre_process(ev.link, i):
-                        handler = partial(
-                            network.process_event,
-                            url=event_link,
-                            url_num=i,
-                            page=page,
-                            log=log,
-                        )
-
-                        source = await network.safe_process(
-                            handler,
-                            url_num=i,
-                            semaphore=network.PW_S,
-                            log=log,
-                        )
-
-                    key = f"[{ev.sport}] {ev.name} ({TAG})"
-
-                    tvg_id, logo = leagues.get_tvg_info(ev.sport, ev.name)
-
-                    entry = {
-                        "source": source,
-                        "logo": ev.logo or logo,
-                        "refer": event_link,
-                        "timestamp": ev.timestamp,
-                        "tvg-id": tvg_id or "Live.Event.us",
-                    }
-
-                    cached_urls[key] = entry
-
-                    if source:
-                        valid_count += 1
-
-                        urls[key] = entry
-
-        log.info(f"Collected and cached {valid_count - cached_count} new event(s)")
-
-    else:
+    if not events:
         log.info("No new events found")
+
+        # Still regenerate the playlists from valid cache.
+        write_playlists()
+        return
+
+    log.info(
+        f"Processing {len(events)} new URL(s)"
+    )
+
+    valid_count = cached_count
+
+    async with network.event_context(browser) as context:
+
+        for i, ev in enumerate(events, start=1):
+
+            source: str | None = None
+            event_link: str | None = None
+
+            # ------------------------------------------------
+            # First obtain the actual embed endpoint.
+            # ------------------------------------------------
+
+            if ev.link:
+                event_link = normalize_url(ev.link)
+
+            if not event_link:
+                log.warning(
+                    f"URL {i}) Missing event link"
+                )
+
+            else:
+
+                try:
+
+                    async with network.event_page(
+                        context
+                    ) as page:
+
+                        embed_url = await pre_process(
+                            event_link,
+                            i,
+                        )
+
+                        if embed_url:
+
+                            handler = partial(
+                                network.process_event,
+                                url=embed_url,
+                                url_num=i,
+                                page=page,
+                                log=log,
+                            )
+
+                            source = await network.safe_process(
+                                handler,
+                                url_num=i,
+                                semaphore=network.PW_S,
+                                log=log,
+                            )
+
+                except Exception as exc:
+                    log.error(
+                        f"URL {i}) Stream processing failed: "
+                        f"{exc}"
+                    )
+
+            # ------------------------------------------------
+            # Event metadata
+            # ------------------------------------------------
+
+            key = (
+                f"[{ev.sport}] "
+                f"{ev.name} "
+                f"({TAG})"
+            )
+
+            tvg_id, league_logo = leagues.get_tvg_info(
+                ev.sport,
+                ev.name,
+            )
+
+            # Preserve an existing channel number if one is
+            # already present in the cache.
+            previous_entry = cached_urls.get(key)
+
+            tvg_chno = None
+
+            if isinstance(previous_entry, dict):
+                tvg_chno = previous_entry.get("tvg-chno")
+
+            entry = {
+                "source": source,
+                "logo": ev.logo or league_logo,
+                "refer": event_link,
+                "timestamp": ev.timestamp,
+                "tvg-id": tvg_id or "Live.Event.us",
+                "tvg-name": key,
+                "group-title": "Live Events",
+            }
+
+            if tvg_chno:
+                entry["tvg-chno"] = tvg_chno
+
+            # ------------------------------------------------
+            # Cache every discovered event, but only put a
+            # successful stream into the active playlist.
+            # ------------------------------------------------
+
+            cached_urls[key] = entry
+
+            if source:
+                valid_count += 1
+                urls[key] = entry
+
+                log.info(
+                    f"URL {i}) Added stream for {key}"
+                )
+            else:
+                log.warning(
+                    f"URL {i}) No playable stream captured"
+                )
+
+    new_count = valid_count - cached_count
+
+    log.info(
+        f"Collected and cached {new_count} new event(s)"
+    )
 
     CACHE_FILE.write(cached_urls)
 
-    write_outputs(cached_urls)
+    # Generate both playlists after all URLs have been processed.
+    write_playlists()
 
+
+# ============================================================
+# Main
+# ============================================================
 
 async def main() -> None:
-    try:
-        async with async_playwright() as playwright:
-            browser = await playwright.chromium.launch(
-                headless=True,
-                args=[
-                    "--no-sandbox",
-                    "--disable-dev-shm-usage",
-                    "--disable-blink-features=AutomationControlled",
-                ],
-            )
+    """
+    Application entry point.
+    """
 
-            try:
-                await scrape(browser)
-            finally:
-                await browser.close()
+    async with async_playwright() as playwright:
 
-    except Exception as e:
-        log.error(f"Fatal error during scrape: {e}")
-        raise
+        browser = await playwright.chromium.launch(
+            headless=True,
+        )
 
+        try:
+            await scrape(browser)
+
+        finally:
+            await browser.close()
+
+
+# ============================================================
+# Script entry point
+# ============================================================
 
 if __name__ == "__main__":
     import asyncio
 
     asyncio.run(main())
+```
