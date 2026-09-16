@@ -1,4 +1,3 @@
-```python
 from collections.abc import KeysView
 from dataclasses import dataclass
 from functools import partial
@@ -618,8 +617,6 @@ async def main() -> None:
             await scrape(browser)
         finally:
             await browser.close()
-
-
 if __name__ == "__main__":
     import asyncio
 
