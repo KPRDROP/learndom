@@ -127,7 +127,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[REEDEvent]:
                 sport=sport,
                 name=name,
                 logo=logo,
-                link=urljoin(f"https://links.{BASE_DOMAIN}", f"stream/{stream_id}"),
+                link=urljoin(f"https://links.{BASE_URL}", f"stream/{stream_id}"),
                 timestamp=event_ts,
             )
         )
@@ -194,7 +194,7 @@ async def scrape(browser: Browser) -> None:
 
     log.info(f"Loaded {cached_count} event(s) from cache")
 
-    log.info(f'Scraping from "{network.ensure_https(f"//{BASE_DOMAIN}")}"')
+    log.info(f'Scraping from "{network.ensure_https(f"//{BASE_URL}")}"')
 
     if events := await get_events(cached_urls.keys()):
         log.info(f"Processing {len(events)} new URL(s)")
