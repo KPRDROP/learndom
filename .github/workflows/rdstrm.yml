@@ -1,4 +1,4 @@
-name: RDSTRM Scraper
+name: RDSTRM Updater
 
 on:
   schedule:
