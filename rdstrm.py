@@ -18,7 +18,7 @@ CACHE_FILE = Cache(TAG, exp=10_800)
 
 API_FILE = Cache(f"{TAG}-api", exp=28_800)
 
-BASE_URL = "reedstreams.to"
+BASE_DOMAIN = "reedstreams.link"
 
 REFERER = "https://edgesport.cfd/"
 ORIGIN = "https://edgesport.cfd"
@@ -71,7 +71,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[REEDEvent]:
         api_data = [{"timestamp": now.timestamp()}]
 
         if r := await network.request(
-            urljoin(f"https://api.{BASE_URL}", "api/matches/all"),
+            urljoin(f"https://api.{BASE_DOMAIN}", "api/matches/all"),
             log=log,
         ):
             api_data: list[dict[str, Any]] = r.json()
@@ -117,7 +117,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[REEDEvent]:
             continue
 
         logo = (
-            urljoin(f"https://api.{BASE_URL}", poster)
+            urljoin(f"https://api.{BASE_DOMAIN}", poster)
             if (poster := event.get("poster"))
             else None
         )
@@ -127,7 +127,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[REEDEvent]:
                 sport=sport,
                 name=name,
                 logo=logo,
-                link=urljoin(f"https://links.{BASE_URL}", f"stream/{stream_id}"),
+                link=urljoin(f"https://links.{BASE_DOMAIN}", f"stream/{stream_id}"),
                 timestamp=event_ts,
             )
         )
@@ -194,7 +194,7 @@ async def scrape(browser: Browser) -> None:
 
     log.info(f"Loaded {cached_count} event(s) from cache")
 
-    log.info(f'Scraping from "{network.ensure_https(f"//{BASE_URL}")}"')
+    log.info(f'Scraping from "{network.ensure_https(f"//{BASE_DOMAIN}")}"')
 
     if events := await get_events(cached_urls.keys()):
         log.info(f"Processing {len(events)} new URL(s)")
