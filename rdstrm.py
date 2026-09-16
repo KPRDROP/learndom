@@ -4,7 +4,7 @@ from functools import partial
 from typing import Any
 from urllib.parse import quote, urljoin
 
-from playwright.async_api import Browser
+from playwright.async_api import Browser, async_playwright
 
 from utils import Cache, Event, Time, get_logger, leagues, network
 
@@ -194,7 +194,7 @@ async def scrape(browser: Browser) -> None:
 
     log.info(f"Loaded {cached_count} event(s) from cache")
 
-    log.info(f'Scraping from "{network.ensure_https(f'//{BASE_DOMAIN}')}"')
+    log.info(f'Scraping from "{network.ensure_https(f"//{BASE_DOMAIN}")}"')
 
     if events := await get_events(cached_urls.keys()):
         log.info(f"Processing {len(events)} new URL(s)")
@@ -251,10 +251,23 @@ async def scrape(browser: Browser) -> None:
 
 async def main() -> None:
     try:
-        async with network.event_browser() as browser:
-            await scrape(browser)
+        async with async_playwright() as playwright:
+            browser = await playwright.chromium.launch(
+                headless=True,
+                args=[
+                    "--no-sandbox",
+                    "--disable-dev-shm-usage",
+                    "--disable-blink-features=AutomationControlled",
+                ],
+            )
+
+            try:
+                await scrape(browser)
+            finally:
+                await browser.close()
+
     except Exception as e:
-        log.error(f"Fatal error during scrape: {e}")
+        log.error(f"Fatal error during updater: {e}")
         raise
 
 
