@@ -3,7 +3,7 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from functools import partial
 from typing import Any
-from urllib.parse import quote, urlparse, urljoin
+from urllib.parse import quote, urljoin
 
 from playwright.async_api import Browser, async_playwright
 
@@ -21,9 +21,8 @@ API_FILE = Cache(f"{TAG}-api", exp=28_800)
 
 BASE_DOMAIN = "reedstreams.link"
 
-# --- Referer / Origin: derive from the embed URL at runtime ---
-DEFAULT_REFERER = "https://reedstreams.to/"
-DEFAULT_ORIGIN = "https://reedstreams.to"
+REFERER = "https://edgesport.cfd/"
+ORIGIN = "https://edgesport.cfd"
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -64,8 +63,6 @@ WINDOW_MINUTES_AFTER = 180
 @dataclass(kw_only=True, slots=True)
 class REEDEvent(Event):
     logo: str | None = None
-    referer: str | None = None
-    origin: str | None = None
 
 
 def _to_epoch_seconds(value: Any) -> int | None:
@@ -73,16 +70,20 @@ def _to_epoch_seconds(value: Any) -> int | None:
     if value is None:
         return None
 
+    # Numeric (int/float) — could be seconds or milliseconds
     if isinstance(value, (int, float)):
         v = int(value)
+        # Heuristic: > 10^12 → milliseconds
         return v // 1000 if v > 10_000_000_000 else v
 
+    # String — could be digits, ISO-8601, etc.
     if isinstance(value, str):
         s = value.strip()
         if s.isdigit():
             v = int(s)
             return v // 1000 if v > 10_000_000_000 else v
 
+        # Try ISO formats
         for fmt in (
             "%Y-%m-%dT%H:%M:%S.%fZ",
             "%Y-%m-%dT%H:%M:%SZ",
@@ -114,76 +115,14 @@ def _unwrap_api_payload(payload: Any) -> list[dict[str, Any]]:
     return []
 
 
-def _origin_from_url(url: str) -> tuple[str, str]:
-    """Return (referer, origin) derived from an embed URL."""
-    try:
-        p = urlparse(url)
-        if p.scheme and p.netloc:
-            origin = f"{p.scheme}://{p.netloc}"
-            return f"{origin}/", origin
-    except Exception:
-        pass
-    return DEFAULT_REFERER, DEFAULT_ORIGIN
-
-
-def _extract_stream_url(event: dict) -> str | None:
-    """Pull the best stream URL directly from the API event's sources field."""
-    sources = event.get("sources")
-    if not sources:
-        return None
-
-    # sources may be a list of dicts, or a dict keyed by source name
-    if isinstance(sources, dict):
-        sources = list(sources.values())
-
-    if not isinstance(sources, list):
-        return None
-
-    for source in sources:
-        if not isinstance(source, dict):
-            continue
-
-        # Direct URL keys
-        for key in ("embedUrl", "embed_url", "url", "stream_url", "link", "embed", "iframe"):
-            if value := source.get(key):
-                if isinstance(value, str) and value.startswith("http"):
-                    return value
-
-        # Nested dicts (e.g. {"krishna": {"embedUrl": ...}})
-        for nested in source.values():
-            if isinstance(nested, dict):
-                for key in ("embedUrl", "embed_url", "url", "stream_url"):
-                    if value := nested.get(key):
-                        if isinstance(value, str) and value.startswith("http"):
-                            return value
-            elif isinstance(nested, list):
-                for item in nested:
-                    if isinstance(item, dict):
-                        for key in ("embedUrl", "embed_url", "url", "stream_url"):
-                            if value := item.get(key):
-                                if isinstance(value, str) and value.startswith("http"):
-                                    return value
-
-    return None
-
-
 async def pre_process(url: str, url_num: int) -> str | None:
-    """Fallback: fetch embed page and try to find an iframe src."""
     if not (event_data := await network.request(url, url_num, log=log)):
         return
 
     try:
         payload = event_data.json()
-    except Exception:
-        # Not JSON — try to find iframe src in HTML
-        try:
-            import re
-            text = event_data.text
-            m = re.search(r'<iframe[^>]+src=["\']([^"\']+)["\']', text, re.I)
-            if m:
-                return m.group(1)
-        except Exception:
-            pass
+    except Exception as e:
+        log.warning(f"URL {url_num}) JSON decode failed: {e}")
         return
 
     if not (streams := payload.get("streams")):
@@ -193,6 +132,10 @@ async def pre_process(url: str, url_num: int) -> str | None:
     for stream in streams:
         if stream.get("source", "").lower() != "krishna":
             continue
+
+        # elif stream.get("sourceName", "") != "Reed 1":
+        #     continue
+
         if stream_url := stream.get("embedUrl"):
             return stream_url
 
@@ -225,16 +168,9 @@ async def get_events(cached_keys: KeysView[str]) -> list[REEDEvent]:
                 log.warning(f"API returned no usable events. Type={type(raw).__name__}")
                 return events
 
+            # Show a sample so we can debug the schema in CI logs
             sample = api_data[0]
             log.info(f"API sample keys: {sorted(sample.keys())}")
-
-            # Debug: show sources structure once so we can see the schema
-            try:
-                import json
-                sources_preview = json.dumps(sample.get("sources"), indent=2)
-                log.info(f"API sample sources: {sources_preview[:1200]}")
-            except Exception:
-                pass
 
             API_FILE.write(api_data)
         else:
@@ -243,8 +179,6 @@ async def get_events(cached_keys: KeysView[str]) -> list[REEDEvent]:
 
     start_dt = now.delta(minutes=-WINDOW_MINUTES_BEFORE)
     end_dt = now.delta(minutes=WINDOW_MINUTES_AFTER)
-
-    skipped_no_source = 0
 
     for event in api_data:
         if not isinstance(event, dict):
@@ -292,16 +226,6 @@ async def get_events(cached_keys: KeysView[str]) -> list[REEDEvent]:
         if key in cached_keys:
             continue
 
-        # Prefer the direct stream URL from the API's sources field
-        stream_url = _extract_stream_url(event)
-
-        if not stream_url:
-            skipped_no_source += 1
-            log.debug(f"Skipping {key}: no stream URL in sources")
-            continue
-
-        referer, origin = _origin_from_url(stream_url)
-
         poster = (
             event.get("poster")
             or event.get("image")
@@ -320,17 +244,17 @@ async def get_events(cached_keys: KeysView[str]) -> list[REEDEvent]:
                 sport=str(sport),
                 name=str(name),
                 logo=logo,
-                link=stream_url,
+                link=urljoin(
+                    f"https://links.{BASE_DOMAIN}",
+                    f"stream/{stream_id}",
+                ),
                 timestamp=event_ts,
-                referer=referer,
-                origin=origin,
             )
         )
 
     log.info(
         f"Matched {len(events)} event(s) in window "
-        f"[-{WINDOW_MINUTES_BEFORE}m, +{WINDOW_MINUTES_AFTER}m] "
-        f"(skipped {skipped_no_source} without sources)"
+        f"[-{WINDOW_MINUTES_BEFORE}m, +{WINDOW_MINUTES_AFTER}m]"
     )
 
     return events
@@ -353,8 +277,6 @@ def write_outputs(cached_urls: dict[str, dict[str, str | float]]) -> None:
 
         logo = entry.get("logo") or ""
         tvg_id = entry.get("tvg-id") or "Live.Event.us"
-        referer = entry.get("referer") or DEFAULT_REFERER
-        origin = entry.get("origin") or DEFAULT_ORIGIN
 
         extinf = (
             f'#EXTINF:-1 tvg-chno="{chno}" tvg-id="{tvg_id}" '
@@ -363,14 +285,14 @@ def write_outputs(cached_urls: dict[str, dict[str, str | float]]) -> None:
         )
 
         vlc_lines.append(extinf)
-        vlc_lines.append(f"#EXTVLCOPT:http-referrer={referer}")
-        vlc_lines.append(f"#EXTVLCOPT:http-origin={origin}")
+        vlc_lines.append(f"#EXTVLCOPT:http-referrer={REFERER}")
+        vlc_lines.append(f"#EXTVLCOPT:http-origin={ORIGIN}")
         vlc_lines.append(f"#EXTVLCOPT:http-user-agent={USER_AGENT}")
         vlc_lines.append(str(source))
 
         tivimate_lines.append(extinf)
         tivimate_lines.append(
-            f"{source}|referer={referer}|origin={origin}|user-agent={encoded_ua}"
+            f"{source}|referer={REFERER}|origin={ORIGIN}|user-agent={encoded_ua}"
         )
 
     try:
@@ -405,35 +327,24 @@ async def scrape(browser: Browser) -> None:
         async with network.event_context(browser) as context:
             for i, ev in enumerate(events, start=1):
                 source = None
-                event_link = ev.link
+                event_link = None
 
                 async with network.event_page(context) as page:
-                    # If API gave us a direct embed URL, use it as-is.
-                    # Only fall back to pre_process if the URL looks like a
-                    # page that needs iframe extraction (e.g. ends without .m3u8
-                    # and is not already an embed subdomain).
-                    target_url = event_link
+                    if event_link := await pre_process(ev.link, i):
+                        handler = partial(
+                            network.process_event,
+                            url=event_link,
+                            url_num=i,
+                            page=page,
+                            log=log,
+                        )
 
-                    if target_url and not target_url.endswith(".m3u8"):
-                        # Try pre_process to resolve an iframe if the URL is
-                        # a page. If it returns None, keep the original URL.
-                        if resolved := await pre_process(target_url, i):
-                            target_url = resolved
-
-                    handler = partial(
-                        network.process_event,
-                        url=target_url,
-                        url_num=i,
-                        page=page,
-                        log=log,
-                    )
-
-                    source = await network.safe_process(
-                        handler,
-                        url_num=i,
-                        semaphore=network.PW_S,
-                        log=log,
-                    )
+                        source = await network.safe_process(
+                            handler,
+                            url_num=i,
+                            semaphore=network.PW_S,
+                            log=log,
+                        )
 
                     key = f"[{ev.sport}] {ev.name} ({TAG})"
 
@@ -442,9 +353,7 @@ async def scrape(browser: Browser) -> None:
                     entry = {
                         "source": source,
                         "logo": ev.logo or logo,
-                        "refer": target_url,
-                        "referer": ev.referer or DEFAULT_REFERER,
-                        "origin": ev.origin or DEFAULT_ORIGIN,
+                        "refer": event_link,
                         "timestamp": ev.timestamp,
                         "tvg-id": tvg_id or "Live.Event.us",
                     }
