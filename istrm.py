@@ -99,7 +99,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[Event]:
         if f"[{sport}] {event_name} ({TAG})" in cached_keys:
             continue
 
-        if not (href := link.attributes.get("href")):
+        elif not (href := link.attributes.get("href")):
             continue
 
         events.append(
