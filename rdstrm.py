@@ -241,13 +241,10 @@ async def get_events(cached_keys: KeysView[str]) -> list[REEDEvent]:
 
         events.append(
             REEDEvent(
-                sport=str(sport),
-                name=str(name),
+                sport=sport,
+                name=name,
                 logo=logo,
-                link=urljoin(
-                    f"https://links.{BASE_DOMAIN}",
-                    f"stream/{stream_id}",
-                ),
+                link=urljoin(f"https://links.{BASE_DOMAIN}", f"stream/{stream_id}"),
                 timestamp=event_ts,
             )
         )
