@@ -1,0 +1,46 @@
+name: RDSTRM Scraper
+
+on:
+  schedule:
+    - cron: "0 */1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright "httpx[http2]" pytz "tzdata>=2026.3" "adblock>=0.6.0"
+          python -m playwright install --with-deps chromium
+
+      - name: Run rdstrm.py
+        run: python rdstrm.py
+
+      - name: Commit and push output files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add rdstrm_vlc.m3u8 rdstrm_tivimate.m3u8
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update RDSTRM playlists [skip ci]"
+            git push
+          fi
