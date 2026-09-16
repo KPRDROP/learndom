@@ -18,7 +18,7 @@ CACHE_FILE = Cache(TAG, exp=10_800)
 
 API_FILE = Cache(f"{TAG}-api", exp=28_800)
 
-BASE_DOMAIN = "htts://reedstreams.link/"
+BASE_URL = "https://reedstreams.link/"
 
 REFERER = "https://edgesport.cfd/"
 ORIGIN = "https://edgesport.cfd"
@@ -71,7 +71,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[REEDEvent]:
         api_data = [{"timestamp": now.timestamp()}]
 
         if r := await network.request(
-            urljoin(f"https://api.{BASE_DOMAIN}", "api/matches/all"),
+            urljoin(f"https://api.{BASE_URL}", "api/matches/all"),
             log=log,
         ):
             api_data: list[dict[str, Any]] = r.json()
