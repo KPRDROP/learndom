@@ -1,4 +1,3 @@
-```python
 from collections.abc import KeysView
 from dataclasses import dataclass
 from functools import partial
@@ -784,4 +783,3 @@ if __name__ == "__main__":
     import asyncio
 
     asyncio.run(main())
-```
