@@ -1,6 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Tampa Bay Rays vs Athletics (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VFCD5hwAsMG3dNIYyRAbD5kFJASmSCn2Gz6KMCpRc35ellkemtGBuYqIQQA.webp" group-title="Live Events",[MLB] Tampa Bay Rays vs Athletics (RDSTRM)
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Toronto Blue Jays vs Detroit Tigers (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VHGRggpIeihDcQfECZIh9hiyDMoCwJBT7DZesCpRc35ellkemtGBuYqIQQA.webp" group-title="Live Events",[MLB] Toronto Blue Jays vs Detroit Tigers (RDSTRM)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://shadewalker.s3.us-east-1.amazonaws.com/rays.m3u8
+https://shadewalker.s3.us-east-1.amazonaws.com/bluejays.m3u8
