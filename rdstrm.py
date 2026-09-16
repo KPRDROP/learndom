@@ -117,7 +117,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[REEDEvent]:
             continue
 
         logo = (
-            urljoin(f"https://api.{BASE_DOMAIN}", poster)
+            urljoin(f"https://api.{BASE_URL}", poster)
             if (poster := event.get("poster"))
             else None
         )
