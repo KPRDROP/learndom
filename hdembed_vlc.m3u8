@@ -1,66 +1,51 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Cleveland Guardians - Chicago White Sox (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Cleveland Guardians - Chicago White Sox (HDEMBED)
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Carabao Cup] Manchester United - Brighton and Hove Albion (HDEMBED)" tvg-logo="https://www.substance.net/wp-content/uploads/2023/10/EFL_LOGO_REG_H_POS_RGB.png" group-title="Carabao Cup",[Carabao Cup] Manchester United - Brighton and Hove Albion (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb14.strmd.st/secure/XKcVtbMVkrwPVqnXZYoIfJRRPECmzRgI/ingest/stream/mclevelandguardians/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] St. Louis Cardinals - San Francisco Giants (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] St. Louis Cardinals - San Francisco Giants (HDEMBED)
+https://lb17.strmd.st/secure/pYuHTgCuxyLoHGmiETCeausdCAixuHcY/ingest/stream/mevent12/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Carabao Cup] Coventry City - Aston Villa (HDEMBED)" tvg-logo="https://www.substance.net/wp-content/uploads/2023/10/EFL_LOGO_REG_H_POS_RGB.png" group-title="Carabao Cup",[Carabao Cup] Coventry City - Aston Villa (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb11.strmd.st/secure/HiieTRLDFrozrUFZkftuyjyvfFRKiEEU/ingest/stream/mstlouiscardinals/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Minnesota Twins - New York Yankees (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Minnesota Twins - New York Yankees (HDEMBED)
+https://lb10.strmd.st/secure/mpwvQonNEaFuntTHwMwxBCpzCfWAeuff/ingest/stream/mevent13/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] Bayer Leverkusen - Celje (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Europa League",[Europa League] Bayer Leverkusen - Celje (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb11.strmd.st/secure/PFvWzgkblDDIlyZxgQBxcxYaUQiSwXQs/ingest/stream/mminnesotatwins/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[Carabao Cup] Everton - Wolverhampton Wanderers (HDEMBED)" tvg-logo="https://www.substance.net/wp-content/uploads/2023/10/EFL_LOGO_REG_H_POS_RGB.png" group-title="Carabao Cup",[Carabao Cup] Everton - Wolverhampton Wanderers (HDEMBED)
+https://lb10.strmd.st/secure/FmZYCiFreLWAclijXbnSYQuKioNZUSWv/ingest/stream/mevent2/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] AC Milan - Benfica (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Europa League",[Europa League] AC Milan - Benfica (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb11.strmd.st/secure/LnztsvkHIZMZaythqubTafYuhHsumfKF/ingest/stream/mmevent10/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="5" tvg-id="Soccer.Dummy.us" tvg-name="[Carabao Cup] Manchester United - Brighton and Hove Albion (HDEMBED)" tvg-logo="https://www.substance.net/wp-content/uploads/2023/10/EFL_LOGO_REG_H_POS_RGB.png" group-title="Carabao Cup",[Carabao Cup] Manchester United - Brighton and Hove Albion (HDEMBED)
+https://lb10.strmd.st/secure/nvFGakUemAexwJOZvjyWcTiyPIdajGGu/ingest/stream/mevent3/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="5" tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] Olympiacos - Jagiellonia Bialystok (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Europa League",[Europa League] Olympiacos - Jagiellonia Bialystok (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb11.strmd.st/secure/gvjVXyjaHcXKTROpskcvCnFalfOpElpl/ingest/stream/mevent12/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="6" tvg-id="Soccer.Dummy.us" tvg-name="[Carabao Cup] Coventry City - Aston Villa (HDEMBED)" tvg-logo="https://www.substance.net/wp-content/uploads/2023/10/EFL_LOGO_REG_H_POS_RGB.png" group-title="Carabao Cup",[Carabao Cup] Coventry City - Aston Villa (HDEMBED)
+https://lb10.strmd.st/secure/wwfKSPfusIFbpgdzxRLEXYViRcxTTNfo/ingest/stream/mevent4/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="6" tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] Anderlecht - Lyon (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Europa League",[Europa League] Anderlecht - Lyon (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb11.strmd.st/secure/MGChqXFBESnMrMJxtpueHaMryNGUANEl/ingest/stream/mevent13/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="7" tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] Bayer Leverkusen - Celje (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Europa League",[Europa League] Bayer Leverkusen - Celje (HDEMBED)
+https://lb10.strmd.st/secure/ytCfIswygysStntCNtpBlICiMJUHgfMt/ingest/stream/mevent5/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="7" tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] Sturm Graz - Rennes (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Europa League",[Europa League] Sturm Graz - Rennes (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb13.strmd.st/secure/KQbwkwzAZZPtfUfYycwAJibyXYDJzJRd/ingest/stream/mevent2/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="8" tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] AC Milan - Benfica (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Europa League",[Europa League] AC Milan - Benfica (HDEMBED)
+https://lb10.strmd.st/secure/ifOGoOZSISUpdymtPumhAoeHsauhZpum/ingest/stream/mevent6/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="8" tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] Sunderland - AZ Alkmaar (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Europa League",[Europa League] Sunderland - AZ Alkmaar (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb13.strmd.st/secure/MQQnKjnMMmjrjMtMozfwYzcDgmspSqiz/ingest/stream/mevent3/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="9" tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] Olympiacos - Jagiellonia Bialystok (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Europa League",[Europa League] Olympiacos - Jagiellonia Bialystok (HDEMBED)
+https://lb10.strmd.st/secure/HKVAvlmAvzkNVZYPjYORzGFigUCwJFqz/ingest/stream/mevent7/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="9" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Toronto Blue Jays - Detroit Tigers (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Toronto Blue Jays - Detroit Tigers (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb13.strmd.st/secure/rzgGEcybJilbYBhcnzMoBysaPQBheVzl/ingest/stream/mevent4/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="10" tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] Anderlecht - Lyon (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Europa League",[Europa League] Anderlecht - Lyon (HDEMBED)
+https://lb1.strmd.st/secure/tvzVGjWYRzQXZThCyGuplvXVBefFHjDB/ingest/stream/mtorontobluejays/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="10" tvg-id="Soccer.Dummy.us" tvg-name="[LA Liga] Barcelona - Racing de Santander (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="LA Liga",[LA Liga] Barcelona - Racing de Santander (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb13.strmd.st/secure/TiHgNrfnrfKZTxgoSkggcLSRYwzAqkUA/ingest/stream/mevent5/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="11" tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] Sturm Graz - Rennes (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Europa League",[Europa League] Sturm Graz - Rennes (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb13.strmd.st/secure/czyEUhopwoYceeQFTMfuDmiahDmLnDFB/ingest/stream/mevent6/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="12" tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] Sunderland - AZ Alkmaar (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Europa League",[Europa League] Sunderland - AZ Alkmaar (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb19.strmd.st/secure/glBIGpZmkUfpvIjUvdwzzUuPdjoimiqj/ingest/stream/mevent7/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="13" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Toronto Blue Jays - Detroit Tigers (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Toronto Blue Jays - Detroit Tigers (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb19.strmd.st/secure/anVLVxsKsJRTfMVStAvMFpuzXvWQyznm/ingest/stream/mtorontobluejays/1/playlist.m3u8
+https://lb1.strmd.st/secure/wbTBOJCrfqGTVrjaDLctuoejhoTWyIqs/ingest/stream/nbarcelona/1/playlist.m3u8
