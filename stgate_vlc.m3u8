@@ -3,88 +3,28 @@
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=LHD12
 #EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=LHD12
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/LHD12/index.m3u8?st=FbN_Y1F1HRD6bPeoNLngOQ&e=1789543942
+https://instreams.pro/live/LHD12/index.m3u8?st=j-nPr9OVIuYsbLxPKgpwHw&e=1789562477
 
 #EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Italian Serie A] Internazionale vs Udinese (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png" group-title="Live Events",[Italian Serie A] Internazionale vs Udinese (STGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=LHD9
 #EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=LHD9
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/LHD9/index.m3u8?st=nrTVkCEanGJ2FM8TGnBtag&e=1789543944
+https://instreams.live/live/LHD9/index.m3u8?st=1eNvRda0NHbKMKr1_IbIQA&e=1789562481
 
 #EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Italian Serie A] Torino vs AS Roma (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png" group-title="Live Events",[Italian Serie A] Torino vs AS Roma (STGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=LHD9
 #EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=LHD9
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/LHD9/index.m3u8?st=SSff-1gneZrR1c8Lei_fXQ&e=1789543945
+https://instreams.live/live/LHD9/index.m3u8?st=YhrECvFRaT9_AYKUVpompA&e=1789562482
 
-#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Major League Baseball] Arizona Diamondbacks vs Miami Marlins (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[Major League Baseball] Arizona Diamondbacks vs Miami Marlins (STGATE)
-#EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401816956
-#EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401816956
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.live/live/tv401816956/index.m3u8?st=962_t9GMhCZ8MUwhn1wryQ&e=1789543927
-
-#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Major League Baseball] Chicago Cubs vs Atlanta Braves (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[Major League Baseball] Chicago Cubs vs Atlanta Braves (STGATE)
-#EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401816950
-#EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401816950
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.live/live/tv401816950/index.m3u8?st=SpTyFFiYlx36Z3x5mQ86nA&e=1789543935
-
-#EXTINF:-1 tvg-chno="6" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Major League Baseball] Colorado Rockies vs San Diego Padres (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[Major League Baseball] Colorado Rockies vs San Diego Padres (STGATE)
-#EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401816955
-#EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401816955
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401816955/index.m3u8?st=ojzI2K0BFxm7xWa8g809sA&e=1789543930
-
-#EXTINF:-1 tvg-chno="7" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Major League Baseball] Houston Astros vs Kansas City Royals (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[Major League Baseball] Houston Astros vs Kansas City Royals (STGATE)
-#EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401816952
-#EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401816952
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401816952/index.m3u8?st=z1NbDrE7Yn3eYwpmeTXU4g&e=1789543931
-
-#EXTINF:-1 tvg-chno="8" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Major League Baseball] Los Angeles Angels vs Seattle Mariners (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[Major League Baseball] Los Angeles Angels vs Seattle Mariners (STGATE)
-#EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401816957
-#EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401816957
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401816957/index.m3u8?st=tNexKps2kHA9WuMryTYLtQ&e=1789543928
-
-#EXTINF:-1 tvg-chno="9" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Major League Baseball] Minnesota Twins vs New York Yankees (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[Major League Baseball] Minnesota Twins vs New York Yankees (STGATE)
-#EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401816953
-#EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401816953
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.live/live/tv401816953/index.m3u8?st=Wd9O5rCyRKIdxHHEgnW3JQ&e=1789543936
-
-#EXTINF:-1 tvg-chno="10" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Major League Baseball] New York Mets vs Baltimore Orioles (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[Major League Baseball] New York Mets vs Baltimore Orioles (STGATE)
-#EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401816944
-#EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401816944
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401816944/index.m3u8?st=x1WB-hZnXxpOXHR48LwhXg&e=1789543937
-
-#EXTINF:-1 tvg-chno="11" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Major League Baseball] St. Louis Cardinals vs San Francisco Giants (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[Major League Baseball] St. Louis Cardinals vs San Francisco Giants (STGATE)
-#EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401816954
-#EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401816954
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401816954/index.m3u8?st=oDOOm4zfS-_TF7qrnov_sw&e=1789543933
-
-#EXTINF:-1 tvg-chno="12" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Major League Baseball] Texas Rangers vs Boston Red Sox (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[Major League Baseball] Texas Rangers vs Boston Red Sox (STGATE)
-#EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401816951
-#EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401816951
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401816951/index.m3u8?st=WdR-u3Xsy4CpH5iDcfPOog&e=1789543932
-
-#EXTINF:-1 tvg-chno="13" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Major League Baseball] Toronto Blue Jays vs Detroit Tigers (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[Major League Baseball] Toronto Blue Jays vs Detroit Tigers (STGATE)
-#EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401816946
-#EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401816946
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401816946/index.m3u8?st=z-bgyO9GIe66zXAtKYSdvw&e=1789543938
-
-#EXTINF:-1 tvg-chno="14" tvg-id="Soccer.Dummy.us" tvg-name="[Spanish LALIGA] Elche vs Real Madrid (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Spanish LALIGA] Elche vs Real Madrid (STGATE)
+#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[Spanish LALIGA] Elche vs Real Madrid (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Spanish LALIGA] Elche vs Real Madrid (STGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=FX10
 #EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=FX10
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/FX10/index.m3u8?st=CSzriZy7GcGXqDrH8zTOnA&e=1789543940
+https://instreams.live/live/FX10/index.m3u8?st=bIqa6hQFf8MWsSpKbvol3A&e=1789562475
 
-#EXTINF:-1 tvg-chno="15" tvg-id="Soccer.Dummy.us" tvg-name="[Spanish LALIGA] Rayo Vallecano vs Espanyol (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Spanish LALIGA] Rayo Vallecano vs Espanyol (STGATE)
+#EXTINF:-1 tvg-chno="5" tvg-id="Soccer.Dummy.us" tvg-name="[Spanish LALIGA] Rayo Vallecano vs Espanyol (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Spanish LALIGA] Rayo Vallecano vs Espanyol (STGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=FX10
 #EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=FX10
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.live/live/FX10/index.m3u8?st=qjwgFS7rjL5iA8wDPE8BOg&e=1789543943
+https://instreams.live/live/FX10/index.m3u8?st=6Pi5rEjvuRXmgrzpdTKgUQ&e=1789562479
