@@ -2,7 +2,7 @@ from collections.abc import KeysView
 from dataclasses import dataclass
 from functools import partial
 from typing import Any
-from urllib.parse import quote, urljoin
+from urllib.parse import parse_qsl, quote, unquote, urljoin, urlsplit
 
 from playwright.async_api import Browser, async_playwright
 
@@ -228,9 +228,7 @@ async def pre_process(
     url = normalize_url(url)
 
     if not url:
-        log.warning(
-            f"URL {url_num}) Invalid stream endpoint"
-        )
+        log.warning(f"URL {url_num}) Invalid stream endpoint")
         return None
 
     try:
@@ -241,71 +239,60 @@ async def pre_process(
         )
     except Exception as exc:
         log.error(
-            f"URL {url_num}) Failed stream endpoint request: "
-            f"{exc}"
+            f"URL {url_num}) Failed stream endpoint request: {exc}"
         )
         return None
 
     if not event_data:
-        log.warning(
-            f"URL {url_num}) No response from stream endpoint"
-        )
+        log.warning(f"URL {url_num}) No response from stream endpoint")
         return None
 
     try:
         payload = event_data.json()
     except Exception as exc:
-        log.error(
-            f"URL {url_num}) Invalid JSON response: {exc}"
-        )
+        log.error(f"URL {url_num}) Invalid JSON response: {exc}")
         return None
 
     if not isinstance(payload, dict):
-        log.warning(
-            f"URL {url_num}) Unexpected response format"
-        )
+        log.warning(f"URL {url_num}) Unexpected response format")
         return None
 
     streams = payload.get("streams")
 
     if not streams:
-        log.warning(
-            f"URL {url_num}) No streams available"
-        )
+        log.warning(f"URL {url_num}) No streams available")
         return None
 
     if not isinstance(streams, list):
-        log.warning(
-            f"URL {url_num}) Invalid streams format"
-        )
+        log.warning(f"URL {url_num}) Invalid streams format")
         return None
 
-    for stream in streams:
-        if not isinstance(stream, dict):
-            continue
+    stream_urls = [
+        stream.get("embedUrl")
+        for stream in streams
+        if isinstance(stream, dict)
+        and stream.get("source") == "tnasty"
+        and stream.get("embedUrl")
+    ]
 
-        source_name = str(
-            stream.get("source") or ""
-        ).strip().lower()
+    if not stream_urls:
+        log.warning(f"URL {url_num}) No valid stream url found")
+        return None
 
-        if source_name != "krishna":
-            continue
+    stream_url = stream_urls[0]
 
-        stream_url = (
-            stream.get("embedUrl")
-            or stream.get("url")
-            or stream.get("streamUrl")
-        )
+    try:
+        m3u = dict(parse_qsl(urlsplit(stream_url).query)).get("url")
+    except Exception as exc:
+        log.warning(f"URL {url_num}) Failed to parse url: {exc}")
+        return None
 
-        stream_url = normalize_url(stream_url)
+    if not m3u:
+        log.warning(f"URL {url_num}) Failed to parse url")
+        return None
 
-        if stream_url:
-            return stream_url
-
-    log.warning(
-        f"URL {url_num}) No valid stream url found"
-    )
-    return None
+    log.info(f"URL {url_num}) Captured M3U8")
+    return unquote(m3u)
 
 
 async def load_api_data(now: Any) -> list[dict[str, Any]]:
