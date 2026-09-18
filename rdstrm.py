@@ -39,7 +39,7 @@ ALLOWED_CATEGORIES = {
 
 STREAM_SOURCES = (
     "tnasty", "krishna", "admin", "hotel", "golf",
-    "delta", "DraftKings",
+    "delta", "DraftKings", "foxtrot",
 )
 
 REQUEST_HEADERS = {
