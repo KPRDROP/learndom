@@ -24,8 +24,8 @@ USER_AGENT = (
     "AppleWebKit/537.36 (KHTML, like Gecko) "
     "Chrome/111.0.0.0 Safari/537.36"
 )
-EVENT_START_OFFSET_MINUTES = -60
-EVENT_END_OFFSET_MINUTES = 60
+EVENT_START_OFFSET_MINUTES = -360
+EVENT_END_OFFSET_MINUTES = 360
 CACHE_FILE = Cache(TAG, exp=10_800)
 API_FILE = Cache(f"{TAG}-api", exp=28_800)
 urls: dict[str, dict[str, Any]] = {}
