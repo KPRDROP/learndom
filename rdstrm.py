@@ -34,7 +34,7 @@ ALLOWED_CATEGORIES = {
     "american-football", "baseball", "basketball", "hockey", "football",
     "soccer", "motor-sports", "motorsport", "racing", "tennis",
     "mma", "boxing", "ufc", "golf", "cricket",
-    "rugby", "volleyball", "handball", "esports",
+    "rugby", "volleyball", "handball", "esports", "darts",
 }
 
 STREAM_SOURCES = (
