@@ -112,7 +112,7 @@ class Time(datetime):
 
 
 class Leagues:
-    live_img = "https://files.catbox.moe/8kqv9g.png"
+    live_img = "https://files.catbox.moe/jd3pxq.png"
 
     def __init__(self) -> None:
         self.data = json.loads(
