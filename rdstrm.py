@@ -59,7 +59,7 @@ STREAM_SOURCES = (
     "hotel",
     "golf",
     "delta",
-    "admin",
+    "DraftKings",
 )
 
 REQUEST_HEADERS = {
