@@ -271,7 +271,7 @@ async def pre_process(
         stream.get("embedUrl")
         for stream in streams
         if isinstance(stream, dict)
-        and stream.get("source") == "tnasty", "admin", "hotel"
+        and stream.get("source") in ("tnasty", "admin", "hotel")
         and stream.get("embedUrl")
     ]
 
