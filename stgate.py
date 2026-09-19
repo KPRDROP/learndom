@@ -21,7 +21,7 @@ log = get_logger(__name__)
 
 TAG = "STGATE"
 
-BASE_URL = os.environ.get("STGATE_BASE_URL") or "https://streamsgates.pk"
+BASE_URL = os.environ.get("STGATE_BASE_URL")
 if not BASE_URL:
     raise RuntimeError("Missing STGATE_BASE_URL secret")
 
