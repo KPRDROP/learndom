@@ -52,7 +52,7 @@ SPORT_ENDPOINTS = [
 urls: dict[str, dict[str, Any]] = {}
 
 # --------------------------------------------------
-# Regex patterns
+# Regex patterns (revised from original working code)
 # --------------------------------------------------
 
 # Matches: file: "URL"  |  source = 'URL'  |  streamurls: "URL"  |  url="URL"
@@ -145,9 +145,7 @@ def clean_m3u(s: str) -> str:
 def extract_m3u8_with_token(text: str) -> str | None:
     """Extract M3U8 URL including the full query string (st=..., e=...).
 
-    The original code stripped the query string via split('?st')[0],
-    which removed the auth token. This function preserves the entire
-    URL including all query parameters.
+    This preserves the entire URL including all query parameters.
     """
     for pattern in (VALID_M3U8, VALID_M3U8_ARRAY, VALID_M3U8_ALT):
         if match := pattern.search(text):
