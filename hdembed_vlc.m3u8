@@ -1,31 +1,36 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Cincinnati Reds - Chicago Cubs (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Cincinnati Reds - Chicago Cubs (HDEMBED)
+#EXTINF:-1 tvg-chno="1" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Miami Hurricanes - Wake Forest Demon Deacons (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] Miami Hurricanes - Wake Forest Demon Deacons (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb16.strmd.st/secure/MgTMWmegRMIuHvfDvKZWYVRkYnuRFRGK/ingest/stream/mcincinnatireds/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Pittsburgh Pirates - Kansas City Royals (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Pittsburgh Pirates - Kansas City Royals (HDEMBED)
+https://lb8.strmd.st/secure/ZrVlCRmMDcRtCghIKEPEjJjXrHqoHgXm/ingest/stream/nespnhd/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Angels - Minnesota Twins (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Los Angeles Angels - Minnesota Twins (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb16.strmd.st/secure/BlXzNMhQDpePdUziYCOeaCuZdlpGRdMn/ingest/stream/mpittsburghpirates/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Baltimore Orioles - Milwaukee Brewers (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Baltimore Orioles - Milwaukee Brewers (HDEMBED)
+https://lb8.strmd.st/secure/VhunFpXymjQSVCcfFpMiXeHFBPvHmpKJ/ingest/stream/mlosangelesangels/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Arizona Diamondbacks - New York Yankees (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Arizona Diamondbacks - New York Yankees (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb16.strmd.st/secure/kiBFkIigpanHxGLAWPwlXcsKzUWOuxQZ/ingest/stream/mbaltimoreorioles/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Cleveland Guardians - Athletics (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Cleveland Guardians - Athletics (HDEMBED)
+https://lb8.strmd.st/secure/BmrKlImpykVtXZUQZMhUejPCWVqaZVjW/ingest/stream/marizonadiamondbacks/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] San Diego Padres - Miami Marlins (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] San Diego Padres - Miami Marlins (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb16.strmd.st/secure/FuAjKhvtTwGzMgLQxwHVYSurzyMFTlvm/ingest/stream/mclevelandguardians/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Tampa Bay Rays - Boston Red Sox (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Tampa Bay Rays - Boston Red Sox (HDEMBED)
+https://lb7.strmd.st/secure/SMrHzAjZARwHKqTILEqBdXIknhPstWVX/ingest/stream/msandiegopadres/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="5" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Houston Cougars - Texas Tech Red Raiders (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] Houston Cougars - Texas Tech Red Raiders (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb15.strmd.st/secure/NVVeXsTEvwjpTeWdCQwyWKfZCZGTQpqM/ingest/stream/mtampabayrays/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="6" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] New York Mets - Philadelphia Phillies (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] New York Mets - Philadelphia Phillies (HDEMBED)
+https://lb7.strmd.st/secure/CVjSVeSFpjDTReKvIcRxKaXHziQkNzCQ/ingest/stream/nfoxhd/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="6" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Boxing] RAF 13 Convington - Muhammad (HDEMBED)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Boxing",[Boxing] RAF 13 Convington - Muhammad (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb15.strmd.st/secure/kCCkZyUmhpUqZVJdrYlpcemVuMWmPlcn/ingest/stream/mnewyorkmets/1/playlist.m3u8
+https://lb7.strmd.st/secure/jTrUFwoqMnEEQqncPaXgmblriqeyCpEW/ingest/stream/mevent1/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="7" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Dodgers - San Francisco Giants (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Los Angeles Dodgers - San Francisco Giants (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb7.strmd.st/secure/ioOMuXisaivLzVbKVadoVUZalkIEQtvh/ingest/stream/mlosangelesdodgers/1/playlist.m3u8
