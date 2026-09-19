@@ -1,26 +1,31 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Texas Rangers vs Toronto Blue Jays (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VFIIEAGELqkhuIPrpMoQEEIhiWQJAsCQU+w2fRRgVGth-L0ssjSZaMA8xUQggA.webp" group-title="Live Events",[MLB] Texas Rangers vs Toronto Blue Jays (RDSTRM)
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Millwall vs West Ham United (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VbmFH1WvMCG4g+IYzgggphkChAkrBYEgp9hs+ik1sUXTeXpZZXky0YB70WkA.webp" group-title="Live Events",[EFL Championship] Millwall vs West Ham United (RDSTRM)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://admin2.formaturamaxi.com.br/mlb8.m3u8
-#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Houston Astros vs Atlanta Braves (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rAAxhuFfCG189IAyBMgUICCEQwrRgsCQU+w2fRRgVKLh-L0ssryZaMA8xUQggA.webp" group-title="Live Events",[MLB] Houston Astros vs Atlanta Braves (RDSTRM)
+https://tedesco.formaturamaxi.com.br/beines.m3u8
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Tottenham Hotspur vs Aston Villa (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VbmHAQQ8TWBIhuIPiFMmT2mKZAGSBYEgp9hs+in1sUXfeXpZZXky0YB70ohBAA.webp" group-title="Live Events",[Premier League] Tottenham Hotspur vs Aston Villa (RDSTRM)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://admin2.formaturamaxi.com.br/mlb10.m3u8
-#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Angels vs Minnesota Twins (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rAAwgYPMEh7AkIbiD4gzZlCAghEMGxaZIKfYbPoowKlF0-l6WWW8mWjBPMVEIIA.webp" group-title="Live Events",[MLB] Los Angeles Angels vs Minnesota Twins (RDSTRM)
+https://admin2.formaturamaxi.com.br/bayern.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Kansas Jayhawks vs Arizona State Sun Devils (RDSTRM)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAA Football] Kansas Jayhawks vs Arizona State Sun Devils (RDSTRM)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://admin2.formaturamaxi.com.br/mlb12.m3u8
-#EXTINF:-1 tvg-id="WNBA.dummy.us" tvg-name="[NBA] Golden State Valkyries vs Portland Fire (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzuAQ1sFKBWSYAU2DFLABM8E9g1gDCFJMd46Tp51jwywYAE50IFCCykQAY2BVZpbMEQSS42SHgjlEEMM17h8jerJYQekCevrx5CKDCCdBZSnKFgSXDI9DnVkdjMg83bTBnYEcyCCA.webp" group-title="Live Events",[NBA] Golden State Valkyries vs Portland Fire (RDSTRM)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://tedesco.formaturamaxi.com.br/wnba.m3u8
-#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Oregon vs Portland State (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aEDMQpmwKSAghuGkCn0g+Js3oMoCwJBT7DZ9FGBXa278vSyztTLRg7mKiEEA.webp" group-title="Live Events",[NCAA Football] Oregon vs Portland State (RDSTRM)
+https://admin2.formaturamaxi.com.br/ncaa7.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Ohio State vs Kent State (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzuAQ1sFKBWSYAU2DFLABM8E9g1gDCFJMd46Tp51jwywYAE50IGOJAoQw4BGA0sC4IhDYQVEBBBZxckXJCIy2+cKPqas+dvMBjBSnLyBQgwWz0whYElx2nITBuTjNSeg94cmD9EyA.webp" group-title="Live Events",[NCAA Football] Ohio State vs Kent State (RDSTRM)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://tedesco.formaturamaxi.com.br/ncaa3.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Texas State vs North Texas (RDSTRM)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAA Football] Texas State vs North Texas (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://tedesco.formaturamaxi.com.br/cbssn.m3u8
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[Serie A] Roma vs Inter Milan (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VGCE0QQKWVJDcQfEPpIht2nGcQSmSCn2Gz6KMCt1s35ellm6mtGBuYqIQQA.webp" group-title="Live Events",[Serie A] Roma vs Inter Milan (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://tedesco.formaturamaxi.com.br/cbssn.m3u8
