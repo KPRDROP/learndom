@@ -2,6 +2,7 @@ import asyncio
 import json
 import os
 import re
+from datetime import datetime, timezone
 from functools import partial
 from pathlib import Path
 from typing import Any
@@ -25,7 +26,6 @@ if not BASE_URL:
     raise RuntimeError("Missing STGATE_BASE_URL secret")
 
 # New sports endpoints (JSON files under /data-cache/)
-# Each tuple: (sport_key, json_filename, canonical_sport_name)
 SPORT_ENDPOINTS: list[tuple[str, str, str]] = [
     ("basketball", "matches-basketball.json", "Basketball"),
     ("football", "matches-football.json", "Football"),
@@ -62,33 +62,74 @@ urls: dict[str, dict[str, Any]] = {}
 # Regex patterns
 # --------------------------------------------------
 
-# Named-key patterns (file: "..." | source = '...' | streamurls: "...")
 VALID_M3U8 = re.compile(
     r"""(?:file|source|streamurls?|stream_url|url)\s*[:=]\s*['"]([^'"]+)['"]""",
     re.I,
 )
 
-# Array style: streamurls = ["URL"] | sources: ["URL"] | 0x31c4 = ["URL"]
 VALID_M3U8_ARRAY = re.compile(
     r"""(?:streamurls|sources|0x31c4)\s*[:=]\s*\[\s*['"]([^'"]+)['"]""",
     re.I,
 )
 
-# Alternate fallback
 VALID_M3U8_ALT = re.compile(
     r"""(?:file|source|streamurls?)\s*(?::|=)\s*(?:'|")([^"']*)(?:'|")""",
     re.I,
 )
 
-# Direct URL match — most reliable, grabs the raw URL from the player source
 DIRECT_M3U8 = re.compile(
     r"""https?://instreams?\.(?:live|pro|click|xyz|tv|st)/live/[^\s'"\\<>)]+?\.m3u8[^\s'"\\<>)]*""",
     re.I,
 )
 
+
+# --------------------------------------------------
+# Timestamp helpers (robust parsing)
+# --------------------------------------------------
+
+def parse_iso_timestamp(value: Any) -> float | None:
+    """Parse an ISO-8601 timestamp (with Z or +00:00) to a Unix timestamp.
+
+    Returns None on failure. Handles both numeric and string inputs.
+    """
+    if value is None:
+        return None
+
+    if isinstance(value, (int, float)):
+        # Could be seconds or milliseconds — normalize
+        v = float(value)
+        if v > 1e12:  # milliseconds
+            v /= 1000.0
+        return v
+
+    s = str(value).strip()
+    if not s:
+        return None
+
+    # Try numeric string first
+    try:
+        v = float(s)
+        if v > 1e12:
+            v /= 1000.0
+        return v
+    except ValueError:
+        pass
+
+    # ISO-8601 with trailing Z
+    if s.endswith("Z"):
+        s = s[:-1] + "+00:00"
+
+    try:
+        dt = datetime.fromisoformat(s)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.timestamp()
+    except (ValueError, TypeError):
+        return None
+
+
 # --------------------------------------------------
 def extract_stream_id(stream_url: str) -> str | None:
-    """Extract stream ID from an M3U8 URL or player URL."""
     if not stream_url:
         return None
 
@@ -109,7 +150,6 @@ def extract_stream_id(stream_url: str) -> str | None:
 
 
 def build_referer_from_stream(stream_url: str) -> str:
-    """Build the correct referer URL based on stream URL."""
     stream_id = extract_stream_id(stream_url)
 
     if stream_id:
@@ -133,7 +173,6 @@ def get_event(t1: str, t2: str) -> str:
 
 
 def clean_sport_name(sport: str) -> str:
-    """Clean and standardize sport names."""
     sport_map = {
         "soccer": "Football",
         "football": "Football",
@@ -165,12 +204,10 @@ def clean_sport_name(sport: str) -> str:
 
 
 def clean_m3u(s: str) -> str:
-    """Remove trailing newlines but PRESERVE query tokens (st, e, etc.)."""
     return re.sub(r"[\r\n]+$", "", s)
 
 
 def unescape_js_string(raw: str) -> str:
-    """Unescape JS string escapes like \\u0026, \\/, \\', etc."""
     try:
         return json.loads(f'"{raw}"')
     except (json.JSONDecodeError, IndexError):
@@ -183,12 +220,9 @@ def unescape_js_string(raw: str) -> str:
 
 
 def extract_m3u8_with_token(text: str) -> str | None:
-    """Extract M3U8 URL including the full query string (st=..., e=...)."""
-    # 1. Direct URL match — grabs the raw URL anywhere in the player source
     if match := DIRECT_M3U8.search(text):
         return unescape_js_string(match.group(0)).strip()
 
-    # 2-4. Named-key regex strategies
     for pattern in (VALID_M3U8_ARRAY, VALID_M3U8, VALID_M3U8_ALT):
         if match := pattern.search(text):
             url = unescape_js_string(match.group(1)).strip()
@@ -200,17 +234,12 @@ def extract_m3u8_with_token(text: str) -> str | None:
 
 # --------------------------------------------------
 async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]:
-    """Extract M3U8 stream URL (WITH token) and referer from an event page.
-
-    Returns (m3u8_url, iframe_src) or (None, None) on failure.
-    """
     nones = None, None
 
     if not (event_data := await network.request(url, url_num, log=log)):
         return nones
 
     if re.search(r"^https?://instreams?", url.lower()):
-        # Direct iframe URL: page content is the iframe data itself
         ifr_src, ifr_src_data_text = url, event_data.text
     else:
         soup = HTMLParser(event_data.content)
@@ -236,7 +265,6 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
         ifr_src_data_text = ifr_src_data.text
 
     if stream_url := extract_m3u8_with_token(ifr_src_data_text):
-        # Strip any trailing junk characters that may have been captured
         stream_url = re.sub(r"[\\'\"<>)\s]+$", "", stream_url)
         log.info(f"URL {url_num}) Captured M3U8 (with token)")
         return stream_url, ifr_src
@@ -288,11 +316,16 @@ async def refresh_api_cache(now_ts: float) -> list[dict[str, Any]]:
         log.info(f"{filename} → {len(items)} events")
 
         for ev in items:
-            # Normalize event timestamp field to "ts" for get_events()
-            if "scheduled_at" in ev:
-                ev["ts"] = ev.pop("scheduled_at")
-            elif "timestamp" in ev:
-                ev["ts"] = ev.pop("timestamp")
+            # Normalize to a single `ts` field (seconds, float)
+            ts_value = (
+                ev.get("scheduled_at")
+                or ev.get("timestamp")
+                or ev.get("time")
+                or ev.get("ts")
+            )
+            ts_parsed = parse_iso_timestamp(ts_value)
+            if ts_parsed is not None:
+                ev["ts"] = ts_parsed
             ev["_sport"] = clean_sport_name(sport_name)
             ev["_sport_key"] = sport_key
 
@@ -301,7 +334,8 @@ async def refresh_api_cache(now_ts: float) -> list[dict[str, Any]]:
     if not data:
         return [{"timestamp": now_ts}]
 
-    data[-1]["timestamp"] = now_ts
+    # Sentinel entry — do NOT give it any other required keys so it's skipped
+    data.append({"timestamp": now_ts})
     return data
 
 
@@ -317,61 +351,84 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, Any]]:
 
     events: list[dict[str, Any]] = []
 
+    # Widen window slightly to catch events whose timestamps were parsed as UTC
+    # but whose local "now" differs.
     start_dt = now.delta(hours=-48)
-    end_dt = now.delta(hours=6)
+    end_dt = now.delta(hours=12)
 
     seen_events: set[str] = set()
+    skipped_no_ts = 0
+    skipped_no_sport = 0
+    skipped_no_title = 0
+    skipped_window = 0
+    skipped_no_streams = 0
+    skipped_cached = 0
 
     for ev in api_data:
-        date = ev.get("ts") or ev.get("time")
+        # Skip sentinel entries
+        if "ts" not in ev and "title" not in ev and "home_team" not in ev:
+            continue
+
+        ts_value = ev.get("ts")
         sport = ev.get("_sport")
         title = ev.get("title") or ev.get("name")
         home = ev.get("home_team")
         away = ev.get("away_team")
 
-        if not (date and sport and title):
+        if ts_value is None:
+            skipped_no_ts += 1
             continue
 
-        # Build event name from title or home/away teams
+        if not sport:
+            skipped_no_sport += 1
+            continue
+
+        if not title and not (home and away):
+            skipped_no_title += 1
+            continue
+
+        # Build event name
         if home and away:
             event = get_event(home, away)
         else:
             event = title.strip()
 
-        # Timestamp parsing
+        # Parse timestamp robustly (in case cache holds a string)
+        event_ts = parse_iso_timestamp(ts_value)
+        if event_ts is None:
+            skipped_no_ts += 1
+            continue
+
         try:
-            if isinstance(date, (int, float)):
-                event_dt = Time.from_ts(date)
-            else:
-                event_dt = Time.from_str(str(date), timezone="UTC")
+            event_dt = Time.from_ts(event_ts)
         except Exception:
+            skipped_no_ts += 1
             continue
 
         if not start_dt <= event_dt <= end_dt:
+            skipped_window += 1
             continue
 
         key = f"[{sport}] {event} ({TAG})"
         if key in cached_keys:
+            skipped_cached += 1
             continue
 
-        event_id = str(ev.get("id") or f"{sport}_{title}_{str(date)[:10]}")
+        event_id = str(ev.get("id") or f"{sport}_{title}_{event_ts}")
         if event_id in seen_events:
             continue
         seen_events.add(event_id)
 
-        # Collect embed URLs from sources (label Server 1 = HOME, Server 2 = AWAY)
+        # Collect embed URLs from sources
         sources = ev.get("sources") or []
         stream_urls: list[str] = []
         for src in sources:
             embed_url = src.get("embed_url")
-            if not embed_url:
-                continue
-            if src.get("is_html_embed"):
-                # HTML embeds aren't direct streams but can still be probed
-                pass
-            stream_urls.append(embed_url)
+            if embed_url:
+                stream_urls.append(embed_url)
 
         if not stream_urls:
+            skipped_no_streams += 1
             continue
 
         events.append(
@@ -379,11 +436,18 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, Any]]:
                 "sport": sport,
                 "event": event,
                 "link": stream_urls[0],
-                "timestamp": event_dt.timestamp(),
+                "timestamp": event_ts,
                 "stream_count": len(stream_urls),
                 "all_streams": stream_urls,
             }
         )
+
+    log.info(
+        f"Filter diagnostics: no_ts={skipped_no_ts} "
+        f"no_sport={skipped_no_sport} no_title={skipped_no_title} "
+        f"out_of_window={skipped_window} no_streams={skipped_no_streams} "
+        f"cached={skipped_cached}"
+    )
 
     events.sort(key=lambda x: x["timestamp"], reverse=True)
 
@@ -429,7 +493,6 @@ async def scrape(browser: Browser) -> None:
                 log=log,
             )
 
-            # Fallback: try alternate streams (Server 2) if primary fails
             if not stream_url and ev.get("all_streams") and len(ev["all_streams"]) > 1:
                 log.info(f"Trying fallback streams for {ev['event']}")
                 for fallback_url in ev["all_streams"][1:3]:
@@ -453,13 +516,11 @@ async def scrape(browser: Browser) -> None:
                 failed_count += 1
                 continue
 
-            # Preserve referer from iframe; fallback to built referer
             referer = iframe_src or build_referer_from_stream(stream_url)
 
             key = f"[{ev['sport']}] {ev['event']} ({TAG})"
             tvg_id, logo = leagues.get_tvg_info(ev["sport"], ev["event"])
 
-            # Keep the FULL token URL (do NOT strip ?st=...&e=...)
             full_stream_url = clean_m3u(stream_url)
 
             cached_urls[key] = {
@@ -481,7 +542,6 @@ async def scrape(browser: Browser) -> None:
             failed_count += 1
             continue
 
-    # Clean old cache entries (older than 48 hours)
     if cached_urls:
         now = Time.rn()
         expired_keys = [
@@ -520,7 +580,6 @@ def build_playlists(data: dict[str, dict]) -> None:
     )
 
     for name, e in sorted_items:
-        # Keep full token URL — never split on '?st'
         stream_url = clean_m3u(e["url"])
 
         referer = e.get("referer")
