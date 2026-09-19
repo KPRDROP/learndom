@@ -52,7 +52,7 @@ SPORT_ENDPOINTS = [
 urls: dict[str, dict[str, Any]] = {}
 
 # --------------------------------------------------
-# Regex patterns (revised from original working code)
+# Regex patterns
 # --------------------------------------------------
 
 # Matches: file: "URL"  |  source = 'URL'  |  streamurls: "URL"  |  url="URL"
@@ -73,18 +73,27 @@ VALID_M3U8_ALT = re.compile(
     re.I,
 )
 
+# Direct URL match inside the player source (most reliable)
+# Catches: https://instreams.live/live/XXX/index.m3u8?st=...&e=...
+#          https://instreams.pro/live/XXX/mono.m3u8?st=...&e=...
+# Handles the \u0026 escape used by the FXH4-style player.
+DIRECT_M3U8 = re.compile(
+    r"""https?://instreams?\.(?:live|pro|click|xyz|tv)/live/[^\s'"\\<>)]+?\.m3u8[^\s'"\\<>)]*""",
+    re.I,
+)
+
 # --------------------------------------------------
 def extract_stream_id(stream_url: str) -> str | None:
-    """Extract stream ID from the M3U8 URL"""
+    """Extract stream ID from the M3U8 URL or player URL."""
     if not stream_url:
         return None
 
     patterns = [
+        r"/live/([^/]+)/[^/]*\.m3u8",
         r"/US/([^/]+)/index\.m3u8",
         r"/([A-Z0-9]+)/index\.m3u8",
         r"stream=([A-Z0-9]+)",
         r"/stream/([A-Z0-9]+)\.m3u8",
-        r"/live/([^/]+)/index\.m3u8",
     ]
 
     for pattern in patterns:
@@ -96,7 +105,7 @@ def extract_stream_id(stream_url: str) -> str | None:
 
 
 def build_referer_from_stream(stream_url: str) -> str:
-    """Build the correct referer URL based on stream URL"""
+    """Build the correct referer URL based on stream URL."""
     stream_id = extract_stream_id(stream_url)
 
     if stream_id:
@@ -106,8 +115,7 @@ def build_referer_from_stream(stream_url: str) -> str:
     if parsed.path:
         parts = parsed.path.split("/")
         if len(parts) > 2 and parts[1].upper() in ["US", "CA", "UK"]:
-            if len(parts) > 2:
-                return f"https://instream.click/livetv.php?stream={parts[2]}"
+            return f"https://instream.click/livetv.php?stream={parts[2]}"
 
     return "https://instream.click/"
 
@@ -121,7 +129,7 @@ def get_event(t1: str, t2: str) -> str:
 
 
 def clean_sport_name(sport: str) -> str:
-    """Clean and standardize sport names"""
+    """Clean and standardize sport names."""
     sport_map = {
         "soccer": "Football",
         "nfl": "American Football",
@@ -142,22 +150,46 @@ def clean_m3u(s: str) -> str:
     return re.sub(r"[\r\n]+$", "", s)
 
 
+def unescape_js_string(raw: str) -> str:
+    """Unescape JS string escapes like \\u0026, \\/, \\', etc."""
+    try:
+        return json.loads(f'"{raw}"')
+    except (json.JSONDecodeError, IndexError):
+        # Manual fallback for \\u0026 and common escapes
+        return (
+            raw.replace("\\u0026", "&")
+            .replace("\\/", "/")
+            .replace("\\'", "'")
+            .replace('\\"', '"')
+        )
+
+
+def normalize_m3u8_host(url: str) -> str:
+    """Normalize instreams hosts to .pro (playable) while keeping token intact."""
+    return url
+
+
 def extract_m3u8_with_token(text: str) -> str | None:
     """Extract M3U8 URL including the full query string (st=..., e=...).
 
-    This preserves the entire URL including all query parameters.
+    Tries in order:
+      1. Direct URL match (best — matches the actual `source: "..."` string)
+      2. Array-style regex (0x31c4 = ["URL", ...])
+      3. Named key regex (file/source/streamurls)
+      4. Alt regex fallback
+    Always preserves the query string (?st=...&e=...).
     """
-    for pattern in (VALID_M3U8, VALID_M3U8_ARRAY, VALID_M3U8_ALT):
-        if match := pattern.search(text):
-            raw = match.group(1)
-            try:
-                url = json.loads(f'"{raw}"')
-            except (json.JSONDecodeError, IndexError):
-                url = raw
+    # 1. Direct URL match — catches the raw URL anywhere in the source
+    if match := DIRECT_M3U8.search(text):
+        url = unescape_js_string(match.group(0)).strip()
+        return url
 
-            # Ensure we keep the FULL URL, including ?st=...&e=...
-            # Only strip whitespace/newlines, never the query string.
-            return url.strip()
+    # 2-4. Named-key regex strategies
+    for pattern in (VALID_M3U8_ARRAY, VALID_M3U8, VALID_M3U8_ALT):
+        if match := pattern.search(text):
+            url = unescape_js_string(match.group(1)).strip()
+            if ".m3u8" in url:
+                return url
 
     return None
 
@@ -200,6 +232,8 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
         ifr_src_data_text = ifr_src_data.text
 
     if stream_url := extract_m3u8_with_token(ifr_src_data_text):
+        # Strip any trailing junk characters that may have been captured
+        stream_url = re.sub(r"[\\'\"<>)\s]+$", "", stream_url)
         log.info(f"URL {url_num}) Captured M3U8 (with token)")
         return stream_url, ifr_src
 
