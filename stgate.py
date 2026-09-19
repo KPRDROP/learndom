@@ -20,9 +20,29 @@ log = get_logger(__name__)
 
 TAG = "STGATE"
 
-BASE_URL = os.environ.get("STGATE_BASE_URL")
+BASE_URL = os.environ.get("STGATE_BASE_URL") or "https://streamsgates.pk"
 if not BASE_URL:
     raise RuntimeError("Missing STGATE_BASE_URL secret")
+
+# New sports endpoints (JSON files under /data-cache/)
+# Each tuple: (sport_key, json_filename, canonical_sport_name)
+SPORT_ENDPOINTS: list[tuple[str, str, str]] = [
+    ("basketball", "matches-basketball.json", "Basketball"),
+    ("football", "matches-football.json", "Football"),
+    ("american-football", "matches-american-football.json", "American Football"),
+    ("hockey", "matches-hockey.json", "Hockey"),
+    ("baseball", "matches-baseball.json", "Baseball"),
+    ("motor-sports", "matches-motor-sports.json", "Motor Sport"),
+    ("fight", "matches-fight.json", "Fight MMA"),
+    ("tennis", "matches-tennis.json", "Tennis"),
+    ("rugby", "matches-rugby.json", "Rugby"),
+    ("golf", "matches-golf.json", "Golf"),
+    ("billiards", "matches-billiards.json", "Billiards"),
+    ("afl", "matches-afl.json", "AFL"),
+    ("darts", "matches-darts.json", "Darts"),
+    ("cricket", "matches-cricket.json", "Cricket"),
+    ("other", "matches-other.json", "Other"),
+]
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
@@ -36,55 +56,39 @@ OUT_TIVI = Path("stgate_tivimate.m3u8")
 CACHE_FILE = Cache(TAG, exp=10_800)
 API_FILE = Cache(f"{TAG}-api", exp=19_800)
 
-# Expanded sports endpoints for more events
-SPORT_ENDPOINTS = [
-    "soccer",
-    "nfl",
-    "nba",
-    "cfb",
-    "mlb",
-    #"nhl",
-    "ufc",
-    "box",
-    "f1",
-]
-
 urls: dict[str, dict[str, Any]] = {}
 
 # --------------------------------------------------
 # Regex patterns
 # --------------------------------------------------
 
-# Matches: file: "URL"  |  source = 'URL'  |  streamurls: "URL"  |  url="URL"
+# Named-key patterns (file: "..." | source = '...' | streamurls: "...")
 VALID_M3U8 = re.compile(
     r"""(?:file|source|streamurls?|stream_url|url)\s*[:=]\s*['"]([^'"]+)['"]""",
     re.I,
 )
 
-# Matches array style: streamurls = ["URL"]  |  sources: ["URL"]  |  0x31c4 = ["URL"]
+# Array style: streamurls = ["URL"] | sources: ["URL"] | 0x31c4 = ["URL"]
 VALID_M3U8_ARRAY = re.compile(
     r"""(?:streamurls|sources|0x31c4)\s*[:=]\s*\[\s*['"]([^'"]+)['"]""",
     re.I,
 )
 
-# Fallback alternate pattern
+# Alternate fallback
 VALID_M3U8_ALT = re.compile(
     r"""(?:file|source|streamurls?)\s*(?::|=)\s*(?:'|")([^"']*)(?:'|")""",
     re.I,
 )
 
-# Direct URL match inside the player source (most reliable)
-# Catches: https://instreams.live/live/XXX/index.m3u8?st=...&e=...
-#          https://instreams.pro/live/XXX/mono.m3u8?st=...&e=...
-# Handles the \u0026 escape used by the FXH4-style player.
+# Direct URL match — most reliable, grabs the raw URL from the player source
 DIRECT_M3U8 = re.compile(
-    r"""https?://instreams?\.(?:live|pro|click|xyz|tv)/live/[^\s'"\\<>)]+?\.m3u8[^\s'"\\<>)]*""",
+    r"""https?://instreams?\.(?:live|pro|click|xyz|tv|st)/live/[^\s'"\\<>)]+?\.m3u8[^\s'"\\<>)]*""",
     re.I,
 )
 
 # --------------------------------------------------
 def extract_stream_id(stream_url: str) -> str | None:
-    """Extract stream ID from the M3U8 URL or player URL."""
+    """Extract stream ID from an M3U8 URL or player URL."""
     if not stream_url:
         return None
 
@@ -132,14 +136,29 @@ def clean_sport_name(sport: str) -> str:
     """Clean and standardize sport names."""
     sport_map = {
         "soccer": "Football",
+        "football": "Football",
         "nfl": "American Football",
+        "american-football": "American Football",
         "nba": "Basketball",
+        "basketball": "Basketball",
         "cfb": "NCAA Football",
         "mlb": "Baseball",
+        "baseball": "Baseball",
         "nhl": "Hockey",
+        "hockey": "Hockey",
         "ufc": "Fight MMA",
+        "fight": "Fight MMA",
         "box": "Boxing",
         "f1": "Motor Sport",
+        "motor-sports": "Motor Sport",
+        "tennis": "Tennis",
+        "rugby": "Rugby",
+        "golf": "Golf",
+        "billiards": "Billiards",
+        "afl": "AFL",
+        "darts": "Darts",
+        "cricket": "Cricket",
+        "other": "Other",
         "olympics": "Olympics",
     }
     return sport_map.get(sport.lower(), sport)
@@ -155,7 +174,6 @@ def unescape_js_string(raw: str) -> str:
     try:
         return json.loads(f'"{raw}"')
     except (json.JSONDecodeError, IndexError):
-        # Manual fallback for \\u0026 and common escapes
         return (
             raw.replace("\\u0026", "&")
             .replace("\\/", "/")
@@ -164,25 +182,11 @@ def unescape_js_string(raw: str) -> str:
         )
 
 
-def normalize_m3u8_host(url: str) -> str:
-    """Normalize instreams hosts to .pro (playable) while keeping token intact."""
-    return url
-
-
 def extract_m3u8_with_token(text: str) -> str | None:
-    """Extract M3U8 URL including the full query string (st=..., e=...).
-
-    Tries in order:
-      1. Direct URL match (best — matches the actual `source: "..."` string)
-      2. Array-style regex (0x31c4 = ["URL", ...])
-      3. Named key regex (file/source/streamurls)
-      4. Alt regex fallback
-    Always preserves the query string (?st=...&e=...).
-    """
-    # 1. Direct URL match — catches the raw URL anywhere in the source
+    """Extract M3U8 URL including the full query string (st=..., e=...)."""
+    # 1. Direct URL match — grabs the raw URL anywhere in the player source
     if match := DIRECT_M3U8.search(text):
-        url = unescape_js_string(match.group(0)).strip()
-        return url
+        return unescape_js_string(match.group(0)).strip()
 
     # 2-4. Named-key regex strategies
     for pattern in (VALID_M3U8_ARRAY, VALID_M3U8, VALID_M3U8_ALT):
@@ -247,41 +251,52 @@ async def refresh_api_cache(now_ts: float) -> list[dict[str, Any]]:
 
     tasks = [
         network.request(
-            urljoin(BASE_URL, f"data/{sport}.json"),
+            urljoin(BASE_URL, f"data-cache/{filename}"),
             log=log,
         )
-        for sport in SPORT_ENDPOINTS
+        for _, filename, _ in SPORT_ENDPOINTS
     ]
 
     results = await asyncio.gather(*tasks, return_exceptions=True)
 
     data: list[dict[str, Any]] = []
 
-    for sport, r in zip(SPORT_ENDPOINTS, results):
+    for (sport_key, filename, canonical_sport), r in zip(SPORT_ENDPOINTS, results):
         if isinstance(r, Exception):
-            log.warning(f"{sport}.json → request failed: {str(r)[:50]}")
+            log.warning(f"{filename} → request failed: {str(r)[:50]}")
             continue
 
         if not r:
             continue
 
         try:
-            js = r.json()
+            payload = r.json()
         except Exception as e:
-            log.warning(f"{sport}.json → invalid JSON: {str(e)[:50]}")
+            log.warning(f"{filename} → invalid JSON: {str(e)[:50]}")
             continue
 
-        if not isinstance(js, list):
+        # New format: {"sport_name": ..., "items": [...]}
+        if isinstance(payload, dict):
+            items = payload.get("items") or []
+            sport_name = payload.get("sport_name") or canonical_sport
+        elif isinstance(payload, list):
+            items = payload
+            sport_name = canonical_sport
+        else:
             continue
 
-        log.info(f"{sport}.json → {len(js)} events")
+        log.info(f"{filename} → {len(items)} events")
 
-        for ev in js:
-            if "timestamp" in ev:
+        for ev in items:
+            # Normalize event timestamp field to "ts" for get_events()
+            if "scheduled_at" in ev:
+                ev["ts"] = ev.pop("scheduled_at")
+            elif "timestamp" in ev:
                 ev["ts"] = ev.pop("timestamp")
-            ev["_sport"] = clean_sport_name(sport)
+            ev["_sport"] = clean_sport_name(sport_name)
+            ev["_sport_key"] = sport_key
 
-        data.extend(js)
+        data.extend(items)
 
     if not data:
         return [{"timestamp": now_ts}]
@@ -309,44 +324,52 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, Any]]:
 
     for ev in api_data:
         date = ev.get("ts") or ev.get("time")
-        sport = ev.get("league") or ev.get("_sport")
-        t1, t2 = ev.get("home"), ev.get("away")
+        sport = ev.get("_sport")
+        title = ev.get("title") or ev.get("name")
+        home = ev.get("home_team")
+        away = ev.get("away_team")
 
-        if not (date and sport and t1 and t2):
+        if not (date and sport and title):
             continue
 
-        if isinstance(date, (int, float)):
-            event_dt = Time.from_ts(date)
+        # Build event name from title or home/away teams
+        if home and away:
+            event = get_event(home, away)
         else:
-            event_dt = Time.from_str(str(date), timezone="UTC")
+            event = title.strip()
+
+        # Timestamp parsing
+        try:
+            if isinstance(date, (int, float)):
+                event_dt = Time.from_ts(date)
+            else:
+                event_dt = Time.from_str(str(date), timezone="UTC")
+        except Exception:
+            continue
 
         if not start_dt <= event_dt <= end_dt:
             continue
 
-        event = get_event(t1, t2)
-        sport = clean_sport_name(sport)
         key = f"[{sport}] {event} ({TAG})"
-
         if key in cached_keys:
             continue
 
-        event_id = f"{sport}_{t1}_{t2}_{str(date)[:10]}"
+        event_id = str(ev.get("id") or f"{sport}_{title}_{str(date)[:10]}")
         if event_id in seen_events:
             continue
         seen_events.add(event_id)
 
-        streams = ev.get("streams") or []
-        if not streams:
-            continue
-
-        # Collect stream URLs, skipping auto_source entries
+        # Collect embed URLs from sources (label Server 1 = HOME, Server 2 = AWAY)
+        sources = ev.get("sources") or []
         stream_urls: list[str] = []
-        for stream in streams:
-            if "auto_source" in stream:
+        for src in sources:
+            embed_url = src.get("embed_url")
+            if not embed_url:
                 continue
-            url = stream.get("url")
-            if url:
-                stream_urls.append(url)
+            if src.get("is_html_embed"):
+                # HTML embeds aren't direct streams but can still be probed
+                pass
+            stream_urls.append(embed_url)
 
         if not stream_urls:
             continue
@@ -376,7 +399,7 @@ async def scrape(browser: Browser) -> None:
     urls.update(cached_urls)
 
     log.info(f"Loaded {cached_count} cached event(s)")
-    log.info(f'Scraping JSON from "{BASE_URL}/data"')
+    log.info(f'Scraping JSON from "{BASE_URL}/data-cache"')
 
     events = await get_events(list(cached_urls.keys()))
 
@@ -406,7 +429,7 @@ async def scrape(browser: Browser) -> None:
                 log=log,
             )
 
-            # Fallback: try alternate streams if primary fails
+            # Fallback: try alternate streams (Server 2) if primary fails
             if not stream_url and ev.get("all_streams") and len(ev["all_streams"]) > 1:
                 log.info(f"Trying fallback streams for {ev['event']}")
                 for fallback_url in ev["all_streams"][1:3]:
@@ -436,13 +459,14 @@ async def scrape(browser: Browser) -> None:
             key = f"[{ev['sport']}] {ev['event']} ({TAG})"
             tvg_id, logo = leagues.get_tvg_info(ev["sport"], ev["event"])
 
-            # *** IMPORTANT: keep the FULL token URL (do NOT strip ?st=...&e=...) ***
+            # Keep the FULL token URL (do NOT strip ?st=...&e=...)
             full_stream_url = clean_m3u(stream_url)
 
             cached_urls[key] = {
                 "url": full_stream_url,
                 "logo": logo,
                 "base": BASE_URL,
+                "sport": ev["sport"],
                 "timestamp": ev["timestamp"],
                 "id": tvg_id or "Live.Event.us",
                 "link": ev["link"],
@@ -496,7 +520,7 @@ def build_playlists(data: dict[str, dict]) -> None:
     )
 
     for name, e in sorted_items:
-        # *** Keep full token URL — never split on '?st' ***
+        # Keep full token URL — never split on '?st'
         stream_url = clean_m3u(e["url"])
 
         referer = e.get("referer")
@@ -545,6 +569,7 @@ async def main() -> None:
                     "--autoplay-policy=no-user-gesture-required",
                     "--disable-web-security",
                     "--disable-features=IsolateOrigins,site-per-process",
+                    "--disable-blink-features=AutomationControlled",
                 ],
             )
             await scrape(browser)
