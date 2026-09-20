@@ -9,39 +9,82 @@ permissions:
   contents: write
   actions: read
 
+concurrency:
+  group: hdembed-updater
+  cancel-in-progress: false
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-    
-    - name: Setup Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.11'
-    
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install playwright "httpx[http2]" pytz "adblock>=0.6.0" "tzdata>=2026.3"
-        pip install aiohttp
-        playwright install chromium
-        playwright install-deps
-    
-    - name: Run HDEmbed scraper
-      run: |
-        python hdembed.py
-      env:
-        PYTHONUNBUFFERED: 1
-    
-    - name: Commit and push if changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add hdembed_vlc.m3u8 hdembed_tivimate.m3u8 2>/dev/null || true
-        git diff --staged --quiet || git commit -m "Update HDEmbed streams $(date '+%Y-%m-%d %H:%M:%S')"
-        git push origin HEAD:main
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright "httpx[http2]" pytz "adblock>=0.6.0" "tzdata>=2026.3"
+          pip install aiohttp
+          playwright install chromium
+          playwright install-deps
+
+      - name: Run HDEmbed scraper
+        env:
+          PYTHONUNBUFFERED: 1
+        run: |
+          python hdembed.py
+
+      - name: Commit and push if changes
+        run: |
+          set -e
+
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Add only the generated HDEmbed playlists.
+          git add hdembed_vlc.m3u8 hdembed_tivimate.m3u8
+
+          # Stop cleanly when nothing changed.
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          # Create the local commit.
+          git commit -m "Update HDEmbed streams $(date -u '+%Y-%m-%d %H:%M:%S')"
+
+          # Synchronize with the newest remote main before pushing.
+          git fetch origin main
+          git rebase origin/main
+
+          # Push with automatic retry in case another workflow updates
+          # main between fetch/rebase and the push.
+          for attempt in 1 2 3; do
+            echo "Push attempt $attempt..."
+
+            if git push origin HEAD:main; then
+              echo "Push successful."
+              exit 0
+            fi
+
+            if [ "$attempt" -lt 3 ]; then
+              echo "Push rejected because remote main changed."
+              echo "Fetching latest main and rebasing..."
+
+              git fetch origin main
+              git rebase origin/main
+            fi
+          done
+
+          echo "ERROR: Failed to push HDEmbed changes after 3 attempts."
+          exit 1
