@@ -126,15 +126,21 @@ async def get_sports_map() -> dict[str, dict[str, dict[str, str]]]:
     """Scrape sport pages and extract M3U8_CHANNELS_MAP"""
     sports_map: dict[str, dict[str, dict[str, str]]] = {}
 
+    # Build list of (sport, url) pairs for proper mapping
+    sport_url_pairs = [
+        (sport, urljoin(BASE_URL, endpoint))
+        for sport, endpoint in SPORT_URLS.items()
+    ]
+
     tasks = [
-        network.request(urljoin(BASE_URL, endpoint), log=log)
-        for endpoint in SPORT_URLS.values()
+        network.request(url, log=log)
+        for _, url in sport_url_pairs
     ]
 
     results = await asyncio.gather(*tasks)
 
-    if not (texts := [(html.text, html.url) for html in results if html]):
-        return sports_map
+    # Build mapping from URL string to sport
+    url_to_sport = {url: sport for sport, url in sport_url_pairs}
 
     # Abbreviation replacements
     replaces = {
@@ -149,21 +155,32 @@ async def get_sports_map() -> dict[str, dict[str, dict[str, str]]]:
 
     ptrn = re.compile(r"M3U8_CHANNELS_MAP\s*=\s*\{(.*?)\};", re.S)
 
-    for text, url in texts:
-        sport = next(
-            (k for k, v in SPORT_URLS.items() if url.endswith(v)),
-            "Live Event"
-        )
+    for resp in (r for r in results if r):
+        try:
+            text = resp.text
+            url_str = str(resp.url)
+            
+            # Find the sport for this URL
+            sport = "Live Event"
+            for test_url, test_sport in url_to_sport.items():
+                if url_str == test_url or url_str.endswith(test_url):
+                    sport = test_sport
+                    break
 
-        if not (match := ptrn.search(text)):
-            sports_map[sport] = {}
-        else:
-            pairs: list[tuple[str, str]] = re.findall(
-                r"'([^']+)'\s*:\s*'([^']+)'",
-                match[1],
-            )
-            sports_map[sport] = dict(pairs)
+            if not (match := ptrn.search(text)):
+                sports_map[sport] = {}
+            else:
+                pairs: list[tuple[str, str]] = re.findall(
+                    r"'([^']+)'\s*:\s*'([^']+)'",
+                    match[1],
+                )
+                sports_map[sport] = dict(pairs)
+                log.info(f"Found {len(pairs)} channels for {sport}")
+        except Exception as e:
+            log.warning(f"Error parsing sport page: {e}")
+            continue
 
+    # Apply abbreviation replacements
     for sport, abbrs in replaces.items():
         if sport in sports_map:
             for old, new in abbrs.items():
