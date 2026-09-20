@@ -1,4 +1,4 @@
-name: SPFIT Scraper
+name: SPFIT Updater
 
 on:
   schedule:
