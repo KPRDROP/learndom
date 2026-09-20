@@ -1,10 +1,12 @@
+#!/usr/bin/env python3
+
 import asyncio
 import re
 from functools import partial
 from urllib.parse import urljoin
 from datetime import datetime
 
-from playwright.async_api import Browser, Page, TimeoutError
+from playwright.async_api import Browser, Page, TimeoutError, async_playwright
 from selectolax.lexbor import LexborHTMLParser as HTMLParser
 
 from utils import Cache, Event, Time, get_logger, leagues, network
@@ -201,7 +203,6 @@ async def get_events(cached_links: set[str]) -> list[Event]:
                 if event_text and len(event_text) > 3:
                     # Include events without dates if they look valid
                     event_dt = now
-
                 else:
                     continue
 
@@ -372,9 +373,20 @@ async def main() -> None:
     log.info("Starting SPFIT scraper")
 
     try:
-        async with network.event_context(None) as browser:
-            await scrape(browser)
-        
+        async with async_playwright() as pw:
+            browser = await pw.chromium.launch(
+                headless=True,
+                args=[
+                    "--no-sandbox",
+                    "--disable-blink-features=AutomationControlled",
+                    "--disable-dev-shm-usage",
+                ],
+            )
+            try:
+                await scrape(browser)
+            finally:
+                await browser.close()
+
         generate_playlists()
 
         log.info("Playlist generation completed")
