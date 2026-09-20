@@ -63,7 +63,7 @@ jobs:
         fi
         
         # Commit changes
-        git commit -m "🔄 Auto-update SPFIT M3U8 streams [skip ci]"
+        git commit -m "Auto-update SPFIT M3U8 streams [skip ci]"
         
         # Push to main branch
         git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main --force
