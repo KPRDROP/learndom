@@ -1,41 +1,21 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Mma/pfl/bkfc] BKB 59 Tijuana Fernandez - Podmore (HDEMBED)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Mma/pfl/bkfc",[Mma/pfl/bkfc] BKB 59 Tijuana Fernandez - Podmore (HDEMBED)
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Bournemouth - Liverpool (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Premier League",[Premier League] Bournemouth - Liverpool (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb10.strmd.st/secure/ddHCiAWuYxFTgqMYEOORAstImoegHICO/ingest/stream/mevent5/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] South Dakota Coyotes - Boise State Broncos (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] South Dakota Coyotes - Boise State Broncos (HDEMBED)
+https://lb11.strmd.st/secure/RXwEDDdCFjqpBmGciSYcbkDYQGFNCOmI/ingest/stream/nafcbournemouth/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Manchester City - Sunderland (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Premier League",[Premier League] Manchester City - Sunderland (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb20.strmd.st/secure/MjjtJZOUodVbbougOLxhwsoRUFoCibXk/ingest/stream/ncbsn/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] James Madison Dukes - San Diego State Aztecs (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] James Madison Dukes - San Diego State Aztecs (HDEMBED)
+https://lb11.strmd.st/secure/dQpMvkIvFWJxbmbSxuMjenMXdaIonOEN/ingest/stream/nmanchestercity/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Leeds United - Crystal Palace (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Premier League",[Premier League] Leeds United - Crystal Palace (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb20.strmd.st/secure/smdoRJbcmvWpsdFFsLLYtxXHoTtnTLQw/ingest/stream/ncwnet/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="4" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Northern Illinois Huskies - Arizona Wildcats (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] Northern Illinois Huskies - Arizona Wildcats (HDEMBED)
+https://lb11.strmd.st/secure/bRsFnEULvhrHNYjwxuGWVpdTqVcTpkQl/ingest/stream/nleedsunited/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[LA Liga] Atletico Madrid - Real Madrid (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="LA Liga",[LA Liga] Atletico Madrid - Real Madrid (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb20.strmd.st/secure/YsalpHVRQlczxqnvHTiqoDeOaCYZPZjz/ingest/stream/ntnt/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="5" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] North Dakota State Bison - Sacramento State Hornets (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] North Dakota State Bison - Sacramento State Hornets (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb20.strmd.st/secure/UuDpFnlKkgGTALFNmenYUCwWfOqPtJls/ingest/stream/nespnhd/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="6" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Purdue Boilermakers - UCLA Bruins (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] Purdue Boilermakers - UCLA Bruins (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb8.strmd.st/secure/ByINeNHEqEaAdNyWaLItHhFiBEAXfFcj/ingest/stream/nbtn/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="7" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Montana Grizzlies - Oregon State Beavers (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] Montana Grizzlies - Oregon State Beavers (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb8.strmd.st/secure/nqpOjuyezwyYyIrKnuiHGwnvwdQZhbtR/ingest/stream/nusanetwork/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="8" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Fresno State Bulldogs - San Jose State Spartans (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] Fresno State Bulldogs - San Jose State Spartans (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb8.strmd.st/secure/OtenNfOvDGzEkAGpbWLzhtMOTRXYTPNh/ingest/stream/nfsonehd/1/playlist.m3u8
+https://lb6.strmd.st/secure/sEZcrhkvHNPpqkkjqohxZYjQgfzogPEJ/ingest/stream/nrealmadrid/1/playlist.m3u8
