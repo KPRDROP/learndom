@@ -32,7 +32,7 @@ jobs:
 
       - name: Run SHOPP generator
         run: |
-          python shopp.py
+          python xyz.py
 
       - name: Commit and push playlists
         run: |
