@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import asyncio
 import re
 from functools import partial
