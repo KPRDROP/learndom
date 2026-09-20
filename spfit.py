@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import asyncio
 import re
 from functools import partial
@@ -51,7 +53,8 @@ async def process_event(
     page: Page,
 ) -> tuple[str | None, str | None, str | None]:
 
-    nones = None, None, None
+    # FIXED: 2 nones so (event_name, *nones) = 3 elements total
+    nones = None, None
 
     captured: list[str] = []
 
@@ -126,7 +129,7 @@ async def process_event(
         if captured:
             # Filter out indianservers links
             valid_streams = [c for c in captured if "indianservers" not in c.lower()]
-            
+
             if not valid_streams:
                 log.warning(f"URL {url_num}) Unsuitable M3U8 link captured.")
                 return (event_name, ifr_src, None)
@@ -148,12 +151,12 @@ def clean_event_name(event_name: str) -> str:
     """Clean event name by removing commas and extra spaces"""
     if not event_name:
         return "Sporting Event"
-    
+
     cleaned = event_name.replace(",", "")
     cleaned = re.sub(r'\s+', ' ', cleaned)
     cleaned = re.sub(r'\s*-\s*(?:Live|Stream|Watch|SPFIT)\s*$', '', cleaned, flags=re.IGNORECASE)
     cleaned = re.sub(r'\s*\|.*$', '', cleaned)  # Remove anything after pipe
-    
+
     return cleaned.strip() or "Sporting Event"
 
 
