@@ -1,41 +1,46 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Anaheim Ducks - San Jose Sharks (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Anaheim Ducks - San Jose Sharks (HDEMBED)
+#EXTINF:-1 tvg-chno="1" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Denver Broncos - Jacksonville Jaguars (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Denver Broncos - Jacksonville Jaguars (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb14.strmd.st/secure/pjNMQkGMYahyACjVXwcpNITHtTKeMRAN/ingest/stream/mmanheimducks/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Denver Broncos - Jacksonville Jaguars (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Denver Broncos - Jacksonville Jaguars (HDEMBED)
+https://lb14.strmd.st/secure/XVwDotwSVAMzANekBWRxfJronaIjrfMN/ingest/stream/mdenverbroncos/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="2" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Los Angeles Chargers - Las Vegas Raiders (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Los Angeles Chargers - Las Vegas Raiders (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb14.strmd.st/secure/OrXlsRVxxvQKIDrMqxXCecSTQChqmqRq/ingest/stream/mdenverbroncos/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Los Angeles Chargers - Las Vegas Raiders (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Los Angeles Chargers - Las Vegas Raiders (HDEMBED)
+https://lb14.strmd.st/secure/UmRwhGzQMiAZGFpUfyCFfdrxbxLoeqMn/ingest/stream/mlosangeleschargers/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="3" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Dallas Cowboys - Washington Commanders (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Dallas Cowboys - Washington Commanders (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb14.strmd.st/secure/HtiGPVSnwLYvuHCPLYQPbLxbveIRnpaq/ingest/stream/mlosangeleschargers/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="4" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Dallas Cowboys - Washington Commanders (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Dallas Cowboys - Washington Commanders (HDEMBED)
+https://lb14.strmd.st/secure/rqHnkSKCOvttcxpKvXPfZClUUiklHWoa/ingest/stream/mdallascowboys/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="4" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Arizona Cardinals - Seattle Seahawks (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Arizona Cardinals - Seattle Seahawks (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb14.strmd.st/secure/pgzsIWALeJLiiVtYXLkwnGwxkDDFYPdv/ingest/stream/mdallascowboys/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="5" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Arizona Cardinals - Seattle Seahawks (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Arizona Cardinals - Seattle Seahawks (HDEMBED)
+https://lb14.strmd.st/secure/afBCIByFmsaWskVFjChGNDXLzUPdULIK/ingest/stream/marizonacardinals/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="5" tvg-id="NFL.Dummy.us" tvg-name="[NFL] San Francisco 49ers - Miami Dolphins (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] San Francisco 49ers - Miami Dolphins (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb17.strmd.st/secure/QbcUGWATyEcmOOmEwEXeRvelBdpdyswn/ingest/stream/marizonacardinals/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="6" tvg-id="NFL.Dummy.us" tvg-name="[NFL] San Francisco 49ers - Miami Dolphins (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] San Francisco 49ers - Miami Dolphins (HDEMBED)
+https://lb8.strmd.st/secure/vBYNVSTiLxgrduYilXWFEwkLqCOfWXsR/ingest/stream/msanfrancisco49ers/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="6" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Boston Bruins - Washington Capitals (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Boston Bruins - Washington Capitals (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb17.strmd.st/secure/QPhGOXcQJOhJEXWXSZinvuTPlqKlIphz/ingest/stream/msanfrancisco49ers/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="7" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Boston Bruins - Washington Capitals (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Boston Bruins - Washington Capitals (HDEMBED)
+https://lb8.strmd.st/secure/PruCxurSkIiFViqxRPQpjvZvRlEnnTyq/ingest/stream/mbostonbruins/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="7" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Tampa Bay Lightning - Nashville Predators (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Tampa Bay Lightning - Nashville Predators (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb17.strmd.st/secure/CFqqZoJKxnrozUAoRmCgtdWgdbyiPXOY/ingest/stream/mbostonbruins/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="8" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Tampa Bay Lightning - Nashville Predators (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Tampa Bay Lightning - Nashville Predators (HDEMBED)
+https://lb8.strmd.st/secure/vpWGBvrsZimLAQnRXtdkphAjGYVUdNfM/ingest/stream/mtampabaylightning/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="8" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Colorado Avalanche - Utah Mammoth (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Colorado Avalanche - Utah Mammoth (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb17.strmd.st/secure/vrlvrINunpyWFAYnYjlydRDgnhClsjvf/ingest/stream/mtampabaylightning/1/playlist.m3u8
+https://lb8.strmd.st/secure/SUaVbZAYjnbnCsySSmIOatOAkSlChyJy/ingest/stream/mcoloradoavalanche/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="9" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Florida Panthers - Carolina Hurricanes (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Florida Panthers - Carolina Hurricanes (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb8.strmd.st/secure/OelKtlYjWnMcxexnxEhQThGATDIlPUaS/ingest/stream/mfloridapanthers/1/playlist.m3u8
