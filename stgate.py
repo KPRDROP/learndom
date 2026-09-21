@@ -77,18 +77,12 @@ VALID_M3U8_ARRAY = re.compile(
 
 # --------------------------------------------------
 def clean_m3u(s: str) -> str:
-    """Rewrite `.live` host to `.pro` for playability, preserving the token.
-
-    Uses a lookahead so it only replaces `.live` when followed by `/` or `?`,
-    never touching the query string after the path.
-    """
     return re.sub(r"\.live(?=/|\?|$)", ".pro", s)
 
 
 def unescape_js_string(raw: str) -> str:
     """Decode JS escapes like \\u0026, \\/, \\', \\"."""
     try:
-        # json.loads handles \uXXXX and \\/ correctly in one pass.
         return json.loads(f'"{raw}"')
     except (json.JSONDecodeError, IndexError):
         return (
@@ -101,12 +95,6 @@ def unescape_js_string(raw: str) -> str:
 
 
 def force_full_token(url: str) -> str:
-    """Ensure the URL has both `st=` and `e=`.
-
-    If only `st=` is present (a known symptom of the old truncation bug),
-    we keep the URL as-is — but this function documents the invariant and
-    will log a warning so the truncation case is visible in the run log.
-    """
     url = url.strip().rstrip("\\").rstrip("&").rstrip("?")
     if "?st=" in url and "&e=" not in url and "\\u0026" not in url:
         log.warning(f"Token incomplete (no &e=): {url}")
@@ -149,15 +137,6 @@ def build_referer_from_stream(stream_url: str) -> str:
 
 
 def extract_m3u8_with_token(text: str) -> str | None:
-    """Extract the *complete* M3U8 URL, including `?st=...&e=...`.
-
-    Strategy order:
-      1. DIRECT_M3U8 — grabs the raw URL directly from the player source.
-         This is the ONLY strategy guaranteed to keep the `&e=` token when
-         the URL is written with a JS-escaped `\\u0026`.
-      2. VALID_M3U8_ARRAY / VALID_M3U8_2 — original array-style pattern.
-      3. VALID_M3U8 — original named-key pattern.
-    """
     # 1. Direct grab — this now includes `\u0026e=...` in the match
     if match := DIRECT_M3U8.search(text):
         url = unescape_js_string(match.group(0)).strip()
@@ -222,7 +201,6 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
         return nones
 
     if stream_url := extract_m3u8_with_token(ifr_src_data.text):
-        # Strip any trailing junk characters that may have been captured
         stream_url = re.sub(r"[\\'\"<>)\s]+$", "", stream_url)
         log.info(f"URL {url_num}) Captured M3U8")
         return stream_url, ifr_src
@@ -453,7 +431,6 @@ def build_playlists(data: dict[str, dict]) -> None:
     )
 
     for name, e in sorted_items:
-        # Preserve the full token URL — do NOT truncate on '?st' or '&'
         stream_url = e["url"]
 
         referer = e.get("referer") or build_referer_from_stream(stream_url)
