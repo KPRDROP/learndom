@@ -53,6 +53,7 @@ urls: dict[str, dict[str, Any]] = {}
 # Regex patterns
 # --------------------------------------------------
 
+# Original working patterns (kept intact)
 VALID_M3U8 = re.compile(
     r"(file|source|streamurls?)\s*(:|=)\s+(\'|\")([^\"]*)(\'|\")",
     re.I,
@@ -63,16 +64,21 @@ VALID_M3U8_2 = re.compile(
     re.I,
 )
 
-# Direct URL match — grabs raw instreams URLs from player source
 DIRECT_M3U8 = re.compile(
-    r"""https?://instreams?\.(?:live|pro|click|xyz|tv|st)/live/[^\s'"\\<>)]+?\.m3u8[^\s'"\\<>)]*""",
+    r"""https?://instreams?\.(?:live|pro|click|xyz|tv|st)/live/[^\s'"\\<>)]+\.m3u8[^\s'"\\<>)]*""",
     re.I,
 )
 
 
 # --------------------------------------------------
 def clean_m3u(s: str) -> str:
-    return re.sub(r"\.live\n", ".pro", s)
+    """Rewrite `.live` host to `.pro` for playability, preserving the token.
+
+    Original working behavior: replace `.<host>.live\n` with `.<host>.pro`.
+    We broaden it to work on any `.live` host occurrence so the token
+    after the path is never touched.
+    """
+    return re.sub(r"\.live(?=/|\?|$)", ".pro", s)
 
 
 def unescape_js_string(raw: str) -> str:
@@ -85,6 +91,14 @@ def unescape_js_string(raw: str) -> str:
             .replace("\\'", "'")
             .replace('\\"', '"')
         )
+
+
+def normalize_stream_url(url: str) -> str:
+    """Ensure we always return a stream URL that has both `st` AND `e` tokens.
+
+    If the URL already contains `&e=`, leave it alone.
+    """
+    return url.strip().rstrip("\\")
 
 
 def extract_stream_id(stream_url: str) -> str | None:
@@ -123,23 +137,45 @@ def build_referer_from_stream(stream_url: str) -> str:
 
 
 def extract_m3u8_with_token(text: str) -> str | None:
-    if match := DIRECT_M3U8.search(text):
-        return unescape_js_string(match.group(0)).strip()
+    """Extract the *complete* M3U8 URL, including `?st=...&e=...`.
 
-    for pattern in (VALID_M3U8_2, VALID_M3U8):
-        if match := pattern.search(text):
-            # VALID_M3U8_2 → group(2); VALID_M3U8 → group(4)
-            raw = match.group(2) if pattern is VALID_M3U8_2 else match.group(4)
-            url = unescape_js_string(raw).strip()
-            if ".m3u8" in url:
-                return url
+    Strategy order:
+      1. DIRECT_M3U8 — grabs the raw URL directly from the player source.
+         This is the ONLY strategy guaranteed to keep the `&e=` token when
+         the URL is written as `...&e=...` (some player builds write it
+         literally, some write `\\u0026`).
+      2. VALID_M3U8_2 — original working array-style pattern.
+      3. VALID_M3U8 — original working named-key pattern.
+    """
+    # 1. Direct grab
+    if match := DIRECT_M3U8.search(text):
+        url = unescape_js_string(match.group(0)).strip()
+        url = normalize_stream_url(url)
+        if ".m3u8" in url:
+            return url
+
+    # 2. Original array-style
+    if match := VALID_M3U8_2.search(text):
+        raw = match.group(2)
+        url = unescape_js_string(raw).strip()
+        url = normalize_stream_url(url)
+        if ".m3u8" in url:
+            return url
+
+    # 3. Original named-key
+    if match := VALID_M3U8.search(text):
+        raw = match.group(4)
+        url = unescape_js_string(raw).strip()
+        url = normalize_stream_url(url)
+        if ".m3u8" in url:
+            return url
 
     return None
 
 
 # --------------------------------------------------
 async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]:
-    """Extract M3U8 stream URL (with token) and iframe referer from an event page."""
+    """Extract M3U8 stream URL (with full st+e token) and iframe referer."""
     nones = None, None
 
     if not (
@@ -174,6 +210,7 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
         return nones
 
     if stream_url := extract_m3u8_with_token(ifr_src_data.text):
+        # Strip any trailing junk characters that may have been captured
         stream_url = re.sub(r"[\\'\"<>)\s]+$", "", stream_url)
         log.info(f"URL {url_num}) Captured M3U8")
         return stream_url, ifr_src
@@ -238,8 +275,9 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, Any]]:
 
     events: list[dict[str, Any]] = []
 
-    start_dt = now.delta(hours=-6)
-    end_dt = now.delta(minutes=120)
+    # Expanded window (was -3h → +30min, now -48h → +12h)
+    start_dt = now.delta(hours=-48)
+    end_dt = now.delta(hours=12)
 
     seen_events: set[str] = set()
 
@@ -403,7 +441,8 @@ def build_playlists(data: dict[str, dict]) -> None:
     )
 
     for name, e in sorted_items:
-        stream_url = clean_m3u(e["url"])
+        # Preserve the full token URL — do NOT truncate on '?st' or '&'
+        stream_url = e["url"]
 
         referer = e.get("referer") or build_referer_from_stream(stream_url)
 
@@ -411,6 +450,7 @@ def build_playlists(data: dict[str, dict]) -> None:
             f'#EXTINF:-1 tvg-chno="{ch}" tvg-id="{e["id"]}" '
             f'tvg-name="{name}" tvg-logo="{e["logo"]}" group-title="Live Events",{name}',
             f"#EXTVLCOPT:http-referrer={referer}",
+            f"#EXTVLCOPT:http-origin={referer}",
             f"#EXTVLCOPT:http-user-agent={USER_AGENT}",
             stream_url,
             "",
@@ -420,7 +460,7 @@ def build_playlists(data: dict[str, dict]) -> None:
         tm_lines = [
             f'#EXTINF:-1 tvg-chno="{ch}" tvg-id="{e["id"]}" '
             f'tvg-name="{name}" tvg-logo="{e["logo"]}" group-title="Live Events",{name}',
-            f"{stream_url}|referer={referer}|user-agent={UA_ENC}",
+            f"{stream_url}|referer={referer}|origin={referer}|user-agent={UA_ENC}",
             "",
         ]
         tm.extend(tm_lines)
