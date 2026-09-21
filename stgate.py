@@ -280,6 +280,7 @@ async def refresh_api_cache(now_ts: float) -> list[dict[str, Any]]:
     tasks = [
         network.request(
             urljoin(BASE_URL, f"data-cache/{filename}"),
+            timeout=httpx.Timeout(25.0),
             log=log,
         )
         for _, filename, _ in SPORT_ENDPOINTS
