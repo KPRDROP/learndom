@@ -53,7 +53,7 @@ urls: dict[str, dict[str, Any]] = {}
 # Regex patterns
 # --------------------------------------------------
 
-# Original working patterns (kept intact)
+# Working patterns
 VALID_M3U8 = re.compile(
     r"(file|source|streamurls?)\s*(:|=)\s+(\'|\")([^\"]*)(\'|\")",
     re.I,
@@ -65,7 +65,12 @@ VALID_M3U8_2 = re.compile(
 )
 
 DIRECT_M3U8 = re.compile(
-    r"""https?://instreams?\.(?:live|pro|click|xyz|tv|st)/live/[^\s'"\\<>)]+\.m3u8[^\s'"\\<>)]*""",
+    r"""https?://[^\s'"<>()]+?/live/[^\s'"<>()]+?\.m3u8[^\s'"<>()]*""",
+    re.I,
+)
+
+VALID_M3U8_ARRAY = re.compile(
+    r"""(?:streamurls|sources|0x31c4)\s*[:=]\s*\[\s*['"]([^'"]+)['"]""",
     re.I,
 )
 
@@ -74,31 +79,38 @@ DIRECT_M3U8 = re.compile(
 def clean_m3u(s: str) -> str:
     """Rewrite `.live` host to `.pro` for playability, preserving the token.
 
-    Original working behavior: replace `.<host>.live\n` with `.<host>.pro`.
-    We broaden it to work on any `.live` host occurrence so the token
-    after the path is never touched.
+    Uses a lookahead so it only replaces `.live` when followed by `/` or `?`,
+    never touching the query string after the path.
     """
     return re.sub(r"\.live(?=/|\?|$)", ".pro", s)
 
 
 def unescape_js_string(raw: str) -> str:
+    """Decode JS escapes like \\u0026, \\/, \\', \\"."""
     try:
+        # json.loads handles \uXXXX and \\/ correctly in one pass.
         return json.loads(f'"{raw}"')
     except (json.JSONDecodeError, IndexError):
         return (
             raw.replace("\\u0026", "&")
+            .replace("\\u0026amp;", "&")
             .replace("\\/", "/")
             .replace("\\'", "'")
             .replace('\\"', '"')
         )
 
 
-def normalize_stream_url(url: str) -> str:
-    """Ensure we always return a stream URL that has both `st` AND `e` tokens.
+def force_full_token(url: str) -> str:
+    """Ensure the URL has both `st=` and `e=`.
 
-    If the URL already contains `&e=`, leave it alone.
+    If only `st=` is present (a known symptom of the old truncation bug),
+    we keep the URL as-is — but this function documents the invariant and
+    will log a warning so the truncation case is visible in the run log.
     """
-    return url.strip().rstrip("\\")
+    url = url.strip().rstrip("\\").rstrip("&").rstrip("?")
+    if "?st=" in url and "&e=" not in url and "\\u0026" not in url:
+        log.warning(f"Token incomplete (no &e=): {url}")
+    return url
 
 
 def extract_stream_id(stream_url: str) -> str | None:
@@ -142,31 +154,31 @@ def extract_m3u8_with_token(text: str) -> str | None:
     Strategy order:
       1. DIRECT_M3U8 — grabs the raw URL directly from the player source.
          This is the ONLY strategy guaranteed to keep the `&e=` token when
-         the URL is written as `...&e=...` (some player builds write it
-         literally, some write `\\u0026`).
-      2. VALID_M3U8_2 — original working array-style pattern.
-      3. VALID_M3U8 — original working named-key pattern.
+         the URL is written with a JS-escaped `\\u0026`.
+      2. VALID_M3U8_ARRAY / VALID_M3U8_2 — original array-style pattern.
+      3. VALID_M3U8 — original named-key pattern.
     """
-    # 1. Direct grab
+    # 1. Direct grab — this now includes `\u0026e=...` in the match
     if match := DIRECT_M3U8.search(text):
         url = unescape_js_string(match.group(0)).strip()
-        url = normalize_stream_url(url)
+        url = force_full_token(url)
         if ".m3u8" in url:
             return url
 
-    # 2. Original array-style
-    if match := VALID_M3U8_2.search(text):
-        raw = match.group(2)
-        url = unescape_js_string(raw).strip()
-        url = normalize_stream_url(url)
-        if ".m3u8" in url:
-            return url
+    # 2. Array-style
+    for pattern in (VALID_M3U8_ARRAY, VALID_M3U8_2):
+        if match := pattern.search(text):
+            raw = match.group(1) if pattern is VALID_M3U8_ARRAY else match.group(2)
+            url = unescape_js_string(raw).strip()
+            url = force_full_token(url)
+            if ".m3u8" in url:
+                return url
 
-    # 3. Original named-key
+    # 3. Named-key
     if match := VALID_M3U8.search(text):
         raw = match.group(4)
         url = unescape_js_string(raw).strip()
-        url = normalize_stream_url(url)
+        url = force_full_token(url)
         if ".m3u8" in url:
             return url
 
