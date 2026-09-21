@@ -238,8 +238,8 @@ async def get_events(cached_keys: list[str]) -> list[dict[str, Any]]:
 
     events: list[dict[str, Any]] = []
 
-    start_dt = now.delta(hours=-3)
-    end_dt = now.delta(minutes=30)
+    start_dt = now.delta(hours=-6)
+    end_dt = now.delta(minutes=120)
 
     seen_events: set[str] = set()
 
@@ -411,7 +411,6 @@ def build_playlists(data: dict[str, dict]) -> None:
             f'#EXTINF:-1 tvg-chno="{ch}" tvg-id="{e["id"]}" '
             f'tvg-name="{name}" tvg-logo="{e["logo"]}" group-title="Live Events",{name}',
             f"#EXTVLCOPT:http-referrer={referer}",
-            f"#EXTVLCOPT:http-origin={referer}",
             f"#EXTVLCOPT:http-user-agent={USER_AGENT}",
             stream_url,
             "",
@@ -421,7 +420,7 @@ def build_playlists(data: dict[str, dict]) -> None:
         tm_lines = [
             f'#EXTINF:-1 tvg-chno="{ch}" tvg-id="{e["id"]}" '
             f'tvg-name="{name}" tvg-logo="{e["logo"]}" group-title="Live Events",{name}',
-            f"{stream_url}|referer={referer}|origin={referer}|user-agent={UA_ENC}",
+            f"{stream_url}|referer={referer}|user-agent={UA_ENC}",
             "",
         ]
         tm.extend(tm_lines)
