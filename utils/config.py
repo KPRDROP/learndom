@@ -22,7 +22,7 @@ class Time(datetime):
         # "CET": ZoneInfo("Europe/Berlin"),
         "ET": ZoneInfo("America/New_York"),
         "GMT": ZoneInfo("Europe/London"),
-        # "MSK": ZoneInfo("Europe/Moscow"),
+        "MSK": ZoneInfo("Europe/Moscow"),
         # "PST": ZoneInfo("America/Los_Angeles"),
         "UTC": ZoneInfo("UTC"),
     }
