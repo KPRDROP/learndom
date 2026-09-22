@@ -19,6 +19,7 @@ class Time(datetime):
     __slots__ = ()
 
     ZONES: dict[str, ZoneInfo] = {
+        "ALMT": ZoneInfo("Indian/Maldives"),
         # "CET": ZoneInfo("Europe/Berlin"),
         "ET": ZoneInfo("America/New_York"),
         "GMT": ZoneInfo("Europe/London"),
