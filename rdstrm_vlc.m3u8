@@ -9,11 +9,6 @@ https://admin2.formaturamaxi.com.br/mlb.m3u8
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://admin2.formaturamaxi.com.br/mlb2.m3u8
-#EXTINF:-1 tvg-id="WNBA.dummy.us" tvg-name="[WNBA] New York Liberty vs Atlanta Dream (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rYGG4gUDdmBIgtUkAa0ptISxBB9tBYEgp9hs+in1sdbfeXpZZOky0YB70ohBAA.webp" group-title="Live Events",[WNBA] New York Liberty vs Atlanta Dream (RDSTRM)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://tedesco.formaturamaxi.com.br/wnba.m3u8
 #EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-name="[NFL] Los Angeles Rams vs New York Giants (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rbiHBZiTHBr6aQEEAZIgUJoyCkFgSCn2Gz6KMCpRc35ettEemtGBuYqIQQA.webp" group-title="Live Events",[NFL] Los Angeles Rams vs New York Giants (RDSTRM)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
