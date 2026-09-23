@@ -16,7 +16,7 @@ CACHE_FILE = Cache(TAG, exp=28_800)
 
 API_FILE = Cache(f"{TAG}-api", exp=28_800)
 
-BASE_URL, TOKEN_API = "https://xyzstreams.st/", "https://xyzstreams.blog/1" #"https://dlhd.net"
+BASE_URL, TOKEN_API = "https://xyzstreams.st/", "https://xyzstreams.blog" #"https://dlhd.net"
 
 # Output files
 VLC_OUTPUT = "xyz_vlc.m3u8"
@@ -229,7 +229,7 @@ async def get_events() -> dict[str, dict[str, str | float]]:
     # Step 1: Get token
     if not (
         token_data := await network.request(
-            urljoin(TOKEN_API, "/api/token"),
+            urljoin(TOKEN_API, "1/api/token"),
             headers={"Referer": BASE_URL},
             log=log,
         )
