@@ -16,7 +16,7 @@ CACHE_FILE = Cache(TAG, exp=28_800)
 
 API_FILE = Cache(f"{TAG}-api", exp=28_800)
 
-BASE_URL, TOKEN_API = "https://xyzstreams.st/", "https://dlhd.net"
+BASE_URL, TOKEN_API = "https://xyzstreams.st/", "https://xyzstreams.blog/1" #"https://dlhd.net"
 
 # Output files
 VLC_OUTPUT = "xyz_vlc.m3u8"
