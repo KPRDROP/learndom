@@ -15,7 +15,7 @@ TAG = "ISTRM"
 
 CACHE_FILE = Cache(TAG, exp=10_800)
 
-BASE_URL = "https://thestreameast.one"
+BASE_URL = "https://streameast.cool/"
 
 REFERER = "https://gooz.aapmains.net/"
 ORIGIN = "https://gooz.aapmains.net"
