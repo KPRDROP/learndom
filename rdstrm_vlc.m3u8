@@ -1,61 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] New York Yankees vs Tampa Bay Rays (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzduwAMIfsFhgkOkFhAoQMIxFPmQt0-mBIKWEXMYowqlD0-lG1OW8HejBPcTEIIA.webp" group-title="Live Events",[MLB] New York Yankees vs Tampa Bay Rays (RDSTRM)
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Pittsburgh Pirates vs St. Louis Cardinals (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzdilAgYpEDJC8QWECm0GQEE2dPSWSClhFzGKMKs0c35RtTmb8rMBgbuJiEEA.webp" group-title="Live Events",[MLB] Pittsburgh Pirates vs St. Louis Cardinals (RDSTRM)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://admin2.formaturamaxi.com.br/mlb7.m3u8
-#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Boston Red Sox vs Cleveland Guardians (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzdvUK8w0sEmBIQvEFhAoQMIyAhmLIeyhZIKWEXMYowqlDy-lG1HI++KzAYF7iYhBAA.webp" group-title="Live Events",[MLB] Boston Red Sox vs Cleveland Guardians (RDSTRM)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://admin2.formaturamaxi.com.br/mlb8.m3u8
-#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Atlanta Braves vs Cincinnati Reds (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzKvywh6ABmygQvEFpQgYhkBBCnzNlkgpYRcxijCqUPd+UbU5n-FZgMHdxMQggA.webp" group-title="Live Events",[MLB] Atlanta Braves vs Cincinnati Reds (RDSTRM)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://admin2.formaturamaxi.com.br/mlb9.m3u8
-#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago Cubs vs Miami Marlins (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzNCBhywYJCH5h9ILCBSajEU+bOT8wJBSwi5jFGFUoe78o2pzPdvQ6YowhQA.webp" group-title="Live Events",[MLB] Chicago Cubs vs Miami Marlins (RDSTRM)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://admin2.formaturamaxi.com.br/mlb11.m3u8
-#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Kansas City Royals vs Chicago White Sox (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzKvywhZKGvJC8QWlCBgGQEECbMnJ+YEgpYRcxrtUoeYMvCLU5nvb0YN7iYhBAA.webp" group-title="Live Events",[MLB] Kansas City Royals vs Chicago White Sox (RDSTRM)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://admin2.formaturamaxi.com.br/mlb10.m3u8
-#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Texas Rangers vs New York Mets (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzdv1kAGBEJgheILCBQh9hiCbNXm+YEgpYRcxijCqUPd+UbU5nu3owd3ExCCA.webp" group-title="Live Events",[MLB] Texas Rangers vs New York Mets (RDSTRM)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://admin2.formaturamaxi.com.br/mlb12.m3u8
-#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Colorado Rockies vs Arizona Diamondbacks (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzKtSbyEwMNhC8QWEChAwDICCbPX4LJBSwi5jFGFUoe78o01jP+Ky67uJiEEA.webp" group-title="Live Events",[MLB] Colorado Rockies vs Arizona Diamondbacks (RDSTRM)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://admin2.formaturamaxi.com.br/mlb13.m3u8
-#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[Major League Soccer] Seattle Sounders vs Real Salt Lake (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VJGIF8QKbCG4ht2g9pIhEiAzqZIKfYbPq6VKLmDLwiWWa6a0w7mKiEEA.webp" group-title="Live Events",[Major League Soccer] Seattle Sounders vs Real Salt Lake (RDSTRM)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://tedesco.formaturamaxi.com.br/mls.m3u8
-#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Athletics vs Los Angeles Angels (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzKtWAAGEHCTjpIXiCwgUuoyAhmL5xfmBIKWEXMYowqlD0-lGmsW8HejBPcTEIIA.webp" group-title="Live Events",[MLB] Athletics vs Los Angeles Angels (RDSTRM)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://admin2.formaturamaxi.com.br/mlb14.m3u8
-#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Seattle Mariners vs Houston Astros (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzNCFlhWlMNM0heILCBQgYhkBFPmbJFkgpYRcxijCqUPD+UbU5Xvg6YB7iYhBAA.webp" group-title="Live Events",[MLB] Seattle Mariners vs Houston Astros (RDSTRM)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://admin2.formaturamaxi.com.br/mlb8.m3u8
-#EXTINF:-1 tvg-id="WNBA.dummy.us" tvg-name="[WNBA] Seattle Storm vs Dallas Wings (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rAAwgpIOKKQMQ3LSBKGQKcyCsQQNqQWBIKfYbPoowKlF0-l6WWW8mWjBPMVEIIA.webp" group-title="Live Events",[WNBA] Seattle Storm vs Dallas Wings (RDSTRM)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://tedesco.formaturamaxi.com.br/wnba2.m3u8
-#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Dodgers vs San Diego Padres (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzNCFr8ADCBJ6QMELxBYQKQ8ZARzliyRZIKWEXMYowqlD0-lG1OW98VmAwT3ExCCA.webp" group-title="Live Events",[MLB] Los Angeles Dodgers vs San Diego Padres (RDSTRM)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://admin2.formaturamaxi.com.br/mlb15.m3u8
+https://admin2.formaturamaxi.com.br/mlb.m3u8
