@@ -1,10 +1,10 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-09-24 22:25 UTC
+# Last Updated: 2026-09-25 01:30 UTC
 # Total Streams: 1
 
-#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Netherlands vs Germany 2026-27 UEFA Nations League Group Stage (SPFIT)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Soccer] Netherlands vs Germany 2026-27 UEFA Nations League Group Stage (SPFIT)
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Kosovo vs Republic of Ireland 2026-27 UEFA Nations League Group Stage (SPFIT)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Soccer] Kosovo vs Republic of Ireland 2026-27 UEFA Nations League Group Stage (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://mediadistributionnetwork.s3.us-east-2.amazonaws.com/germany.m3u8
+https://mediadistributionnetwork.s3.us-east-2.amazonaws.com/ireland.m3u8
 
