@@ -1,11 +1,261 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Seattle Mariners vs Los Angeles Angels (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzNCBCtspEDl4gDWEChAxDICCYsHpLJBSwi5jFGFUoe78o2pzP+KzAYO7iYhBAA.webp" group-title="Live Events",[MLB] Seattle Mariners vs Los Angeles Angels (RDSTRM)
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Baylor vs Colorado (RDSTRM)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAA Football] Baylor vs Colorado (RDSTRM)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://admin2.formaturamaxi.com.br/mlb16.m3u8
-#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] San Francisco Giants vs Los Angeles Dodgers (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzNCF4gQfcjhKaQWEChAxDEE4a1YWSCrfajxKMKpQ835RtTkf8rMBgbuJiEEA.webp" group-title="Live Events",[MLB] San Francisco Giants vs Los Angeles Dodgers (RDSTRM)
+https://admin2.formaturamaxi.com.br/ncaa5.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Louisville vs Wake Forest (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aEPDAp2YPtUTcQUkCg0gYICLjN9zBYEgp9hs+ijArtbD+XpZZ2ky0YB5iohBAA.webp" group-title="Live Events",[NCAA Football] Louisville vs Wake Forest (RDSTRM)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://admin2.formaturamaxi.com.br/mlb17.m3u8
+https://admin.formaturamaxi.com.br/ncaa4.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Ohio State vs Illinois (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzuAQ1sFKBWSYAU2DFLABM8E9g1gDCFJMd46Tp51jwywYAE52I4PBEgIIYbJAhs0hSCyl5NGTRIgUIHWUQKs8k5pCIIE3SnJWBQ8QWz0whYElwBjW0LDdOK2FSemdJMH9gKzIIIA.webp" group-title="Live Events",[NCAA Football] Ohio State vs Illinois (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa2.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Tennessee vs Texas (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzuAQ1sFKBWSYAU2DFLABM8E9g1gDCFJMd46Tp51jwywYAE50IeMAggAxiCwhhpEGXmyQwKjPEaQEYIhC6dekock7TKEDAXLxcuSnJ6BQkU2z0whYElzSnITBuTj1FMicCfXJg8zIIIA.webp" group-title="Live Events",[NCAA Football] Tennessee vs Texas (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] UTSA vs Colorado State (RDSTRM)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAA Football] UTSA vs Colorado State (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin.formaturamaxi.com.br/ncaa9.m3u8
+#EXTINF:-1 tvg-id="Football.Dummy.us" tvg-name="[NFL] Boston College vs Virginia Tech (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rFGFHKQMENz0gpIFCES6SpkBZwoCwJBT7DZ9DSpRdN5ellkemtGCaYqIQQA.webp" group-title="Live Events",[NFL] Boston College vs Virginia Tech (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa7.m3u8
+#EXTINF:-1 tvg-id="Football.Dummy.us" tvg-name="[NFL] Toledo vs San Diego State (RDSTRM)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[NFL] Toledo vs San Diego State (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://tedesco.formaturamaxi.com.br/ncaa8.m3u8
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Washington Nationals vs New York Mets (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzNCHoAGYGDBImCELxBYQKEDGMgI569UsskFLCLmMUYVSh5fyjajkffFZdL3ExCCA.webp" group-title="Live Events",[MLB] Washington Nationals vs New York Mets (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/mlb.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Kentucky Wildcats vs South Alabama Jaguars (RDSTRM)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAA Football] Kentucky Wildcats vs South Alabama Jaguars (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa10.m3u8
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Detroit Tigers vs Pittsburgh Pirates (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzdtRAxuEEPwAMekFhAotR3Wd5HT+YEgpYRcxijCqUPd+UbU5nu3owd3ExCCA.webp" group-title="Live Events",[MLB] Detroit Tigers vs Pittsburgh Pirates (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/mlb2.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Maryland vs UCLA (RDSTRM)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAA Football] Maryland vs UCLA (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin.formaturamaxi.com.br/ncaa11.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Purdue vs Notre Dame (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzuAQ1sFKBWSYAU2DFLABM8E9g1gDCFJMd46Tp51jwywYAE50IEMHjAII4FXGkQNKTRkQQiFCBghh06SCwgUB8TpjYlC4dsvz85GQKGyC2emELAkuAMYmhMG5OGT0yEzcpMCD9MgggA.webp" group-title="Live Events",[NCAA Football] Purdue vs Notre Dame (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa12.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Florida State vs Central Arkansas (RDSTRM)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAA Football] Florida State vs Central Arkansas (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa7.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Wyoming vs Hawaii (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VGCD4gUIRHpDcQU7bpAaSpnIm1MkFPsNn0UYFSi6vy9LLPdNaYK5iohBAA.webp" group-title="Live Events",[NCAA Football] Wyoming vs Hawaii (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa13.m3u8
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Toronto Blue Jays vs Cincinnati Reds (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzKoPhheYWUjAoQvEFhCGYRkBDOXjKFvpgCRcxijCqUPD+UbU5XviswGAe4mIQQA.webp" group-title="Live Events",[MLB] Toronto Blue Jays vs Cincinnati Reds (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/mlb3.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Florida vs Ole Miss (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzuAQ1sFKBWSYAU2DFLABM8E9g1gDCFJMd46Tp51jwywYAE5MEEDAkgUpadmlzhIZcqylgNLCHgjl6shGA6tAYxBnlk8VXMiZ-MIJFNs9MIWBJcJmUMetDYXUZAiNyR2BDAyA.webp" group-title="Live Events",[NCAA Football] Florida vs Ole Miss (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Georgia vs Oklahoma (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzuAQ1sFKBWSYAU2DFLABM8E9g1gDCFJMd46Tp51jwywYAE50IKiAjAIkkeJALEAYxAwFILMESbEKEHsQKSq2TSmJh2fSBXr9KclIFCRTbPTCFgSXEodCwbk4pSzIHAi1yQOlSaSA.webp" group-title="Live Events",[NCAA Football] Georgia vs Oklahoma (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin.formaturamaxi.com.br/ncaa4.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Iowa State vs Utah (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzuAQ1sFKBWSYAU2DFLABM8E9g1gDCFJMd46Tp51jwywYAE5MwkAGMQEECRDiUIGJPkqsK+MAhbs0kCBFKQ6rMETKD45drKIU2e-zCCRTbPTCFgSXBPtDnVm1hUnoCM3JnHTIIIA.webp" group-title="Live Events",[NCAA Football] Iowa State vs Utah (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa2.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Michigan vs Iowa (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aECH4g+YASjohuIKSBQhEMECRAQQlsyQLAkFPsNn0UYFfrbfy9Fiy+ky0YN5iohBAA.webp" group-title="Live Events",[NCAA Football] Michigan vs Iowa (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa14.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] New Mexico State vs New Mexico (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rQjEohuIUSG0gpIFCEQwQEXAf3wCwJBT7DZ9FGBUou78vSyzPTLRg7mKiEEA.webp" group-title="Live Events",[NCAA Football] New Mexico State vs New Mexico (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://tedesco.formaturamaxi.com.br/ncaa8.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] UCF vs TCU (RDSTRM)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAA Football] UCF vs TCU (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin.formaturamaxi.com.br/ncaa15.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Western Michigan vs Boise State (RDSTRM)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAA Football] Western Michigan vs Boise State (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa5.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Georgia Southern vs Houston (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzuAQ1sFKBWSYAU2DFLABM8E9g1gDCFJMd46Tp51jwywYAE50ICCBQgYIRCGCJhwCcJBZSskFoDG2YDSohdB7JsRT4exQpBkIIlOXsChIpnsdhCwJLm2OhMG5OeyUyRwIFciDlUmUgA.webp" group-title="Live Events",[NCAA Football] Georgia Southern vs Houston (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin.formaturamaxi.com.br/ncaa9.m3u8
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] San Francisco Giants vs Los Angeles Dodgers (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzNCCg4kYFLtgheILCBQgYhzactGULHTAEi5jPapQ8wZeEWpyP+KzAYF7iYhBAA.webp" group-title="Live Events",[MLB] San Francisco Giants vs Los Angeles Dodgers (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/mlb4.m3u8
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Miami Marlins vs Atlanta Braves (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzKjGIoQO7SRC8QWENpgGQEE+eoGWSClhFzGKMKpQ835RtTkf8rMBgbuJiEEA.webp" group-title="Live Events",[MLB] Miami Marlins vs Atlanta Braves (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/mlb6.m3u8
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Minnesota Twins vs Texas Rangers (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzKohjAADMDACQiXiCwgUIGCGMQzVkNXsskFLCLmMUYVSh5fyjajkffFY9L3ExCCA.webp" group-title="Live Events",[MLB] Minnesota Twins vs Texas Rangers (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/mlb5.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Auburn vs Vanderbilt (RDSTRM)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAA Football] Auburn vs Vanderbilt (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa10.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Michigan State vs Nebraska (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aEIixhu0CBpDcQUkCn0wQJXFZyNgSCn2Gz6KMCpRc35ellkemtGBuYqIQQA.webp" group-title="Live Events",[NCAA Football] Michigan State vs Nebraska (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin.formaturamaxi.com.br/ncaa11.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Penn State vs Wisconsin (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rRFJDcwvfLi0gSIPgaMpDxi3wLAkFa6xFiUYFSi6vy9LLPdNaYK5iohBAA.webp" group-title="Live Events",[NCAA Football] Penn State vs Wisconsin (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa12.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Texas State vs Incarnate Word (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VJHLDciSbCG4gpIFCEQwQJXPuswCwXTH7DZ9FGBUou78vSyzPTLRg7mKiEEA.webp" group-title="Live Events",[NCAA Football] Texas State vs Incarnate Word (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa16.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Virginia vs Delaware (RDSTRM)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAA Football] Virginia vs Delaware (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa7.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Miami (FL) vs Central Michigan (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VGJ0Q4BJENxBSQKEIhghdiYzngFgSCn2Gz6KMCpRc35ellkemtGBuYqIQQA.webp" group-title="Live Events",[NCAA Football] Miami (FL) vs Central Michigan (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa13.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Alabama vs South Carolina (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzuAQ1sFKBWSYAU2DFLABM8E9g1gDCFJMd46Tp51jwywYAE50IEuJEgYwKiHk1E8xDHkgIpWcA0as2kbJABjefpWl1IeNsm9yGgUIMFs9MIWBJcRlE7DdODWFNXxdrMH99MgggA.webp" group-title="Live Events",[NCAA Football] Alabama vs South Carolina (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin.formaturamaxi.com.br/ncaa4.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Cincinnati vs Kansas State (RDSTRM)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAA Football] Cincinnati vs Kansas State (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa5.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] West Virginia vs Oklahoma State (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aELylgyiGAw0gpIFCF0gSICCGvXGwJBT7DZ9FNrYou28vSyzPTLRg7vSiEEA.webp" group-title="Live Events",[NCAA Football] West Virginia vs Oklahoma State (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin.formaturamaxi.com.br/ncaa15.m3u8
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago White Sox vs Colorado Rockies (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzdmMKIUwMCGkheILCBQgYhkBFOXqIeCyQUsIuYxRhVOjp-KNqcjr4rLqe4mIQQA.webp" group-title="Live Events",[MLB] Chicago White Sox vs Colorado Rockies (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/mlb8.m3u8
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Kansas City Royals vs Cleveland Guardians (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzNCHDSQvCvQg6QWEChAxDB07xDUQi-MCQUsIuYxRhVKHp-KNqct4O9GCe4mIQQA.webp" group-title="Live Events",[MLB] Kansas City Royals vs Cleveland Guardians (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/mlb7.m3u8
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Milwaukee Brewers vs St. Louis Cardinals (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzNCBghZY6sAAMYFCF4gsIY1tMQLJkNXsskFLCLmMUYVSh5fyjPTEffFZgMC9xMQggA.webp" group-title="Live Events",[MLB] Milwaukee Brewers vs St. Louis Cardinals (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/mlb9.m3u8
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Philadelphia Phillies vs Tampa Bay Rays (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzNCGogIIerJ0gQvEFhAoQMI9rNWt0lkgpYRcxijCqUPD+UbU5XviswGAe4mIQQA.webp" group-title="Live Events",[MLB] Philadelphia Phillies vs Tampa Bay Rays (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/mlb10.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Texas A&M Aggies at LSU Tigers (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzuAQ1sFKBWSYAU2DFLABM8E9g1gDCFJMd46Tp51jwywYAE5MNEiCzAaWEAGMR0kDBBV5ykIhDAI6mrppb1EYEZQgUOnZpASIl-mEGKC2emELAkuOZaFPWE2FSeld4cicrMgggA.webp" group-title="Live Events",[NCAA Football] Texas A&M Aggies at LSU Tigers (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Utah State Aggies vs Troy Trojans (RDSTRM)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAA Football] Utah State Aggies vs Troy Trojans (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://tedesco.formaturamaxi.com.br/ncaa8.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Washington State vs Arizona (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VFGHAQQvDTB0gpIFCET6SpkPr7GCwJBT7DZ9DSpRcwZeESyyPTLRgXmKiEEA.webp" group-title="Live Events",[NCAA Football] Washington State vs Arizona (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa14.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Mississippi State vs Missouri (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzuAQ1sFKBWSYAU2DFLABM8E9g1gDCFJMd46Tp51jwywYAE5MwkBKzB40kCRAyqEkBBHAlKCdi3C18zQGMQmpRAV6QusrqxyU5VQKFqC2emELAkuA-aFhuTlUrelcZMADgVTIIIA.webp" group-title="Live Events",[NCAA Football] Mississippi State vs Missouri (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa10.m3u8
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] San Diego Padres vs Arizona Diamondbacks (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzdmMSzpIXmB28QWEChAxdICCYvUjLJBSwi5jFGFUoe78o2pzP+KzAYO7iYhBAA.webp" group-title="Live Events",[MLB] San Diego Padres vs Arizona Diamondbacks (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/mlb11.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Missouri State Bears at SMU Mustangs (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzuAQ1sFKBWSYAU2DFLABM8E9g1gDCFJMd46Tp51jwywYAE50IRIgilgEcSBLyQNMoiwgAxiFnxgkmRuDKQMJYZGGNIYSDUpjIECnJSBQ8wWz0whYElzqnITBuTilhaScPHTBgmWkIIA.webp" group-title="Live Events",[NCAA Football] Missouri State Bears at SMU Mustangs (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa7.m3u8
+#EXTINF:-1 tvg-id="Football.Dummy.us" tvg-name="[NFL] App State Mountaineers - NC State Wolfpack (RDSTRM)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[NFL] App State Mountaineers - NC State Wolfpack (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin.formaturamaxi.com.br/ncaa9.m3u8
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Athletics vs Houston Astros (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzdvzJiyWELt56QKEDBAGIRsyGogj+YEgpYRcxijCqUPD+UbU5Xvb0YB7iYhBAA.webp" group-title="Live Events",[MLB] Athletics vs Houston Astros (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/mlb12.m3u8
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Seattle Mariners vs Los Angeles Angels (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzKrzDTyMECk4heILHpC6jEU0ep6WSClhFzGKMKv0c35RtTn78rMBgbuJiEEA.webp" group-title="Live Events",[MLB] Seattle Mariners vs Los Angeles Angels (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/mlb13.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Fresno State vs Rice (RDSTRM)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAA Football] Fresno State vs Rice (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa13.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Nevada vs Air Force (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rKBBCimtMCG4gpIFCEQwtpkOb4gFTJBT7DZ9FGBUou78vSyzPOsBg7mKiEEA.webp" group-title="Live Events",[NCAA Football] Nevada vs Air Force (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin.formaturamaxi.com.br/ncaa15.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Stanford vs Georgia Tech (RDSTRM)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAA Football] Stanford vs Georgia Tech (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin.formaturamaxi.com.br/ncaa4.m3u8
+#EXTINF:-1 tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAA Football] Washington vs Minnesota (RDSTRM)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAA Football] Washington vs Minnesota (RDSTRM)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa2.m3u8
