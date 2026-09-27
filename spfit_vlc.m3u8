@@ -1,2 +1,52 @@
-#EXTM3U
-# No events available
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
+# Last Updated: 2026-09-27 18:38 UTC
+# Total Streams: 8
+
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Austria vs Kosovo 2026-27 UEFA Nations League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Soccer] Austria vs Kosovo 2026-27 UEFA Nations League League Phase (SPFIT)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://storage.googleapis.com/sportinghorizon/redzone/manifest.m3u8
+
+#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Denmark vs Wales 2026-27 UEFA Nations League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Soccer] Denmark vs Wales 2026-27 UEFA Nations League League Phase (SPFIT)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://storage.googleapis.com/sportinghorizon/denmark/manifest.m3u8
+
+#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Gibraltar vs Andorra 2026-27 UEFA Nations League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Soccer] Gibraltar vs Andorra 2026-27 UEFA Nations League League Phase (SPFIT)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://storage.googleapis.com/sportinghorizon/portugal/manifest.m3u8
+
+#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Serbia vs Netherlands 2026-27 UEFA Nations League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Soccer] Serbia vs Netherlands 2026-27 UEFA Nations League League Phase (SPFIT)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://storage.googleapis.com/sportinghorizon/portugal/manifest.m3u8
+
+#EXTINF:-1 tvg-chno="5" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Germany vs Greece 2026-27 UEFA Nations League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Soccer] Germany vs Greece 2026-27 UEFA Nations League League Phase (SPFIT)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://storage.googleapis.com/sportinghorizon/germany/manifest.m3u8
+
+#EXTINF:-1 tvg-chno="6" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Israel vs Republic of Ireland 2026-27 UEFA Nations League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Soccer] Israel vs Republic of Ireland 2026-27 UEFA Nations League League Phase (SPFIT)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://storage.googleapis.com/sportinghorizon/portugal/manifest.m3u8
+
+#EXTINF:-1 tvg-chno="7" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Norway vs Portugal 2026-27 UEFA Nations League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Soccer] Norway vs Portugal 2026-27 UEFA Nations League League Phase (SPFIT)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://storage.googleapis.com/sportinghorizon/portugal/manifest.m3u8
+
+#EXTINF:-1 tvg-chno="8" tvg-id="Football.Dummy.us" tvg-name="[NFL] RedZone (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[NFL] RedZone (SPFIT)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://competitionhorizon.s3.us-east-2.amazonaws.com/redzone.m3u8
+
