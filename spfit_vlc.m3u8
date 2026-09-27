@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-09-27 18:38 UTC
+# Last Updated: 2026-09-27 19:53 UTC
 # Total Streams: 8
 
 #EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Austria vs Kosovo 2026-27 UEFA Nations League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Soccer] Austria vs Kosovo 2026-27 UEFA Nations League League Phase (SPFIT)
@@ -36,7 +36,7 @@ https://storage.googleapis.com/sportinghorizon/germany/manifest.m3u8
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://storage.googleapis.com/sportinghorizon/portugal/manifest.m3u8
+https://storage.googleapis.com/sportinghorizon/denmark/manifest.m3u8
 
 #EXTINF:-1 tvg-chno="7" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Norway vs Portugal 2026-27 UEFA Nations League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Soccer] Norway vs Portugal 2026-27 UEFA Nations League League Phase (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
