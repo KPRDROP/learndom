@@ -1,6 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[Serie A] Romania vs Bosnia-Herzegovina (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VKWBIgZAkMxDcQfECakgU5kBBCJEEpkgp9hs+ik1sUXTeXpZZXky0YB70ohBAA.webp" group-title="Live Events",[Serie A] Romania vs Bosnia-Herzegovina (RDSTRM)
+#EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-name="[NFL] Chicago Bears vs Philadelphia Eagles (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rPtBggtEEFJDcQfECd3GSIFEb2WCwJBT7DZ9FGBUou78vSyzPTLRg7mKiEEA.webp" group-title="Live Events",[NFL] Chicago Bears vs Philadelphia Eagles (RDSTRM)
 #EXTVLCOPT:http-referrer=https://player.viloud.tv/
 #EXTVLCOPT:http-origin=https://player.viloud.tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://admin2.formaturamaxi.com.br/fana.m3u8
+https://reedstreams.to/player?v=3&src=https%3A%2F%2Fbootkit.b-cdn.net%2Fadmin2.formaturamaxi.com.br%2Fnfl.m3u8
