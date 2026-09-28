@@ -1,21 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="NFL.Dummy.us" tvg-name="[NFL] San Francisco 49ers - Arizona Cardinals (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] San Francisco 49ers - Arizona Cardinals (HDEMBED)
+#EXTINF:-1 tvg-chno="1" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Chicago Bears - Philadelphia Eagles (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Chicago Bears - Philadelphia Eagles (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb16.strmd.st/secure/ZbAAzYivpMSxXkeIyLZJzgsaMxHZfYan/ingest/stream/msanfrancisco49ers/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Tampa Bay Buccaneers - Minnesota Vikings (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Tampa Bay Buccaneers - Minnesota Vikings (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb16.strmd.st/secure/BaAQEstKeIPyGgTBHcdaZRKxpgrMjRnb/ingest/stream/mtampabaybuccaneers/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Dallas Cowboys - Baltimore Ravens (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Dallas Cowboys - Baltimore Ravens (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb16.strmd.st/secure/zOLuOwSbYeLNJqrOfrcPXAskyUIJhDRS/ingest/stream/mdallascowboys/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="4" tvg-id="NFL.Dummy.us" tvg-name="[NFL] New Orleans Saints - Las Vegas Raiders (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] New Orleans Saints - Las Vegas Raiders (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb1.strmd.st/secure/OCXUACiIqFOdiveKwPLhXlkGpdyYSAll/ingest/stream/mneworleanssaints/1/playlist.m3u8
+https://lb4.strmd.st/secure/SWEZXdevGTbKrlQtEvEonSEDkkCQQfvx/ingest/stream/mchicagobears/1/playlist.m3u8
