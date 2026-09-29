@@ -3,100 +3,142 @@
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401881965
 #EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401881965
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401881965/index.m3u8?st=ANnVImdB7YSMUuMNZ-ZgJQ&e=1790690799
+https://instreams.pro/live/tv401881965/index.m3u8?st=YeKPkWqOiPLMEOXLP3BXGw&e=1790714391
 
-#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[FIFA_FRIENDLY] Iran vs Russia | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[FIFA_FRIENDLY] Iran vs Russia | English (STGATE)
+#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[FIFA_FRIENDLY] Chile vs United States | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[FIFA_FRIENDLY] Chile vs United States | English (STGATE)
+#EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401905189
+#EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401905189
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://instreams.pro/live/tv401905189/index.m3u8?st=q8ZXXDPa_F-0Qaqs5MBnRA&e=1790714406
+
+#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[FIFA_FRIENDLY] Iran vs Russia | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[FIFA_FRIENDLY] Iran vs Russia | English (STGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401911182
 #EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401911182
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401911182/index.m3u8?st=x5rmXJIg3x-i1pc8r5juMQ&e=1790690801
+https://instreams.pro/live/tv401911182/index.m3u8?st=PvL96kMqQugqkLizNvVpwQ&e=1790714392
 
-#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago White Sox vs Houston Astros | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Chicago White Sox vs Houston Astros | English (STGATE)
+#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[FIFA_FRIENDLY] Peru vs Mexico | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[FIFA_FRIENDLY] Peru vs Mexico | English (STGATE)
+#EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401903234
+#EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401903234
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://instreams.pro/live/tv401903234/index.m3u8?st=O9iApWn0h_6wmBCOtqE5VA&e=1790714407
+
+#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Boston Red Sox vs New York Yankees | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Boston Red Sox vs New York Yankees | English (STGATE)
+#EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401907924
+#EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401907924
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://instreams.pro/live/tv401907924/index.m3u8?st=iP3WJR_8kckx4shEksWhWQ&e=1790714380
+
+#EXTINF:-1 tvg-chno="6" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago Cubs vs San Diego Padres | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Chicago Cubs vs San Diego Padres | English (STGATE)
+#EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401907974
+#EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401907974
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://instreams.pro/live/tv401907974/index.m3u8?st=1eMtKh8oQ0wf2Tb1OzIgnQ&e=1790714381
+
+#EXTINF:-1 tvg-chno="7" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago White Sox vs Houston Astros | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Chicago White Sox vs Houston Astros | English (STGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401907896
 #EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401907896
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401907896/index.m3u8?st=neyAIdC91gx3qqgrzpph2Q&e=1790690796
+https://instreams.pro/live/tv401907896/index.m3u8?st=AK3EDZH_rMmRtZUHw8Tw2g&e=1790714379
 
-#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Philadelphia Phillies vs Atlanta Braves | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Philadelphia Phillies vs Atlanta Braves | English (STGATE)
+#EXTINF:-1 tvg-chno="8" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Philadelphia Phillies vs Atlanta Braves | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Philadelphia Phillies vs Atlanta Braves | English (STGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401907965
 #EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401907965
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401907965/index.m3u8?st=UMgLJZY7Ntb92OiDIZo7hQ&e=1790690795
+https://instreams.pro/live/tv401907965/index.m3u8?st=juFP3T1gTCimM4_FDuPVig&e=1790714378
 
-#EXTINF:-1 tvg-chno="5" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Florida Panthers vs Carolina Hurricanes | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Florida Panthers vs Carolina Hurricanes | English (STGATE)
+#EXTINF:-1 tvg-chno="9" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Chicago Blackhawks vs Vegas Golden Knights | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Chicago Blackhawks vs Vegas Golden Knights | English (STGATE)
+#EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401891775
+#EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401891775
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://instreams.pro/live/tv401891775/index.m3u8?st=GPA2mhC6lwEX6Ah_aUd17A&e=1790714385
+
+#EXTINF:-1 tvg-chno="10" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Florida Panthers vs Carolina Hurricanes | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Florida Panthers vs Carolina Hurricanes | English (STGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401891773
 #EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401891773
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401891773/index.m3u8?st=clD39KGXKW0Fo7FVP72xBg&e=1790690797
+https://instreams.pro/live/tv401891773/index.m3u8?st=CJJ2mJMoMuzTDy8UPNO0VQ&e=1790714382
 
-#EXTINF:-1 tvg-chno="6" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Montreal Canadiens vs Toronto Maple Leafs | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Montreal Canadiens vs Toronto Maple Leafs | English (STGATE)
+#EXTINF:-1 tvg-chno="11" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Montreal Canadiens vs Toronto Maple Leafs | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Montreal Canadiens vs Toronto Maple Leafs | English (STGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401891827
 #EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401891827
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401891827/index.m3u8?st=k2FGWxpRySwSpDDHBOJ3yA&e=1790690798
+https://instreams.pro/live/tv401891827/index.m3u8?st=1DLS-xofGT8dSzbLwqvN9A&e=1790714383
 
-#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[UEFA_NATIONS] Albania vs San Marino | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_NATIONS] Albania vs San Marino | English (STGATE)
+#EXTINF:-1 tvg-chno="12" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] New York Rangers vs Boston Bruins | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] New York Rangers vs Boston Bruins | English (STGATE)
+#EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401891774
+#EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401891774
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://instreams.pro/live/tv401891774/index.m3u8?st=zSjj9VfzPp3W6_h3n6tbDg&e=1790714384
+
+#EXTINF:-1 tvg-chno="13" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Vancouver Canucks vs Edmonton Oilers | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Vancouver Canucks vs Edmonton Oilers | English (STGATE)
+#EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401891804
+#EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401891804
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://instreams.pro/live/tv401891804/index.m3u8?st=lZlu0_Vjcbi_TDo7DmOuOA&e=1790714384
+
+#EXTINF:-1 tvg-chno="14" tvg-id="Live.Event.us" tvg-name="[UEFA_NATIONS] Albania vs San Marino | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_NATIONS] Albania vs San Marino | English (STGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401861088
 #EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401861088
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401861088/index.m3u8?st=b0fLYPAWTO76-4ONWIoGKg&e=1790690807
+https://instreams.pro/live/tv401861088/index.m3u8?st=-lTIkKYRDdR34Ye0ZG6xfw&e=1790714397
 
-#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[UEFA_NATIONS] Belarus vs Finland | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_NATIONS] Belarus vs Finland | English (STGATE)
+#EXTINF:-1 tvg-chno="15" tvg-id="Live.Event.us" tvg-name="[UEFA_NATIONS] Belarus vs Finland | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_NATIONS] Belarus vs Finland | English (STGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401861089
 #EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401861089
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401861089/index.m3u8?st=toysmJNoknkJcsoqR2Ccyg&e=1790690802
+https://instreams.pro/live/tv401861089/index.m3u8?st=ihcfT5z8wG9MzljATEkFoA&e=1790714393
 
-#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[UEFA_NATIONS] Croatia vs Spain | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_NATIONS] Croatia vs Spain | English (STGATE)
+#EXTINF:-1 tvg-chno="16" tvg-id="Live.Event.us" tvg-name="[UEFA_NATIONS] Croatia vs Spain | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_NATIONS] Croatia vs Spain | English (STGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401861084
 #EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401861084
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401861084/index.m3u8?st=QYODG3uCZ85PLLyu5Bp1mQ&e=1790690811
+https://instreams.pro/live/tv401861084/index.m3u8?st=Qh53o3fiDa1RuVJ7KLfG4A&e=1790714405
 
-#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[UEFA_NATIONS] England vs Czechia | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_NATIONS] England vs Czechia | English (STGATE)
+#EXTINF:-1 tvg-chno="17" tvg-id="Live.Event.us" tvg-name="[UEFA_NATIONS] England vs Czechia | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_NATIONS] England vs Czechia | English (STGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401861092
 #EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401861092
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401861092/index.m3u8?st=cbwX75IUAGLJg4IqzCVDIg&e=1790690805
+https://instreams.pro/live/tv401861092/index.m3u8?st=_vq_MJRJsxW5oRgQU2brbQ&e=1790714395
 
-#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[UEFA_NATIONS] Estonia vs Bulgaria | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_NATIONS] Estonia vs Bulgaria | English (STGATE)
+#EXTINF:-1 tvg-chno="18" tvg-id="Live.Event.us" tvg-name="[UEFA_NATIONS] Estonia vs Bulgaria | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_NATIONS] Estonia vs Bulgaria | English (STGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401861083
 #EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401861083
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401861083/index.m3u8?st=pZXXD2sYOL7f_ND9CtVCZQ&e=1790690804
+https://instreams.pro/live/tv401861083/index.m3u8?st=RjXlvi-C7phzzaapDceSxQ&e=1790714395
 
-#EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[UEFA_NATIONS] Faroe Islands vs Moldova | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_NATIONS] Faroe Islands vs Moldova | English (STGATE)
+#EXTINF:-1 tvg-chno="19" tvg-id="Live.Event.us" tvg-name="[UEFA_NATIONS] Faroe Islands vs Moldova | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_NATIONS] Faroe Islands vs Moldova | English (STGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401861090
 #EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401861090
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401861090/index.m3u8?st=zPzAaYjNAu6w3xns0eanJA&e=1790690803
+https://instreams.pro/live/tv401861090/index.m3u8?st=eewv4mcdAPQjecwnKXrn0Q&e=1790714394
 
-#EXTINF:-1 tvg-chno="13" tvg-id="Live.Event.us" tvg-name="[UEFA_NATIONS] Iceland vs Luxembourg | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_NATIONS] Iceland vs Luxembourg | English (STGATE)
+#EXTINF:-1 tvg-chno="20" tvg-id="Live.Event.us" tvg-name="[UEFA_NATIONS] Iceland vs Luxembourg | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_NATIONS] Iceland vs Luxembourg | English (STGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401861086
 #EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401861086
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401861086/index.m3u8?st=PcIUDL9ujZPABHt5rkdsBQ&e=1790690806
+https://instreams.pro/live/tv401861086/index.m3u8?st=L93ZNJUbsQSYp-F-fS51rw&e=1790714396
 
-#EXTINF:-1 tvg-chno="14" tvg-id="Live.Event.us" tvg-name="[UEFA_NATIONS] Kazakhstan vs Slovakia | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_NATIONS] Kazakhstan vs Slovakia | English (STGATE)
+#EXTINF:-1 tvg-chno="21" tvg-id="Live.Event.us" tvg-name="[UEFA_NATIONS] Kazakhstan vs Slovakia | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_NATIONS] Kazakhstan vs Slovakia | English (STGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401861085
 #EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401861085
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401861085/index.m3u8?st=IBBfFd9GY3Ru8P7lmEN1XQ&e=1790690809
+https://instreams.pro/live/tv401861085/index.m3u8?st=6rxgxoYIAlrgKeEu6nH3Dw&e=1790714398
 
-#EXTINF:-1 tvg-chno="15" tvg-id="Live.Event.us" tvg-name="[UEFA_NATIONS] North Macedonia vs Slovenia | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_NATIONS] North Macedonia vs Slovenia | English (STGATE)
+#EXTINF:-1 tvg-chno="22" tvg-id="Live.Event.us" tvg-name="[UEFA_NATIONS] North Macedonia vs Slovenia | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_NATIONS] North Macedonia vs Slovenia | English (STGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401861087
 #EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401861087
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401861087/index.m3u8?st=pk1jCqE6dUXEKD90XonroA&e=1790690810
+https://instreams.pro/live/tv401861087/index.m3u8?st=zUjra_YV-N-1Fv_em4b1hw&e=1790714399
 
-#EXTINF:-1 tvg-chno="16" tvg-id="Live.Event.us" tvg-name="[UEFA_NATIONS] Switzerland vs Scotland | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_NATIONS] Switzerland vs Scotland | English (STGATE)
+#EXTINF:-1 tvg-chno="23" tvg-id="Live.Event.us" tvg-name="[UEFA_NATIONS] Switzerland vs Scotland | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_NATIONS] Switzerland vs Scotland | English (STGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401861091
 #EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv401861091
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401861091/index.m3u8?st=EFj5eXdEBM4y9BV2Dy4XXQ&e=1790690808
+https://instreams.pro/live/tv401861091/index.m3u8?st=OQ3EOG4RppZs7oZByoV8IQ&e=1790714398
 
-#EXTINF:-1 tvg-chno="17" tvg-id="UFC.247.Dummy.us" tvg-name="[UFC] Ilias Bulaid vs Erick Visconde | English (STGATE)" tvg-logo="https://1000logos.net/wp-content/uploads/2017/06/Logo-UFC-500x313.png" group-title="Live Events",[UFC] Ilias Bulaid vs Erick Visconde | English (STGATE)
+#EXTINF:-1 tvg-chno="24" tvg-id="UFC.247.Dummy.us" tvg-name="[UFC] Ilias Bulaid vs Erick Visconde | English (STGATE)" tvg-logo="https://1000logos.net/wp-content/uploads/2017/06/Logo-UFC-500x313.png" group-title="Live Events",[UFC] Ilias Bulaid vs Erick Visconde | English (STGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv600060739
 #EXTVLCOPT:http-origin=https://instream.click/livetv.php?stream=tv600060739
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv600060739/index.m3u8?st=q6fQlLMQIR5yNjKhT8qXxA&e=1790690812
+https://instreams.pro/live/tv600060739/index.m3u8?st=NINrV-YP93BAZ1w7dHM1vQ&e=1790714408
