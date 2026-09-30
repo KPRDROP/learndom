@@ -1,19 +1,31 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-09-29 23:06 UTC
-# Total Streams: 5
+# Last Updated: 2026-09-30 02:10 UTC
+# Total Streams: 9
 
-#EXTINF:-1 tvg-chno="1" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Philadelphia Eagles at Chicago Bears (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Philadelphia Eagles at Chicago Bears (SPFIT)
-https://silencedsniper.s3.us-east-2.amazonaws.com/bears.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] United States vs Chile 2026 International Friendly (SPFIT)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Soccer] United States vs Chile 2026 International Friendly (SPFIT)
+https://fadeddreams.s3.us-east-2.amazonaws.com/usanetwork.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Philadelphia Phillies at Atlanta Braves (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Philadelphia Phillies at Atlanta Braves (SPFIT)
-https://headshothavoc.s3.us-east-2.amazonaws.com/phillies.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Mexico vs Peru 2026 International Friendly (SPFIT)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Soccer] Mexico vs Peru 2026 International Friendly (SPFIT)
+https://fadeddreams.s3.us-east-2.amazonaws.com/mexico.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago White Sox at Houston Astros (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Chicago White Sox at Houston Astros (SPFIT)
-https://headshothavoc.s3.us-east-2.amazonaws.com/phillies.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="3" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Philadelphia Eagles at Chicago Bears (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Philadelphia Eagles at Chicago Bears (SPFIT)
+https://silencedsniper.s3.us-east-2.amazonaws.com/eagles.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Boston Red Sox at New York Yankees (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Boston Red Sox at New York Yankees (SPFIT)
-https://headshothavoc.s3.us-east-2.amazonaws.com/phillies.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="4" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Philadelphia Phillies at Atlanta Braves (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Philadelphia Phillies at Atlanta Braves (SPFIT)
+https://fadeddreams.s3.us-east-2.amazonaws.com/phillies.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago Cubs at San Diego Padres (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Chicago Cubs at San Diego Padres (SPFIT)
-https://headshothavoc.s3.us-east-2.amazonaws.com/phillies.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago White Sox at Houston Astros (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Chicago White Sox at Houston Astros (SPFIT)
+https://fadeddreams.s3.us-east-2.amazonaws.com/whitesox.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="6" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Boston Red Sox at New York Yankees (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Boston Red Sox at New York Yankees (SPFIT)
+https://fadeddreams.s3.us-east-2.amazonaws.com/yankees.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="7" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago Cubs at San Diego Padres (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Chicago Cubs at San Diego Padres (SPFIT)
+https://fadeddreams.s3.us-east-2.amazonaws.com/cubs.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="8" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] at (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] at (SPFIT)
+https://fadeddreams.s3.us-east-2.amazonaws.com/blackhawks.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+
+#EXTINF:-1 tvg-chno="9" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[MMA] Event 65 (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[MMA] Event 65 (SPFIT)
+https://fadeddreams.s3.us-east-2.amazonaws.com/ufc.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
