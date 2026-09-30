@@ -1,21 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Toronto Maple Leafs - Montreal Canadiens (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Toronto Maple Leafs - Montreal Canadiens (HDEMBED)
+#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Atlanta Braves - Philadelphia Phillies (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Atlanta Braves - Philadelphia Phillies (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb16.strmd.st/secure/hyYVOjbXlsjDHMlYGiFBrpVMHpRcRBoH/ingest/stream/mmontrealcanadiens/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Boston Bruins - New York Rangers (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Boston Bruins - New York Rangers (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb16.strmd.st/secure/opjVKatRRRmHMrDcuXSSEiXluQIQKYsn/ingest/stream/mbostonbruins/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] New York Yankees - Boston Red Sox (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] New York Yankees - Boston Red Sox (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb15.strmd.st/secure/ZPQInAeQunwCNGNGwkQlMgXLJqbVHemn/ingest/stream/mnewyorkyankees/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="4" tvg-id="UFC.247.Dummy.us" tvg-name="[UFC] Dana Whites Contender Series season 10 Week 8 (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2017/06/Logo-UFC-500x313.png" group-title="UFC",[UFC] Dana Whites Contender Series season 10 Week 8 (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb15.strmd.st/secure/pewWHGHOEgzzToOMuganceWXwlfRHglq/ingest/stream/mevent1/1/playlist.m3u8
+https://lb28.strmd.st/secure/TaEAIwTqDJehzhswikZOppOyOiLnCbMj/ingest/stream/matlantabraves/1/playlist.m3u8
