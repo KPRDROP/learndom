@@ -4,7 +4,7 @@ from collections.abc import KeysView
 from itertools import chain
 from urllib.parse import urljoin, quote
 
-from .utils import Cache, Time, get_logger, leagues, network
+from utils import Cache, Time, get_logger, leagues, network
 
 log = get_logger(__name__)
 
