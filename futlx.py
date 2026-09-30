@@ -1,10 +1,11 @@
 import asyncio
 import re
+import sys
 from collections.abc import KeysView
 from itertools import chain
 from urllib.parse import urljoin, quote
 
-from utils import Cache, Time, get_logger, leagues, network
+from .utils import Cache, Time, get_logger, leagues, network
 
 log = get_logger(__name__)
 
@@ -84,10 +85,16 @@ async def get_events(cached_keys: KeysView[str]) -> dict[str, dict[str, str | fl
 
             name, sport, event_time, event_streams = values
 
-            event_dt = Time.from_str(event_time, tz_name="MSK")
+            try:
+                event_dt = Time.from_str(event_time, tz_name="MSK")
+            except Exception:
+                event_dt = None
 
-            if event_dt.date() != now.date():
-                continue
+            if event_dt is not None:
+                delta_days = (event_dt.date() - now.date()).days
+                # Widen window: keep events from yesterday up to 7 days ahead
+                if delta_days < -1 or delta_days > 7:
+                    continue
 
             for stream_info in event_streams:
                 if not (source := stream_info.get("url")):
@@ -96,7 +103,7 @@ async def get_events(cached_keys: KeysView[str]) -> dict[str, dict[str, str | fl
                 elif not ptrn.search(source):
                     continue
 
-                url_title = stream_info["title"]
+                url_title = stream_info.get("title") or "Main Feed"
 
                 if (key := f"[{sport}] {name} | {url_title} ({TAG})") in cached_keys:
                     continue
@@ -197,3 +204,17 @@ async def scrape() -> None:
     CACHE_FILE.write(urls)
 
     write_output_files(urls)
+
+
+def main() -> None:
+    try:
+        asyncio.run(scrape())
+    except KeyboardInterrupt:
+        log.info("Interrupted by user")
+    except Exception as e:
+        log.exception(f"Fatal error: {e}")
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()
