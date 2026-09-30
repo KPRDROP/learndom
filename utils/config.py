@@ -202,4 +202,4 @@ class Leagues:
 
 leagues = Leagues()
 
-__all__ = ["leagues", "Event", "Time"]
+__all__ = ["Event", "Time", "leagues"]
