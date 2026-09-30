@@ -123,7 +123,7 @@ class Network:
         fn: Callable[[], Awaitable[T]],
         url_num: int,
         semaphore: asyncio.Semaphore,
-        timeout: int | float = 30,
+        timeout: int = 30,
         timeout_return: T | None = None,
         log: logging.Logger | None = None,
     ) -> T | None:
@@ -291,11 +291,11 @@ class Network:
 
         blocked = [
             re.escape(i)
-            for i in {
+             for i in (
                 # "amazonaws",
                 "knitcdn",
                 "jwpltx",
-            }
+             )
         ]
 
         pattern = re.compile(rf"^(?!.*({'|'.join(blocked)})).*\.m3u8", re.I)
@@ -309,7 +309,7 @@ class Network:
         url: str,
         url_num: int,
         page: Page,
-        timeout: int | float = 10,
+         timeout: int = 10,
         log: logging.Logger | None = None,
     ) -> str | None:
 
