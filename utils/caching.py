@@ -7,7 +7,7 @@ from .config import Time
 class Cache:
     now_ts: float = Time.rn().timestamp()
 
-    def __init__(self, filename: str, exp: int | float) -> None:
+    def __init__(self, filename: str, exp: float) -> None:
         self.file = Path(__file__).parent.parent / "caches" / f"{filename.lower()}.json"
 
         self.exp = exp
