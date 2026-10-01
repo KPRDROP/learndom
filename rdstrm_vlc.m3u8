@@ -1,6 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] San Diego Padres vs Chicago Cubs (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzdtWAAGAZRCMsIXiEMoQMECRDWLZxM3zAkFLCLmMUYVSh5fyjTTEfR3owL3ExCCA.webp" group-title="Live Events",[MLB] San Diego Padres vs Chicago Cubs (RDSTRM)
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Atlanta Braves vs Philadelphia Phillies (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzNCBTz5IHFF4gDWTSBggSIS2ZQhEk-MCQUsIuYxRhVWjp-KNqcloO9GCe4mIQQA.webp" group-title="Live Events",[MLB] Atlanta Braves vs Philadelphia Phillies (RDSTRM)
 #EXTVLCOPT:http-referrer=https://player.viloud.tv/
 #EXTVLCOPT:http-origin=https://player.viloud.tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://admin.formaturamaxi.com.br/mlb2.m3u8
+https://admin2.formaturamaxi.com.br/mlb.m3u8
