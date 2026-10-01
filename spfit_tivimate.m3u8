@@ -1,19 +1,7 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-10-01 07:11 UTC
-# Total Streams: 5
+# Last Updated: 2026-10-01 15:27 UTC
+# Total Streams: 1
 
-#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Philadelphia Phillies at Atlanta Braves (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Philadelphia Phillies at Atlanta Braves (SPFIT)
-https://randompacket.s3.us-east-2.amazonaws.com/phillies.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago White Sox at Houston Astros (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Chicago White Sox at Houston Astros (SPFIT)
-https://randompacket.s3.us-east-2.amazonaws.com/whitesox.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="3" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Boston Red Sox at New York Yankees (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Boston Red Sox at New York Yankees (SPFIT)
-https://randompacket.s3.us-east-2.amazonaws.com/yankees.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="4" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[MMA] Event 30 (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[MMA] Event 30 (SPFIT)
+#EXTINF:-1 tvg-chno="1" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[MMA] Event 47 (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[MMA] Event 47 (SPFIT)
 https://randompacket.s3.us-east-2.amazonaws.com/ufc.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="5" tvg-id="Racing.Dummy.us" tvg-name="[F1] Qatar Airways Azerbaijan Grand Prix (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] Qatar Airways Azerbaijan Grand Prix (SPFIT)
-https://competitionhorizon.s3.us-east-2.amazonaws.com/dodgers.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
