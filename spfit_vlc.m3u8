@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-10-02 00:46 UTC
-# Total Streams: 18
+# Last Updated: 2026-10-02 07:00 UTC
+# Total Streams: 19
 
 #EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Denmark vs Portugal 2026-27 UEFA Nations League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Soccer] Denmark vs Portugal 2026-27 UEFA Nations League League Phase (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
@@ -54,7 +54,7 @@ https://packetpirate.s3.us-east-1.amazonaws.com/steelers.m3u8
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://packetpirate.s3.us-east-1.amazonaws.com/phillies.m3u8
+https://mysterycookie.s3.us-east-1.amazonaws.com/phillies.m3u8
 
 #EXTINF:-1 tvg-chno="10" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Buffalo Sabres at Columbus Blue Jackets (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Buffalo Sabres at Columbus Blue Jackets (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
@@ -104,9 +104,15 @@ https://mysterycookie.s3.us-east-1.amazonaws.com/panthers.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://mysterycookie.s3.us-east-1.amazonaws.com/oilers.m3u8
 
-#EXTINF:-1 tvg-chno="18" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[MMA] Event 47 (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[MMA] Event 47 (SPFIT)
+#EXTINF:-1 tvg-chno="18" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[MMA] Event 46 (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[MMA] Event 46 (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://randompacket.s3.us-east-2.amazonaws.com/ufc.m3u8
+
+#EXTINF:-1 tvg-chno="19" tvg-id="Racing.Dummy.us" tvg-name="[F1] Qatar Airways Azerbaijan Grand Prix (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] Qatar Airways Azerbaijan Grand Prix (SPFIT)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://competitionhorizon.s3.us-east-2.amazonaws.com/dodgers.m3u8
 
