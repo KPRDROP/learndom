@@ -1,6 +1,16 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Boxing] Faour - Sachbazjan (HDEMBED)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Boxing",[Boxing] Faour - Sachbazjan (HDEMBED)
+#EXTINF:-1 tvg-chno="1" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Detroit Red Wings - New York Rangers (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Detroit Red Wings - New York Rangers (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb15.strmd.st/secure/hDYneNcATDqrChKPfaPkBQGTqUlMiGhU/ingest/stream/mevent2/1/playlist.m3u8
+https://lb12.strmd.st/secure/HFmhcBChBdkQWLPixwTpWOloejIaCXxx/ingest/stream/mdetroitredwings/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="2" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Carolina Hurricanes - Washington Capitals (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Carolina Hurricanes - Washington Capitals (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb20.strmd.st/secure/qaPAqEooocSNesekZqVhNELGwYaAJBpz/ingest/stream/mcarolinahurricanes/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="3" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Winnipeg Jets - Boston Bruins (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Winnipeg Jets - Boston Bruins (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb20.strmd.st/secure/YRKDhfdahcJEvEQIqHcRtZCxgoOXYDMo/ingest/stream/mwinnipegjets/1/playlist.m3u8
