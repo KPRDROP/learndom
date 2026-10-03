@@ -1,16 +1,26 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Detroit Red Wings - New York Rangers (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Detroit Red Wings - New York Rangers (HDEMBED)
+#EXTINF:-1 tvg-chno="1" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Penn State Nittany Lions - Northwestern Wildcats (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] Penn State Nittany Lions - Northwestern Wildcats (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb12.strmd.st/secure/HFmhcBChBdkQWLPixwTpWOloejIaCXxx/ingest/stream/mdetroitredwings/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Carolina Hurricanes - Washington Capitals (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Carolina Hurricanes - Washington Capitals (HDEMBED)
+https://lb32.strmd.st/secure/VjWBBvBWduYkozClSMrRpwHFQmmYnjDw/ingest/stream/nfoxhd/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="2" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Vegas Golden Knights - Anaheim Ducks (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Vegas Golden Knights - Anaheim Ducks (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb20.strmd.st/secure/qaPAqEooocSNesekZqVhNELGwYaAJBpz/ingest/stream/mcarolinahurricanes/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Winnipeg Jets - Boston Bruins (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Winnipeg Jets - Boston Bruins (HDEMBED)
+https://lb32.strmd.st/secure/iWuLWMfQpzyotJAxYeHgXKWwdMWuGwMC/ingest/stream/mvegasgoldenknights/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="3" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Boxing] Omari Jones - Alan Sanchez (HDEMBED)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Boxing",[Boxing] Omari Jones - Alan Sanchez (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb20.strmd.st/secure/YRKDhfdahcJEvEQIqHcRtZCxgoOXYDMo/ingest/stream/mwinnipegjets/1/playlist.m3u8
+https://lb32.strmd.st/secure/OpbwqNYCamDPKyCatSausEHsaAMBvpTT/ingest/stream/mevent3/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="4" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Mma/pfl/bkfc] Fury FC 125 (HDEMBED)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Mma/pfl/bkfc",[Mma/pfl/bkfc] Fury FC 125 (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb32.strmd.st/secure/lOYeSbUmthZVYMPOjdlNDkOxPqgewZdu/ingest/stream/mevent4/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="5" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Boxing] Naomy Cardenas - Melanie Timko (HDEMBED)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Boxing",[Boxing] Naomy Cardenas - Melanie Timko (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb32.strmd.st/secure/gKSerzHQYaytyrHJDssjuRJUfRUvcPjx/ingest/stream/mevent5/1/playlist.m3u8
