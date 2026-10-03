@@ -1,6 +1,81 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Mma/pfl/bkfc] BKFC Fight Night Hepi - Shewmaker (HDEMBED)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Mma/pfl/bkfc",[Mma/pfl/bkfc] BKFC Fight Night Hepi - Shewmaker (HDEMBED)
+#EXTINF:-1 tvg-chno="1" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Memphis Tigers - Charlotte 49ers (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] Memphis Tigers - Charlotte 49ers (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb22.strmd.st/secure/rjuesxHpGiTkEoaSuLHkhCEUOSFXMudY/ingest/stream/mevent3/1/playlist.m3u8
+https://lb30.strmd.st/secure/SPtAflXbYRGjsyoVxxSbVPFBzZrBGJep/ingest/stream/espnplus1/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="2" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Cleveland Guardians - Chicago White Sox (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Cleveland Guardians - Chicago White Sox (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb15.strmd.st/secure/NtXYkkDAcBiQmmtnBqmhmLOgUZGKSOeY/ingest/stream/mclevelandguardians/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="3" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Notre Dame Fighting Irish - North Carolina Tar Heels (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] Notre Dame Fighting Irish - North Carolina Tar Heels (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb15.strmd.st/secure/ckWusYgHgokRkqmcnrELYRFSBzzmHwHw/ingest/stream/nespnhd/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="4" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Alabama Crimson Tide - Mississippi State Bulldogs (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] Alabama Crimson Tide - Mississippi State Bulldogs (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb15.strmd.st/secure/DEKUfGXMFWCrxpLXZmQPjsZVfLQRjrwh/ingest/stream/nabchd/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="5" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] UCF Knights - Houston Cougars (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] UCF Knights - Houston Cougars (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb15.strmd.st/secure/CZkFRyXkvodbHdBWxgcLuVNnUgxXkxLn/ingest/stream/nespn2hd/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="6" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Boston College Eagles - SMU Mustangs (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] Boston College Eagles - SMU Mustangs (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb15.strmd.st/secure/WrfjUvcFiOQfUIguBoAGvcbqaEQFdqFK/ingest/stream/ncwnet/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="7" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Middle Tennessee Blue Raiders - Kansas Jayhawks (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] Middle Tennessee Blue Raiders - Kansas Jayhawks (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb11.strmd.st/secure/kEYDMODJgQuJLAnIvgwnGmXaNkoBVRri/ingest/stream/nespnuhd/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="8" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] West Virginia Mountaineers - Iowa State Cyclones (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] West Virginia Mountaineers - Iowa State Cyclones (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb11.strmd.st/secure/STagziQXYMvnBlHEFTnbKLAnqMfXYqfi/ingest/stream/ntnt/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="9" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Stanford Cardinal - Wake Forest Demon Deacons (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] Stanford Cardinal - Wake Forest Demon Deacons (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb11.strmd.st/secure/yzGOuHVdFKfXfyWZrJmYAAMYxrJZIZTD/ingest/stream/naccn/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="10" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Syracuse Orange - UConn Huskies (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] Syracuse Orange - UConn Huskies (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb11.strmd.st/secure/CzYotfXpSgsNFJDtCSoadrxWvntocbTB/ingest/stream/ncbsn/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="11" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Michigan Wolverines - Minnesota Golden Gophers (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] Michigan Wolverines - Minnesota Golden Gophers (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb11.strmd.st/secure/OPvadhGrtYaNrYIqbbbiIQfSaTftUmMA/ingest/stream/nfoxhd/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="12" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Navy Midshipmen - Air Force Falcons (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] Navy Midshipmen - Air Force Falcons (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb11.strmd.st/secure/erAOFFGbJJgCumDPWPFuiDuYgPLzYukV/ingest/stream/ncbshd/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="13" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Boxing] Ben Whittaker - Conor Wallace (HDEMBED)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Boxing",[Boxing] Ben Whittaker - Conor Wallace (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb14.strmd.st/secure/aXDPobGKyzGKMegxSSOVNmpWQNjnigdr/ingest/stream/mevent4/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="14" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Michigan State Spartans - Wisconsin Badgers (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] Michigan State Spartans - Wisconsin Badgers (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb14.strmd.st/secure/dijzRPfriZyIIxbuJyLuLgfpPiPqJDYw/ingest/stream/nbtn/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="15" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Vanderbilt Commodores - Georgia Bulldogs (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] Vanderbilt Commodores - Georgia Bulldogs (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb14.strmd.st/secure/EXukvuLzqChdwbduMrXCHlbdNhXvJPor/ingest/stream/nsecnet/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="16" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Western Michigan Broncos - Buffalo Bulls (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] Western Michigan Broncos - Buffalo Bulls (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb14.strmd.st/secure/CPjntpbJENyCSdnxSOkfMzlUWGJqgsas/ingest/stream/espnplus2/1/playlist.m3u8
