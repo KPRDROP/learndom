@@ -34,11 +34,11 @@ https://futbx.b-cdn.net/pol/index.m3u8
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 https://futbx.b-cdn.net/ukr/index.m3u8
-#EXTINF:-1 tvg-chno="8" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[MMA] One Friday Fights 173 | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[MMA] One Friday Fights 173 | Main Feed (FUTLX)
+#EXTINF:-1 tvg-chno="8" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[PPV] Jones vs Sanchez | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[PPV] Jones vs Sanchez | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://futbx.b-cdn.net/one/index.m3u8
+https://maniy.b-cdn.net/ppv/index.m3u8
 #EXTINF:-1 tvg-chno="9" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[MMA] PFL MENA 11: Riyadh | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[MMA] PFL MENA 11: Riyadh | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
@@ -63,7 +63,7 @@ https://maniy.b-cdn.net/pit-cle/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://hey.futbol-tv.online/wwe/index.m3u8
+https://maniy.b-cdn.net/wwe/index.m3u8
 #EXTINF:-1 tvg-chno="14" tvg-id="Darts.Dummy.us" tvg-name="[Darts] 2026 World Grand Prix | Day 4 | Main Feed (FUTLX)" tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/013/468/398/small/darts-board-icon-png.png" group-title="Live Events",[Darts] 2026 World Grand Prix | Day 4 | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
