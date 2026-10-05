@@ -1,41 +1,36 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Milwaukee Brewers - San Diego Padres (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Milwaukee Brewers - San Diego Padres (HDEMBED)
+#EXTINF:-1 tvg-chno="1" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Denver Nuggets - Utah Jazz (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="NBA",[NBA] Denver Nuggets - Utah Jazz (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb17.strmd.st/secure/bgyXkwWuBXBPuVpYFSYtFNVWxRmMjaod/ingest/stream/streamedmilwaukeebrewers/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Minnesota Vikings - Miami Dolphins (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Minnesota Vikings - Miami Dolphins (HDEMBED)
+https://lb8.strmd.st/secure/GiAdKsnaoQNzuraeVKrEJsyyDJvBgggA/ingest/stream/streameddenvernuggets/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="2" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] LA Clippers - Golden State Warriors (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="NBA",[NBA] LA Clippers - Golden State Warriors (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb23.strmd.st/secure/kMCyZKwruRDJWSxnpJlBhLrSfvLxwjcC/ingest/stream/streamedminnesotavikings/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Las Vegas Raiders - Kansas City Chiefs (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Las Vegas Raiders - Kansas City Chiefs (HDEMBED)
+https://lb16.strmd.st/secure/gnMVJrPkWkMtYlExVctONvTaAcLoyhSB/ingest/stream/streamedlosangelesclippers/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="3" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Anaheim Ducks - Florida Panthers (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Anaheim Ducks - Florida Panthers (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb23.strmd.st/secure/xhWFmSFvZCXQACfqvSIugBXDbWfBQYvi/ingest/stream/streamedlasvegasraiders/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="4" tvg-id="NFL.Dummy.us" tvg-name="[NFL] San Francisco 49ers - Denver Broncos (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] San Francisco 49ers - Denver Broncos (HDEMBED)
+https://lb16.strmd.st/secure/TTjBWUfOBCrtmlBlsjdFkUrCnSkmjIkq/ingest/stream/streamedmanheimducks/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="4" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Seattle Kraken - Calgary Flames (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Seattle Kraken - Calgary Flames (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb23.strmd.st/secure/pYthGIuVjEXctaUjILlLJgHCUICnVHlm/ingest/stream/streamedsanfrancisco49ers/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="5" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Seattle Seahawks - Los Angeles Chargers (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Seattle Seahawks - Los Angeles Chargers (HDEMBED)
+https://lb16.strmd.st/secure/JsMaqoHCiyIADZrfggNJqNgACCFNBqnx/ingest/stream/streamedseattlekraken/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="5" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Dodgers - Atlanta Braves (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Los Angeles Dodgers - Atlanta Braves (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb23.strmd.st/secure/agOKNabxfKPdZZrGsYFGvcFdwDWBkUTM/ingest/stream/streamedseattleseahawks/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="6" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] New York Rangers - Utah Mammoth (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] New York Rangers - Utah Mammoth (HDEMBED)
+https://lb16.strmd.st/secure/lpizGJCDBPnhiKokipNQONUhclRGGfjX/ingest/stream/streamedlosangelesdodgers/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="6" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Carolina Panthers - Detroit Lions (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="NFL",[NFL] Carolina Panthers - Detroit Lions (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb23.strmd.st/secure/WWSLXwzNrNELBljWHeIqsuzwuHNDfbPU/ingest/stream/streamednewyorkrangers/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="7" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Denver Nuggets - Utah Jazz (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="NBA",[NBA] Denver Nuggets - Utah Jazz (HDEMBED)
+https://lb16.strmd.st/secure/yDrLgrRKlIdHeAUWpolhGeSqCoLAFnFR/ingest/stream/streamedcarolinapanthers/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="7" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Vancouver Canucks - Vegas Golden Knights (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Vancouver Canucks - Vegas Golden Knights (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb23.strmd.st/secure/MwPmdfSXyVEZSeCwGYuhMqGYvOsXTAYe/ingest/stream/streameddenvernuggets/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="8" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] LA Clippers - Golden State Warriors (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="NBA",[NBA] LA Clippers - Golden State Warriors (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb5.strmd.st/secure/IbIZpaXJuUZIhDVGtHwrhzQpgMZARovn/ingest/stream/streamedlosangelesclippers/1/playlist.m3u8
+https://lb16.strmd.st/secure/nYfnXjNazDDhoTidRFQZSVxquVVArUIB/ingest/stream/streamedvancouvercanucks/1/playlist.m3u8
