@@ -1,56 +1,14 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-10-06 07:32 UTC
-# Total Streams: 9
+# Last Updated: 2026-10-06 15:06 UTC
+# Total Streams: 2
 
-#EXTINF:-1 tvg-chno="1" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Memphis Grizzlies at Atlanta Hawks (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Memphis Grizzlies at Atlanta Hawks (SPFIT)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://glitchmuffin.s3.us-east-1.amazonaws.com/grizzlies.m3u8
-
-#EXTINF:-1 tvg-chno="2" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Phoenix Suns at Detroit Pistons (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Phoenix Suns at Detroit Pistons (SPFIT)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://glitchmuffin.s3.us-east-1.amazonaws.com/pistons.m3u8
-
-#EXTINF:-1 tvg-chno="3" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] New York Knicks at Philadelphia 76ers (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] New York Knicks at Philadelphia 76ers (SPFIT)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://glitchmuffin.s3.us-east-1.amazonaws.com/76ers2.m3u8
-
-#EXTINF:-1 tvg-chno="4" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Minnesota Timberwolves at Milwaukee Bucks (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Minnesota Timberwolves at Milwaukee Bucks (SPFIT)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://glitchmuffin.s3.us-east-1.amazonaws.com/bucks.m3u8
-
-#EXTINF:-1 tvg-chno="5" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Los Angeles Lakers at Sacramento Kings (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Los Angeles Lakers at Sacramento Kings (SPFIT)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://glitchmuffin.s3.us-east-1.amazonaws.com/lakers.m3u8
-
-#EXTINF:-1 tvg-chno="6" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Atlanta Falcons at New Orleans Saints (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Atlanta Falcons at New Orleans Saints (SPFIT)
+#EXTINF:-1 tvg-chno="1" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Atlanta Falcons at New Orleans Saints (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Atlanta Falcons at New Orleans Saints (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://glitchmuffin.s3.us-east-1.amazonaws.com/falcons.m3u8
 
-#EXTINF:-1 tvg-chno="7" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Chicago White Sox at Cleveland Guardians (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Chicago White Sox at Cleveland Guardians (SPFIT)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://glitchmuffin.s3.us-east-1.amazonaws.com/whitesox.m3u8
-
-#EXTINF:-1 tvg-chno="8" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] New York Yankees at Tampa Bay Rays (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] New York Yankees at Tampa Bay Rays (SPFIT)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://glitchmuffin.s3.us-east-1.amazonaws.com/yankees.m3u8
-
-#EXTINF:-1 tvg-chno="9" tvg-id="Racing.Dummy.us" tvg-name="[F1] Gulf Air Bahrain Grand Prix (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] Gulf Air Bahrain Grand Prix (SPFIT)
+#EXTINF:-1 tvg-chno="2" tvg-id="Racing.Dummy.us" tvg-name="[F1] Gulf Air Bahrain Grand Prix (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] Gulf Air Bahrain Grand Prix (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
