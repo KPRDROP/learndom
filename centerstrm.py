@@ -14,8 +14,8 @@ log = get_logger(__name__)
 TAG = "STRMCNTR"
 
 CACHE_FILE = Cache(f"{TAG.lower()}.json", exp=10_800)
-OUTPUT_FILE = Path("centerstrm.m3u")
-OUTPUT_TIVI = Path("centerstrm_tivi.m3u")
+OUTPUT_FILE = Path("centerstrm.m3u8")
+OUTPUT_TIVI = Path("centerstrm_tivi.m3u8")
 
 # API URL FROM SECRET
 BASE_URL = os.environ["CENTERSTRM_API"]
@@ -247,7 +247,7 @@ async def scrape() -> None:
     if not events:
         OUTPUT_FILE.write_text(build_playlist(cached), encoding="utf-8")
         OUTPUT_TIVI.write_text(build_playlist_tivi(cached), encoding="utf-8")
-        log.info(f"Wrote {len(cached)} entries to centerstrm.m3u and centerstrm_tivi.m3u")
+        log.info(f"Wrote {len(cached)} entries to centerstrm.m3u8 and centerstrm_tivi.m3u8")
         return
 
     async with async_playwright() as p:
@@ -307,7 +307,7 @@ async def scrape() -> None:
     OUTPUT_FILE.write_text(build_playlist(cached), encoding="utf-8")
     OUTPUT_TIVI.write_text(build_playlist_tivi(cached), encoding="utf-8")
 
-    log.info(f"Wrote {len(cached)} entries to centerstrm.m3u and centerstrm_tivi.m3u")
+    log.info(f"Wrote {len(cached)} entries to centerstrm.m3u8 and centerstrm_tivi.m3u8")
 
 
 # -------------------------------------------------
