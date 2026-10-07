@@ -23,7 +23,7 @@ jobs:
 
       - name: Install deps
         run: 
-          pip install playwright selectolax httpx[http2] tzdata pytz
+          pip install playwright selectolax httpx[http2] tzdata pytz "adblock>=0.6.0"
 
       - name: Run updater
         run: python -m awaf
