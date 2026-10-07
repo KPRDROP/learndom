@@ -21,6 +21,12 @@ OUTPUT_TIVI = Path("centerstrm_tivi.m3u8")
 BASE_URL = os.environ["CENTERSTRM_API"]
 ALT_BASE = os.environ["ALT_CENTERSTRM_API"]
 
+UA_RAW = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/144.0.0.0 Safari/537.36"
+)
+
 UA_ENC = (
     "Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)"
     "%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)"
@@ -59,22 +65,31 @@ def fix_sport(s: str) -> str:
     return f"{i.upper() if len(i) < 5 else i.capitalize()} {' '.join(x.capitalize() for x in splits[1:])}".strip()
 
 
-async def process_event(url: str, url_num: int) -> str | None:
-    """Process a single event to extract the stream URL"""
+async def fetch_with_browser(context, url: str, url_num: int = 0) -> str | None:
+    """Fetch a URL using browser context to bypass 403 blocking"""
     try:
-        if not (
-            html_data := await network.request(
-                url,
-                url_num,
-                headers={"Referer": BASE_URL},
-                timeout=httpx.Timeout(25.0),
-                log=log,
-            )
-        ):
+        page = await context.new_page()
+        try:
+            await page.goto(url, wait_until="domcontentloaded", timeout=30000)
+            await page.wait_for_timeout(2000)
+            html = await page.content()
+            return html
+        finally:
+            await page.close()
+    except Exception as e:
+        log.error(f"URL {url_num}) Browser fetch failed: {str(e)[:80]}")
+        return None
+
+
+async def process_event(url: str, url_num: int, context) -> str | None:
+    """Process a single event to extract the stream URL using browser"""
+    try:
+        html = await fetch_with_browser(context, url, url_num)
+        if not html:
             log.warning(f"URL {url_num}) Failed to load url.")
             return None
 
-        soup = HTMLParser(html_data.content)
+        soup = HTMLParser(html)
 
         iframe = soup.css_first("iframe")
         if not iframe or not (src := iframe.attributes.get("src")):
@@ -98,23 +113,21 @@ async def process_event(url: str, url_num: int) -> str | None:
         return None
 
 
-async def get_events(cached_ids: set[str]) -> list[dict]:
-    """Get events by parsing HTML from the website"""
+async def get_events(cached_ids: set[str], context) -> list[dict]:
+    """Get events by parsing HTML from the website using browser"""
     now = Time.rn()
     events = []
 
-    # Fetch the game cards embed page
-    if not (
-        html_data := await network.request(
-            urljoin(BASE_URL, "game-cards/embed"),
-            log=log,
-        )
-    ):
+    target_url = urljoin(BASE_URL, "game-cards/embed")
+    log.info(f'Fetching events from "{target_url}"')
+
+    html = await fetch_with_browser(context, target_url)
+    if not html:
         log.error("Failed to load game cards")
         return events
 
     try:
-        soup = HTMLParser(html_data.content)
+        soup = HTMLParser(html)
     except Exception as e:
         log.error(f"Failed to parse HTML: {str(e)[:50]}")
         return events
@@ -179,7 +192,7 @@ async def get_events(cached_ids: set[str]) -> list[dict]:
 
 
 # -------------------------------------------------
-# PLAYLIST BUILDER
+# PLAYLIST BUILDERS
 # -------------------------------------------------
 def build_playlist(data: dict) -> str:
     lines = ["#EXTM3U"]
@@ -225,7 +238,7 @@ def build_playlist_tivi(data: dict) -> str:
 
         lines.append(f'#EXTVLCOPT:http-referrer={ALT_BASE}/')
         lines.append(f'#EXTVLCOPT:http-origin={ALT_BASE}')
-        lines.append(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36')
+        lines.append(f'#EXTVLCOPT:http-user-agent={UA_RAW}')
         lines.append(e["url"])
         ch += 1
 
@@ -241,64 +254,68 @@ async def scrape() -> None:
 
     log.info(f"Loaded {len(cached)} cached events")
 
-    events = await get_events(cached_ids)
-    log.info(f"Found {len(events)} live/upcoming events")
-
-    if not events:
-        OUTPUT_FILE.write_text(build_playlist(cached), encoding="utf-8")
-        OUTPUT_TIVI.write_text(build_playlist_tivi(cached), encoding="utf-8")
-        log.info(f"Wrote {len(cached)} entries to centerstrm.m3u8 and centerstrm_tivi.m3u8")
-        return
-
     async with async_playwright() as p:
         browser = await p.chromium.launch(
             headless=True,
-            args=["--no-sandbox", "--disable-dev-shm-usage"],
+            args=[
+                "--no-sandbox",
+                "--disable-dev-shm-usage",
+                "--disable-blink-features=AutomationControlled",
+                "--disable-web-security",
+                "--disable-features=IsolateOrigins,site-per-process",
+            ],
         )
 
         try:
-            async with network.event_context(browser, stealth=False) as context:
-                processed = 0
-                failed = 0
+            context = await browser.new_context(
+                user_agent=UA_RAW,
+                viewport={"width": 1920, "height": 1080},
+                locale="en-US",
+                extra_http_headers={
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                },
+            )
 
-                for i, ev in enumerate(events, start=1):
-                    async with network.event_page(context) as page:
-                        try:
-                            stream = await network.process_event(
-                                page=page,
-                                url=ev["link"],
-                                url_num=i,
-                                timeout=20,
-                                log=log,
-                            )
-                        except Exception as e:
-                            log.error(f"URL {i}) Failed: {e}")
-                            failed += 1
-                            continue
+            # Stealth: hide automation
+            await context.add_init_script(
+                "Object.defineProperty(navigator, 'webdriver', {get: () => undefined});"
+            )
 
-                        if not stream:
-                            failed += 1
-                            continue
+            events = await get_events(cached_ids, context)
+            log.info(f"Found {len(events)} live/upcoming events")
 
-                        # Get TVG info
-                        tvg_id, logo = leagues.get_tvg_info(
-                            ev["sport"], ev["event"]
-                        )
+            if not events:
+                OUTPUT_FILE.write_text(build_playlist(cached), encoding="utf-8")
+                OUTPUT_TIVI.write_text(build_playlist_tivi(cached), encoding="utf-8")
+                log.info(f"Wrote {len(cached)} entries to both playlists")
+                return
 
-                        # Use the event ID as cache key
-                        cache_key = ev["id"]
+            processed = 0
+            failed = 0
 
-                        cached[cache_key] = {
-                            "name": f"[{ev['sport']}] {ev['event']} ({TAG})",
-                            "url": stream,
-                            "logo": logo or "",
-                            "timestamp": ev["timestamp"],
-                            "id": tvg_id or "Live.Event.us",
-                            "language": ev.get("language", ""),
-                        }
-                        processed += 1
+            for i, ev in enumerate(events, start=1):
+                stream = await process_event(ev["link"], i, context)
 
-                log.info(f"Successfully processed {processed} events, {failed} failed")
+                if not stream:
+                    failed += 1
+                    continue
+
+                tvg_id, logo = leagues.get_tvg_info(ev["sport"], ev["event"])
+
+                cache_key = ev["id"]
+
+                cached[cache_key] = {
+                    "name": f"[{ev['sport']}] {ev['event']} ({TAG})",
+                    "url": stream,
+                    "logo": logo or "",
+                    "timestamp": ev["timestamp"],
+                    "id": tvg_id or "Live.Event.us",
+                    "language": ev.get("language", ""),
+                }
+                processed += 1
+
+            log.info(f"Successfully processed {processed} events, {failed} failed")
 
         finally:
             await browser.close()
