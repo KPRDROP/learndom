@@ -65,30 +65,37 @@ def fix_sport(s: str) -> str:
     return f"{i.upper() if len(i) < 5 else i.capitalize()} {' '.join(x.capitalize() for x in splits[1:])}".strip()
 
 
-async def fetch_with_browser(context, url: str, url_num: int = 0) -> str | None:
-    """Fetch a URL using browser context to bypass 403 blocking"""
+async def extract_stream_from_page(page, url: str, url_num: int) -> str | None:
+    """Extract stream from an already loaded page object"""
     try:
-        page = await context.new_page()
+        # Wait for iframe to appear (it may be JS generated)
         try:
-            await page.goto(url, wait_until="domcontentloaded", timeout=30000)
-            await page.wait_for_timeout(2000)
-            html = await page.content()
-            return html
-        finally:
-            await page.close()
-    except Exception as e:
-        log.error(f"URL {url_num}) Browser fetch failed: {str(e)[:80]}")
-        return None
+            await page.wait_for_selector("iframe", timeout=10000)
+        except Exception:
+            log.warning(f"URL {url_num}) No iframe appeared within timeout.")
 
+        # Get all frames on the page
+        frames = page.frames
+        
+        # Check each frame for the stream URL pattern
+        for frame in frames:
+            try:
+                frame_url = frame.url
+                if not frame_url or frame_url == "about:blank":
+                    continue
+                
+                # Check if this frame URL contains stream parameter
+                splits = urlsplit(frame_url)
+                params = dict(parse_qsl(splits.query))
+                if stream_id := params.get("stream"):
+                    stream_url = f"https://edgestream{random.randrange(3,8)}.pro/hls/{stream_id}.m3u8"
+                    log.info(f"URL {url_num}) Captured M3U8 from frame URL")
+                    return stream_url
+            except Exception:
+                continue
 
-async def process_event(url: str, url_num: int, context) -> str | None:
-    """Process a single event to extract the stream URL using browser"""
-    try:
-        html = await fetch_with_browser(context, url, url_num)
-        if not html:
-            log.warning(f"URL {url_num}) Failed to load url.")
-            return None
-
+        # Fallback: parse HTML for iframe src
+        html = await page.content()
         soup = HTMLParser(html)
 
         iframe = soup.css_first("iframe")
@@ -100,20 +107,43 @@ async def process_event(url: str, url_num: int, context) -> str | None:
         params = dict(parse_qsl(splits.query))
 
         if not (stream_id := params.get("stream")):
-            log.warning(f"URL {url_num}) No stream ID found.")
+            log.warning(f"URL {url_num}) No stream ID found in iframe src.")
             return None
 
         stream_url = f"https://edgestream{random.randrange(3,8)}.pro/hls/{stream_id}.m3u8"
-        log.info(f"URL {url_num}) Captured M3U8")
-
+        log.info(f"URL {url_num}) Captured M3U8 from iframe src")
         return stream_url
 
     except Exception as e:
-        log.error(f"URL {url_num}) Error processing: {str(e)[:50]}")
+        log.error(f"URL {url_num}) Extract error: {str(e)[:80]}")
         return None
 
 
-async def get_events(cached_ids: set[str], context) -> list[dict]:
+async def process_event(url: str, url_num: int, context) -> str | None:
+    """Process a single event using browser context to handle JS"""
+    page = None
+    try:
+        page = await context.new_page()
+        await page.goto(url, wait_until="domcontentloaded", timeout=30000)
+        
+        # Give JS time to inject iframe
+        await page.wait_for_timeout(3000)
+        
+        stream = await extract_stream_from_page(page, url, url_num)
+        return stream
+        
+    except Exception as e:
+        log.error(f"URL {url_num}) Browser error: {str(e)[:80]}")
+        return None
+    finally:
+        if page:
+            try:
+                await page.close()
+            except Exception:
+                pass
+
+
+async def get_events(cached_ids: set[str]) -> list[dict]:
     """Get events by parsing HTML from the website using browser"""
     now = Time.rn()
     events = []
@@ -121,10 +151,32 @@ async def get_events(cached_ids: set[str], context) -> list[dict]:
     target_url = urljoin(BASE_URL, "game-cards/embed")
     log.info(f'Fetching events from "{target_url}"')
 
-    html = await fetch_with_browser(context, target_url)
-    if not html:
-        log.error("Failed to load game cards")
-        return events
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(
+            headless=True,
+            args=[
+                "--no-sandbox",
+                "--disable-dev-shm-usage",
+                "--disable-blink-features=AutomationControlled",
+            ],
+        )
+
+        try:
+            context = await browser.new_context(
+                user_agent=UA_RAW,
+                viewport={"width": 1920, "height": 1080},
+                locale="en-US",
+            )
+
+            page = await context.new_page()
+            await page.goto(target_url, wait_until="domcontentloaded", timeout=30000)
+            await page.wait_for_timeout(3000)
+
+            html = await page.content()
+            await page.close()
+
+        finally:
+            await browser.close()
 
     try:
         soup = HTMLParser(html)
@@ -167,14 +219,11 @@ async def get_events(cached_ids: set[str], context) -> list[dict]:
 
                 lang = source.text(strip=True)
 
-                # Create unique event ID
                 event_id = f"{sport}_{event_name}_{lang}".replace(" ", "_")
 
-                # Skip if already cached
                 if event_id in cached_ids:
                     continue
 
-                # Build full URL
                 if not href.startswith("http"):
                     href = urljoin(BASE_URL, href)
 
@@ -254,6 +303,15 @@ async def scrape() -> None:
 
     log.info(f"Loaded {len(cached)} cached events")
 
+    events = await get_events(cached_ids)
+    log.info(f"Found {len(events)} live/upcoming events")
+
+    if not events:
+        OUTPUT_FILE.write_text(build_playlist(cached), encoding="utf-8")
+        OUTPUT_TIVI.write_text(build_playlist_tivi(cached), encoding="utf-8")
+        log.info(f"Wrote {len(cached)} entries to both playlists")
+        return
+
     async with async_playwright() as p:
         browser = await p.chromium.launch(
             headless=True,
@@ -281,15 +339,6 @@ async def scrape() -> None:
             await context.add_init_script(
                 "Object.defineProperty(navigator, 'webdriver', {get: () => undefined});"
             )
-
-            events = await get_events(cached_ids, context)
-            log.info(f"Found {len(events)} live/upcoming events")
-
-            if not events:
-                OUTPUT_FILE.write_text(build_playlist(cached), encoding="utf-8")
-                OUTPUT_TIVI.write_text(build_playlist_tivi(cached), encoding="utf-8")
-                log.info(f"Wrote {len(cached)} entries to both playlists")
-                return
 
             processed = 0
             failed = 0
