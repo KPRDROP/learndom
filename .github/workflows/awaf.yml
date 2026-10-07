@@ -1,8 +1,8 @@
-name: FAWA Scraper
+name: FAWA updater
 
 on:
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: "0 */1 * * *"
   workflow_dispatch:
 
 permissions:
@@ -27,7 +27,7 @@ jobs:
           python -m pip install playwright selectolax "httpx[http2]" tzdata pytz adblock
           python -m playwright install --with-deps chromium
 
-      - name: Run FAWA scraper
+      - name: Run FAWA updater
         run: python -m awaf
 
       - name: Commit and push output files
