@@ -35,7 +35,7 @@ SPORT_CATEGORIES = [
     "americanfootball",
     "nhl",
     "baseball",
-    "rugby",
+    #"rugby",
     "golf",
     "others",
     "wrestling",
