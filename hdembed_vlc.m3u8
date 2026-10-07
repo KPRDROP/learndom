@@ -1,16 +1,41 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Southern Miss Golden Eagles - Troy Trojans (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] Southern Miss Golden Eagles - Troy Trojans (HDEMBED)
+#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Atlanta Braves - Los Angeles Dodgers (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] Atlanta Braves - Los Angeles Dodgers (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb17.strmd.st/secure/fbajYyczUPnmUSsTIaVDeNsNnxGvVDiA/ingest/stream/streamedespn2hd/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Golden State Warriors - Los Angeles Lakers (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="NBA",[NBA] Golden State Warriors - Los Angeles Lakers (HDEMBED)
+https://lb22.strmd.st/secure/zzOHVkfAzuvVAqCdCVWchJRrrNmRDPXZ/ingest/stream/streamedatlantabraves/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="2" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Indiana Pacers - Minnesota Timberwolves (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="NBA",[NBA] Indiana Pacers - Minnesota Timberwolves (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb17.strmd.st/secure/PRjXHonBrUZPbpygybgusIoXEOTXhUdm/ingest/stream/streamedgoldenstatewarriors/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Los Angeles Kings - Florida Panthers (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Los Angeles Kings - Florida Panthers (HDEMBED)
+https://lb22.strmd.st/secure/dRTlkWeBRflUWLOzrkbRSeQRNWXpeTRs/ingest/stream/streamedindianapacers/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="3" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Washington Capitals - Pittsburgh Penguins (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Washington Capitals - Pittsburgh Penguins (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb9.strmd.st/secure/daodBxksCoHnBlDjUpwAMwCrmWmkxpKc/ingest/stream/streamedlosangeleskings/1/playlist.m3u8
+https://lb22.strmd.st/secure/oAGjNrtKbwJWAdSzHIipZojGIGQVsjbj/ingest/stream/streamedwashingtoncapitals/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="4" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Winnipeg Jets - Colorado Avalanche (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="NHL",[NHL] Winnipeg Jets - Colorado Avalanche (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb23.strmd.st/secure/PAGdUJKVASdVMNUkFXyrPGwCqGXbobKT/ingest/stream/streamedwinnipegjets/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="5" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Memphis Grizzlies - Orlando Magic (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="NBA",[NBA] Memphis Grizzlies - Orlando Magic (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb23.strmd.st/secure/cKVCJbrhqTOewRpAdmSmiTerspWQlLux/ingest/stream/streamedmemphisgrizzlies/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="6" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Oklahoma City Thunder - Milwaukee Bucks (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="NBA",[NBA] Oklahoma City Thunder - Milwaukee Bucks (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb23.strmd.st/secure/aUDGYegZZuWJyTGVmnPeUpgwQJkfaTjH/ingest/stream/streamedoklahomacitythunder/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="7" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Chicago Bulls - Phoenix Suns (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="NBA",[NBA] Chicago Bulls - Phoenix Suns (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb23.strmd.st/secure/VGyrgaPTKZDNvRjBdMApBZIRocovdJVM/ingest/stream/streamedchicagobulls/1/playlist.m3u8
+#EXTINF:-1 tvg-chno="8" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] New York Yankees - Tampa Bay Rays (HDEMBED)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="MLB",[MLB] New York Yankees - Tampa Bay Rays (HDEMBED)
+#EXTVLCOPT:http-referrer=https://forgemindly.com/
+#EXTVLCOPT:http-origin=https://forgemindly.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+https://lb23.strmd.st/secure/qqqQrELTxeTafiBGlWtwZBoEDlBGwled/ingest/stream/streamednewyorkyankees/1/playlist.m3u8
