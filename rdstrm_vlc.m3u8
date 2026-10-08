@@ -1,9 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Major League Baseball] Chicago White Sox vs Cleveland Guardians (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VGeCRhR+EBBDcQfECgMgYJo2cQSmWmP2Gz6KbWxRdt5ellkemtGBu9KIQQA.webp" group-title="Live Events",[Major League Baseball] Chicago White Sox vs Cleveland Guardians (RDSTRM)
-#EXTVLCOPT:http-referrer=https://player.viloud.tv/
-#EXTVLCOPT:http-origin=https://player.viloud.tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://admin2.formaturamaxi.com.br/mlb.m3u8
 #EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Major League Baseball] Atlanta Braves vs Los Angeles Dodgers (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VUUzIQQM7dxB8QKEPphGDJkIhIFgSCn2Gz6KMCpRc35ellkemtGBuYqIQQA.webp" group-title="Live Events",[Major League Baseball] Atlanta Braves vs Los Angeles Dodgers (RDSTRM)
 #EXTVLCOPT:http-referrer=https://player.viloud.tv/
 #EXTVLCOPT:http-origin=https://player.viloud.tv
@@ -38,7 +33,7 @@ https://admin2.formaturamaxi.com.br/mlb.m3u8
 #EXTVLCOPT:http-referrer=https://player.viloud.tv/
 #EXTVLCOPT:http-origin=https://player.viloud.tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://temp.formaturamaxi.com.br/nba4.m3u8
+https://admin2.formaturamaxi.com.br/nba4.m3u8
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Memphis Grizzlies vs Orlando Magic (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VXlSlgpIErhDcQfXSBT7EiM3qkFgSCn2Gz6KMCpRc35ellkemtGBuYqIQQA.webp" group-title="Live Events",[NBA] Memphis Grizzlies vs Orlando Magic (RDSTRM)
 #EXTVLCOPT:http-referrer=https://player.viloud.tv/
 #EXTVLCOPT:http-origin=https://player.viloud.tv
@@ -48,7 +43,7 @@ https://admin2.formaturamaxi.com.br/nba2.m3u8
 #EXTVLCOPT:http-referrer=https://player.viloud.tv/
 #EXTVLCOPT:http-origin=https://player.viloud.tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://admin2.formaturamaxi.com.br/nba3.m3u8
+https://admin.formaturamaxi.com.br/nba3.m3u8
 #EXTINF:-1 tvg-id="WNBA.dummy.us" tvg-name="[WNBA] Golden State Valkyries vs Las Vegas Aces (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzuAQ1sFKBWSYAU2DFLABM8E9g1gDCFJMd46Tp51jwywYAE5Mw4FRBYRIGCDJYQEecHikJq7CADGpFWuUklEkOLMgUJkNZCJFJS-zCCRTbPTCFgSXNstDnVghXMksCTTBnYGCyCCA.webp" group-title="Live Events",[WNBA] Golden State Valkyries vs Las Vegas Aces (RDSTRM)
 #EXTVLCOPT:http-referrer=https://player.viloud.tv/
 #EXTVLCOPT:http-origin=https://player.viloud.tv
@@ -58,7 +53,7 @@ https://admin2.formaturamaxi.com.br/wnba.m3u8
 #EXTVLCOPT:http-referrer=https://player.viloud.tv/
 #EXTVLCOPT:http-origin=https://player.viloud.tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://tedesco.formaturamaxi.com.br/mlb2.m3u8
+https://admin2.formaturamaxi.com.br/mlb2.m3u8
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Portland Trail Blazers vs Golden State Warriors (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VJD3KiUwKSG4g+IEiBS4QiRDHNSCwJBT7DZ9FGBU6278vSyydTLRg7mKiEEA.webp" group-title="Live Events",[NBA] Portland Trail Blazers vs Golden State Warriors (RDSTRM)
 #EXTVLCOPT:http-referrer=https://player.viloud.tv/
 #EXTVLCOPT:http-origin=https://player.viloud.tv
