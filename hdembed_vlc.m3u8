@@ -1,26 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Mma/pfl/bkfc] BKFC Fight Night Cisneros - Petersen (HDEMBED)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Mma/pfl/bkfc",[Mma/pfl/bkfc] BKFC Fight Night Cisneros - Petersen (HDEMBED)
+#EXTINF:-1 tvg-chno="1" tvg-id="Racing.Dummy.us" tvg-name="[Formula 1] Singapore Grand Prix Sprint Qualifying (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Formula 1",[Formula 1] Singapore Grand Prix Sprint Qualifying (HDEMBED)
 #EXTVLCOPT:http-referrer=https://forgemindly.com/
 #EXTVLCOPT:http-origin=https://forgemindly.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb25.strmd.st/secure/XpEaKmGOkayufMTKXWWDsaPByANKgIyj/ingest/stream/streamedevent1/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Washington State Cougars - Utah State Aggies (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] Washington State Cougars - Utah State Aggies (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb25.strmd.st/secure/mUXYcIXhVemBoYzctGaqCXwntUeMocEp/ingest/stream/streamedcwnet/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Wyoming Cowboys - San Jose State Spartans (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] Wyoming Cowboys - San Jose State Spartans (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb15.strmd.st/secure/DXNAKqYeNHlnApwfcyuJmawktnpNhFmp/ingest/stream/streamedcbsn/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="4" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Boxing] Castillo - Zarate (HDEMBED)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Boxing",[Boxing] Castillo - Zarate (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb15.strmd.st/secure/AQgWELKaqbtgzZUBezSFsjywWZRdgGHh/ingest/stream/streamedevent2/1/playlist.m3u8
-#EXTINF:-1 tvg-chno="5" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[NCAAF] Iowa State Cyclones - BYU Cougars (HDEMBED)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="NCAAF",[NCAAF] Iowa State Cyclones - BYU Cougars (HDEMBED)
-#EXTVLCOPT:http-referrer=https://forgemindly.com/
-#EXTVLCOPT:http-origin=https://forgemindly.com
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
-https://lb15.strmd.st/secure/vJNrHLlLDmnzsnbBDPgVestyRyzMmYEY/ingest/stream/streamedespnhd/1/playlist.m3u8
+https://lb28.strmd.st/secure/VCvqkuDTymCFjdunmYIuVLtMWkEwBbbX/ingest/stream/streamedskyf1hdd/1/playlist.m3u8
