@@ -1,52 +1,25 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-10-12 01:18 UTC
-# Total Streams: 16
+# Last Updated: 2026-10-12 09:05 UTC
+# Total Streams: 7
 
-#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Crystal Palace vs Nottingham Forest 2026-27 English Premier League (SPFIT)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Soccer] Crystal Palace vs Nottingham Forest 2026-27 English Premier League (SPFIT)
-https://castorvanta.s3.us-east-1.amazonaws.com/76ers.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Hull City vs Everton 2026-27 English Premier League (SPFIT)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Soccer] Hull City vs Everton 2026-27 English Premier League (SPFIT)
-https://castorvanta.s3.us-east-1.amazonaws.com/raptors.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Liverpool vs Manchester City 2026-27 English Premier League (SPFIT)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Soccer] Liverpool vs Manchester City 2026-27 English Premier League (SPFIT)
-https://matchzorion.s3.us-east-1.amazonaws.com/warriors.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="4" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Orlando Magic at Cleveland Cavaliers (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Orlando Magic at Cleveland Cavaliers (SPFIT)
-https://paperfalcon.s3.us-east-1.amazonaws.com/cavaliers.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="5" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Milwaukee Bucks at Charlotte Hornets (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Milwaukee Bucks at Charlotte Hornets (SPFIT)
-https://paperfalcon.s3.us-east-1.amazonaws.com/hornets.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="6" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Chicago Bulls at Denver Nuggets (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Chicago Bulls at Denver Nuggets (SPFIT)
-https://paperfalcon.s3.us-east-1.amazonaws.com/nuggets.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="7" tvg-id="Football.Dummy.us" tvg-name="[NFL] RedZone (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[NFL] RedZone (SPFIT)
+#EXTINF:-1 tvg-chno="1" tvg-id="Football.Dummy.us" tvg-name="[NFL] RedZone (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[NFL] RedZone (SPFIT)
 https://paperfalcon.s3.us-east-1.amazonaws.com/redzone.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="8" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Baltimore Ravens at Atlanta Falcons (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Baltimore Ravens at Atlanta Falcons (SPFIT)
-https://paperfalcon.s3.us-east-1.amazonaws.com/lions2.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="2" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Denver Broncos at Los Angeles Chargers (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Denver Broncos at Los Angeles Chargers (SPFIT)
+https://paperfalcon.s3.us-east-1.amazonaws.com/broncos.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="9" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Detroit Lions at Arizona Cardinals (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Detroit Lions at Arizona Cardinals (SPFIT)
+#EXTINF:-1 tvg-chno="3" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Detroit Lions at Arizona Cardinals (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Detroit Lions at Arizona Cardinals (SPFIT)
 https://paperfalcon.s3.us-east-1.amazonaws.com/lions.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="10" tvg-id="NFL.Dummy.us" tvg-name="[NFL] San Francisco 49ers at Seattle Seahawks (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] San Francisco 49ers at Seattle Seahawks (SPFIT)
+#EXTINF:-1 tvg-chno="4" tvg-id="NFL.Dummy.us" tvg-name="[NFL] San Francisco 49ers at Seattle Seahawks (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] San Francisco 49ers at Seattle Seahawks (SPFIT)
 https://paperfalcon.s3.us-east-1.amazonaws.com/seahawks.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="11" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Los Angeles Dodgers at Milwaukee Brewers (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Los Angeles Dodgers at Milwaukee Brewers (SPFIT)
-https://paperfalcon.s3.us-east-1.amazonaws.com/broncos2.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-chno="5" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Baltimore Ravens at Atlanta Falcons (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Baltimore Ravens at Atlanta Falcons (SPFIT)
+https://paperfalcon.s3.us-east-1.amazonaws.com/redzone2.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="12" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Seattle Kraken at Washington Capitals (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Seattle Kraken at Washington Capitals (SPFIT)
-https://paperfalcon.s3.us-east-1.amazonaws.com/capitals.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="13" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Vancouver Canucks at New York Rangers (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Vancouver Canucks at New York Rangers (SPFIT)
-https://paperfalcon.s3.us-east-1.amazonaws.com/rangers.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="14" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Carolina Hurricanes at Philadelphia Flyers (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Carolina Hurricanes at Philadelphia Flyers (SPFIT)
-https://paperfalcon.s3.us-east-1.amazonaws.com/flyers.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
-
-#EXTINF:-1 tvg-chno="15" tvg-id="Racing.Dummy.us" tvg-name="[F1] Gulf Air Bahrain Grand Prix (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] Gulf Air Bahrain Grand Prix (SPFIT)
+#EXTINF:-1 tvg-chno="6" tvg-id="Racing.Dummy.us" tvg-name="[F1] Gulf Air Bahrain Grand Prix (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] Gulf Air Bahrain Grand Prix (SPFIT)
 https://castorvanta.s3.us-east-1.amazonaws.com/boxing.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
-#EXTINF:-1 tvg-chno="16" tvg-id="Racing.Dummy.us" tvg-name="[F1] Singapore Airlines Singapore Grand Prix (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] Singapore Airlines Singapore Grand Prix (SPFIT)
+#EXTINF:-1 tvg-chno="7" tvg-id="Racing.Dummy.us" tvg-name="[F1] Singapore Airlines Singapore Grand Prix (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] Singapore Airlines Singapore Grand Prix (SPFIT)
 https://castorvanta.s3.us-east-1.amazonaws.com/boxing.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
