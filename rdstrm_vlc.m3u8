@@ -8,7 +8,7 @@ https://admin2.formaturamaxi.com.br/cbssn.m3u8
 #EXTVLCOPT:http-referrer=https://player.viloud.tv/
 #EXTVLCOPT:http-origin=https://player.viloud.tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://admin2.formaturamaxi.com.br/tnt4.m3u8
+https://admin2.formaturamaxi.com.br/tnt2.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Champions League] Aston Villa vs Fenerbahçe (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aXCFEpxIRNxB8QRwyhD6SmkKYlMkFPsNn0UYFdravy9LLO1NaYK5iohBAA.webp" group-title="Live Events",[UEFA Champions League] Aston Villa vs Fenerbahçe (RDSTRM)
 #EXTVLCOPT:http-referrer=https://player.viloud.tv/
 #EXTVLCOPT:http-origin=https://player.viloud.tv
@@ -39,3 +39,58 @@ https://admin2.formaturamaxi.com.br/cbssn.m3u8
 #EXTVLCOPT:http-origin=https://player.viloud.tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://admin2.formaturamaxi.com.br/napoli.m3u8
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[English Premier League] Toronto FC vs Orlando City (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rECAH1uuDSB18QMEFM36QiHCn0FgSCn2Gz6KMCpRc35ellkemtGBuYqIQQA.webp" group-title="Live Events",[English Premier League] Toronto FC vs Orlando City (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin.formaturamaxi.com.br/fana4.m3u8
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[Italian Serie A] Inter Miami vs New York City FC (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aEDKmxsDbCG4g+GkCRAx9IS4giGCwJBT7DZ9FGBUou78vSyzPTLRg7mKiEEA.webp" group-title="Live Events",[Italian Serie A] Inter Miami vs New York City FC (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/golazo.m3u8
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Boston Celtics vs Charlotte Hornets (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rUVmqiQOkNxB8QJEClwhEEEJcswCwJBT7DZ9FGBUou78vSyzPTLRg7mKiEEA.webp" group-title="Live Events",[NBA] Boston Celtics vs Charlotte Hornets (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/nba2.m3u8
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Miami Heat vs Brooklyn Nets (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aENxAyIGkHwS6+IEiBS4QiHTpMwCwJBT7DZ9FGBUou78vSyzPTLRg7mKiEEA.webp" group-title="Live Events",[NBA] Miami Heat vs Brooklyn Nets (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/nba.m3u8
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Washington Capitals vs Montreal Canadiens (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aEFJAoQ3MHxD6SOgxpAwtZyxBA2JTJBT7DZ9FGBUou78vSyzPTLRg7mKiEEA.webp" group-title="Live Events",[NHL] Washington Capitals vs Montreal Canadiens (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://tedesco.formaturamaxi.com.br/nhl.m3u8
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="[Major League Baseball] Los Angeles Dodgers vs Milwaukee Brewers (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzdmFAgYA4AAYw0kLxBYQKY+dPaQJK9JZIKWEXMYowqlD0-lG1OW98VmAwT3ExCCA.webp" group-title="Live Events",[Major League Baseball] Los Angeles Dodgers vs Milwaukee Brewers (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/mlb.m3u8
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Dallas Mavericks vs New Orleans Pelicans (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VEMClgZ3bSCkhuIPiBIgUuEImumQCpkgp9hs+ijAqUXD+XpZZXky0YB5iohBAA.webp" group-title="Live Events",[NBA] Dallas Mavericks vs New Orleans Pelicans (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/nba.m3u8
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Milwaukee Bucks vs Chicago Bulls (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VerRSwwfEDBDcQukiBS4QiCAZAmUBYEgp9hs+lpUouYMvCJZZnky0YN5iohBAA.webp" group-title="Live Events",[NBA] Milwaukee Bucks vs Chicago Bulls (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/nba5.m3u8
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Minnesota Timberwolves vs Detroit Pistons (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rYNRIhaABm0huIPiC0pc+iCCkgz8AsCQU+w2fRRgVKLh-L0ssryZaMA8xUQggA.webp" group-title="Live Events",[NBA] Minnesota Timberwolves vs Detroit Pistons (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/nba6.m3u8
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] San Antonio Spurs vs Phoenix Suns (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rMJRBRa3ECRC6+ekClwhEEY6ZQFgSCn2Gz6KMCpRc35ellkemtGBuYqIQQA.webp" group-title="Live Events",[NBA] San Antonio Spurs vs Phoenix Suns (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/nba3.m3u8
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Colorado Avalanche vs Dallas Stars (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rVljbYQKYAAYQ3EHxBSQMHecO4QJXAWBIKfYbPoowK3VrLwim0V0mWjBPMVEIIA.webp" group-title="Live Events",[NHL] Colorado Avalanche vs Dallas Stars (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/nhl2.m3u8
