@@ -1,16 +1,1 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[Other] Brandrisk 016 (ISTRM)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Other] Brandrisk 016 (ISTRM)
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/
-#EXTVLCOPT:http-origin=https://gooz.aapmains.net
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
-https://chatgpt.hereisman.net/playlist/58121/load-playlist
-#EXTINF:-1 tvg-chno="2" tvg-id="Racing.Dummy.us" tvg-name="[Nascar] 2026 Truck Playoff at Phoenix (ISTRM)" tvg-logo="https://logos-world.net/wp-content/uploads/2021/09/NASCAR-Logo.png" group-title="Live Events",[Nascar] 2026 Truck Playoff at Phoenix (ISTRM)
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/
-#EXTVLCOPT:http-origin=https://gooz.aapmains.net
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
-https://chatgpt.hereisman.net/playlist/58104/load-playlist
-#EXTINF:-1 tvg-chno="3" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[PFL] PFL Chicago: Carmouche vs. Bishop 2 (ISTRM)" tvg-logo="https://images.seeklogo.com/logo-png/59/2/professional-fighters-league-pfl-logo-png_seeklogo-592299.png" group-title="Live Events",[PFL] PFL Chicago: Carmouche vs. Bishop 2 (ISTRM)
-#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/
-#EXTVLCOPT:http-origin=https://gooz.aapmains.net
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
-https://chatgpt.hereisman.net/playlist/58101/load-playlist
