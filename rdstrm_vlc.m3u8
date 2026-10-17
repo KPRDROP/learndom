@@ -1,9 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Los Angeles Lakers vs Denver Nuggets (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rMiRApgABhAgGIbiD4hNKXCEQQztmAWBIKfYbPoowK7W0-l6WWW0mWjBPMVEIIA.webp" group-title="Live Events",[NBA] Los Angeles Lakers vs Denver Nuggets (RDSTRM)
-#EXTVLCOPT:http-referrer=https://player.viloud.tv/
-#EXTVLCOPT:http-origin=https://player.viloud.tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://admin.formaturamaxi.com.br/nba.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[English Premier League] Everton vs Chelsea (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VFGG7kIIKQhDcQfECZIgUIRIbOIUBYEgp9hs+hpUouYMvCJZZnky0YN5iohBAA.webp" group-title="Live Events",[English Premier League] Everton vs Chelsea (RDSTRM)
 #EXTVLCOPT:http-referrer=https://player.viloud.tv/
 #EXTVLCOPT:http-origin=https://player.viloud.tv
@@ -49,12 +44,12 @@ https://tedesco.formaturamaxi.com.br/golazo.m3u8
 #EXTVLCOPT:http-origin=https://player.viloud.tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://tedesco.formaturamaxi.com.br/golazo.m3u8
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-name="[NCAA College Football] Army vs Florida Atlantic (RDSTRM)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[NCAA College Football] Army vs Florida Atlantic (RDSTRM)
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-name="[NCAA College Football] Army vs Florida Atlantic (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzuAUxAQxCsIltsACbYoCswhwwAxo42AJyVWzC7NYLXAI2MGUzxywVoRAQQMPCEVkQrRXJXUuNBnWBg+8SJNKEa4sPsGkIQA.webp" group-title="Live Events",[NCAA College Football] Army vs Florida Atlantic (RDSTRM)
 #EXTVLCOPT:http-referrer=https://player.viloud.tv/
 #EXTVLCOPT:http-origin=https://player.viloud.tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://tedesco.formaturamaxi.com.br/ncaa10.m3u8
-#EXTINF:-1 tvg-id="Live.Event.us" tvg-name="[NCAA College Football] Boston College vs Pittsburgh (RDSTRM)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[NCAA College Football] Boston College vs Pittsburgh (RDSTRM)
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-name="[NCAA College Football] Boston College vs Pittsburgh (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzuAUxAQxCsIltsACbYoCswhwwAxo42AJyVWzC7NYLXAI2MGUzxywVoRAQQMPCEU5FrEGRANqXGpvrAwfeJEmlCNcWAODSEIA.webp" group-title="Live Events",[NCAA College Football] Boston College vs Pittsburgh (RDSTRM)
 #EXTVLCOPT:http-referrer=https://player.viloud.tv/
 #EXTVLCOPT:http-origin=https://player.viloud.tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
@@ -129,3 +124,83 @@ https://admin2.formaturamaxi.com.br/dep.m3u8
 #EXTVLCOPT:http-origin=https://player.viloud.tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://admin2.formaturamaxi.com.br/nhl.m3u8
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[French Ligue 1] Lille vs Brest (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rPrjDcwSEDFwhuIDSRAQQF-RakGJTJBT7DZ9FGBUou78vSyzPTLRg7mKiEEA.webp" group-title="Live Events",[French Ligue 1] Lille vs Brest (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin.formaturamaxi.com.br/beines.m3u8
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[Italian Serie A] Roma vs Genoa (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rJEW4h6tfCC18QUkCW1mcxmLgLANMfsNn0UYFSi6vy9LLPdNaYK5iohBAA.webp" group-title="Live Events",[Italian Serie A] Roma vs Genoa (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://tedesco.formaturamaxi.com.br/golazo.m3u8
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[Spanish LALIGA] Valencia vs Athletic Bilbao (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VWvWBgUzEBBDcQfECf0oQMPSBIGQKAsCQU+w2fRRgVOtp-L0ssjpMtGCeYqIQQA.webp" group-title="Live Events",[Spanish LALIGA] Valencia vs Athletic Bilbao (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/dep.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-name="[NCAA College Football] Air Force vs UNLV (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rPmHAyQlHiG4gpIFCEQwQJU7n0gYBYEgp9hs+ijAqUXD+XpZZXky0YB5iohBAA.webp" group-title="Live Events",[NCAA College Football] Air Force vs UNLV (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://tedesco.formaturamaxi.com.br/ncaa10.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-name="[NCAA College Football] Duke vs North Carolina (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VEDzAo2YJGBIhuIKSBQhEMEBFyGQBhUz0x+w2fRT622nWXhEsstpMtGCe9KIQQA.webp" group-title="Live Events",[NCAA College Football] Duke vs North Carolina (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa9.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-name="[NCAA College Football] Georgia vs Auburn (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rPmCQheVKSD3d9IFCEQwQEXCHN6YBYEgp9hs+ijAqUXD+XpZZXky0YB5iohBAA.webp" group-title="Live Events",[NCAA College Football] Georgia vs Auburn (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin.formaturamaxi.com.br/ncaa3.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-name="[NCAA College Football] Michigan vs Penn State (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rFNDggQvNDpBSQKEIhggIJy2YVMkFPsNn0NKlFzBl4RLLLdNaYB5iohBAA.webp" group-title="Live Events",[NCAA College Football] Michigan vs Penn State (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa14.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-name="[NCAA College Football] Ole Miss vs Missouri (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzuAQ1sFKBWSYAU2DFLABM8E9g1gDCFJMd46Tp51jwywYAE50IcSRDDSwKiEk14IkAGNxIFMETisIGrpggYW4BBARs52Rq3jZllac38wgkU2z0whYElwrNIVdWC2kyTQITMFdTGQggA.webp" group-title="Live Events",[NCAA College Football] Ole Miss vs Missouri (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa13.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-name="[NCAA College Football] Tennessee vs Alabama (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rPiBSgQUKSA3cQelCEQwduS+ZgFgSCn2Gz6KMCq1s35elllamtGBuYqIQQA.webp" group-title="Live Events",[NCAA College Football] Tennessee vs Alabama (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin.formaturamaxi.com.br/ncaa2.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-name="[NCAA College Football] Texas Tech vs Arizona State (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzuAQ1sFKBWSYAU2DFLABM8E9g1gDCFJMd46Tp51jwywYAE50IMohggq00uJAxgEEChAhgM4SHgiQWlLtU1lMg1rImVpbMB0kD-MIJFMbDwsCS4AxgaFPWCBcyAwJbciclawggA.webp" group-title="Live Events",[NCAA College Football] Texas Tech vs Arizona State (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin.formaturamaxi.com.br/ncaa.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-name="[NCAA College Football] Virginia Tech vs Georgia Tech (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rVlLACcoiCG4gpIFCEQwQenfuMFgSCn2Gz6KMCpRc35ellkemtGBuYrpAA.webp" group-title="Live Events",[NCAA College Football] Virginia Tech vs Georgia Tech (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/ncaa8.m3u8
+#EXTINF:-1 tvg-id="Live.Event.us" tvg-name="[NCAA College Football] Wyoming vs Northern Illinois (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzuAUxAQxCsIltsACbYoCswhwwAxo42AJyVWzC7NYLXAI2MGUzxywVoRAQQMPCEVkZIHKxBTOMYDQZ1gYPvEiTShGuLCHBpCEA.webp" group-title="Live Events",[NCAA College Football] Wyoming vs Northern Illinois (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin.formaturamaxi.com.br/ncaa4.m3u8
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Winnipeg Jets vs Carolina Hurricanes (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aEKJK5gUsGQghuIPiCkgYISyhDXLFkgWBIKfYbPoo9bFFz3l6WLI+TLRgXvSiEEA.webp" group-title="Live Events",[NHL] Winnipeg Jets vs Carolina Hurricanes (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/nhl2.m3u8
+#EXTINF:-1 tvg-id="WNBA.dummy.us" tvg-name="[WNBA] Golden State Valkyries vs Atlanta Dream (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzuAQ1sFKBWSYAU2DFLABM8E9g1gDCFJMd46Tp51jwywYAE50ICMEQgQVEAGNsIydMnBZMcSGFrlZWQomyQakClIgsOiFp3be5CQKFKCis2ELAkuOWaFhuTgltMjNXeHIA4AkyCCA.webp" group-title="Live Events",[WNBA] Golden State Valkyries vs Atlanta Dream (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/wnba.m3u8
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Tampa Bay Lightning vs Vancouver Canucks (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aEChAhmYXsDB8Q3EIakgYWjVcMkQUgsCQU+w2fRRgVKLp-L0sst5MtGCeYqIQQA.webp" group-title="Live Events",[NHL] Tampa Bay Lightning vs Vancouver Canucks (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin2.formaturamaxi.com.br/nhl3.m3u8
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[English Premier League] Minnesota United vs St. Louis City SC (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8regAZqM3nxDcQevQb0kQiCCEuNgSCn2Gz6KMCpRdX5ellnumtMFcxUQggA.webp" group-title="Live Events",[English Premier League] Minnesota United vs St. Louis City SC (RDSTRM)
+#EXTVLCOPT:http-referrer=https://player.viloud.tv/
+#EXTVLCOPT:http-origin=https://player.viloud.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://admin.formaturamaxi.com.br/afaplay1.m3u8
