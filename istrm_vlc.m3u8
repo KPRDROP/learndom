@@ -1,1 +1,86 @@
 #EXTM3U
+#EXTINF:-1 tvg-chno="1" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Cleveland Guardians vs Tampa Bay Rays (ISTRM)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Cleveland Guardians vs Tampa Bay Rays (ISTRM)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/
+#EXTVLCOPT:http-origin=https://gooz.aapmains.net
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+https://chatgpt.hereisman.net/playlist/58102/load-playlist
+#EXTINF:-1 tvg-chno="2" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] Friday Night Smackdown (ISTRM)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[WWE] Friday Night Smackdown (ISTRM)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/
+#EXTVLCOPT:http-origin=https://gooz.aapmains.net
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+https://chatgpt.hereisman.net/playlist/54963/load-playlist-multi
+#EXTINF:-1 tvg-chno="3" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA Preseason] New Orleans Pelicans vs Washington Wizards (ISTRM)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Preseason] New Orleans Pelicans vs Washington Wizards (ISTRM)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/
+#EXTVLCOPT:http-origin=https://gooz.aapmains.net
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+https://chatgpt.hereisman.net/playlist/58116/load-playlist
+#EXTINF:-1 tvg-chno="4" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[CFB] Purdue vs Washington (ISTRM)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[CFB] Purdue vs Washington (ISTRM)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/
+#EXTVLCOPT:http-origin=https://gooz.aapmains.net
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+https://chatgpt.hereisman.net/playlist/58117/load-playlist
+#EXTINF:-1 tvg-chno="5" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA Preseason] San Antonio Spurs vs Sacramento Kings (ISTRM)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Preseason] San Antonio Spurs vs Sacramento Kings (ISTRM)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/
+#EXTVLCOPT:http-origin=https://gooz.aapmains.net
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+https://chatgpt.hereisman.net/playlist/58115/load-playlist
+#EXTINF:-1 tvg-chno="6" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA Preseason] Memphis Grizzlies vs Charlotte Hornets (ISTRM)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Preseason] Memphis Grizzlies vs Charlotte Hornets (ISTRM)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/
+#EXTVLCOPT:http-origin=https://gooz.aapmains.net
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+https://chatgpt.hereisman.net/playlist/58111/load-playlist
+#EXTINF:-1 tvg-chno="7" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA Preseason] Dallas Mavericks vs Atlanta Hawks (ISTRM)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Preseason] Dallas Mavericks vs Atlanta Hawks (ISTRM)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/
+#EXTVLCOPT:http-origin=https://gooz.aapmains.net
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+https://chatgpt.hereisman.net/playlist/58112/load-playlist
+#EXTINF:-1 tvg-chno="8" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA Preseason] Chicago Bulls vs Minnesota Timberwolves (ISTRM)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Preseason] Chicago Bulls vs Minnesota Timberwolves (ISTRM)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/
+#EXTVLCOPT:http-origin=https://gooz.aapmains.net
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+https://chatgpt.hereisman.net/playlist/58114/load-playlist
+#EXTINF:-1 tvg-chno="9" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[CFB] Coastal Carolina vs Appalachian St. (ISTRM)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[CFB] Coastal Carolina vs Appalachian St. (ISTRM)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/
+#EXTVLCOPT:http-origin=https://gooz.aapmains.net
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+https://chatgpt.hereisman.net/playlist/58113/load-playlist
+#EXTINF:-1 tvg-chno="10" tvg-id="Racing.Dummy.us" tvg-name="[Nascar] 2026 Truck Playoff at Phoenix (ISTRM)" tvg-logo="https://logos-world.net/wp-content/uploads/2021/09/NASCAR-Logo.png" group-title="Live Events",[Nascar] 2026 Truck Playoff at Phoenix (ISTRM)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/
+#EXTVLCOPT:http-origin=https://gooz.aapmains.net
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+https://chatgpt.hereisman.net/playlist/58104/load-playlist
+#EXTINF:-1 tvg-chno="11" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[CFB] Tulane vs Memphis (ISTRM)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[CFB] Tulane vs Memphis (ISTRM)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/
+#EXTVLCOPT:http-origin=https://gooz.aapmains.net
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+https://chatgpt.hereisman.net/playlist/58110/load-playlist
+#EXTINF:-1 tvg-chno="12" tvg-id="Football.Dummy.us" tvg-name="[CFL] Ottawa Redblacks vs Toronto Argonauts (ISTRM)" tvg-logo="https://files.catbox.moe/ivnrrj.png" group-title="Live Events",[CFL] Ottawa Redblacks vs Toronto Argonauts (ISTRM)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/
+#EXTVLCOPT:http-origin=https://gooz.aapmains.net
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+https://chatgpt.hereisman.net/playlist/58109/load-playlist
+#EXTINF:-1 tvg-chno="13" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA Preseason] Philadelphia 76ers vs Boston Celtics (ISTRM)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Preseason] Philadelphia 76ers vs Boston Celtics (ISTRM)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/
+#EXTVLCOPT:http-origin=https://gooz.aapmains.net
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+https://chatgpt.hereisman.net/playlist/58107/load-playlist
+#EXTINF:-1 tvg-chno="14" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA Preseason] Orlando Magic vs Miami Heat (ISTRM)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Preseason] Orlando Magic vs Miami Heat (ISTRM)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/
+#EXTVLCOPT:http-origin=https://gooz.aapmains.net
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+https://chatgpt.hereisman.net/playlist/58105/load-playlist
+#EXTINF:-1 tvg-chno="15" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA Preseason] Indiana Pacers vs Milwaukee Bucks (ISTRM)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Preseason] Indiana Pacers vs Milwaukee Bucks (ISTRM)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/
+#EXTVLCOPT:http-origin=https://gooz.aapmains.net
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+https://chatgpt.hereisman.net/playlist/58108/load-playlist
+#EXTINF:-1 tvg-chno="16" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA Preseason] Detroit Pistons vs Toronto Raptors (ISTRM)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Preseason] Detroit Pistons vs Toronto Raptors (ISTRM)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/
+#EXTVLCOPT:http-origin=https://gooz.aapmains.net
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+https://chatgpt.hereisman.net/playlist/58106/load-playlist
+#EXTINF:-1 tvg-chno="17" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[PFL] PFL Chicago: Carmouche vs. Bishop 2 (ISTRM)" tvg-logo="https://images.seeklogo.com/logo-png/59/2/professional-fighters-league-pfl-logo-png_seeklogo-592299.png" group-title="Live Events",[PFL] PFL Chicago: Carmouche vs. Bishop 2 (ISTRM)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/
+#EXTVLCOPT:http-origin=https://gooz.aapmains.net
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+https://chatgpt.hereisman.net/playlist/58101/load-playlist
