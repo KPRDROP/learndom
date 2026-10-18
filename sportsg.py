@@ -305,7 +305,9 @@ def write_outputs() -> None:
 # ---------------------------------------------------------------------------
 async def main() -> None:
     async with async_playwright() as playwright:
-        browser = await network.browser(playwright)
+        browser = await network.browser(playwright)  # if network.browser honors proxy env
+# or explicitly:
+# browser = await playwright.chromium.launch(proxy={"server": os.environ["HTTPS_PROXY"]})
         try:
             await scrape(browser)
         finally:
