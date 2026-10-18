@@ -37,10 +37,9 @@ jobs:
 
       - name: Run scraper
         env:
-         PYTHONUNBUFFERED: "1"
-         HTTPS_PROXY: ${{ secrets.HTTPS_PROXY }}
-        
-        run: python sportsg.py
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python sportsg.py
 
       - name: Commit & push outputs
         env:
