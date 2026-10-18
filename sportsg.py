@@ -4,7 +4,7 @@ from functools import partial
 from typing import Any
 from urllib.parse import quote, urljoin
 
-from playwright.async_api import Browser, Page, Request
+from playwright.async_api import Browser, Page, Request, async_playwright
 
 from utils import Cache, Event, Time, get_logger, leagues, network
 
@@ -156,7 +156,7 @@ async def scrape(browser: Browser) -> None:
     cached_sources = CACHE_FILE.load() or {}
 
     if cached_sources:
-        urls.update({k: v for k, v in cached_sources.items() if v["source"]})
+        urls.update({k: v for k, v in cached_sources.items() if v.get("source")})
 
         log.info(f"Loaded {len(urls)} event(s) from cache")
 
@@ -304,8 +304,15 @@ def write_outputs() -> None:
 # Entrypoints
 # ---------------------------------------------------------------------------
 async def main() -> None:
-    async with network.browser() as browser:
-        await scrape(browser)
+    async with async_playwright() as playwright:
+        browser = await network.browser(playwright)
+        try:
+            await scrape(browser)
+        finally:
+            try:
+                await browser.close()
+            except Exception as e:
+                log.warning(f"Error closing browser: {e}")
 
     write_outputs()
 
