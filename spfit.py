@@ -19,7 +19,7 @@ TAG = "SPFIT"
 
 CACHE_FILE = Cache(TAG, exp=28_800)
 
-BASE_URL = "https://streamseast.eu"
+BASE_URL = "https://streamseast.ws"
 
 # Output files
 VLC_OUTPUT = "spfit_vlc.m3u8"
