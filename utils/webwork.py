@@ -334,7 +334,7 @@ class Network:
                 timeout=6_000,
             )
 
-            if not resp or resp.status != 200:
+            if not resp or not resp.ok:
                 log.error(
                     f"URL {url_num}) Status Code: {resp.status if resp else 'None'}"
                 )
