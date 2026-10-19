@@ -42,7 +42,6 @@ VLC_UA = (
 
 DEFAULT_REFERER = BASE_URL
 
-# Time window in minutes: expanded from ±30 to ±180 to catch more events
 EVENT_WINDOW_MINUTES = 180
 
 
@@ -57,8 +56,8 @@ def fix_league(s: str) -> str:
     return f"{i.upper() if len(i) <= 5 else i.capitalize()} {' '.join(x.capitalize() for x in splits[1:])}".strip()
 
 
-def _fetch_api_with_cloudscraper() -> list[dict[str, Any]] | None:
-    """Fetch the schedule API using cloudscraper to bypass Cloudflare 403."""
+def _get_scraper() -> cloudscraper.CloudScraper:
+    """Create a cloudscraper session with browser-like headers."""
     scraper = cloudscraper.create_scraper(
         browser={"browser": "chrome", "platform": "windows", "mobile": False},
         interpreter="js2py",
@@ -66,10 +65,17 @@ def _fetch_api_with_cloudscraper() -> list[dict[str, Any]] | None:
     )
     scraper.headers.update({
         "User-Agent": VLC_UA,
-        "Accept": "application/json, text/plain, */*",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "en-US,en;q=0.9",
         "Referer": DEFAULT_REFERER,
     })
+    return scraper
+
+
+def _fetch_api_with_cloudscraper() -> list[dict[str, Any]] | None:
+    """Fetch the schedule API using cloudscraper to bypass Cloudflare 403."""
+    scraper = _get_scraper()
+    scraper.headers["Accept"] = "application/json, text/plain, */*"
 
     log.info(f'Fetching API via cloudscraper: "{API_URL}"')
 
@@ -101,70 +107,99 @@ def _fetch_api_with_cloudscraper() -> list[dict[str, Any]] | None:
     return data
 
 
+def _fetch_html_with_cloudscraper(url: str, referer: str = BASE_URL) -> str | None:
+    """Fetch an HTML page using cloudscraper (bypasses Cloudflare)."""
+    scraper = _get_scraper()
+    scraper.headers["Referer"] = referer
+    scraper.headers["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+
+    try:
+        resp = scraper.get(url, timeout=30)
+    except Exception as e:
+        log.warning(f"cloudscraper failed for {url}: {e}")
+        return None
+
+    if resp.status_code != 200:
+        log.warning(f"cloudscraper status {resp.status_code} for {url}")
+        return None
+
+    if "Just a moment" in resp.text:
+        log.warning(f"Cloudflare challenge on {url}")
+        return None
+
+    return resp.text
+
+
 async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]:
+    """Process a single event URL to extract the M3U8 stream URL."""
     nones = None, None
 
-    if not (
-        event_data := await network.request(
-            url,
-            url_num,
-            headers={"Referer": BASE_URL},
-            log=log,
-        )
-    ):
+    # Step 1: Fetch the event page to find the iframe
+    event_html = _fetch_html_with_cloudscraper(url, referer=BASE_URL)
+
+    if not event_html:
+        log.warning(f"URL {url_num}) Failed to fetch event page")
         return nones
 
-    soup = HTMLParser(event_data.content)
+    soup = HTMLParser(event_html.encode())
 
     ifr = soup.css_first("iframe.stream-frame")
 
     if not ifr or not (src := ifr.attributes.get("src")):
         log.warning(f"URL {url_num}) No iframe element found")
+        # Log a snippet for debugging
+        log.debug(f"URL {url_num}) HTML snippet: {event_html[:500]}")
         return nones
 
+    # Resolve relative iframe URL
     if not src.startswith("http"):
         splits = urlsplit(url)
         src = urlunsplit(splits._replace(path=src))
 
-    if not (
-        ifr_src_data := await network.request(
-            src,
-            url_num,
-            headers={"Referer": BASE_URL},
-            log=log,
-        )
-    ):
+    log.info(f"URL {url_num}) Found iframe: {src}")
+
+    # Step 2: Fetch the iframe source page
+    iframe_html = _fetch_html_with_cloudscraper(src, referer=url)
+
+    if not iframe_html:
+        log.warning(f"URL {url_num}) Failed to fetch iframe page")
         return nones
 
+    # Step 3: Extract activeStream from the iframe HTML
     pattern = re.compile(r'activeStream\s?=\s?"([^"]*)";', re.I)
 
-    if not (match := pattern.search(ifr_src_data.text)):
-        log.warning(f"URL {url_num}) No Clappr source found.")
+    if not (match := pattern.search(iframe_html)):
+        log.warning(f"URL {url_num}) No Clappr source found in iframe")
+        # Log a snippet for debugging
+        log.debug(f"URL {url_num}) Iframe HTML snippet: {iframe_html[:500]}")
         return nones
 
-    elif not (source := base64.b64decode(match[1]).decode("utf-8").strip()):
-        log.warning(f"URL {url_num}) No Clappr source found.")
+    try:
+        source = base64.b64decode(match[1]).decode("utf-8").strip()
+    except Exception as e:
+        log.warning(f"URL {url_num}) Failed to decode source: {e}")
         return nones
 
-    log.info(f"URL {url_num}) Captured M3U8")
+    if not source:
+        log.warning(f"URL {url_num}) Empty source after decode")
+        return nones
 
-    return source, f"{ifr_src_data.url}"
+    log.info(f"URL {url_num}) Captured M3U8: {source[:80]}...")
+
+    return source, src
 
 
 async def get_events(cached_keys: KeysView[str]) -> list[AURAEvent]:
     now = Time.rn()
     events: list[AURAEvent] = []
 
-    # Try cache first
     api_data = API_FILE.load(per_entry=False, ts_index=-1)
 
     if not api_data:
         log.info("Refreshing API cache")
-
         api_data = _fetch_api_with_cloudscraper()
 
         if api_data:
-            # Append timestamp marker for cache
             api_data.append({"timestamp": now.timestamp()})
             API_FILE.write(api_data)
 
@@ -172,7 +207,6 @@ async def get_events(cached_keys: KeysView[str]) -> list[AURAEvent]:
         log.warning("No API data available")
         return events
 
-    # Expanded window: ±EVENT_WINDOW_MINUTES instead of ±30
     start_dt = now.delta(minutes=-EVENT_WINDOW_MINUTES)
     end_dt = now.delta(minutes=EVENT_WINDOW_MINUTES)
 
