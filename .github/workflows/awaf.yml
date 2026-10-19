@@ -1,4 +1,4 @@
-name: Awaf Updater
+name: FAWA Updater
 
 on:
   workflow_dispatch:
@@ -32,14 +32,14 @@ jobs:
           python -m pip install playwright selectolax "httpx[http2]" tzdata pytz adblock
           python -m playwright install --with-deps chromium
 
-      - name: Run iStreamEast updater
+      - name: Run FAWA updater
         run: |
           echo "Starting AWAF updater..."
           python awaf.py
 
       - name: Commit & push changes
         run: |
-          if [[ -z "$(git status --porcelain istreameast.m3u)" ]]; then
+          if [[ -z "$(git status --porcelain awaf.m3u awaf_tivimate.m3u)" ]]; then
             echo "No changes to commit"
             exit 0
           fi
