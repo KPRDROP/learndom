@@ -32,7 +32,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install playwright selectolax "httpx[http2]" tzdata pytz adblock
-          pip install cloudscraper js2py
+          pip install cloudscraper js2py curl_cffi
 
       - name: Run updater
         env:
