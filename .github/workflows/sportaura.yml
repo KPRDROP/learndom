@@ -1,0 +1,57 @@
+name: SPORTSA Scraper
+
+on:
+  schedule:
+    - cron: "0 */1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sportaura
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install playwright selectolax "httpx[http2]" tzdata pytz adblock
+
+      - name: Run scraper
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python sportaura.py
+
+      - name: Commit & push outputs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add -f sportaura_vlc.m3u8 sportaura_tivimate.m3u8 || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update SPORTSA playlists [skip ci]"
+          git push origin HEAD:${{ github.ref_name }}
