@@ -50,6 +50,8 @@ class Network:
 
         self.client = httpx.AsyncClient(**client_params)
 
+        self.client_unv = httpx.AsyncClient(**client_params, verify=False)
+
         # FIX: Initialize engine attribute to None so attribute exists
         self.engine: adblock.Engine | None = None
 
