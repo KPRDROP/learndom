@@ -8,6 +8,7 @@ from typing import Any
 from urllib.parse import quote, urljoin, urlsplit, urlunsplit
 
 import cloudscraper
+from curl_cffi import requests as curl_requests
 from selectolax.lexbor import LexborHTMLParser as HTMLParser
 
 from utils import Cache, Event, Time, get_logger, leagues, network
@@ -26,14 +27,12 @@ BASE_URL = "https://aurasports.xyz"
 
 API_URL = "https://aurasports.xyz/api/schedule"
 
-# Encoded UA for TiviMate pipe headers
 TIVIMATE_UA = (
     "Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20"
     "AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20"
     "Chrome%2F111.0.0.0%20Safari%2F537.36"
 )
 
-# Raw UA for VLC EXTVLCOPT
 VLC_UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -56,8 +55,7 @@ def fix_league(s: str) -> str:
     return f"{i.upper() if len(i) <= 5 else i.capitalize()} {' '.join(x.capitalize() for x in splits[1:])}".strip()
 
 
-def _get_scraper() -> cloudscraper.CloudScraper:
-    """Create a cloudscraper session with browser-like headers."""
+def _get_cloudscraper() -> cloudscraper.CloudScraper:
     scraper = cloudscraper.create_scraper(
         browser={"browser": "chrome", "platform": "windows", "mobile": False},
         interpreter="js2py",
@@ -73,8 +71,7 @@ def _get_scraper() -> cloudscraper.CloudScraper:
 
 
 def _fetch_api_with_cloudscraper() -> list[dict[str, Any]] | None:
-    """Fetch the schedule API using cloudscraper to bypass Cloudflare 403."""
-    scraper = _get_scraper()
+    scraper = _get_cloudscraper()
     scraper.headers["Accept"] = "application/json, text/plain, */*"
 
     log.info(f'Fetching API via cloudscraper: "{API_URL}"')
@@ -86,12 +83,11 @@ def _fetch_api_with_cloudscraper() -> list[dict[str, Any]] | None:
         return None
 
     if resp.status_code != 200:
-        snippet = resp.text[:200].replace("\n", " ")
-        log.error(f"API status {resp.status_code}: {snippet}")
+        log.error(f"API status {resp.status_code}: {resp.text[:200]}")
         return None
 
-    if "Just a moment" in resp.text or "<!DOCTYPE" in resp.text[:50]:
-        log.error("cloudscraper received Cloudflare challenge page instead of JSON.")
+    if "Just a moment" in resp.text:
+        log.error("cloudscraper received Cloudflare challenge page.")
         return None
 
     try:
@@ -107,35 +103,39 @@ def _fetch_api_with_cloudscraper() -> list[dict[str, Any]] | None:
     return data
 
 
-def _fetch_html_with_cloudscraper(url: str, referer: str = BASE_URL) -> str | None:
-    """Fetch an HTML page using cloudscraper (bypasses Cloudflare)."""
-    scraper = _get_scraper()
-    scraper.headers["Referer"] = referer
-    scraper.headers["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
-
+def _fetch_html_with_curl_cffi(url: str, referer: str = DEFAULT_REFERER) -> str | None:
+    """Fetch HTML using curl_cffi with Chrome impersonation to bypass Cloudflare."""
     try:
-        resp = scraper.get(url, timeout=30)
+        resp = curl_requests.get(
+            url,
+            impersonate="chrome",
+            headers={
+                "Referer": referer,
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "en-US,en;q=0.9",
+            },
+            timeout=30,
+            allow_redirects=True,
+        )
     except Exception as e:
-        log.warning(f"cloudscraper failed for {url}: {e}")
+        log.warning(f"curl_cffi failed for {url}: {e}")
         return None
 
     if resp.status_code != 200:
-        log.warning(f"cloudscraper status {resp.status_code} for {url}")
+        log.warning(f"curl_cffi status {resp.status_code} for {url}")
         return None
 
     if "Just a moment" in resp.text:
-        log.warning(f"Cloudflare challenge on {url}")
+        log.warning(f"Cloudflare challenge still present on {url}")
         return None
 
     return resp.text
 
 
 async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]:
-    """Process a single event URL to extract the M3U8 stream URL."""
     nones = None, None
 
-    # Step 1: Fetch the event page to find the iframe
-    event_html = _fetch_html_with_cloudscraper(url, referer=BASE_URL)
+    event_html = _fetch_html_with_curl_cffi(url, referer=BASE_URL)
 
     if not event_html:
         log.warning(f"URL {url_num}) Failed to fetch event page")
@@ -147,31 +147,25 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
 
     if not ifr or not (src := ifr.attributes.get("src")):
         log.warning(f"URL {url_num}) No iframe element found")
-        # Log a snippet for debugging
-        log.debug(f"URL {url_num}) HTML snippet: {event_html[:500]}")
         return nones
 
-    # Resolve relative iframe URL
     if not src.startswith("http"):
         splits = urlsplit(url)
         src = urlunsplit(splits._replace(path=src))
 
     log.info(f"URL {url_num}) Found iframe: {src}")
 
-    # Step 2: Fetch the iframe source page
-    iframe_html = _fetch_html_with_cloudscraper(src, referer=url)
+    iframe_html = _fetch_html_with_curl_cffi(src, referer=url)
 
     if not iframe_html:
         log.warning(f"URL {url_num}) Failed to fetch iframe page")
         return nones
 
-    # Step 3: Extract activeStream from the iframe HTML
     pattern = re.compile(r'activeStream\s?=\s?"([^"]*)";', re.I)
 
     if not (match := pattern.search(iframe_html)):
         log.warning(f"URL {url_num}) No Clappr source found in iframe")
-        # Log a snippet for debugging
-        log.debug(f"URL {url_num}) Iframe HTML snippet: {iframe_html[:500]}")
+        log.debug(f"URL {url_num}) Iframe HTML snippet: {iframe_html[:800]}")
         return nones
 
     try:
@@ -301,9 +295,6 @@ async def scrape() -> None:
     CACHE_FILE.write(cached_sources)
 
 
-# ---------------------------------------------------------------------------
-# Output writers
-# ---------------------------------------------------------------------------
 def _build_vlc_url(source: str, referer: str, ua: str) -> str:
     return f"{source}|referer={referer}|user-agent={ua}"
 
@@ -317,20 +308,16 @@ def _sorted_entries() -> list[tuple[str, dict[str, Any]]]:
 
 
 def write_vlc_m3u8(filename: str = "sportaura_vlc.m3u8") -> None:
-    """Write sportaura_vlc.m3u8 with EXTVLCOPT headers and raw UA."""
     try:
         with open(filename, "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
-
             for chno, (key, entry) in enumerate(_sorted_entries(), start=1):
                 source = entry.get("source")
                 if not source:
                     continue
-
                 referer = entry.get("refer") or DEFAULT_REFERER
                 logo = entry.get("logo") or ""
                 tvg_id = entry.get("tvg-id") or "Live.Event.us"
-
                 f.write(
                     f'#EXTINF:-1 tvg-chno="{chno}" tvg-id="{tvg_id}" '
                     f'tvg-name="{key}" tvg-logo="{logo}" '
@@ -339,34 +326,28 @@ def write_vlc_m3u8(filename: str = "sportaura_vlc.m3u8") -> None:
                 f.write(f"#EXTVLCOPT:http-referrer={referer}\n")
                 f.write(f"#EXTVLCOPT:http-user-agent={VLC_UA}\n")
                 f.write(_build_vlc_url(source, referer, VLC_UA) + "\n")
-
         log.info(f"Wrote {filename} ({len(urls)} event(s))")
     except Exception as e:
         log.error(f"Failed to write {filename}: {e}")
 
 
 def write_tivimate_m3u8(filename: str = "sportaura_tivimate.m3u8") -> None:
-    """Write sportaura_tivimate.m3u8 with pipe headers and URL-encoded UA."""
     try:
         with open(filename, "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
-
             for chno, (key, entry) in enumerate(_sorted_entries(), start=1):
                 source = entry.get("source")
                 if not source:
                     continue
-
                 referer = entry.get("refer") or DEFAULT_REFERER
                 logo = entry.get("logo") or ""
                 tvg_id = entry.get("tvg-id") or "Live.Event.us"
-
                 f.write(
                     f'#EXTINF:-1 tvg-chno="{chno}" tvg-id="{tvg_id}" '
                     f'tvg-name="{key}" tvg-logo="{logo}" '
                     f'group-title="Live Events",{key}\n'
                 )
                 f.write(_build_tivimate_url(source, referer, TIVIMATE_UA) + "\n")
-
         log.info(f"Wrote {filename} ({len(urls)} event(s))")
     except Exception as e:
         log.error(f"Failed to write {filename}: {e}")
@@ -377,9 +358,6 @@ def write_outputs() -> None:
     write_tivimate_m3u8()
 
 
-# ---------------------------------------------------------------------------
-# Entrypoints
-# ---------------------------------------------------------------------------
 async def main() -> None:
     await scrape()
     write_outputs()
