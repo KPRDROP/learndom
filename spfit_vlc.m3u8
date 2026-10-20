@@ -1,68 +1,74 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-10-20 16:53 UTC
-# Total Streams: 11
+# Last Updated: 2026-10-20 20:32 UTC
+# Total Streams: 12
 
-#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[Live Event] Fenerbahce vs Slavia Prague 2026-27 UEFA Champions League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Fenerbahce vs Slavia Prague 2026-27 UEFA Champions League League Phase (SPFIT)
+#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[Live Event] AS Roma vs Slovan Bratislava 2026-27 UEFA Champions League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] AS Roma vs Slovan Bratislava 2026-27 UEFA Champions League League Phase (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://storage.googleapis.com/flintandfable/liverpool/manifest.m3u8
+https://opalsentinel.s3-accelerate.amazonaws.com/barcelona.m3u8
 
-#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[Live Event] Sabah FK vs Borussia Dortmund 2026-27 UEFA Champions League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Sabah FK vs Borussia Dortmund 2026-27 UEFA Champions League League Phase (SPFIT)
+#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[Live Event] FC Porto vs PSV Eindhoven 2026-27 UEFA Champions League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] FC Porto vs PSV Eindhoven 2026-27 UEFA Champions League League Phase (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://storage.googleapis.com/flintandfable/barcelona/manifest.m3u8
+https://opalsentinel.s3-accelerate.amazonaws.com/barcelona.m3u8
 
-#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[Live Event] Manchester City vs AEK Athens 2026-27 UEFA Champions League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Manchester City vs AEK Athens 2026-27 UEFA Champions League League Phase (SPFIT)
+#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[Live Event] Liverpool vs Villarreal 2026-27 UEFA Champions League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Liverpool vs Villarreal 2026-27 UEFA Champions League League Phase (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://storage.googleapis.com/flintvoyager/main/manifest.m3u8
+https://opalsentinel.s3-accelerate.amazonaws.com/liverpool.m3u8
 
-#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[Live Event] Napoli vs Bodo/Glimt 2026-27 UEFA Champions League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Napoli vs Bodo/Glimt 2026-27 UEFA Champions League League Phase (SPFIT)
+#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[Live Event] Manchester City vs AEK Athens 2026-27 UEFA Champions League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Manchester City vs AEK Athens 2026-27 UEFA Champions League League Phase (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://storage.googleapis.com/flintvoyager/main/manifest.m3u8
+https://opalsentinel.s3-accelerate.amazonaws.com/mancity.m3u8
 
-#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[Live Event] VfB Stuttgart vs Atlético Madrid 2026-27 UEFA Champions League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] VfB Stuttgart vs Atlético Madrid 2026-27 UEFA Champions League League Phase (SPFIT)
+#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[Live Event] Napoli vs Bodo/Glimt 2026-27 UEFA Champions League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Napoli vs Bodo/Glimt 2026-27 UEFA Champions League League Phase (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://storage.googleapis.com/flintvoyager/redzone/manifest.m3u8
+https://opalsentinel.s3-accelerate.amazonaws.com/barcelona.m3u8
 
-#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[Live Event] Boston Celtics at Detroit Pistons (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Boston Celtics at Detroit Pistons (SPFIT)
+#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[Live Event] Paris Saint-Germain vs Barcelona 2026-27 UEFA Champions League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Paris Saint-Germain vs Barcelona 2026-27 UEFA Champions League League Phase (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://winterorbit.s3.us-east-1.amazonaws.com/heat.m3u8
+https://opalsentinel.s3-accelerate.amazonaws.com/barcelona.m3u8
 
-#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[Live Event] Philadelphia 76ers at New York Knicks (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Philadelphia 76ers at New York Knicks (SPFIT)
+#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[Live Event] VfB Stuttgart vs Atlético Madrid 2026-27 UEFA Champions League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] VfB Stuttgart vs Atlético Madrid 2026-27 UEFA Champions League League Phase (SPFIT)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://opalsentinel.s3-accelerate.amazonaws.com/barcelona.m3u8
+
+#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[Live Event] Philadelphia 76ers at New York Knicks (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Philadelphia 76ers at New York Knicks (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://winterorbit.s3.us-east-1.amazonaws.com/76ers.m3u8
 
-#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[Live Event] Oklahoma City Thunder at San Antonio Spurs (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Oklahoma City Thunder at San Antonio Spurs (SPFIT)
+#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[Live Event] Oklahoma City Thunder at San Antonio Spurs (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Oklahoma City Thunder at San Antonio Spurs (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://winterorbit.s3.us-east-1.amazonaws.com/raptors.m3u8
 
-#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[Live Event] San Jose Sharks at Montreal Canadiens (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] San Jose Sharks at Montreal Canadiens (SPFIT)
+#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[Live Event] San Jose Sharks at Montreal Canadiens (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] San Jose Sharks at Montreal Canadiens (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://winterorbit.s3.us-east-1.amazonaws.com/ducks.m3u8
 
-#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[Live Event] Colorado Avalanche at New Jersey Devils (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Colorado Avalanche at New Jersey Devils (SPFIT)
+#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[Live Event] Colorado Avalanche at New Jersey Devils (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Colorado Avalanche at New Jersey Devils (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://winterorbit.s3.us-east-1.amazonaws.com/flyers.m3u8
 
-#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[Live Event] Anaheim Ducks at New York Islanders (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Anaheim Ducks at New York Islanders (SPFIT)
+#EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[Live Event] Anaheim Ducks at New York Islanders (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Anaheim Ducks at New York Islanders (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
