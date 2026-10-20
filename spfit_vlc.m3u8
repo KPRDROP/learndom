@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-10-19 21:03 UTC
-# Total Streams: 17
+# Last Updated: 2026-10-20 00:21 UTC
+# Total Streams: 3
 
 #EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[Live Event] Tottenham Hotspur vs Coventry City 2026-27 English Premier League (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Tottenham Hotspur vs Coventry City 2026-27 English Premier League (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
@@ -8,99 +8,15 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://storage.googleapis.com/flintvoyager/main/manifest.m3u8
 
-#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[Live Event] RedZone (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] RedZone (SPFIT)
+#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[Live Event] Washington Commanders at San Francisco 49ers (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Washington Commanders at San Francisco 49ers (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://silvermariner.s3.us-east-1.amazonaws.com/redzone.m3u8
+https://arcticfable.s3.us-east-1.amazonaws.com/cowboys.m3u8
 
-#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[Live Event] Houston Texans at Jacksonville Jaguars (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Houston Texans at Jacksonville Jaguars (SPFIT)
+#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[Live Event] San Jose Sharks at Toronto Maple Leafs (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] San Jose Sharks at Toronto Maple Leafs (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://storage.googleapis.com/flintvoyager/sportsnet/manifest.m3u8
-
-#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[Live Event] Chicago Bears at Atlanta Falcons (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Chicago Bears at Atlanta Falcons (SPFIT)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://silvermariner.s3.us-east-1.amazonaws.com/bears.m3u8
-
-#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[Live Event] Baltimore Ravens at Cleveland Browns (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Baltimore Ravens at Cleveland Browns (SPFIT)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://silvermariner.s3.us-east-1.amazonaws.com/ravens.m3u8
-
-#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[Live Event] Tennessee Titans at Indianapolis Colts (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Tennessee Titans at Indianapolis Colts (SPFIT)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://silvermariner.s3.us-east-1.amazonaws.com/colts.m3u8
-
-#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[Live Event] New York Jets at New England Patriots (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] New York Jets at New England Patriots (SPFIT)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://silvermariner.s3.us-east-1.amazonaws.com/patriotss.m3u8
-
-#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[Live Event] New Orleans Saints at New York Giants (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] New Orleans Saints at New York Giants (SPFIT)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://silvermariner.s3.us-east-1.amazonaws.com/giants.m3u8
-
-#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[Live Event] Carolina Panthers at Philadelphia Eagles (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Carolina Panthers at Philadelphia Eagles (SPFIT)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://silvermariner.s3.us-east-1.amazonaws.com/eagles.m3u8
-
-#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[Live Event] Pittsburgh Steelers at Tampa Bay Buccaneers (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Pittsburgh Steelers at Tampa Bay Buccaneers (SPFIT)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://silvermariner.s3.us-east-1.amazonaws.com/steelers.m3u8
-
-#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[Live Event] Arizona Cardinals at Los Angeles Rams (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Arizona Cardinals at Los Angeles Rams (SPFIT)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://silvermariner.s3.us-east-1.amazonaws.com/rams.m3u8
-
-#EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[Live Event] Los Angeles Chargers at Kansas City Chiefs (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Los Angeles Chargers at Kansas City Chiefs (SPFIT)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://silvermariner.s3.us-east-1.amazonaws.com/chiefs.m3u8
-
-#EXTINF:-1 tvg-chno="13" tvg-id="Live.Event.us" tvg-name="[Live Event] Buffalo Bills at Las Vegas Raiders (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Buffalo Bills at Las Vegas Raiders (SPFIT)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://silvermariner.s3.us-east-1.amazonaws.com/raiders.m3u8
-
-#EXTINF:-1 tvg-chno="14" tvg-id="Live.Event.us" tvg-name="[Live Event] Dallas Cowboys at Green Bay Packers (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Dallas Cowboys at Green Bay Packers (SPFIT)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://storage.googleapis.com/flintvoyager/nbcsn/manifest.m3u8
-
-#EXTINF:-1 tvg-chno="15" tvg-id="Live.Event.us" tvg-name="[Live Event] Cleveland Guardians at Tampa Bay Rays (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Cleveland Guardians at Tampa Bay Rays (SPFIT)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://storage.googleapis.com/flintvoyager/nbcsn/manifest.m3u8
-
-#EXTINF:-1 tvg-chno="16" tvg-id="Live.Event.us" tvg-name="[Live Event] San Jose Sharks at Toronto Maple Leafs (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] San Jose Sharks at Toronto Maple Leafs (SPFIT)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://silvermariner.s3.us-east-1.amazonaws.com/leafs.m3u8
-
-#EXTINF:-1 tvg-chno="17" tvg-id="Live.Event.us" tvg-name="[Live Event] Pittsburgh Penguins at Utah Mammoth (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Pittsburgh Penguins at Utah Mammoth (SPFIT)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://silvermariner.s3.us-east-1.amazonaws.com/penguins.m3u8
+https://arcticfable.s3.us-east-1.amazonaws.com/leafs.m3u8
 
