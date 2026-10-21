@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-10-20 23:50 UTC
-# Total Streams: 20
+# Last Updated: 2026-10-21 04:27 UTC
+# Total Streams: 21
 
 #EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[Live Event] AS Roma vs Slovan Bratislava 2026-27 UEFA Champions League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] AS Roma vs Slovan Bratislava 2026-27 UEFA Champions League League Phase (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
@@ -60,7 +60,7 @@ https://storage.googleapis.com/flintandfable/celtics/manifest.m3u8
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://storage.googleapis.com/flintandfable/celtics/manifest.m3u8
+https://opalsentinel.s3-accelerate.amazonaws.com/spurs.m3u8
 
 #EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[Live Event] San Jose Sharks at Montreal Canadiens (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] San Jose Sharks at Montreal Canadiens (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
@@ -92,31 +92,37 @@ https://opalsentinel.s3-accelerate.amazonaws.com/capitals.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://opalsentinel.s3-accelerate.amazonaws.com/leafs.m3u8
 
-#EXTINF:-1 tvg-chno="16" tvg-id="Live.Event.us" tvg-name="[Live Event] Boston Bruins at Dallas Stars (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Boston Bruins at Dallas Stars (SPFIT)
+#EXTINF:-1 tvg-chno="16" tvg-id="Live.Event.us" tvg-name="[Live Event] Winnipeg Jets at St. Louis Blues (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Winnipeg Jets at St. Louis Blues (SPFIT)
+#EXTVLCOPT:http-referrer=https://edgesport.cfd/
+#EXTVLCOPT:http-origin=https://edgesport.cfd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://opalsentinel.s3-accelerate.amazonaws.com/jets.m3u8
+
+#EXTINF:-1 tvg-chno="17" tvg-id="Live.Event.us" tvg-name="[Live Event] Boston Bruins at Dallas Stars (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Boston Bruins at Dallas Stars (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://opalsentinel.s3-accelerate.amazonaws.com/bruins.m3u8
 
-#EXTINF:-1 tvg-chno="17" tvg-id="Live.Event.us" tvg-name="[Live Event] Minnesota Wild at Edmonton Oilers (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Minnesota Wild at Edmonton Oilers (SPFIT)
+#EXTINF:-1 tvg-chno="18" tvg-id="Live.Event.us" tvg-name="[Live Event] Minnesota Wild at Edmonton Oilers (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Minnesota Wild at Edmonton Oilers (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://opalsentinel.s3-accelerate.amazonaws.com/oilers.m3u8
 
-#EXTINF:-1 tvg-chno="18" tvg-id="Live.Event.us" tvg-name="[Live Event] Detroit Red Wings at Seattle Kraken (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Detroit Red Wings at Seattle Kraken (SPFIT)
+#EXTINF:-1 tvg-chno="19" tvg-id="Live.Event.us" tvg-name="[Live Event] Detroit Red Wings at Seattle Kraken (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Detroit Red Wings at Seattle Kraken (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://opalsentinel.s3-accelerate.amazonaws.com/redwings.m3u8
 
-#EXTINF:-1 tvg-chno="19" tvg-id="Live.Event.us" tvg-name="[Live Event] Carolina Hurricanes at Vancouver Canucks (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Carolina Hurricanes at Vancouver Canucks (SPFIT)
+#EXTINF:-1 tvg-chno="20" tvg-id="Live.Event.us" tvg-name="[Live Event] Carolina Hurricanes at Vancouver Canucks (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Carolina Hurricanes at Vancouver Canucks (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://opalsentinel.s3-accelerate.amazonaws.com/hurricanes.m3u8
 
-#EXTINF:-1 tvg-chno="20" tvg-id="Live.Event.us" tvg-name="[Live Event] Tampa Bay Lightning at Vegas Golden Knights (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Tampa Bay Lightning at Vegas Golden Knights (SPFIT)
+#EXTINF:-1 tvg-chno="21" tvg-id="Live.Event.us" tvg-name="[Live Event] Tampa Bay Lightning at Vegas Golden Knights (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Tampa Bay Lightning at Vegas Golden Knights (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
