@@ -1,40 +1,40 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-10-21 15:14 UTC
+# Last Updated: 2026-10-21 20:09 UTC
 # Total Streams: 6
 
 #EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[Live Event] Como vs Manchester United 2026-27 UEFA Champions League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Como vs Manchester United 2026-27 UEFA Champions League League Phase (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://opalsentinel.s3-accelerate.amazonaws.com/barcelona.m3u8
+https://storage.googleapis.com/flintandfable/celtics/manifest.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[Live Event] Lille vs Galatasaray 2026-27 UEFA Champions League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Lille vs Galatasaray 2026-27 UEFA Champions League League Phase (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://opalsentinel.s3-accelerate.amazonaws.com/mancity.m3u8
+https://storage.googleapis.com/flintandfable/liverpool/manifest.m3u8
 
 #EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[Live Event] Aston Villa vs Viking FK 2026-27 UEFA Champions League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Aston Villa vs Viking FK 2026-27 UEFA Champions League League Phase (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://opalsentinel.s3-accelerate.amazonaws.com/barcelona.m3u8
+https://obsidianmeadow.s3-accelerate.amazonaws.com/astonvilla.m3u8
 
 #EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[Live Event] Bayern Munich vs Arsenal 2026-27 UEFA Champions League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Bayern Munich vs Arsenal 2026-27 UEFA Champions League League Phase (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://opalsentinel.s3-accelerate.amazonaws.com/liverpool.m3u8
+https://obsidianmeadow.s3-accelerate.amazonaws.com/arsenal.m3u8
 
 #EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[Live Event] Internazionale vs Shakhtar Donetsk 2026-27 UEFA Champions League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Internazionale vs Shakhtar Donetsk 2026-27 UEFA Champions League League Phase (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://opalsentinel.s3-accelerate.amazonaws.com/barcelona.m3u8
+https://obsidianmeadow.s3-accelerate.amazonaws.com/inter.m3u8
 
 #EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[Live Event] Real Madrid vs RB Leipzig 2026-27 UEFA Champions League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Real Madrid vs RB Leipzig 2026-27 UEFA Champions League League Phase (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://opalsentinel.s3-accelerate.amazonaws.com/barcelona.m3u8
+https://obsidianmeadow.s3-accelerate.amazonaws.com/realmadrid.m3u8
 
