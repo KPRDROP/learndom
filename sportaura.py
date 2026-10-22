@@ -1,4 +1,3 @@
-import asyncio
 import base64
 import re
 from collections.abc import KeysView
@@ -43,6 +42,9 @@ DEFAULT_REFERER = BASE_URL
 
 EVENT_WINDOW_MINUTES = 180
 
+# Player host
+PLAYER_HOST = "frame.egybest.fit"
+
 
 @dataclass(kw_only=True, slots=True)
 class AURAEvent(Event):
@@ -55,6 +57,24 @@ def fix_league(s: str) -> str:
     return f"{i.upper() if len(i) <= 5 else i.capitalize()} {' '.join(x.capitalize() for x in splits[1:])}".strip()
 
 
+def get_ifr(s: str) -> str | None:
+    """Map any event/iframe URL to https://<PLAYER_HOST>/frame/<id>.
+
+    Mirrors the original working code's get_ifr() exactly.
+    """
+    splits = urlsplit(s)
+    s_id = splits.path.rstrip("/").split("/")[-1]
+
+    return (
+        urlunsplit(splits._replace(netloc=PLAYER_HOST, path=f"/frame/{s_id}"))
+        if s_id.isdigit()
+        else None
+    )
+
+
+# ---------------------------------------------------------------------------
+# HTTP helpers
+# ---------------------------------------------------------------------------
 def _get_cloudscraper() -> cloudscraper.CloudScraper:
     scraper = cloudscraper.create_scraper(
         browser={"browser": "chrome", "platform": "windows", "mobile": False},
@@ -103,8 +123,9 @@ def _fetch_api_with_cloudscraper() -> list[dict[str, Any]] | None:
     return data
 
 
-def _fetch_html_with_curl_cffi(url: str, referer: str = DEFAULT_REFERER) -> str | None:
-    """Fetch HTML using curl_cffi with Chrome impersonation to bypass Cloudflare."""
+def _fetch_html(url: str, referer: str = DEFAULT_REFERER) -> str | None:
+    """Fetch an HTML page — tries curl_cffi first (Chrome TLS fingerprint),
+    then falls back to cloudscraper."""
     try:
         resp = curl_requests.get(
             url,
@@ -117,62 +138,78 @@ def _fetch_html_with_curl_cffi(url: str, referer: str = DEFAULT_REFERER) -> str 
             timeout=30,
             allow_redirects=True,
         )
+        if resp.status_code == 200 and "Just a moment" not in resp.text:
+            return resp.text
+        log.debug(f"curl_cffi status {resp.status_code} for {url} — falling back")
     except Exception as e:
-        log.warning(f"curl_cffi failed for {url}: {e}")
-        return None
+        log.debug(f"curl_cffi failed for {url}: {e} — falling back")
 
-    if resp.status_code != 200:
-        log.warning(f"curl_cffi status {resp.status_code} for {url}")
-        return None
+    # Fallback
+    scraper = _get_cloudscraper()
+    scraper.headers["Referer"] = referer
+    try:
+        resp = scraper.get(url, timeout=30)
+        if resp.status_code == 200 and "Just a moment" not in resp.text:
+            return resp.text
+        log.warning(f"Both fetchers failed for {url} (status {resp.status_code})")
+    except Exception as e:
+        log.warning(f"cloudscraper failed for {url}: {e}")
 
-    if "Just a moment" in resp.text:
-        log.warning(f"Cloudflare challenge still present on {url}")
-        return None
-
-    return resp.text
+    return None
 
 
-async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]:
+async def process_event(
+    url: str,
+    url_num: int,
+    iframe_url: str | None = None,
+) -> tuple[str | None, str | None]:
+    """Extract the M3U8 stream URL.
+
+    The original working code doesn't parse the event page for an <iframe>.
+    It derives the player URL directly from the numeric ID in the event URL
+    (or the API's iframeUrl) and reads `activeStream` / `streamUrl` from there.
+    """
     nones = None, None
 
-    event_html = _fetch_html_with_curl_cffi(url, referer=BASE_URL)
+    # 1. Derive the player URL from the event url or the API-provided iframeUrl.
+    ifr = get_ifr(iframe_url) if iframe_url else None
+    if not ifr:
+        ifr = get_ifr(url)
 
+    if not ifr:
+        log.warning(f"URL {url_num}) Unable to parse event id from {url}")
+        return nones
+
+    log.info(f"URL {url_num}) Player URL: {ifr}")
+
+    # 2. Fetch the player page (contains `activeStream` / `streamUrl`).
+    event_html = _fetch_html(ifr, referer=url)
     if not event_html:
-        log.warning(f"URL {url_num}) Failed to fetch event page")
+        log.warning(f"URL {url_num}) Failed to fetch player page")
         return nones
 
-    soup = HTMLParser(event_html.encode())
+    # 3. Match either variable name (original code supports both).
+    pattern = re.compile(r'(activeStream|streamUrl)\s?=\s?"([^"]*)";', re.I)
 
-    ifr = soup.css_first("iframe.stream-frame")
-
-    if not ifr or not (src := ifr.attributes.get("src")):
-        log.warning(f"URL {url_num}) No iframe element found")
+    if not (match := pattern.search(event_html)):
+        log.warning(f"URL {url_num}) No Clappr source found.")
+        log.debug(f"URL {url_num}) Player HTML snippet: {event_html[:500]}")
         return nones
 
-    if not src.startswith("http"):
-        splits = urlsplit(url)
-        src = urlunsplit(splits._replace(path=src))
+    raw = match[2]
 
-    log.info(f"URL {url_num}) Found iframe: {src}")
-
-    iframe_html = _fetch_html_with_curl_cffi(src, referer=url)
-
-    if not iframe_html:
-        log.warning(f"URL {url_num}) Failed to fetch iframe page")
-        return nones
-
-    pattern = re.compile(r'activeStream\s?=\s?"([^"]*)";', re.I)
-
-    if not (match := pattern.search(iframe_html)):
-        log.warning(f"URL {url_num}) No Clappr source found in iframe")
-        log.debug(f"URL {url_num}) Iframe HTML snippet: {iframe_html[:800]}")
-        return nones
-
-    try:
-        source = base64.b64decode(match[1]).decode("utf-8").strip()
-    except Exception as e:
-        log.warning(f"URL {url_num}) Failed to decode source: {e}")
-        return nones
+source: str | None = None
+    if raw.startswith(("http://", "https://", "//")):
+        source = raw.strip()
+    else:
+        try:
+            decoded = base64.b64decode(raw).decode("utf-8").strip()
+            if decoded.startswith(("http://", "https://", "//")):
+                source = decoded
+        except Exception:
+            pass
+        if source is None:
+            source = raw.strip()
 
     if not source:
         log.warning(f"URL {url_num}) Empty source after decode")
@@ -180,7 +217,7 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
 
     log.info(f"URL {url_num}) Captured M3U8: {source[:80]}...")
 
-    return source, src
+    return source, ifr
 
 
 async def get_events(cached_keys: KeysView[str]) -> list[AURAEvent]:
@@ -260,7 +297,12 @@ async def scrape() -> None:
         log.info(f"Processing {len(events)} new URL(s)")
 
         for i, ev in enumerate(events, start=1):
-            handler = partial(process_event, url=ev.link, url_num=i)
+            handler = partial(
+                process_event,
+                url=ev.link,
+                url_num=i,
+                iframe_url=ev.link,
+            )
 
             source, iframe = await network.safe_process(
                 handler,
@@ -295,6 +337,9 @@ async def scrape() -> None:
     CACHE_FILE.write(cached_sources)
 
 
+# ---------------------------------------------------------------------------
+# Output writers
+# ---------------------------------------------------------------------------
 def _build_vlc_url(source: str, referer: str, ua: str) -> str:
     return f"{source}|referer={referer}|user-agent={ua}"
 
@@ -358,12 +403,16 @@ def write_outputs() -> None:
     write_tivimate_m3u8()
 
 
+# ---------------------------------------------------------------------------
+# Entrypoints
+# ---------------------------------------------------------------------------
 async def main() -> None:
     await scrape()
     write_outputs()
 
 
 def run() -> None:
+    import asyncio
     asyncio.run(main())
 
 
