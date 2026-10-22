@@ -57,11 +57,6 @@ def fix_league(s: str) -> str:
 
 
 def get_ifr(s: str) -> str | None:
-    """Rebuild the player URL from any event/iframe URL ending in a numeric id.
-
-    Restored from the original working code — used to derive
-    https://<PLAYER_HOST>/frame/<id> without scraping the event page.
-    """
     splits = urlsplit(s)
     s_id = splits.path.rstrip("/").split("/")[-1]
 
