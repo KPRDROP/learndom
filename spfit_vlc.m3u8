@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-10-22 00:02 UTC
+# Last Updated: 2026-10-22 04:34 UTC
 # Total Streams: 19
 
 #EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[Live Event] Como vs Manchester United 2026-27 UEFA Champions League League Phase (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Como vs Manchester United 2026-27 UEFA Champions League League Phase (SPFIT)
@@ -42,77 +42,77 @@ https://obsidianmeadow.s3-accelerate.amazonaws.com/realmadrid.m3u8
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://obsidianmeadow.s3-accelerate.amazonaws.com/hawks.m3u8
+https://arcticrelic.s3-accelerate.amazonaws.com/hawks.m3u8
 
 #EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[Live Event] Milwaukee Bucks at Washington Wizards (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Milwaukee Bucks at Washington Wizards (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://obsidianmeadow.s3-accelerate.amazonaws.com/bucks.m3u8
+https://arcticrelic.s3-accelerate.amazonaws.com/bucks.m3u8
 
 #EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[Live Event] Minnesota Timberwolves at Miami Heat (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Minnesota Timberwolves at Miami Heat (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://obsidianmeadow.s3-accelerate.amazonaws.com/heat.m3u8
+https://arcticrelic.s3-accelerate.amazonaws.com/heat.m3u8
 
 #EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[Live Event] Charlotte Hornets at Brooklyn Nets (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Charlotte Hornets at Brooklyn Nets (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://obsidianmeadow.s3-accelerate.amazonaws.com/hornets.m3u8
+https://arcticrelic.s3-accelerate.amazonaws.com/hornets.m3u8
 
 #EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[Live Event] Chicago Bulls at Toronto Raptors (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Chicago Bulls at Toronto Raptors (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://obsidianmeadow.s3-accelerate.amazonaws.com/raptors.m3u8
+https://arcticrelic.s3-accelerate.amazonaws.com/raptors.m3u8
 
 #EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[Live Event] Utah Jazz at Memphis Grizzlies (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Utah Jazz at Memphis Grizzlies (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://obsidianmeadow.s3-accelerate.amazonaws.com/grizzlies.m3u8
+https://arcticrelic.s3-accelerate.amazonaws.com/grizzlies.m3u8
 
 #EXTINF:-1 tvg-chno="13" tvg-id="Live.Event.us" tvg-name="[Live Event] Indiana Pacers at New Orleans Pelicans (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Indiana Pacers at New Orleans Pelicans (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://obsidianmeadow.s3-accelerate.amazonaws.com/pacers.m3u8
+https://arcticrelic.s3-accelerate.amazonaws.com/pacers.m3u8
 
 #EXTINF:-1 tvg-chno="14" tvg-id="Live.Event.us" tvg-name="[Live Event] Dallas Mavericks at Houston Rockets (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Dallas Mavericks at Houston Rockets (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://obsidianmeadow.s3-accelerate.amazonaws.com/rockets.m3u8
+https://arcticrelic.s3-accelerate.amazonaws.com/rockets.m3u8
 
 #EXTINF:-1 tvg-chno="15" tvg-id="Live.Event.us" tvg-name="[Live Event] Golden State Warriors at Los Angeles Lakers (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Golden State Warriors at Los Angeles Lakers (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://obsidianmeadow.s3-accelerate.amazonaws.com/lakers.m3u8
+https://arcticrelic.s3.amazonaws.com/lakers.m3u8
 
 #EXTINF:-1 tvg-chno="16" tvg-id="Live.Event.us" tvg-name="[Live Event] Phoenix Suns at Portland Trail Blazers (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Phoenix Suns at Portland Trail Blazers (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://obsidianmeadow.s3-accelerate.amazonaws.com/suns.m3u8
+https://arcticrelic.s3.amazonaws.com/suns.m3u8
 
 #EXTINF:-1 tvg-chno="17" tvg-id="Live.Event.us" tvg-name="[Live Event] Sacramento Kings at LA Clippers (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Sacramento Kings at LA Clippers (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://obsidianmeadow.s3-accelerate.amazonaws.com/clippers.m3u8
+https://arcticrelic.s3.amazonaws.com/clippers.m3u8
 
 #EXTINF:-1 tvg-chno="18" tvg-id="Live.Event.us" tvg-name="[Live Event] Philadelphia Flyers at Buffalo Sabres (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Philadelphia Flyers at Buffalo Sabres (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://obsidianmeadow.s3-accelerate.amazonaws.com/sabres.m3u8
+https://arcticrelic.s3-accelerate.amazonaws.com/sabres.m3u8
 
 #EXTINF:-1 tvg-chno="19" tvg-id="Live.Event.us" tvg-name="[Live Event] Florida Panthers at Ottawa Senators (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Live Event] Florida Panthers at Ottawa Senators (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://obsidianmeadow.s3-accelerate.amazonaws.com/senators.m3u8
+https://arcticrelic.s3-accelerate.amazonaws.com/senators.m3u8
 
