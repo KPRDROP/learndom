@@ -1,1 +1,5 @@
 #EXTM3U
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Bundesliga] Borussia Mönchengladbach at VfB Stuttgart (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401884761.png" group-title="Live Events",[Bundesliga] Borussia Mönchengladbach at VfB Stuttgart (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1450
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.dptv.info/live/espn-401884761/index.m3u8|referer=https://frame.egybest.fit/frame/1450|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
