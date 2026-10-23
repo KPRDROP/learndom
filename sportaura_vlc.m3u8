@@ -1,5 +1,25 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Bundesliga] Borussia Mönchengladbach at VfB Stuttgart (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401884761.png" group-title="Live Events",[Bundesliga] Borussia Mönchengladbach at VfB Stuttgart (SPORTSA)
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Serie A] Monza at Torino (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401874957.png" group-title="Live Events",[Serie A] Monza at Torino (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1451
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.dptv.info/live/espn-401874957/index.m3u8|referer=https://frame.egybest.fit/frame/1451|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="2" tvg-id="Racing.Dummy.us" tvg-name="[Motorsports] MSC Cruises United States Grand Prix Free Practice 1 (SPORTSA)" tvg-logo="https://1fbbeebb.imgggre.pages.dev/f1-401839118.png" group-title="Live Events",[Motorsports] MSC Cruises United States Grand Prix Free Practice 1 (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1452
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.dptv.info/live/evt-1792770265209/index.m3u8|referer=https://frame.egybest.fit/frame/1452|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Nottingham Forest at Ipswich Town (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401879253.png" group-title="Live Events",[Premier League] Nottingham Forest at Ipswich Town (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1448
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.dptv.info/live/espn-401879253/index.m3u8|referer=https://frame.egybest.fit/frame/1448|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[LALIGA] Málaga at Alavés (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401882836.png" group-title="Live Events",[LALIGA] Málaga at Alavés (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1449
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.dptv.info/live/espn-401882836/index.m3u8|referer=https://frame.egybest.fit/frame/1449|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="5" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Chicago Bulls at Milwaukee Bucks (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401909848.png" group-title="Live Events",[NBA] Chicago Bulls at Milwaukee Bucks (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1428
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.dptv.info/live/espn-401909848/index.m3u8|referer=https://frame.egybest.fit/frame/1428|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="6" tvg-id="Soccer.Dummy.us" tvg-name="[Bundesliga] Borussia Mönchengladbach at VfB Stuttgart (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401884761.png" group-title="Live Events",[Bundesliga] Borussia Mönchengladbach at VfB Stuttgart (SPORTSA)
 #EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1450
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://hls.dptv.info/live/espn-401884761/index.m3u8|referer=https://frame.egybest.fit/frame/1450|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
