@@ -1,29 +1,9 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[German Bundesliga] Stuttgart vs Borussia Mönchengladbach (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rECHpsZrUNxB8QJTSBgmzGxCQLAkFPsNn0UYFSi6vy9LLPdNaYK5iohBAA.webp" group-title="Live Events",[German Bundesliga] Stuttgart vs Borussia Mönchengladbach (RDSTRM)
-#EXTVLCOPT:http-referrer=https://player.viloud.tv/
-#EXTVLCOPT:http-origin=https://player.viloud.tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://tedesco.formaturamaxi.com.br/one.m3u8
-#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[French Ligue 1] Brest vs Nice (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VJBQAMIGfhB8Q3fSBIgIxnFJDWrEphpj9hs+ijAqUXd+XpZZnplowdzFRCCA.webp" group-title="Live Events",[French Ligue 1] Brest vs Nice (RDSTRM)
-#EXTVLCOPT:http-referrer=https://player.viloud.tv/
-#EXTVLCOPT:http-origin=https://player.viloud.tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://tedesco.formaturamaxi.com.br/beines.m3u8
-#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[Italian Serie A] Torino vs Monza (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rFGCkg+YECER8Q3bXpAxTKEJesgSBYEgp9hs+hpUouYMvCJZZnky0YN5iohBAA.webp" group-title="Live Events",[Italian Serie A] Torino vs Monza (RDSTRM)
-#EXTVLCOPT:http-referrer=https://player.viloud.tv/
-#EXTVLCOPT:http-origin=https://player.viloud.tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://tedesco.formaturamaxi.com.br/golazo.m3u8
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[English Premier League] Ipswich Town vs Nottingham Forest (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rPiCkgYIRCGAAGENxAaQICCBIWQKXTYVMkFPsNn0UYFSi5fy9LFkfJlowLzFRCCA.webp" group-title="Live Events",[English Premier League] Ipswich Town vs Nottingham Forest (RDSTRM)
 #EXTVLCOPT:http-referrer=https://player.viloud.tv/
 #EXTVLCOPT:http-origin=https://player.viloud.tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://admin2.formaturamaxi.com.br/f1.m3u8
-#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="[Spanish LALIGA] Deportivo Alavés vs Málaga (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VEBpC8mSMCS0g+miCBQgYIE-pONgumP2Gz6KPWxRc95ellkemtGBu9KIQQA.webp" group-title="Live Events",[Spanish LALIGA] Deportivo Alavés vs Málaga (RDSTRM)
-#EXTVLCOPT:http-referrer=https://player.viloud.tv/
-#EXTVLCOPT:http-origin=https://player.viloud.tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://admin2.formaturamaxi.com.br/dep.m3u8
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Milwaukee Bucks vs Chicago Bulls (RDSTRM)" tvg-logo="https://api.reedstreams.link/api/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VerRSwwfEDBDcQukiBS4QiCAZAmUBYEgp9hs+lpUouYMvCJZZnky0YN5iohBAA.webp" group-title="Live Events",[NBA] Milwaukee Bucks vs Chicago Bulls (RDSTRM)
 #EXTVLCOPT:http-referrer=https://player.viloud.tv/
 #EXTVLCOPT:http-origin=https://player.viloud.tv
