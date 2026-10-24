@@ -33,6 +33,7 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install playwright selectolax "httpx[http2]" tzdata pytz adblock
           pip install cloudscraper js2py curl_cffi
+          playwright install chromium --with-deps
 
       - name: Run updater
         env:
