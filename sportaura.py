@@ -63,7 +63,7 @@ def get_ifr(s: str) -> str | None:
     if not s_id.isdigit():
         return None
 
-    return urlunsplit(splits._replace(netloc=PLAYER_HOST, path=f"/frame/{s_id}"))
+    return urlunsplit(splits._replace(netloc=PLAYER_HOST, path=f"/sports/{s_id}"))
 
 
 def _get_cloudscraper() -> cloudscraper.CloudScraper:
@@ -210,9 +210,9 @@ async def process_event(
     return source, ifr
 
 
-async def get_events(cached_keys: KeysView[str]) -> list[AURAEvent]:
+async def get_(cached_keys: KeysView[str]) -> list[AURAEvent]:
     now = Time.rn()
-    events: list[AURAEvent] = []
+    : list[AURAEvent] = []
 
     api_data = API_FILE.load(per_entry=False, ts_index=-1)
 
