@@ -86,8 +86,6 @@ def _get_cloudscraper() -> cloudscraper.CloudScraper:
 
 
 def _fetch_api_with_cloudscraper() -> list[dict[str, Any]] | None:
-    """API fetch — cloudscraper still works here because aurasports.xyz
-    is less aggressively protected than the player host."""
     scraper = _get_cloudscraper()
     scraper.headers["Accept"] = "application/json, text/plain, */*"
 
@@ -121,7 +119,6 @@ def _fetch_api_with_cloudscraper() -> list[dict[str, Any]] | None:
 
 
 def _extract_source(raw: str) -> str | None:
-    """Return a usable stream URL from the regex match value."""
     raw = raw.strip()
     if raw.startswith(("http://", "https://", "//")):
         return raw
@@ -142,6 +139,7 @@ async def process_event(
     page: Any,
     iframe_url: str | None = None,
 ) -> tuple[str | None, str | None]:
+    """Fetch the player page via a real Chromium page to pass Cloudflare."""
     nones = None, None
 
     ifr = get_ifr(iframe_url) if iframe_url else None
@@ -155,7 +153,6 @@ async def process_event(
     log.info(f"URL {url_num}) Player URL: {ifr}")
 
     try:
-        # Navigate with the forced Referer / Origin headers.
         resp = await page.goto(
             ifr,
             wait_until="domcontentloaded",
@@ -170,7 +167,6 @@ async def process_event(
             )
             return nones
 
-        # Give Cloudflare's JS challenge a moment to resolve if present.
         html = await page.content()
         if "Just a moment" in html or "challenge-platform" in html:
             await page.wait_for_timeout(3_000)
@@ -273,7 +269,6 @@ async def scrape(browser: Browser) -> None:
     if events := await get_events(cached_sources.keys()):
         log.info(f"Processing {len(events)} new URL(s)")
 
-        # Use a browser context with the forced Origin header on every request.
         context = await browser.new_context(
             user_agent=VLC_UA,
             extra_http_headers={
@@ -400,7 +395,11 @@ def write_outputs() -> None:
 
 async def main() -> None:
     async with async_playwright() as playwright:
-        browser = await network.browser(playwright)
+        
+        browser = await playwright.chromium.launch(
+            headless=True,
+            args=["--no-sandbox", "--disable-dev-shm-usage"],
+        )
         try:
             await scrape(browser)
         finally:
