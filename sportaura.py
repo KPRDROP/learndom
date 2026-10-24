@@ -43,7 +43,7 @@ DEFAULT_REFERER = BASE_URL
 EVENT_WINDOW_MINUTES = 180
 
 # UPDATED: the player host that actually serves the streams
-PLAYER_HOST = "https://play.meth-streams-hd.cfd/sports"
+PLAYER_HOST = "play.meth-streams-hd.cfd"
 
 # Forced headers for the player request
 PLAYER_REFERER = "https://frame.meth-streams-hd.cfd/"
