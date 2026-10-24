@@ -42,7 +42,8 @@ DEFAULT_REFERER = BASE_URL
 
 EVENT_WINDOW_MINUTES = 180
 
-PLAYER_HOST = "play.meth-streams-hd.cfd"
+# UPDATED: the player host that actually serves the streams
+PLAYER_HOST = "frame.meth-streams-hd.cfd"
 
 # Forced headers for the player request
 PLAYER_REFERER = "https://frame.meth-streams-hd.cfd/"
@@ -139,7 +140,7 @@ async def process_event(
     page: Any,
     iframe_url: str | None = None,
 ) -> tuple[str | None, str | None]:
-    """Fetch the player page via a real Chromium page to pass Cloudflare."""
+    """Fetch the player page via Chromium and extract the M3U8 URL."""
     nones = None, None
 
     ifr = get_ifr(iframe_url) if iframe_url else None
@@ -395,7 +396,6 @@ def write_outputs() -> None:
 
 async def main() -> None:
     async with async_playwright() as playwright:
-        
         browser = await playwright.chromium.launch(
             headless=True,
             args=["--no-sandbox", "--disable-dev-shm-usage"],
