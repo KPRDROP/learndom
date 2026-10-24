@@ -44,6 +44,11 @@ EVENT_WINDOW_MINUTES = 180
 
 PLAYER_HOST = "frame.egybest.fit"
 
+# --- Forced headers for the player-page request -----------------------------
+PLAYER_REFERER = "https://frame.meth-streams-hd.cfd/"
+PLAYER_ORIGIN = "https://frame.meth-streams-hd.cfd"
+# ---------------------------------------------------------------------------
+
 
 @dataclass(kw_only=True, slots=True)
 class AURAEvent(Event):
@@ -114,18 +119,22 @@ def _fetch_api_with_cloudscraper() -> list[dict[str, Any]] | None:
     return data
 
 
-def _fetch_html(url: str, referer: str = DEFAULT_REFERER) -> str | None:
+def _fetch_html(url: str, referer: str = DEFAULT_REFERER, origin: str | None = None) -> str | None:
     """Fetch an HTML page: curl_cffi (Chrome TLS fingerprint) first,
-    cloudscraper fallback."""
+    cloudscraper fallback. Referer / Origin are forced when provided."""
+    headers = {
+        "Referer": referer,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+    if origin:
+        headers["Origin"] = origin
+
     try:
         resp = curl_requests.get(
             url,
             impersonate="chrome",
-            headers={
-                "Referer": referer,
-                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-                "Accept-Language": "en-US,en;q=0.9",
-            },
+            headers=headers,
             timeout=30,
             allow_redirects=True,
         )
@@ -137,6 +146,8 @@ def _fetch_html(url: str, referer: str = DEFAULT_REFERER) -> str | None:
 
     scraper = _get_cloudscraper()
     scraper.headers["Referer"] = referer
+    if origin:
+        scraper.headers["Origin"] = origin
     try:
         resp = scraper.get(url, timeout=30)
         if resp.status_code == 200 and "Just a moment" not in resp.text:
@@ -187,7 +198,12 @@ async def process_event(
 
     log.info(f"URL {url_num}) Player URL: {ifr}")
 
-    event_html = _fetch_html(ifr, referer=url)
+    # Force the required Referer / Origin headers for the player request.
+    event_html = _fetch_html(
+        ifr,
+        referer=PLAYER_REFERER,
+        origin=PLAYER_ORIGIN,
+    )
     if not event_html:
         log.warning(f"URL {url_num}) Failed to fetch player page")
         return nones
