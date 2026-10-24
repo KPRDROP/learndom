@@ -8,7 +8,7 @@ from typing import Any
 from urllib.parse import quote, urljoin, urlsplit, urlunsplit
 
 import cloudscraper
-from playwright.async_api import Browser, async_playwright
+from curl_cffi import requests as curl_requests
 
 from utils import Cache, Event, Time, get_logger, leagues, network
 
@@ -42,12 +42,7 @@ DEFAULT_REFERER = BASE_URL
 
 EVENT_WINDOW_MINUTES = 180
 
-# UPDATED: the player host that actually serves the streams
 PLAYER_HOST = "play.meth-streams-hd.cfd"
-
-# Forced headers for the player request
-PLAYER_REFERER = "https://frame.meth-streams-hd.cfd/"
-PLAYER_ORIGIN = "https://frame.meth-streams-hd.cfd"
 
 
 @dataclass(kw_only=True, slots=True)
@@ -68,7 +63,7 @@ def get_ifr(s: str) -> str | None:
     if not s_id.isdigit():
         return None
 
-    return urlunsplit(splits._replace(netloc=PLAYER_HOST, path=f"/sports/{s_id}"))
+    return urlunsplit(splits._replace(netloc=PLAYER_HOST, path=f"/frame/{s_id}"))
 
 
 def _get_cloudscraper() -> cloudscraper.CloudScraper:
@@ -119,7 +114,46 @@ def _fetch_api_with_cloudscraper() -> list[dict[str, Any]] | None:
     return data
 
 
+def _fetch_html(url: str, referer: str = DEFAULT_REFERER) -> str | None:
+    """Fetch an HTML page: curl_cffi (Chrome TLS fingerprint) first,
+    cloudscraper fallback."""
+    try:
+        resp = curl_requests.get(
+            url,
+            impersonate="chrome",
+            headers={
+                "Referer": referer,
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "en-US,en;q=0.9",
+            },
+            timeout=30,
+            allow_redirects=True,
+        )
+        if resp.status_code == 200 and "Just a moment" not in resp.text:
+            return resp.text
+        log.debug(f"curl_cffi status {resp.status_code} for {url} — falling back")
+    except Exception as e:
+        log.debug(f"curl_cffi failed for {url}: {e} — falling back")
+
+    scraper = _get_cloudscraper()
+    scraper.headers["Referer"] = referer
+    try:
+        resp = scraper.get(url, timeout=30)
+        if resp.status_code == 200 and "Just a moment" not in resp.text:
+            return resp.text
+        log.warning(f"Both fetchers failed for {url} (status {resp.status_code})")
+    except Exception as e:
+        log.warning(f"cloudscraper failed for {url}: {e}")
+
+    return None
+
+
 def _extract_source(raw: str) -> str | None:
+    """Return a usable stream URL from the regex match value.
+
+    Accepts plain http(s) URLs directly; otherwise attempts base64 decode
+    (some builds serve the stream URL base64-encoded).
+    """
     raw = raw.strip()
     if raw.startswith(("http://", "https://", "//")):
         return raw
@@ -137,10 +171,10 @@ def _extract_source(raw: str) -> str | None:
 async def process_event(
     url: str,
     url_num: int,
-    page: Any,
     iframe_url: str | None = None,
 ) -> tuple[str | None, str | None]:
-    """Fetch the player page via Chromium and extract the M3U8 URL."""
+    """Derive the player URL from the numeric id, fetch it, and extract the
+    stream URL (matches both `activeStream` and `streamUrl` variables)."""
     nones = None, None
 
     ifr = get_ifr(iframe_url) if iframe_url else None
@@ -153,45 +187,27 @@ async def process_event(
 
     log.info(f"URL {url_num}) Player URL: {ifr}")
 
-    try:
-        resp = await page.goto(
-            ifr,
-            wait_until="domcontentloaded",
-            timeout=15_000,
-            referer=PLAYER_REFERER,
-        )
-
-        if not resp or not resp.ok:
-            log.warning(
-                f"URL {url_num}) Player status: "
-                f"{resp.status if resp else 'None'}"
-            )
-            return nones
-
-        html = await page.content()
-        if "Just a moment" in html or "challenge-platform" in html:
-            await page.wait_for_timeout(3_000)
-            html = await page.content()
-
-        pattern = re.compile(r'(activeStream|streamUrl)\s?=\s?"([^"]*)";', re.I)
-
-        if not (match := pattern.search(html)):
-            log.warning(f"URL {url_num}) No Clappr source found.")
-            return nones
-
-        source = _extract_source(match[2])
-
-        if not source:
-            log.warning(f"URL {url_num}) Empty source after decode")
-            return nones
-
-        log.info(f"URL {url_num}) Captured M3U8: {source[:80]}...")
-
-        return source, ifr
-
-    except Exception as e:
-        log.warning(f"URL {url_num}) Playwright fetch failed: {e}")
+    event_html = _fetch_html(ifr, referer=url)
+    if not event_html:
+        log.warning(f"URL {url_num}) Failed to fetch player page")
         return nones
+
+    pattern = re.compile(r'(activeStream|streamUrl)\s?=\s?"([^"]*)";', re.I)
+
+    if not (match := pattern.search(event_html)):
+        log.warning(f"URL {url_num}) No Clappr source found.")
+        log.debug(f"URL {url_num}) Player HTML snippet: {event_html[:500]}")
+        return nones
+
+    source = _extract_source(match[2])
+
+    if not source:
+        log.warning(f"URL {url_num}) Empty source after decode")
+        return nones
+
+    log.info(f"URL {url_num}) Captured M3U8: {source[:80]}...")
+
+    return source, ifr
 
 
 async def get_events(cached_keys: KeysView[str]) -> list[AURAEvent]:
@@ -257,7 +273,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[AURAEvent]:
     return events
 
 
-async def scrape(browser: Browser) -> None:
+async def scrape() -> None:
     cached_sources = CACHE_FILE.load()
     valid_sources = {k: v for k, v in cached_sources.items() if v.get("source")}
     valid_count = cached_count = len(valid_sources)
@@ -270,59 +286,39 @@ async def scrape(browser: Browser) -> None:
     if events := await get_events(cached_sources.keys()):
         log.info(f"Processing {len(events)} new URL(s)")
 
-        context = await browser.new_context(
-            user_agent=VLC_UA,
-            extra_http_headers={
-                "Origin": PLAYER_ORIGIN,
-                "Referer": PLAYER_REFERER,
-            },
-            viewport={"width": 1366, "height": 768},
-            locale="en-US",
-        )
+        for i, ev in enumerate(events, start=1):
+            handler = partial(
+                process_event,
+                url=ev.link,
+                url_num=i,
+                iframe_url=ev.link,
+            )
 
-        try:
-            for i, ev in enumerate(events, start=1):
-                page = await context.new_page()
+            source, iframe = await network.safe_process(
+                handler,
+                url_num=i,
+                timeout_return=(None, None),
+                semaphore=network.HTTP_S,
+                log=log,
+            )
 
-                try:
-                    handler = partial(
-                        process_event,
-                        url=ev.link,
-                        url_num=i,
-                        page=page,
-                        iframe_url=ev.link,
-                    )
+            key = f"[{ev.sport}] {ev.name} ({TAG})"
+            tvg_id, logo = leagues.get_tvg_info(ev.sport, ev.name)
 
-                    source, iframe = await network.safe_process(
-                        handler,
-                        url_num=i,
-                        timeout_return=(None, None),
-                        semaphore=network.PW_S,
-                        log=log,
-                    )
-                finally:
-                    await page.close()
+            entry = {
+                "source": source,
+                "logo": ev.logo or logo,
+                "refer": iframe,
+                "timestamp": ev.timestamp,
+                "tvg-id": tvg_id or "Live.Event.us",
+                "link": ev.link,
+            }
 
-                key = f"[{ev.sport}] {ev.name} ({TAG})"
-                tvg_id, logo = leagues.get_tvg_info(ev.sport, ev.name)
+            cached_sources[key] = entry
 
-                entry = {
-                    "source": source,
-                    "logo": ev.logo or logo,
-                    "refer": iframe,
-                    "timestamp": ev.timestamp,
-                    "tvg-id": tvg_id or "Live.Event.us",
-                    "link": ev.link,
-                }
-
-                cached_sources[key] = entry
-
-                if source:
-                    valid_count += 1
-                    urls[key] = entry
-
-        finally:
-            await context.close()
+            if source:
+                valid_count += 1
+                urls[key] = entry
 
         log.info(f"Collected and cached {valid_count - cached_count} new event(s)")
     else:
@@ -395,19 +391,7 @@ def write_outputs() -> None:
 
 
 async def main() -> None:
-    async with async_playwright() as playwright:
-        browser = await playwright.chromium.launch(
-            headless=True,
-            args=["--no-sandbox", "--disable-dev-shm-usage"],
-        )
-        try:
-            await scrape(browser)
-        finally:
-            try:
-                await browser.close()
-            except Exception as e:
-                log.warning(f"Error closing browser: {e}")
-
+    await scrape()
     write_outputs()
 
 
