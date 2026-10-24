@@ -42,7 +42,7 @@ DEFAULT_REFERER = BASE_URL
 
 EVENT_WINDOW_MINUTES = 180
 
-PLAYER_HOST = "frame.egybest.fit"
+PLAYER_HOST = "frame.meth-streams-hd.cfd"
 
 # Forced headers for the player request
 PLAYER_REFERER = "https://frame.meth-streams-hd.cfd/"
