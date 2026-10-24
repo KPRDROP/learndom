@@ -18,7 +18,7 @@ TAG = "SPORTSG"
 
 CACHE_FILE = Cache(TAG, exp=19_800)
 
-BASE_URL = "https://gsports.lat/"
+BASE_URL = "https://gblog.asia/private/"
 
 DEFAULT_UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
