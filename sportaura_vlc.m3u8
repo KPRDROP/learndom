@@ -1,1 +1,97 @@
 #EXTM3U
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Serie A] Bologna at Cagliari (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401874958.png" group-title="Live Events",[Serie A] Bologna at Cagliari (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1560
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.meth-streams-hd.cfd/live/espn-401874958/index.m3u8|referer=https://frame.egybest.fit/frame/1560|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Serie A] Sassuolo at Como (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401874961.png" group-title="Live Events",[Serie A] Sassuolo at Como (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1561
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.meth-streams-hd.cfd/live/espn-401874961/index.m3u8|referer=https://frame.egybest.fit/frame/1561|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[LALIGA] Elche at Rayo Vallecano (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401882830.png" group-title="Live Events",[LALIGA] Elche at Rayo Vallecano (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1550
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.meth-streams-hd.cfd/live/espn-401882830/index.m3u8|referer=https://frame.egybest.fit/frame/1550|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[LALIGA] Espanyol at Racing Santander (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401882831.png" group-title="Live Events",[LALIGA] Espanyol at Racing Santander (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1551
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.meth-streams-hd.cfd/live/espn-401882831/index.m3u8|referer=https://frame.egybest.fit/frame/1551|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="5" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Manchester City at Aston Villa (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401879256.png" group-title="Live Events",[Premier League] Manchester City at Aston Villa (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1532
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.meth-streams-hd.cfd/live/espn-401879256/index.m3u8|referer=https://frame.egybest.fit/frame/1532|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="6" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Everton at Arsenal (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401878768.png" group-title="Live Events",[Premier League] Everton at Arsenal (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1533
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.meth-streams-hd.cfd/live/espn-401878768/index.m3u8|referer=https://frame.egybest.fit/frame/1533|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="7" tvg-id="Soccer.Dummy.us" tvg-name="[Premier League] Fulham at Coventry City (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401879255.png" group-title="Live Events",[Premier League] Fulham at Coventry City (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1534
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.meth-streams-hd.cfd/live/espn-401879255/index.m3u8|referer=https://frame.egybest.fit/frame/1534|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="8" tvg-id="Soccer.Dummy.us" tvg-name="[Bundesliga] 1. FC Union Berlin at FC Augsburg (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401884758.png" group-title="Live Events",[Bundesliga] 1. FC Union Berlin at FC Augsburg (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1554
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.meth-streams-hd.cfd/live/espn-401884758/index.m3u8|referer=https://frame.egybest.fit/frame/1554|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="9" tvg-id="Soccer.Dummy.us" tvg-name="[Bundesliga] Schalke 04 at FC Cologne (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401884756.png" group-title="Live Events",[Bundesliga] Schalke 04 at FC Cologne (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1555
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.meth-streams-hd.cfd/live/espn-401884756/index.m3u8|referer=https://frame.egybest.fit/frame/1555|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="10" tvg-id="Soccer.Dummy.us" tvg-name="[Bundesliga] Werder Bremen at Mainz (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401884757.png" group-title="Live Events",[Bundesliga] Werder Bremen at Mainz (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1556
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.meth-streams-hd.cfd/live/espn-401884757/index.m3u8|referer=https://frame.egybest.fit/frame/1556|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="11" tvg-id="Soccer.Dummy.us" tvg-name="[Bundesliga] SV Elversberg at RB Leipzig (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401884762.png" group-title="Live Events",[Bundesliga] SV Elversberg at RB Leipzig (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1557
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.meth-streams-hd.cfd/live/espn-401884762/index.m3u8|referer=https://frame.egybest.fit/frame/1557|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="12" tvg-id="Soccer.Dummy.us" tvg-name="[Bundesliga] Hamburg SV at SC Paderborn 07 (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401884755.png" group-title="Live Events",[Bundesliga] Hamburg SV at SC Paderborn 07 (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1558
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.meth-streams-hd.cfd/live/espn-401884755/index.m3u8|referer=https://frame.egybest.fit/frame/1558|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="13" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Norwich City at Charlton Athletic (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401880205.png" group-title="Live Events",[EFL Championship] Norwich City at Charlton Athletic (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1565
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.meth-streams-hd.cfd/live/espn-401880205/index.m3u8|referer=https://frame.egybest.fit/frame/1565|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="14" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Millwall at Portsmouth (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401880203.png" group-title="Live Events",[EFL Championship] Millwall at Portsmouth (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1566
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.meth-streams-hd.cfd/live/espn-401880203/index.m3u8|referer=https://frame.egybest.fit/frame/1566|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="15" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Derby County at Sheffield United (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401880200.png" group-title="Live Events",[EFL Championship] Derby County at Sheffield United (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1567
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.meth-streams-hd.cfd/live/espn-401880200/index.m3u8|referer=https://frame.egybest.fit/frame/1567|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="16" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Wrexham at Blackburn Rovers (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401880208.png" group-title="Live Events",[EFL Championship] Wrexham at Blackburn Rovers (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1568
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.meth-streams-hd.cfd/live/espn-401880208/index.m3u8|referer=https://frame.egybest.fit/frame/1568|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="17" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Birmingham City at Cardiff City (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401880206.png" group-title="Live Events",[EFL Championship] Birmingham City at Cardiff City (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1569
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.meth-streams-hd.cfd/live/espn-401880206/index.m3u8|referer=https://frame.egybest.fit/frame/1569|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="18" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Burnley at Lincoln City (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401880204.png" group-title="Live Events",[EFL Championship] Burnley at Lincoln City (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1570
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.meth-streams-hd.cfd/live/espn-401880204/index.m3u8|referer=https://frame.egybest.fit/frame/1570|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="19" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] West Bromwich Albion at Preston North End (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401880202.png" group-title="Live Events",[EFL Championship] West Bromwich Albion at Preston North End (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1571
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.meth-streams-hd.cfd/live/espn-401880202/index.m3u8|referer=https://frame.egybest.fit/frame/1571|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="20" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Swansea City at Queens Park Rangers (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401880201.png" group-title="Live Events",[EFL Championship] Swansea City at Queens Park Rangers (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1572
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.meth-streams-hd.cfd/live/espn-401880201/index.m3u8|referer=https://frame.egybest.fit/frame/1572|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="21" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Bristol City at Stoke City (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401880199.png" group-title="Live Events",[EFL Championship] Bristol City at Stoke City (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1573
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.meth-streams-hd.cfd/live/espn-401880199/index.m3u8|referer=https://frame.egybest.fit/frame/1573|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="22" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Southampton at West Ham United (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401880198.png" group-title="Live Events",[EFL Championship] Southampton at West Ham United (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1574
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.meth-streams-hd.cfd/live/espn-401880198/index.m3u8|referer=https://frame.egybest.fit/frame/1574|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="23" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Watford at Wolverhampton Wanderers (SPORTSA)" tvg-logo="http://dash.earnsphere.site/thumbnails/espn-401880197.png" group-title="Live Events",[EFL Championship] Watford at Wolverhampton Wanderers (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1575
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.meth-streams-hd.cfd/live/espn-401880197/index.m3u8|referer=https://frame.egybest.fit/frame/1575|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-chno="24" tvg-id="UFC.247.Dummy.us" tvg-name="[UFC] UFC 333: Volkanovski vs Evloev (SPORTSA)" tvg-logo="https://api.mullastr.dpdns.org/thumbnails/ufc333.jpg" group-title="Live Events",[UFC] UFC 333: Volkanovski vs Evloev (SPORTSA)
+#EXTVLCOPT:http-referrer=https://frame.egybest.fit/frame/1453
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://hls.meth-streams-hd.cfd/live/evt-1792797968461/index.m3u8|referer=https://frame.egybest.fit/frame/1453|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
