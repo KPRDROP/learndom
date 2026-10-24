@@ -210,9 +210,9 @@ async def process_event(
     return source, ifr
 
 
-async def get_(cached_keys: KeysView[str]) -> list[AURAEvent]:
+async def get_events(cached_keys: KeysView[str]) -> list[AURAEvent]:
     now = Time.rn()
-    : list[AURAEvent] = []
+    events: list[AURAEvent] = []
 
     api_data = API_FILE.load(per_entry=False, ts_index=-1)
 
