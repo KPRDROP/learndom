@@ -27,6 +27,11 @@ UA_RAW = (
     "Chrome/144.0.0.0 Safari/537.36"
 )
 
+REFERER = "https://embedcenter.st/"
+ORIGIN = "https://embedcenter.st"
+
+)
+
 UA_ENC = (
     "Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)"
     "%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)"
@@ -88,7 +93,7 @@ async def extract_stream_from_page(page, url: str, url_num: int) -> str | None:
                 splits = urlsplit(frame_url)
                 params = dict(parse_qsl(splits.query))
                 if stream_id := params.get("stream"):
-                    stream_url = f"https://edgestream{random.randrange(3,8)}.pro/hls/{stream_id}.m3u8"
+                    stream_url = f"https://edgestream{random.randrange(1,8)}.pro/sh/cdn/hls/{stream_id}.m3u8" # stream_url = f"https://edgestream{random.randrange(1,8)}.pro/hls/{stream_id}.m3u8"
                     log.info(f"URL {url_num}) Captured M3U8 from frame URL")
                     return stream_url
             except Exception:
@@ -110,7 +115,7 @@ async def extract_stream_from_page(page, url: str, url_num: int) -> str | None:
             log.warning(f"URL {url_num}) No stream ID found in iframe src.")
             return None
 
-        stream_url = f"https://edgestream{random.randrange(3,8)}.pro/hls/{stream_id}.m3u8"
+        stream_url = f"https://edgestream{random.randrange(1,8)}.pro/sh/cdn/hls/{stream_id}.m3u8"
         log.info(f"URL {url_num}) Captured M3U8 from iframe src")
         return stream_url
 
@@ -260,8 +265,8 @@ def build_playlist(data: dict) -> str:
 
         lines.append(
             f'{e["url"]}'
-            f'|referer={ALT_BASE}/'
-            f'|origin={ALT_BASE}'
+            f'|referer={REFERER}/'
+            f'|origin={ORIGIN}'
             f'|user-agent={UA_ENC}'
         )
         ch += 1
@@ -285,8 +290,8 @@ def build_playlist_tivi(data: dict) -> str:
             f'group-title="Live Events",{name}'
         )
 
-        lines.append(f'#EXTVLCOPT:http-referrer={ALT_BASE}/')
-        lines.append(f'#EXTVLCOPT:http-origin={ALT_BASE}')
+        lines.append(f'#EXTVLCOPT:http-referrer={REFERER}/')
+        lines.append(f'#EXTVLCOPT:http-origin={ORIGIN}')
         lines.append(f'#EXTVLCOPT:http-user-agent={UA_RAW}')
         lines.append(e["url"])
         ch += 1
@@ -376,9 +381,6 @@ async def scrape() -> None:
     log.info(f"Wrote {len(cached)} entries to centerstrm.m3u8 and centerstrm_tivi.m3u8")
 
 
-# -------------------------------------------------
-# ENTRY POINT
-# -------------------------------------------------
 if __name__ == "__main__":
     log.info("Starting StreamCenter updater...")
     asyncio.run(scrape())
