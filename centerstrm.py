@@ -60,6 +60,36 @@ M3U8_FULL_RE = re.compile(
 )
 
 
+def normalize_stream_url(url: str | None) -> str | None:
+    """Normalize captured m3u8 URL:
+    - Replace escaped & (\\u0026, &amp;) with real &
+    - Strip stray trailing separators like | or ,
+    - Strip whitespace
+    """
+    if not url:
+        return None
+
+    u = url.strip()
+
+    # Common escapes that show up in HTML/JS/JSON
+    u = u.replace("\\u0026", "&")
+    u = u.replace("\\u0026amp;", "&")
+    u = u.replace("\\/", "/")
+    u = u.replace("&amp;", "&")
+    u = u.replace("&#38;", "&")
+    u = u.replace("&#x26;", "&")
+    u = u.replace("\\u0026", "&")
+
+    # Sometimes trailing separators/pipes sneak in
+    u = u.rstrip("|,; \t\r\n")
+
+    # Drop any trailing pipe metadata if captured together
+    if "|" in u:
+        u = u.split("|", 1)[0].rstrip()
+
+    return u
+
+
 def cleanup(s: str) -> str:
     """Clean text by keeping ASCII characters from the last part after —"""
     return "".join(i for i in s.split("—")[-1] if i.isascii()).strip()
@@ -81,9 +111,14 @@ def find_full_m3u8_in_text(text: str) -> str | None:
     matches = M3U8_FULL_RE.findall(text)
     # Prefer ones with token (?st=)
     for m in matches:
-        if "?st=" in m or "?e=" in m:
-            return m
-    return matches[0] if matches else None
+        normalized = normalize_stream_url(m)
+        if normalized and ("?st=" in normalized or "?e=" in normalized):
+            return normalized
+    for m in matches:
+        normalized = normalize_stream_url(m)
+        if normalized:
+            return normalized
+    return None
 
 
 async def extract_stream_from_page(page, url: str, url_num: int, captured: list) -> str | None:
@@ -91,9 +126,10 @@ async def extract_stream_from_page(page, url: str, url_num: int, captured: list)
 
     # 1) Check captured network responses for full m3u8 URL with token
     for u in captured:
-        if ".m3u8" in u and "?st=" in u:
+        normalized = normalize_stream_url(u)
+        if normalized and ".m3u8" in normalized and "?st=" in normalized:
             log.info(f"URL {url_num}) Captured FULL M3U8 from network")
-            return u
+            return normalized
 
     # 2) Check frames for m3u8 / stream param
     try:
@@ -106,9 +142,10 @@ async def extract_stream_from_page(page, url: str, url_num: int, captured: list)
 
                 # Direct m3u8 in frame url
                 if ".m3u8" in frame_url:
-                    if "?st=" in frame_url:
+                    normalized = normalize_stream_url(frame_url)
+                    if normalized and "?st=" in normalized:
                         log.info(f"URL {url_num}) Captured FULL M3U8 from frame URL")
-                        return frame_url
+                        return normalized
 
                 # Stream ID in frame URL -> try to fetch full m3u8 from that frame
                 splits = urlsplit(frame_url)
@@ -124,8 +161,9 @@ async def extract_stream_from_page(page, url: str, url_num: int, captured: list)
                         pass
 
                     # Try to fetch the actual m3u8 URL (it may still be hidden)
-                    candidate = f"https://edgestream2.pro/hls/{stream_id}.m3u8"
-                    captured.append(candidate)
+                    candidate = normalize_stream_url(f"https://edgestream2.pro/hls/{stream_id}.m3u8")
+                    if candidate:
+                        captured.append(candidate)
 
             except Exception:
                 continue
@@ -156,6 +194,11 @@ async def extract_stream_from_page(page, url: str, url_num: int, captured: list)
                             lambda r: iframe_captured.append(r.url)
                             if ".m3u8" in r.url else None,
                         )
+                        iframe_page.on(
+                            "response",
+                            lambda r: iframe_captured.append(r.url)
+                            if ".m3u8" in r.url else None,
+                        )
 
                         await iframe_page.goto(
                             src if src.startswith("http") else urljoin(url, src),
@@ -166,9 +209,10 @@ async def extract_stream_from_page(page, url: str, url_num: int, captured: list)
 
                         # Prefer ones with token
                         for u in iframe_captured:
-                            if "?st=" in u:
+                            normalized = normalize_stream_url(u)
+                            if normalized and "?st=" in normalized:
                                 log.info(f"URL {url_num}) Captured FULL M3U8 from iframe network")
-                                return u
+                                return normalized
 
                         # Try HTML content
                         iframe_html = await iframe_page.content()
@@ -179,11 +223,12 @@ async def extract_stream_from_page(page, url: str, url_num: int, captured: list)
 
                         # Fallback: first captured (may still have no token)
                         if iframe_captured:
+                            normalized = normalize_stream_url(iframe_captured[0])
                             log.warning(f"URL {url_num}) Using captured URL without token")
-                            return iframe_captured[0]
+                            return normalized
 
                         # Last fallback: construct from stream ID
-                        fallback = f"https://edgestream2.pro/hls/{stream_id}.m3u8"
+                        fallback = normalize_stream_url(f"https://edgestream2.pro/hls/{stream_id}.m3u8")
                         log.warning(f"URL {url_num}) Using constructed URL (no token)")
                         return fallback
                     finally:
@@ -194,7 +239,7 @@ async def extract_stream_from_page(page, url: str, url_num: int, captured: list)
                 except Exception as e:
                     log.warning(f"URL {url_num}) Iframe fetch error: {str(e)[:60]}")
                     # Last fallback: constructed URL
-                    fallback = f"https://edgestream2.pro/hls/{stream_id}.m3u8"
+                    fallback = normalize_stream_url(f"https://edgestream2.pro/hls/{stream_id}.m3u8")
                     log.warning(f"URL {url_num}) Using constructed URL (no token)")
                     return fallback
     except Exception as e:
@@ -241,12 +286,13 @@ async def process_event(url: str, url_num: int, context) -> str | None:
             log.info(f"URL {url_num}) Waiting for tokenized URL...")
             await page.wait_for_timeout(3000)
             for u in captured:
-                if ".m3u8" in u and "?st=" in u:
+                normalized = normalize_stream_url(u)
+                if normalized and ".m3u8" in normalized and "?st=" in normalized:
                     log.info(f"URL {url_num}) Captured FULL M3U8 after extra wait")
-                    stream = u
+                    stream = normalized
                     break
 
-        return stream
+        return normalize_stream_url(stream)
 
     except Exception as e:
         log.error(f"URL {url_num}) Browser error: {str(e)[:80]}")
@@ -356,15 +402,13 @@ async def get_events(cached_ids: set[str]) -> list[dict]:
     return events
 
 
-# -------------------------------------------------
-# PLAYLIST BUILDERS
-# -------------------------------------------------
 def build_playlist(data: dict) -> str:
     lines = ["#EXTM3U"]
     ch = 1
 
     for e in data.values():
         name = e["name"]
+        url = normalize_stream_url(e["url"]) or e["url"]
 
         lines.append(
             f'#EXTINF:-1 tvg-chno="{ch}" '
@@ -375,7 +419,7 @@ def build_playlist(data: dict) -> str:
         )
 
         lines.append(
-            f'{e["url"]}'
+            f'{url}'
             f'|referer={REFERER}/'
             f'|origin={ORIGIN}'
             f'|user-agent={UA_ENC}'
@@ -392,6 +436,7 @@ def build_playlist_tivi(data: dict) -> str:
 
     for e in data.values():
         name = e["name"]
+        url = normalize_stream_url(e["url"]) or e["url"]
 
         lines.append(
             f'#EXTINF:-1 tvg-chno="{ch}" '
@@ -404,20 +449,22 @@ def build_playlist_tivi(data: dict) -> str:
         lines.append(f'#EXTVLCOPT:http-referrer={REFERER}/')
         lines.append(f'#EXTVLCOPT:http-origin={ORIGIN}')
         lines.append(f'#EXTVLCOPT:http-user-agent={UA_RAW}')
-        lines.append(e["url"])
+        lines.append(url)
         ch += 1
 
     return "\n".join(lines) + "\n"
 
 
-# -------------------------------------------------
-# MAIN SCRAPER
-# -------------------------------------------------
 async def scrape() -> None:
     cached = CACHE_FILE.load() or {}
     cached_ids = set(cached.keys())
 
     log.info(f"Loaded {len(cached)} cached events")
+
+    # Normalize any escaped tokens already in cache
+    for entry in cached.values():
+        if "url" in entry:
+            entry["url"] = normalize_stream_url(entry["url"]) or entry["url"]
 
     events = await get_events(cached_ids)
     log.info(f"Found {len(events)} live/upcoming events")
@@ -473,7 +520,7 @@ async def scrape() -> None:
 
                 cached[cache_key] = {
                     "name": f"[{ev['sport']}] {ev['event']} ({TAG})",
-                    "url": stream,
+                    "url": normalize_stream_url(stream) or stream,
                     "logo": logo or "",
                     "timestamp": ev["timestamp"],
                     "id": tvg_id or "Live.Event.us",
