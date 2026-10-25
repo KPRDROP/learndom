@@ -27,7 +27,7 @@ UA_RAW = (
     "Chrome/144.0.0.0 Safari/537.36"
 )
 
-REFERER = "https://embedcenter.st/"
+REFERER = "https://embedcenter.st"
 ORIGIN = "https://embedcenter.st"
 
 UA_ENC = (
