@@ -2,7 +2,7 @@ from pathlib import Path
 from urllib.parse import parse_qsl, urljoin, urlsplit
 import os
 import asyncio
-import random
+import re
 import httpx
 from playwright.async_api import async_playwright
 from selectolax.lexbor import LexborHTMLParser as HTMLParser
@@ -53,6 +53,12 @@ CATEGORIES = {
     24: "Volleyball",
 }
 
+# Regex to match full m3u8 URL with token: https://edgestreamN.pro/hls/XXXX.m3u8?st=...&e=...
+M3U8_FULL_RE = re.compile(
+    r"https?://[^\s\"'<>]+\.m3u8[^\s\"'<>]*",
+    re.IGNORECASE,
+)
+
 
 def cleanup(s: str) -> str:
     """Clean text by keeping ASCII characters from the last part after —"""
@@ -68,73 +74,180 @@ def fix_sport(s: str) -> str:
     return f"{i.upper() if len(i) < 5 else i.capitalize()} {' '.join(x.capitalize() for x in splits[1:])}".strip()
 
 
-async def extract_stream_from_page(page, url: str, url_num: int) -> str | None:
-    """Extract stream from an already loaded page object"""
-    try:
-        # Wait for iframe to appear (it may be JS generated)
-        try:
-            await page.wait_for_selector("iframe", timeout=10000)
-        except Exception:
-            log.warning(f"URL {url_num}) No iframe appeared within timeout.")
+def find_full_m3u8_in_text(text: str) -> str | None:
+    """Extract the first full m3u8 URL (with token) from any text"""
+    if not text:
+        return None
+    matches = M3U8_FULL_RE.findall(text)
+    # Prefer ones with token (?st=)
+    for m in matches:
+        if "?st=" in m or "?e=" in m:
+            return m
+    return matches[0] if matches else None
 
-        # Get all frames on the page
+
+async def extract_stream_from_page(page, url: str, url_num: int, captured: list) -> str | None:
+    """Extract full m3u8 stream (with token) from page + network captures"""
+
+    # 1) Check captured network responses for full m3u8 URL with token
+    for u in captured:
+        if ".m3u8" in u and "?st=" in u:
+            log.info(f"URL {url_num}) Captured FULL M3U8 from network")
+            return u
+
+    # 2) Check frames for m3u8 / stream param
+    try:
         frames = page.frames
-        
-        # Check each frame for the stream URL pattern
         for frame in frames:
             try:
                 frame_url = frame.url
                 if not frame_url or frame_url == "about:blank":
                     continue
-                
-                # Check if this frame URL contains stream parameter
+
+                # Direct m3u8 in frame url
+                if ".m3u8" in frame_url:
+                    if "?st=" in frame_url:
+                        log.info(f"URL {url_num}) Captured FULL M3U8 from frame URL")
+                        return frame_url
+
+                # Stream ID in frame URL -> try to fetch full m3u8 from that frame
                 splits = urlsplit(frame_url)
                 params = dict(parse_qsl(splits.query))
                 if stream_id := params.get("stream"):
-                    stream_url = f"https://edgestream{random.randrange(1,8)}.pro/hls/{stream_id}.m3u8" # stream_url = f"https://edgestream{random.randrange(1,8)}.pro/hls/{stream_id}.m3u8"
-                    log.info(f"URL {url_num}) Captured M3U8 from frame URL")
-                    return stream_url
+                    # Try to get HTML of this frame and look for m3u8 with token
+                    try:
+                        frame_html = await frame.content()
+                        if full := find_full_m3u8_in_text(frame_html):
+                            log.info(f"URL {url_num}) Captured FULL M3U8 from frame HTML")
+                            return full
+                    except Exception:
+                        pass
+
+                    # Try to fetch the actual m3u8 URL (it may still be hidden)
+                    candidate = f"https://edgestream2.pro/hls/{stream_id}.m3u8"
+                    captured.append(candidate)
+
             except Exception:
                 continue
+    except Exception:
+        pass
 
-        # Fallback: parse HTML for iframe src
+    # 3) Fallback: parse main page HTML for m3u8 with token
+    try:
         html = await page.content()
+        if full := find_full_m3u8_in_text(html):
+            log.info(f"URL {url_num}) Captured FULL M3U8 from page HTML")
+            return full
+
         soup = HTMLParser(html)
-
         iframe = soup.css_first("iframe")
-        if not iframe or not (src := iframe.attributes.get("src")):
-            log.warning(f"URL {url_num}) No iframe element found.")
-            return None
+        if iframe and (src := iframe.attributes.get("src")):
+            splits = urlsplit(src)
+            params = dict(parse_qsl(splits.query))
+            if stream_id := params.get("stream"):
+                # Navigate to iframe source and inspect network
+                try:
+                    iframe_page = await page.context.new_page()
+                    try:
+                        # Capture m3u8 network requests from iframe page
+                        iframe_captured = []
+                        iframe_page.on(
+                            "request",
+                            lambda r: iframe_captured.append(r.url)
+                            if ".m3u8" in r.url else None,
+                        )
 
-        splits = urlsplit(src)
-        params = dict(parse_qsl(splits.query))
+                        await iframe_page.goto(
+                            src if src.startswith("http") else urljoin(url, src),
+                            wait_until="domcontentloaded",
+                            timeout=20000,
+                        )
+                        await iframe_page.wait_for_timeout(4000)
 
-        if not (stream_id := params.get("stream")):
-            log.warning(f"URL {url_num}) No stream ID found in iframe src.")
-            return None
+                        # Prefer ones with token
+                        for u in iframe_captured:
+                            if "?st=" in u:
+                                log.info(f"URL {url_num}) Captured FULL M3U8 from iframe network")
+                                return u
 
-        stream_url = f"https://edgestream{random.randrange(1,8)}.pro/hls/{stream_id}.m3u8"
-        log.info(f"URL {url_num}) Captured M3U8 from iframe src")
-        return stream_url
+                        # Try HTML content
+                        iframe_html = await iframe_page.content()
+                        if full := find_full_m3u8_in_text(iframe_html):
+                            if "?st=" in full:
+                                log.info(f"URL {url_num}) Captured FULL M3U8 from iframe HTML")
+                                return full
 
+                        # Fallback: first captured (may still have no token)
+                        if iframe_captured:
+                            log.warning(f"URL {url_num}) Using captured URL without token")
+                            return iframe_captured[0]
+
+                        # Last fallback: construct from stream ID
+                        fallback = f"https://edgestream2.pro/hls/{stream_id}.m3u8"
+                        log.warning(f"URL {url_num}) Using constructed URL (no token)")
+                        return fallback
+                    finally:
+                        try:
+                            await iframe_page.close()
+                        except Exception:
+                            pass
+                except Exception as e:
+                    log.warning(f"URL {url_num}) Iframe fetch error: {str(e)[:60]}")
+                    # Last fallback: constructed URL
+                    fallback = f"https://edgestream2.pro/hls/{stream_id}.m3u8"
+                    log.warning(f"URL {url_num}) Using constructed URL (no token)")
+                    return fallback
     except Exception as e:
         log.error(f"URL {url_num}) Extract error: {str(e)[:80]}")
-        return None
+
+    return None
 
 
 async def process_event(url: str, url_num: int, context) -> str | None:
-    """Process a single event using browser context to handle JS"""
+    """Process a single event using browser context to handle JS and capture full m3u8"""
     page = None
+    captured = []
     try:
         page = await context.new_page()
+
+        # Capture all m3u8 requests (with or without token)
+        page.on(
+            "request",
+            lambda r: captured.append(r.url) if ".m3u8" in r.url else None,
+        )
+        page.on(
+            "response",
+            lambda r: captured.append(r.url) if ".m3u8" in r.url else None,
+        )
+
         await page.goto(url, wait_until="domcontentloaded", timeout=30000)
-        
-        # Give JS time to inject iframe
-        await page.wait_for_timeout(3000)
-        
-        stream = await extract_stream_from_page(page, url, url_num)
+
+        # Give JS time to inject iframe and trigger m3u8 request
+        await page.wait_for_timeout(5000)
+
+        # Try to wait for iframe to appear
+        try:
+            await page.wait_for_selector("iframe", timeout=8000)
+        except Exception:
+            log.warning(f"URL {url_num}) No iframe appeared within timeout.")
+
+        # Extra wait for network requests
+        await page.wait_for_timeout(2000)
+
+        stream = await extract_stream_from_page(page, url, url_num, captured)
+
+        # If not yet full token, try one more wait for network
+        if stream and "?st=" not in stream:
+            log.info(f"URL {url_num}) Waiting for tokenized URL...")
+            await page.wait_for_timeout(3000)
+            for u in captured:
+                if ".m3u8" in u and "?st=" in u:
+                    log.info(f"URL {url_num}) Captured FULL M3U8 after extra wait")
+                    stream = u
+                    break
+
         return stream
-        
+
     except Exception as e:
         log.error(f"URL {url_num}) Browser error: {str(e)[:80]}")
         return None
@@ -324,6 +437,7 @@ async def scrape() -> None:
                 "--disable-blink-features=AutomationControlled",
                 "--disable-web-security",
                 "--disable-features=IsolateOrigins,site-per-process",
+                "--autoplay-policy=no-user-gesture-required",
             ],
         )
 
