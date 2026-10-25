@@ -91,7 +91,7 @@ async def extract_stream_from_page(page, url: str, url_num: int) -> str | None:
                 splits = urlsplit(frame_url)
                 params = dict(parse_qsl(splits.query))
                 if stream_id := params.get("stream"):
-                    stream_url = f"https://edgestream{random.randrange(1,8)}.pro/sh/cdn/hls/{stream_id}.m3u8" # stream_url = f"https://edgestream{random.randrange(1,8)}.pro/hls/{stream_id}.m3u8"
+                    stream_url = f"https://edgestream{random.randrange(1,8)}.pro/hls/{stream_id}.m3u8" # stream_url = f"https://edgestream{random.randrange(1,8)}.pro/hls/{stream_id}.m3u8"
                     log.info(f"URL {url_num}) Captured M3U8 from frame URL")
                     return stream_url
             except Exception:
@@ -113,7 +113,7 @@ async def extract_stream_from_page(page, url: str, url_num: int) -> str | None:
             log.warning(f"URL {url_num}) No stream ID found in iframe src.")
             return None
 
-        stream_url = f"https://edgestream{random.randrange(1,8)}.pro/sh/cdn/hls/{stream_id}.m3u8"
+        stream_url = f"https://edgestream{random.randrange(1,8)}.pro/hls/{stream_id}.m3u8"
         log.info(f"URL {url_num}) Captured M3U8 from iframe src")
         return stream_url
 
