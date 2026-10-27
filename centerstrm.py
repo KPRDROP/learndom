@@ -53,7 +53,7 @@ CATEGORIES = {
     24: "Volleyball",
 }
 
-# Regex to match full m3u8 URL with token: https://edgestreamN.pro/hls/XXXX.m3u8?st=...&e=...
+# Regex full m3u8
 M3U8_FULL_RE = re.compile(
     r"https?://[^\s\"'<>]+\.m3u8[^\s\"'<>]*",
     re.IGNORECASE,
