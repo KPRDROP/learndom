@@ -1,51 +1,36 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Serie A] AC Milan vs Bologna | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png" group-title="Live Events",[Serie A] AC Milan vs Bologna | Main Feed (FUTLX)
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Serie A] Frosinone vs Lecce | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png" group-title="Live Events",[Serie A] Frosinone vs Lecce | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://rip.futx.nx.kg/acm/index.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Serie A] Venezia vs Inter Milan | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png" group-title="Live Events",[Serie A] Venezia vs Inter Milan | Main Feed (FUTLX)
+https://rip.futx.nx.kg/fro/index.m3u8
+#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[SPL] Al Nassr FC vs Al-Kholood | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[SPL] Al Nassr FC vs Al-Kholood | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://rip.futx.nx.kg/int/index.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Serie A] Parma vs Udinese | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png" group-title="Live Events",[Serie A] Parma vs Udinese | Main Feed (FUTLX)
+https://hey.futx.nx.kg/nas/index.m3u8
+#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Carabao Cup] Everton vs Newcastle | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/85fh3s.png" group-title="Live Events",[Carabao Cup] Everton vs Newcastle | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://rip.futx.nx.kg/par/index.m3u8
-#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[Carabao Cup] Manchester City vs Brighton | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/85fh3s.png" group-title="Live Events",[Carabao Cup] Manchester City vs Brighton | Main Feed (FUTLX)
+https://rip.futx.nx.kg/eve/index.m3u8
+#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[Serie A] Fiorentina vs Atalanta | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png" group-title="Live Events",[Serie A] Fiorentina vs Atalanta | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://rip.futx.nx.kg/mci/index.m3u8
-#EXTINF:-1 tvg-chno="5" tvg-id="Soccer.Dummy.us" tvg-name="[Carabao Cup] Bournemouth vs Aston Villa | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/85fh3s.png" group-title="Live Events",[Carabao Cup] Bournemouth vs Aston Villa | Main Feed (FUTLX)
+https://hey.futx.nx.kg/ata/index.m3u8
+#EXTINF:-1 tvg-chno="5" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Panthers @ Packers | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Panthers @ Packers | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://hey.futx.nx.kg/bou/index.m3u8
-#EXTINF:-1 tvg-chno="6" tvg-id="Soccer.Dummy.us" tvg-name="[Carabao Cup] Fulham vs Crystal Palace | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/85fh3s.png" group-title="Live Events",[Carabao Cup] Fulham vs Crystal Palace | Main Feed (FUTLX)
+https://hey.futx.nx.kg/pan/index.m3u8
+#EXTINF:-1 tvg-chno="6" tvg-id="MLB.Baseball.Dummy.us" tvg-name="[MLB] Brewers vs Rays | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png" group-title="Live Events",[MLB] Brewers vs Rays | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://hey.futx.nx.kg/ful/index.m3u8
-#EXTINF:-1 tvg-chno="7" tvg-id="Soccer.Dummy.us" tvg-name="[Carabao Cup] Sunderland vs Brentford | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/85fh3s.png" group-title="Live Events",[Carabao Cup] Sunderland vs Brentford | Main Feed (FUTLX)
+https://hey.futx.nx.kg/test/index.m3u8
+#EXTINF:-1 tvg-chno="7" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] WWE: Smackdown | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[WWE] WWE: Smackdown | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://hey.futx.nx.kg/sun/index.m3u8
-#EXTINF:-1 tvg-chno="8" tvg-id="Soccer.Dummy.us" tvg-name="[Serie A] Genoa vs Juventus | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png" group-title="Live Events",[Serie A] Genoa vs Juventus | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://hey.futx.nx.kg/juv/index.m3u8
-#EXTINF:-1 tvg-chno="9" tvg-id="Soccer.Dummy.us" tvg-name="[Serie A] Monza vs Napoli | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png" group-title="Live Events",[Serie A] Monza vs Napoli | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://hey.futx.nx.kg/nap/index.m3u8
-#EXTINF:-1 tvg-chno="10" tvg-id="Soccer.Dummy.us" tvg-name="[Carabao Cup] Liverpool vs Chelsea | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/85fh3s.png" group-title="Live Events",[Carabao Cup] Liverpool vs Chelsea | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://rip.futx.nx.kg/liv/index.m3u8
+https://g.futbolx.ryzn.pro/sma/index.m3u8
