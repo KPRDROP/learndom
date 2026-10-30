@@ -1,130 +1,145 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[Bulgaria efbet League] CSKA 1948 Sofia vs Spartak Varna (FAWA)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/ae/Efbet_Liga_logo.png" group-title="Live Events",[Bulgaria efbet League] CSKA 1948 Sofia vs Spartak Varna (FAWA)
+#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[Basketball Euroleague] Anadolu Efes vs Panathinaikos (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Anadolu Efes vs Panathinaikos (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.55/hls/KYYYA.m3u8
+#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[Formula 1 GP] Formula 1 GP Mexico (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[Formula 1 GP] Formula 1 GP Mexico (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/KYYY.m3u8
+#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[Poland Ekstraklasa] Cracovia vs Motor Lublin (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/poland/700x700/ekstraklasa.007755e8.png" group-title="Live Events",[Poland Ekstraklasa] Cracovia vs Motor Lublin (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.59/hls/ANNNAAQQQQ.m3u8
+#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[Turkey Super Lig] Konyaspor vs Galatasaray (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/18.png" group-title="Live Events",[Turkey Super Lig] Konyaspor vs Galatasaray (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.59/hls/ANNNAAQQQ.m3u8
+#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[Turkey Lig 1] Erokspor vs Keciorengucu (FAWA)" tvg-logo="https://cdn.prod.website-files.com/68f550992570ca0322737dc2/6a5a1c51be53a092d0d199b9_1-lig-turkey-logo-footylogos.png" group-title="Live Events",[Turkey Lig 1] Erokspor vs Keciorengucu (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.59/hls/ANNNAAQQ.m3u8
+#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[Croatia 1 HNL] Slaven Belupo vs Istra 1961 (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2022/01/Prva-Hrvatska-Nogometna-Liga-logo-1992.png" group-title="Live Events",[Croatia 1 HNL] Slaven Belupo vs Istra 1961 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.59/hls/ANNNAAQ.m3u8
+#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[Cyprus League] Karmiotissa vs Ol Nicosia (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/cyprus/1500x1500/cypriot-first-division.5509f999.png" group-title="Live Events",[Cyprus League] Karmiotissa vs Ol Nicosia (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.59/hls/ANNNAA.m3u8
+#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[German DFB Pokal] Stuttgart W vs SGS Essen W (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/germany/1500x1500/dfb-pokal.368025c3.png" group-title="Live Events",[German DFB Pokal] Stuttgart W vs SGS Essen W (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.59/hls/ANNNA.m3u8
+#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[Cyprus Basketball] AEL vs Morphou (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/04/Basketball-Emoji-1536x864.png" group-title="Live Events",[Cyprus Basketball] AEL vs Morphou (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.59/hls/ANNN.m3u8
+#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[Qatar QSL] Al Sadd vs Shamal (FAWA)" tvg-logo="https://www.qsl.qa/sites/default/files/2021-09/QSL_Logo_Port_CMYK3.png" group-title="Live Events",[Qatar QSL] Al Sadd vs Shamal (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.59/hls/NTTTAAAA.m3u8
+#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[Qatar QSL] Al Gharafa vs Qatar SC (FAWA)" tvg-logo="https://www.qsl.qa/sites/default/files/2021-09/QSL_Logo_Port_CMYK3.png" group-title="Live Events",[Qatar QSL] Al Gharafa vs Qatar SC (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.59/hls/NTTTAAA.m3u8
+#EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[Romania Liga 2] Steaua Bucuresti CS vs Dinamo Bucuresti CS (FAWA)" tvg-logo="https://images.fotmob.com/image_resources/logo/leaguelogo/9113.png" group-title="Live Events",[Romania Liga 2] Steaua Bucuresti CS vs Dinamo Bucuresti CS (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.59/hls/NTTTAA.m3u8
+#EXTINF:-1 tvg-chno="13" tvg-id="Live.Event.us" tvg-name="[Ukraine Premier League] Shakhtar Donetsk vs Obolon (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2023/06/Ukrainian-Premier-League-Logo-2016.png" group-title="Live Events",[Ukraine Premier League] Shakhtar Donetsk vs Obolon (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.59/hls/NTTTA.m3u8
+#EXTINF:-1 tvg-chno="14" tvg-id="Live.Event.us" tvg-name="[Basketball Euroleague] Dubai vs Hapoel Tel Aviv (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Dubai vs Hapoel Tel Aviv (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.59/hls/NTTT.m3u8
+#EXTINF:-1 tvg-chno="15" tvg-id="Live.Event.us" tvg-name="[Bulgaria efbet League] CSKA 1948 Sofia vs Spartak Varna (FAWA)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/ae/Efbet_Liga_logo.png" group-title="Live Events",[Bulgaria efbet League] CSKA 1948 Sofia vs Spartak Varna (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.44/hls/RRRRQQQQQQA.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[Egypt Premier League] Asyut Petroleum vs El Gouna (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/egypt/1500x1500/egyptian-premier-league.9574aa34.png" group-title="Live Events",[Egypt Premier League] Asyut Petroleum vs El Gouna (FAWA)
+#EXTINF:-1 tvg-chno="16" tvg-id="Live.Event.us" tvg-name="[Egypt Premier League] Asyut Petroleum vs El Gouna (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/egypt/1500x1500/egyptian-premier-league.9574aa34.png" group-title="Live Events",[Egypt Premier League] Asyut Petroleum vs El Gouna (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.44/hls/RRRRQQQQQQ.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[Belarus Vysshaya Liga] Arsenal Dzerzhinsk vs BATE (FAWA)" tvg-logo="https://r2.thesportsdb.com/images/media/league/badge/nb8xtg1656531943.png" group-title="Live Events",[Belarus Vysshaya Liga] Arsenal Dzerzhinsk vs BATE (FAWA)
+#EXTINF:-1 tvg-chno="17" tvg-id="Live.Event.us" tvg-name="[Belarus Vysshaya Liga] Arsenal Dzerzhinsk vs BATE (FAWA)" tvg-logo="https://r2.thesportsdb.com/images/media/league/badge/nb8xtg1656531943.png" group-title="Live Events",[Belarus Vysshaya Liga] Arsenal Dzerzhinsk vs BATE (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.44/hls/RRRRQQQQQQAA.m3u8
-#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[Armenia Premier League] Pyunik Yerevan vs Urartu (FAWA)" tvg-logo="https://r2.thesportsdb.com/images/media/league/badge/h4o8zq1687710680.png" group-title="Live Events",[Armenia Premier League] Pyunik Yerevan vs Urartu (FAWA)
+#EXTINF:-1 tvg-chno="18" tvg-id="Live.Event.us" tvg-name="[Armenia Premier League] Pyunik Yerevan vs Urartu (FAWA)" tvg-logo="https://r2.thesportsdb.com/images/media/league/badge/h4o8zq1687710680.png" group-title="Live Events",[Armenia Premier League] Pyunik Yerevan vs Urartu (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.44/hls/RRRRQQQQQ.m3u8
-#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[Saudi Premier League] Al Diriyah vs Neom SC 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Premier League] Al Diriyah vs Neom SC 1 (FAWA)
+#EXTINF:-1 tvg-chno="19" tvg-id="Live.Event.us" tvg-name="[Saudi Premier League] Al Diriyah vs Neom SC 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Premier League] Al Diriyah vs Neom SC 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.44/hls/RRRRQQQQ.m3u8
-#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[Saudi Premier League] Al Diriyah vs Neom SC 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Premier League] Al Diriyah vs Neom SC 2 (FAWA)
+#EXTINF:-1 tvg-chno="20" tvg-id="Live.Event.us" tvg-name="[Saudi Premier League] Al Diriyah vs Neom SC 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Premier League] Al Diriyah vs Neom SC 2 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 https://www.rtmpcdn.com/live/5e483ee1-7b94-455a-99ce-b04cc8513c27.m3u8
-#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[Azerbaijan Premier League] Turan Tovuz vs Sabah FC (FAWA)" tvg-logo="https://gfr1.b-cdn.net/GFR%20League%20Logos/Azerbaijan%20Premier%20League.png" group-title="Live Events",[Azerbaijan Premier League] Turan Tovuz vs Sabah FC (FAWA)
+#EXTINF:-1 tvg-chno="21" tvg-id="Live.Event.us" tvg-name="[Azerbaijan Premier League] Turan Tovuz vs Sabah FC (FAWA)" tvg-logo="https://gfr1.b-cdn.net/GFR%20League%20Logos/Azerbaijan%20Premier%20League.png" group-title="Live Events",[Azerbaijan Premier League] Turan Tovuz vs Sabah FC (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.44/hls/RRRRQQQ.m3u8
-#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[Qatar QSL] Al Shahaniya vs Al Ahli Doha (FAWA)" tvg-logo="https://www.qsl.qa/sites/default/files/2021-09/QSL_Logo_Port_CMYK3.png" group-title="Live Events",[Qatar QSL] Al Shahaniya vs Al Ahli Doha (FAWA)
+#EXTINF:-1 tvg-chno="22" tvg-id="Live.Event.us" tvg-name="[Qatar QSL] Al Shahaniya vs Al Ahli Doha (FAWA)" tvg-logo="https://www.qsl.qa/sites/default/files/2021-09/QSL_Logo_Port_CMYK3.png" group-title="Live Events",[Qatar QSL] Al Shahaniya vs Al Ahli Doha (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.44/hls/RRRRQQ.m3u8
-#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[India ISL League] North East Utd vs Bengaluru FC (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[India ISL League] North East Utd vs Bengaluru FC (FAWA)
+#EXTINF:-1 tvg-chno="23" tvg-id="Live.Event.us" tvg-name="[India ISL League] North East Utd vs Bengaluru FC (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[India ISL League] North East Utd vs Bengaluru FC (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.44/hls/RRRRQ.m3u8
-#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[MMA Fighting] MMA ONE Championship (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[MMA Fighting] MMA ONE Championship (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.44/hls/RRRR.m3u8
-#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[Uzbekistan Super League] Xorazm Urganch vs Pakhtakor (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/uzbekistan/1500x1500/uzbekistan-super-league.d56222d2.png" group-title="Live Events",[Uzbekistan Super League] Xorazm Urganch vs Pakhtakor (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/KMMMAAAAAQQQ.m3u8
-#EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[Uzbekistan Super League] Sogdiana vs Buxoro (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/uzbekistan/1500x1500/uzbekistan-super-league.d56222d2.png" group-title="Live Events",[Uzbekistan Super League] Sogdiana vs Buxoro (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/KMMMAAAAAQQ.m3u8
-#EXTINF:-1 tvg-chno="13" tvg-id="Live.Event.us" tvg-name="[Uzbekistan Super League] Kokand 1912 vs Qizilqum (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/uzbekistan/1500x1500/uzbekistan-super-league.d56222d2.png" group-title="Live Events",[Uzbekistan Super League] Kokand 1912 vs Qizilqum (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/KMMMAAAAAQ.m3u8
-#EXTINF:-1 tvg-chno="14" tvg-id="Live.Event.us" tvg-name="[Tennis ATP] Tennis ATP Basel (FAWA)" tvg-logo="https://files.catbox.moe/q8ljra.png" group-title="Live Events",[Tennis ATP] Tennis ATP Basel (FAWA)
+#EXTINF:-1 tvg-chno="24" tvg-id="Live.Event.us" tvg-name="[Tennis ATP] Tennis ATP Basel (FAWA)" tvg-logo="https://files.catbox.moe/q8ljra.png" group-title="Live Events",[Tennis ATP] Tennis ATP Basel (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.44/hls/EJJJAA.m3u8
-#EXTINF:-1 tvg-chno="15" tvg-id="Live.Event.us" tvg-name="[Saudi Premier League] Abha vs Al Ittihad (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Premier League] Abha vs Al Ittihad (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/KMMMAAAAA.m3u8
-#EXTINF:-1 tvg-chno="16" tvg-id="Live.Event.us" tvg-name="[Tennis ATP] Tennis ATP Vienna (FAWA)" tvg-logo="https://files.catbox.moe/q8ljra.png" group-title="Live Events",[Tennis ATP] Tennis ATP Vienna (FAWA)
+#EXTINF:-1 tvg-chno="25" tvg-id="Live.Event.us" tvg-name="[Tennis ATP] Tennis ATP Vienna (FAWA)" tvg-logo="https://files.catbox.moe/q8ljra.png" group-title="Live Events",[Tennis ATP] Tennis ATP Vienna (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.44/hls/EJJJA.m3u8
-#EXTINF:-1 tvg-chno="17" tvg-id="Live.Event.us" tvg-name="[Vietnam V League] Hanoi FC vs Phu Dong Ninh Binh (FAWA)" tvg-logo="https://files.catbox.moe/gvdiyr.png" group-title="Live Events",[Vietnam V League] Hanoi FC vs Phu Dong Ninh Binh (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/KMMMAAAA.m3u8
-#EXTINF:-1 tvg-chno="18" tvg-id="Live.Event.us" tvg-name="[Horse Racing] Horse Racing 1 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Horse Racing] Horse Racing 1 (FAWA)
+#EXTINF:-1 tvg-chno="26" tvg-id="Live.Event.us" tvg-name="[Horse Racing] Horse Racing 1 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Horse Racing] Horse Racing 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/vavavava.m3u8
-#EXTINF:-1 tvg-chno="19" tvg-id="Live.Event.us" tvg-name="[Horse Racing] Horse Racing 2 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Horse Racing] Horse Racing 2 (FAWA)
+#EXTINF:-1 tvg-chno="27" tvg-id="Live.Event.us" tvg-name="[Horse Racing] Horse Racing 2 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Horse Racing] Horse Racing 2 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/vavavavaq.m3u8
-#EXTINF:-1 tvg-chno="20" tvg-id="Live.Event.us" tvg-name="[Thailand Thai league 1] Sisaket United vs Ratchaburi (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/thailand/1500x1500/thai-league-1.3069b0a9.png" group-title="Live Events",[Thailand Thai league 1] Sisaket United vs Ratchaburi (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/KMMMAAA.m3u8
-#EXTINF:-1 tvg-chno="21" tvg-id="Live.Event.us" tvg-name="[Singapore Premier League] Tanjong Pagar vs FC Jurong (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/singapore/700x700/singapore-premier-league.ee82460c.png" group-title="Live Events",[Singapore Premier League] Tanjong Pagar vs FC Jurong (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/KMMMAA.m3u8
-#EXTINF:-1 tvg-chno="22" tvg-id="Live.Event.us" tvg-name="[Armenia Premier League] Sardarapat vs Van (FAWA)" tvg-logo="https://r2.thesportsdb.com/images/media/league/badge/h4o8zq1687710680.png" group-title="Live Events",[Armenia Premier League] Sardarapat vs Van (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/KMMMA.m3u8
-#EXTINF:-1 tvg-chno="23" tvg-id="Live.Event.us" tvg-name="[Golf] Golf HotelPlanner Tour Grand Final (FAWA)" tvg-logo="https://files.catbox.moe/0u2n4x.png" group-title="Live Events",[Golf] Golf HotelPlanner Tour Grand Final (FAWA)
+#EXTINF:-1 tvg-chno="28" tvg-id="Live.Event.us" tvg-name="[Golf] Golf HotelPlanner Tour Grand Final (FAWA)" tvg-logo="https://files.catbox.moe/0u2n4x.png" group-title="Live Events",[Golf] Golf HotelPlanner Tour Grand Final (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.59/hls/6HHHAAQQQAAQQQQQ.m3u8
-#EXTINF:-1 tvg-chno="24" tvg-id="Live.Event.us" tvg-name="[Vietnam V League] Bac Ninh vs Gia Lai (FAWA)" tvg-logo="https://files.catbox.moe/gvdiyr.png" group-title="Live Events",[Vietnam V League] Bac Ninh vs Gia Lai (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/KMMM.m3u8
-#EXTINF:-1 tvg-chno="25" tvg-id="Live.Event.us" tvg-name="[Vietnam V League] Thanh Hoa vs Hong Linh Ha Tinh (FAWA)" tvg-logo="https://files.catbox.moe/gvdiyr.png" group-title="Live Events",[Vietnam V League] Thanh Hoa vs Hong Linh Ha Tinh (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/VAVAVA.m3u8
-#EXTINF:-1 tvg-chno="26" tvg-id="Live.Event.us" tvg-name="[Cricket] South Africa vs Australia (FAWA)" tvg-logo="https://files.catbox.moe/rwd8mv.png" group-title="Live Events",[Cricket] South Africa vs Australia (FAWA)
+#EXTINF:-1 tvg-chno="29" tvg-id="Live.Event.us" tvg-name="[Cricket] South Africa vs Australia (FAWA)" tvg-logo="https://files.catbox.moe/rwd8mv.png" group-title="Live Events",[Cricket] South Africa vs Australia (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
