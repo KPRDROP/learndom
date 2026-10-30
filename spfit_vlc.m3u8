@@ -1,10 +1,2 @@
-#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-10-29 20:14 UTC
-# Total Streams: 1
-
-#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Soccer] Everton vs Newcastle United 2026-27 English Carabao Cup Fourth Round (SPFIT)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Soccer] Everton vs Newcastle United 2026-27 English Carabao Cup Fourth Round (SPFIT)
-#EXTVLCOPT:http-referrer=https://edgesport.cfd/
-#EXTVLCOPT:http-origin=https://edgesport.cfd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://crescentbyte.s3.eu-west-3.amazonaws.com/lakers.m3u8
-
+#EXTM3U
+# No events available
