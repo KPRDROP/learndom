@@ -27,7 +27,7 @@ if not BASE_URL:
 
 SPORT_ENDPOINTS = [
     "cfb",
-    "mlb",
+    #"mlb",
     "nba",
     "nfl",
     "nhl",
