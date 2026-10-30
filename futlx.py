@@ -34,7 +34,7 @@ SPORT_CATEGORIES = [
     "motorsports",
     "americanfootball",
     "nhl",
-    "baseball",
+    #"baseball",
     #"rugby",
     "golf",
     "others",
