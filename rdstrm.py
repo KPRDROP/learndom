@@ -31,10 +31,11 @@ API_FILE = Cache(f"{TAG}-api", exp=28_800)
 urls: dict[str, dict[str, Any]] = {}
 
 ALLOWED_CATEGORIES = {
-    "american-football", "baseball", "basketball", "hockey", "football",
+    "american-football", #"baseball", 
+    "basketball", "hockey", "football", "darts",
     "soccer", "motor-sports", "motorsport", "racing", "tennis",
     "mma", "boxing", "ufc", "golf", "cricket",
-    "rugby", "volleyball", "handball", "esports", "darts",
+    "rugby", "volleyball", "handball", "esports",
 }
 
 STREAM_SOURCES = (
