@@ -36,10 +36,10 @@ SPORT_CATEGORIES = [
     "nhl",
     #"baseball",
     #"rugby",
-    "golf",
+    #"golf",
     "others",
     "wrestling",
-    #"darts",
+    "darts",
 ]
 
 SPORT_URLS = [
