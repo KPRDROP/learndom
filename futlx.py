@@ -39,7 +39,7 @@ SPORT_CATEGORIES = [
     "golf",
     "others",
     "wrestling",
-    "darts",
+    #"darts",
 ]
 
 SPORT_URLS = [
