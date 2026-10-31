@@ -1,86 +1,396 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Football.Dummy.us" tvg-name="[American Football] Harvard crimson vs Dartmouth Big Green | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Harvard crimson vs Dartmouth Big Green | English (STRMCNTR)
+#EXTINF:-1 tvg-chno="1" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[MMA] UFC Fight Night: Moicano vs. Nolan | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[MMA] UFC Fight Night: Moicano vs. Nolan | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://edgestream7.pro/hls/oipozuezeji33.m3u8?st=_BqbhsKJ_LojD_aUaadgJKVSn_rq-Qi12dw3h42b9sk&e=1793416950
-#EXTINF:-1 tvg-chno="2" tvg-id="Football.Dummy.us" tvg-name="[American Football] Tulane Green Wave vs. Charlotte 49ers | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Tulane Green Wave vs. Charlotte 49ers | English (STRMCNTR)
+https://edgestream2.pro/hls/zeuryuegn48.m3u8?st=M-FqLcxdsc7NoR7Pqj3mn9RNMolCCd73CnkkbnNSOik&e=1793439460
+#EXTINF:-1 tvg-chno="2" tvg-id="Football.Dummy.us" tvg-name="[American Football] Arizona Wildcats vs. Texas Tech Red Raiders | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Arizona Wildcats vs. Texas Tech Red Raiders | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://edgestream4.pro/hls/JHDAJBDnjdna30.m3u8?st=xm6tNpbrWkxCqs-KvRiLu8vnPCmiOVoMH_F8S1S9zP8&e=1793416955
-#EXTINF:-1 tvg-chno="3" tvg-id="Football.Dummy.us" tvg-name="[American Football] Baylor Bears vs. UCF Knights | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Baylor Bears vs. UCF Knights | English (STRMCNTR)
+https://edgestream6.pro/hls/dazhfiach15.m3u8?st=nsNGqRodJtp1-_0iHjmAAs--joSzD4c-29kNh-Jop2w&e=1793439465
+#EXTINF:-1 tvg-chno="3" tvg-id="Football.Dummy.us" tvg-name="[American Football] California Golden Bears vs. NC State Wolfpack | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] California Golden Bears vs. NC State Wolfpack | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://edgestream4.pro/hls/sfjnzabacah31.m3u8?st=qeueymYoJPfK-MOXuIOoxNxCzFKlT35fyny3yJ81MPE&e=1793416963
-#EXTINF:-1 tvg-chno="4" tvg-id="Football.Dummy.us" tvg-name="[American Football] Kent State Golden Flashes vs. Sacramento State Hornets | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Kent State Golden Flashes vs. Sacramento State Hornets | English (STRMCNTR)
+https://edgestream5.pro/hls/16yuitzaerghbhc16.m3u8?st=fpfq3NM8itbwxWCFlbEX0lU-HzSFN4asrPGHk0jZKoo&e=1793439472
+#EXTINF:-1 tvg-chno="4" tvg-id="Football.Dummy.us" tvg-name="[American Football] SMU Mustangs vs. Syracuse Orange | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] SMU Mustangs vs. Syracuse Orange | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://edgestream5.pro/hls/qsdnajbq32.m3u8?st=txJkcNqhoKECHYybZpF8gbtSdOfQLcINP0kZFSN57Fg&e=1793416970
-#EXTINF:-1 tvg-chno="5" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Chicago Bulls vs. Boston Celtics | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Chicago Bulls vs. Boston Celtics | English (STRMCNTR)
+https://edgestream5.pro/hls/ihfazugfyjcazich17.m3u8?st=uE67Lxg5UgI-dAm1ETAAvPQa4wTY1Hfe7k0GEIuvhUw&e=1793439480
+#EXTINF:-1 tvg-chno="5" tvg-id="Football.Dummy.us" tvg-name="[American Football] Boston College Eagles vs. Duke Blue Devils | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Boston College Eagles vs. Duke Blue Devils | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://edgestream2.pro/hls/wfazgsqtrezu66.m3u8?st=boE6UOf7y-_Qf32R14vp4iXvGu_L5llke97lVgLs42U&e=1793416993
-#EXTINF:-1 tvg-chno="6" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Detroit Pistons vs. Brooklyn Nets | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Detroit Pistons vs. Brooklyn Nets | English (STRMCNTR)
+https://edgestream4.pro/hls/Czajafjihafch18.m3u8?st=wZixSb3FVEY2RwJ25P0piP4IX3DCstx8-Iaz6fh6mbg&e=1793439487
+#EXTINF:-1 tvg-chno="6" tvg-id="Football.Dummy.us" tvg-name="[American Football] Wisconsin Badgers vs. Iowa Hawkeyes | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Wisconsin Badgers vs. Iowa Hawkeyes | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://edgestream5.pro/hls/hfsdqtaxvb67.m3u8?st=v59nOapNq6I1DnE7s9S2PaRUrhIPzlTEYAQVhvRaqvQ&e=1793417000
-#EXTINF:-1 tvg-chno="7" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] New York Knicks vs. Philadelphia 76ers | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] New York Knicks vs. Philadelphia 76ers | English (STRMCNTR)
+https://edgestream5.pro/hls/bzagLHzach19.m3u8?st=a5hp5HWTVapSJcdGqRea_hZt0QBaahHfTr4dQYTi55Q&e=1793439494
+#EXTINF:-1 tvg-chno="7" tvg-id="Football.Dummy.us" tvg-name="[American Football] Illinois Fighting Illini vs. Maryland Terrapins | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Illinois Fighting Illini vs. Maryland Terrapins | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://edgestream7.pro/hls/zayrtezafgvdv68.m3u8?st=32jnZtaI7VKO2ZfFdj1ejQWvLX8GVR51McE6CgO9id0&e=1793417008
-#EXTINF:-1 tvg-chno="8" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Orlando Magic vs. Toronto Raptors | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Orlando Magic vs. Toronto Raptors | English (STRMCNTR)
+https://edgestream1.pro/hls/jkzahzadach20.m3u8?st=iiykVu_ss6bN0bWd3RGuDTxOY_E6bf0MXNMlGDjlHMo&e=1793439502
+#EXTINF:-1 tvg-chno="8" tvg-id="Football.Dummy.us" tvg-name="[American Football] Notre Dame Fighting Irish vs. Navy Midshipmen | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Notre Dame Fighting Irish vs. Navy Midshipmen | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://edgestream2.pro/hls/zeafwqvhfe69.m3u8?st=MPpt5QjYgFD6wuHFI_yilTl6pS7hUBGKEr7Mztzj03U&e=1793417015
-#EXTINF:-1 tvg-chno="9" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Indiana Pacers vs. Miami Heat | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Indiana Pacers vs. Miami Heat | English (STRMCNTR)
+https://edgestream6.pro/hls/ojzkajnach21.m3u8?st=RgdV43wAX4fgEwds_5Sd3v8jOYK78c3_G-dPulxjgQc&e=1793439509
+#EXTINF:-1 tvg-chno="9" tvg-id="Football.Dummy.us" tvg-name="[American Football] UAB Blazers vs. South Florida Bulls | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] UAB Blazers vs. South Florida Bulls | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://edgestream7.pro/hls/bvnsqdfvgha70.m3u8?st=woTNMyZteK9wqdCMNy1SFavYa5UX--5-eT_cctEHVBk&e=1793417023
-#EXTINF:-1 tvg-chno="10" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Houston Rockets vs. Dallas Mavericks | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Houston Rockets vs. Dallas Mavericks | English (STRMCNTR)
+https://edgestream7.pro/hls/ijfnakfidch22.m3u8?st=-Ri_mx8BEAhT3p8m91wm0Z8Cg2M77zeafGEg8iwAx8o&e=1793439517
+#EXTINF:-1 tvg-chno="10" tvg-id="Football.Dummy.us" tvg-name="[American Football] Bowling Green Falcons vs. Western Michigan Broncos | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Bowling Green Falcons vs. Western Michigan Broncos | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://edgestream6.pro/hls/ztyarueaghj71.m3u8?st=Ho0R0n8_tXk6s4wB8yoJflRXxvVWgKnyNvFKEoDV-zw&e=1793417030
-#EXTINF:-1 tvg-chno="11" tvg-id="Basketball.Dummy.us" tvg-name="[Basketball] LA Clippers vs. Minnesota Timberwolves | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/04/Basketball-Emoji-1536x864.png" group-title="Live Events",[Basketball] LA Clippers vs. Minnesota Timberwolves | English (STRMCNTR)
+https://edgestream5.pro/hls/jnzkdzjfanch23.m3u8?st=xIjl2I9XV8tYEBDUM0ZvyTdp2KXoXp3YxVN5WM-jMUc&e=1793439524
+#EXTINF:-1 tvg-chno="11" tvg-id="Football.Dummy.us" tvg-name="[American Football] Michigan Wolverines vs. Rutgers Scarlet Knights | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Michigan Wolverines vs. Rutgers Scarlet Knights | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://edgestream6.pro/hls/pllmazjkdzajh72.m3u8?st=uQkmFKYhhs9c-Ixy4-BAtSacqDz5VMFjg9XaW09UTkA&e=1793417038
-#EXTINF:-1 tvg-chno="12" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Los Angeles Lakers vs. Golden State Warriors | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Los Angeles Lakers vs. Golden State Warriors | English (STRMCNTR)
+https://edgestream5.pro/hls/fskjanach24.m3u8?st=FYN1xqCCNY0_IvjEsBGDSNWe74zLazG-LhXZ4g9G1lI&e=1793439532
+#EXTINF:-1 tvg-chno="12" tvg-id="Football.Dummy.us" tvg-name="[American Football] Auburn Tigers vs. Ole Miss Rebels | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Auburn Tigers vs. Ole Miss Rebels | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://edgestream4.pro/hls/fdgsqdfawa73.m3u8?st=HrhGIS5W1_z7SxXxHiM1ODA6cSDOflGvO6dVzS1xOvw&e=1793417045
-#EXTINF:-1 tvg-chno="13" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Denver Nuggets vs. Phoenix Suns | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Denver Nuggets vs. Phoenix Suns | English (STRMCNTR)
+https://edgestream1.pro/hls/kjhfzua25.m3u8?st=GPEN-dzlUPdGSfWgg2NsHyRMng6sypPjq2k-ykCz8Fk&e=1793439539
+#EXTINF:-1 tvg-chno="13" tvg-id="Football.Dummy.us" tvg-name="[American Football] Kansas State Wildcats vs. Colorado Buffaloes | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Kansas State Wildcats vs. Colorado Buffaloes | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://edgestream7.pro/hls/yjtzafghvjza74.m3u8?st=mStWtFA8KOR65YgQ1UvG4WVcrzcc0v_GXCjfqsoM5sI&e=1793417053
-#EXTINF:-1 tvg-chno="14" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Hockey] New Jersey Devils vs. Vegas Golden Knights | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[Hockey] New Jersey Devils vs. Vegas Golden Knights | English (STRMCNTR)
+https://edgestream4.pro/hls/dzjhkfazbka26.m3u8?st=wMuB75eYkTuJkrPeG1pSJ5z1gvWCltYHiZfyMWCVuKY&e=1793439546
+#EXTINF:-1 tvg-chno="14" tvg-id="Football.Dummy.us" tvg-name="[American Football] UConn Huskies vs. Air Force Falcons | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] UConn Huskies vs. Air Force Falcons | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://edgestream5.pro/hls/uyopzarf50.m3u8?st=OrDn5Mz8j_XNV2C5mK-XKldxGHUDPRnXsRHrh1OUNmI&e=1793417060
-#EXTINF:-1 tvg-chno="15" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Hockey] Winnipeg Jets vs. Florida Panthers | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[Hockey] Winnipeg Jets vs. Florida Panthers | English (STRMCNTR)
+https://edgestream1.pro/hls/jzabfazkbf27.m3u8?st=lu4LUCqBd-Vu7JL2NEFwA5ZY6nz9PUPyxTmwUkOUJ6c&e=1793439554
+#EXTINF:-1 tvg-chno="15" tvg-id="Football.Dummy.us" tvg-name="[American Football] Stanford Cardinal vs. Louisville Cardinals | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Stanford Cardinal vs. Louisville Cardinals | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://edgestream6.pro/hls/hjksgdfauzy51.m3u8?st=eFWxKPDF4ATIw3h4ZYuPWzYt_APZ7GNQalZ6Y6KUqEY&e=1793417068
-#EXTINF:-1 tvg-chno="16" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Hockey] Seattle Kraken vs. Calgary Flames | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[Hockey] Seattle Kraken vs. Calgary Flames | English (STRMCNTR)
+https://edgestream4.pro/hls/hefbafbakx28.m3u8?st=-qb7pLdBRi2zZ4uUZPbOUXw7WPb_RfkrThnDXs_3faQ&e=1793439561
+#EXTINF:-1 tvg-chno="16" tvg-id="Football.Dummy.us" tvg-name="[American Football] Florida Gators vs. Georgia Bulldogs | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Florida Gators vs. Georgia Bulldogs | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://edgestream2.pro/hls/lmdsjkfgv52.m3u8?st=xTMxLNd1iRlVABp5LL15iwGrj-77kgQo7hFOmz5gkR8&e=1793417075
-#EXTINF:-1 tvg-chno="17" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] WWE Friday Night Smackdown | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[WWE] WWE Friday Night Smackdown | English (STRMCNTR)
+https://edgestream5.pro/hls/hfzljfahzcax29.m3u8?st=LEcDIMlP3usv6cHtYouiRVbrP-3U0qCe6EN2DimwFeI&e=1793439569
+#EXTINF:-1 tvg-chno="17" tvg-id="Football.Dummy.us" tvg-name="[American Football] Arizona State Sun Devils vs. BYU Cougars | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Arizona State Sun Devils vs. BYU Cougars | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://edgestream2.pro/hls/zeuryuegn48.m3u8?st=wVCyG-F5GnY_0nxt7UF6CenrRAgnLteYbjBctK8LgtM&e=1793417083
+https://edgestream4.pro/hls/JHDAJBDnjdna30.m3u8?st=ZOb2RyUV_WlCgb3TlZ5SNF14UqRkA6hiOSQwgRYvets&e=1793439576
+#EXTINF:-1 tvg-chno="18" tvg-id="Football.Dummy.us" tvg-name="[American Football] Kansas Jayhawks vs. TCU Horned Frogs | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Kansas Jayhawks vs. TCU Horned Frogs | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream6.pro/hls/sfjnzabacah31.m3u8?st=QIqDtrhpSjF8RASHQBm7BCW9VHa02WGEyrFTygsm7rY&e=1793439584
+#EXTINF:-1 tvg-chno="19" tvg-id="Football.Dummy.us" tvg-name="[American Football] Minnesota Golden Gophers vs. Indiana Hoosiers | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Minnesota Golden Gophers vs. Indiana Hoosiers | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream6.pro/hls/qsdnajbq32.m3u8?st=UQgq5JNdSORJrTrQMj-hfUl4FXpFhmuAzJdIUurJq6A&e=1793439591
+#EXTINF:-1 tvg-chno="20" tvg-id="Football.Dummy.us" tvg-name="[American Football] Northwestern Wildcats vs. Oregon Ducks | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Northwestern Wildcats vs. Oregon Ducks | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream6.pro/hls/oipozuezeji33.m3u8?st=1XFO3nDJDmiwjDiW7-OfzBgV7bXhNwnR0Ua-ii52NTQ&e=1793439599
+#EXTINF:-1 tvg-chno="21" tvg-id="Football.Dummy.us" tvg-name="[American Football] Colorado State Rams vs. Utah State Aggies | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Colorado State Rams vs. Utah State Aggies | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream1.pro/hls/uheyztezgj34.m3u8?st=vGcJy5Vid0S3THEs73OQ7t4rdTRWWLwKPDUqD4p6Hxo&e=1793439607
+#EXTINF:-1 tvg-chno="22" tvg-id="Football.Dummy.us" tvg-name="[American Football] UTEP Miners vs. North Dakota State Bison | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] UTEP Miners vs. North Dakota State Bison | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream4.pro/hls/jnknjfzbk35.m3u8?st=2UldcpwPoBULRaxu8UTohXe9C_AawHqd5JKEyjs4JrA&e=1793439614
+#EXTINF:-1 tvg-chno="23" tvg-id="Football.Dummy.us" tvg-name="[American Football] Florida International Panthers vs. Liberty Flames | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Florida International Panthers vs. Liberty Flames | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream4.pro/hls/jkhazabcka36.m3u8?st=Jx8T50swBiNFP0hlnUmJb9ndb0T1kPiYItMGm7LQcIg&e=1793439621
+#EXTINF:-1 tvg-chno="24" tvg-id="Football.Dummy.us" tvg-name="[American Football] Utah Utes vs. Cincinnati Bearcats | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Utah Utes vs. Cincinnati Bearcats | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream2.pro/hls/yetehznecs37.m3u8?st=VvB59l0HMo5VEOHMx0wNz5PEgM5uWGU-oKH6W3f3yjo&e=1793439629
+#EXTINF:-1 tvg-chno="25" tvg-id="Football.Dummy.us" tvg-name="[American Football] Virginia Cavaliers vs. Wake Forest Demon Deacons | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Virginia Cavaliers vs. Wake Forest Demon Deacons | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream6.pro/hls/ysvbxwnbc38.m3u8?st=CqXEdozz3NbjB2y9O3w4bAoCDdu32LUvumi-KfWKUrw&e=1793439636
+#EXTINF:-1 tvg-chno="26" tvg-id="Football.Dummy.us" tvg-name="[American Football] New Mexico Lobos vs. San José State Spartans | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] New Mexico Lobos vs. San José State Spartans | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream5.pro/hls/cwxcnbscbsq39.m3u8?st=8Q-gaOZG0HpgO58bKMR9yOSbXrOU-naMw2e3HSAlQAs&e=1793439644
+#EXTINF:-1 tvg-chno="27" tvg-id="Football.Dummy.us" tvg-name="[American Football] South Carolina Gamecocks vs. Oklahoma Sooners | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] South Carolina Gamecocks vs. Oklahoma Sooners | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream1.pro/hls/poertjnvnev40.m3u8?st=ay7FeKRvtQ-T6wFL69Tc6MIi3fUqVlB73ZmFoXwdlt4&e=1793439652
+#EXTINF:-1 tvg-chno="28" tvg-id="Football.Dummy.us" tvg-name="[American Football] Purdue Boilermakers vs. Penn State Nittany Lions | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Purdue Boilermakers vs. Penn State Nittany Lions | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream7.pro/hls/wnbcnxbcs42.m3u8?st=dIc8jgISyKuUOR3X0ivbtiHHo59nz5zGkNWCHxbkBck&e=1793439659
+#EXTINF:-1 tvg-chno="29" tvg-id="Football.Dummy.us" tvg-name="[American Football] Nevada Wolf Pack vs. UCLA Bruins | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Nevada Wolf Pack vs. UCLA Bruins | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream6.pro/hls/ijzriafaq41.m3u8?st=d8i-pLDTUrw13Hd8oTB092PFdbn-MyiSVGysZbu29dU&e=1793439666
+#EXTINF:-1 tvg-chno="30" tvg-id="Football.Dummy.us" tvg-name="[American Football] Oklahoma State Cowboys vs. Iowa State Cyclones | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Oklahoma State Cowboys vs. Iowa State Cyclones | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream1.pro/hls/jnfezkbfz43.m3u8?st=Zld3eUc8rtoQmwoW0p0l-DwiCjMHHDqSc-Lue3HQN8o&e=1793439674
+#EXTINF:-1 tvg-chno="31" tvg-id="Football.Dummy.us" tvg-name="[American Football] Clemson Tigers vs. Florida State Seminoles | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Clemson Tigers vs. Florida State Seminoles | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream6.pro/hls/eyrennte44.m3u8?st=OTjfxYqANEFIlU8ZdTO2dIIA-zdXtwaaC5wNENs8jTw&e=1793439681
+#EXTINF:-1 tvg-chno="32" tvg-id="Football.Dummy.us" tvg-name="[American Football] Washington State Cougars vs. San Diego State Aztecs | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Washington State Cougars vs. San Diego State Aztecs | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream4.pro/hls/hezfnezkfzk45.m3u8?st=gGQCH_oPhGNv_iXrNJeZha4t12alVpUAej50iXWf5m0&e=1793439689
+#EXTINF:-1 tvg-chno="33" tvg-id="Football.Dummy.us" tvg-name="[American Football] Mississippi State Bulldogs vs. Texas Longhorns | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Mississippi State Bulldogs vs. Texas Longhorns | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream2.pro/hls/uyopzarf50.m3u8?st=DOuuGGvVXHBhWTYy3zk3Sq_rJJ6bNqRct-cPGqoqL14&e=1793439697
+#EXTINF:-1 tvg-chno="34" tvg-id="Football.Dummy.us" tvg-name="[American Football] Georgia Tech Yellow Jackets vs. Pittsburgh Panthers | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Georgia Tech Yellow Jackets vs. Pittsburgh Panthers | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream7.pro/hls/hjksgdfauzy51.m3u8?st=IeYBlZbI9iA4qHhJfk9J2ivg6JrgEDFQ_78C7uvL03w&e=1793439704
+#EXTINF:-1 tvg-chno="35" tvg-id="Football.Dummy.us" tvg-name="[American Football] Miami Hurricanes vs. North Carolina Tar Heels | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Miami Hurricanes vs. North Carolina Tar Heels | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream5.pro/hls/lmdsjkfgv52.m3u8?st=NtkzmW0e0Csca8zyCGMwdCTZwxY4NLIgXJZq3o5b-1Q&e=1793439711
+#EXTINF:-1 tvg-chno="36" tvg-id="Football.Dummy.us" tvg-name="[American Football] Ohio State Buckeyes vs. USC Trojans | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Ohio State Buckeyes vs. USC Trojans | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream5.pro/hls/rtzaeyvhb53.m3u8?st=0zErXZKBgK04UFGcU6AbxNvrKCfjrJdvA8MP6-6Wnzo&e=1793439719
+#EXTINF:-1 tvg-chno="37" tvg-id="Football.Dummy.us" tvg-name="[American Football] Missouri Tigers vs. Arkansas Razorbacks | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Missouri Tigers vs. Arkansas Razorbacks | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream7.pro/hls/bnvcxwhfg54.m3u8?st=qTS_ktWVQkxzBtA3nKgUsMrT_vor79kNfCrWNK54ULc&e=1793439726
+#EXTINF:-1 tvg-chno="38" tvg-id="Football.Dummy.us" tvg-name="[American Football] Washington Huskies vs. Nebraska Cornhuskers | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Washington Huskies vs. Nebraska Cornhuskers | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream4.pro/hls/sdezqfza55.m3u8?st=81DsvXqU7LbyXEamji_qzNwmuqJ3am0Vb-Zo8A34OFw&e=1793439734
+#EXTINF:-1 tvg-chno="39" tvg-id="Football.Dummy.us" tvg-name="[American Football] Army Black Knights vs. Memphis Tigers | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Army Black Knights vs. Memphis Tigers | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream4.pro/hls/poiryezafv56.m3u8?st=NteqERNTbCcFneI9xO54DR9Bjv3fEdozLlHZ1ucwuX8&e=1793439741
+#EXTINF:-1 tvg-chno="40" tvg-id="Football.Dummy.us" tvg-name="[American Football] Texas State Bobcats vs. Boise State Broncos | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Texas State Bobcats vs. Boise State Broncos | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream5.pro/hls/rzavbdyua57.m3u8?st=904lsFIucv9yVIUPj190R8VjDQEPq7zbnTLkuj60eiA&e=1793439749
+#EXTINF:-1 tvg-chno="41" tvg-id="Football.Dummy.us" tvg-name="[American Football] Northern Illinois Huskies vs. UNLV Rebels | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Northern Illinois Huskies vs. UNLV Rebels | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream4.pro/hls/earzfddshg58.m3u8?st=e-zHvavfK7KQAHs56GEgLRcder-QkDuah6oAVMPCm6A&e=1793439756
+#EXTINF:-1 tvg-chno="42" tvg-id="Football.Dummy.us" tvg-name="[American Football] Oregon State Beavers vs. Fresno State Bulldogs | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Oregon State Beavers vs. Fresno State Bulldogs | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream6.pro/hls/bvnzadfvyt59.m3u8?st=g8UkyWCrrJ3FD3omrazB0FXWeN4fv7JAWLrpg5z3WCQ&e=1793439764
+#EXTINF:-1 tvg-chno="43" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Chelsea vs. Manchester United | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Football] Chelsea vs. Manchester United | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream5.pro/hls/24SDAZFcsqnj24.m3u8?st=BYjck3-olO1CVW4T985-BdiudhlRNrXTgBGFwkO_ljI&e=1793439771
+#EXTINF:-1 tvg-chno="44" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Levante vs. Atlético Madrid | Spanish (STRMCNTR)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Football] Levante vs. Atlético Madrid | Spanish (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream6.pro/hls/377qj1h2727.m3u8?st=tmhsSAEOi0sienwYhsKWxKQCk9cc_X3XfLPJLrtfLWA&e=1793439779
+#EXTINF:-1 tvg-chno="45" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Bologna vs. Monza | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Football] Bologna vs. Monza | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream6.pro/hls/syaLqucEne4k.m3u8?st=yWoYn77cQHiF5xgViTVN_QMwU3ZEumNnpcO0Vw2pVQA&e=1793439786
+#EXTINF:-1 tvg-chno="46" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Hull City vs. Ipswich Town | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Football] Hull City vs. Ipswich Town | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream7.pro/hls/eJmauBDCIf.m3u8?st=4-UDV7FTJszZy2NC4PlMdc-vZ_SUnu-A7N6atp5_f_8&e=1793439794
+#EXTINF:-1 tvg-chno="47" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Manchester City vs. Brighton & Hove Albion | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Football] Manchester City vs. Brighton & Hove Albion | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream4.pro/hls/b0h5fNwDKH.m3u8?st=0mdT0F8a2SosrZmhKnSw5CnERIfOPl1SZXOCT9G_jrI&e=1793439801
+#EXTINF:-1 tvg-chno="48" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Coventry City vs. Sunderland | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Football] Coventry City vs. Sunderland | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream4.pro/hls/sqdahach1ax.m3u8?st=8vBN3xQOJuQRQxIm5HjmiOnowQJZHqdn0vDNYaBKFUE&e=1793439809
+#EXTINF:-1 tvg-chno="49" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Brentford vs. Nottingham Forest | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Football] Brentford vs. Nottingham Forest | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream4.pro/hls/24SDAZFcsqnj24.m3u8?st=vDn8CYy6Zf8Kl1qSANFLFQ5mlIgxrsNZY6-KpTNlrrM&e=1793439817
+#EXTINF:-1 tvg-chno="50" tvg-id="Soccer.Dummy.us" tvg-name="[Football] AFC Bournemouth vs. Leeds United | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Football] AFC Bournemouth vs. Leeds United | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream6.pro/hls/griogoehvn2.m3u8?st=YigKvrqdn362UbFVoMv6poAXkvKYKjbqwN05rf2lqS8&e=1793439824
+#EXTINF:-1 tvg-chno="51" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Rayo Vallecano vs. Celta Vigo | Spanish (STRMCNTR)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Football] Rayo Vallecano vs. Celta Vigo | Spanish (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream5.pro/hls/377qj1h2727.m3u8?st=zetiT6mE5WW4JnTj1ZMY1QArUhmnL2EC46_zRyghmOc&e=1793439832
+#EXTINF:-1 tvg-chno="52" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Udinese vs. AS Roma | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Football] Udinese vs. AS Roma | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream6.pro/hls/syaLqucEne4k.m3u8?st=lHAjLOFo4aBEGVemt7t-75Hkrp08iXhiLE-UXoF7tGo&e=1793439839
+#EXTINF:-1 tvg-chno="53" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Tottenham Hotspur vs. Crystal Palace | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Football] Tottenham Hotspur vs. Crystal Palace | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream6.pro/hls/eJmauBDCIf.m3u8?st=1mGV-nB0GhA-sFX3Y8i5px_d5K50Mu92DD0Qvzw0sfc&e=1793439846
+#EXTINF:-1 tvg-chno="54" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Real Betis vs. Málaga | Spanish (STRMCNTR)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Football] Real Betis vs. Málaga | Spanish (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream4.pro/hls/377qj1h2727.m3u8?st=d5L38NGWZgHBPRhSe3SRuBbkgyse9KFu2l35BV4ZbOI&e=1793439854
+#EXTINF:-1 tvg-chno="55" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Bayern Munich vs. Borussia Dortmund | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Football] Bayern Munich vs. Borussia Dortmund | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream1.pro/hls/24SDAZFcsqnj24.m3u8?st=-2WVFo_qXeCq7BF8_AZvJ6iqJnLN9aKSwTuQFyRS6Ng&e=1793439862
+#EXTINF:-1 tvg-chno="56" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Troyes vs. Le Mans | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Football] Troyes vs. Le Mans | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream5.pro/hls/dza5z8f69.m3u8?st=XOzMHcsXSVu_fafAiaxpZBBnu1HrIiHUmZ8lWrXrj0E&e=1793439869
+#EXTINF:-1 tvg-chno="57" tvg-id="Soccer.Dummy.us" tvg-name="[Football] AC Milan vs. Internazionale | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Football] AC Milan vs. Internazionale | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream5.pro/hls/syaLqucEne4k.m3u8?st=AmYE8bzxG6LC_S5n983KC9TInqt1EzHcG1c-ElHFL0w&e=1793439877
+#EXTINF:-1 tvg-chno="58" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Aston Villa vs. Fulham | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Football] Aston Villa vs. Fulham | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream6.pro/hls/eJmauBDCIf.m3u8?st=vlAdozSoESKfHSOqYemDTAg8h_a7WiX_0UMZPjRsgAY&e=1793439884
+#EXTINF:-1 tvg-chno="59" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Barcelona vs. Alavés | Spanish (STRMCNTR)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Football] Barcelona vs. Alavés | Spanish (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream1.pro/hls/377qj1h2727.m3u8?st=vIvOBZ33VICPCHFx2x4tGjLZBw9dx34EujQGjySwy9g&e=1793439891
+#EXTINF:-1 tvg-chno="60" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Portland Trail Blazers vs. Utah Jazz | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Portland Trail Blazers vs. Utah Jazz | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream5.pro/hls/etzrezbfezjhverf93.m3u8?st=AKNi_26DNKCli03JT2HbgvYO6NAu9rumEp-d5EFV6es&e=1793439899
+#EXTINF:-1 tvg-chno="61" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Philadelphia 76ers vs. Charlotte Hornets | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Philadelphia 76ers vs. Charlotte Hornets | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream4.pro/hls/fgjhvebazfhgazf94.m3u8?st=uWfPIGkPI52zEEGcA4z7_Hyvx4OKRS6xaShsIXbltGc&e=1793439906
+#EXTINF:-1 tvg-chno="62" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Atlanta Hawks vs. New Orleans Pelicans | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Atlanta Hawks vs. New Orleans Pelicans | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream7.pro/hls/hgfdshkjsqkda95.m3u8?st=pMIze3JTJvjd02fjXoaY35mBrvQnn2FsLDRzHM9Y3ak&e=1793439914
+#EXTINF:-1 tvg-chno="63" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Sacramento Kings vs. Memphis Grizzlies | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Sacramento Kings vs. Memphis Grizzlies | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream7.pro/hls/hpouezruioazd96.m3u8?st=k4eK4KRst_sXbxmuoFPVCLzxYsljo4nooS3k_bOOlX0&e=1793439921
+#EXTINF:-1 tvg-chno="64" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Cleveland Cavaliers vs. Milwaukee Bucks | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Cleveland Cavaliers vs. Milwaukee Bucks | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream6.pro/hls/wxqsdafzaengfgu97.m3u8?st=cLkyKYl9ARjrN2IKd9D7HNio0muvpHnpjo4UazYqcBQ&e=1793439929
+#EXTINF:-1 tvg-chno="65" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Minnesota Timberwolves vs. San Antonio Spurs | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Minnesota Timberwolves vs. San Antonio Spurs | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream2.pro/hls/zazezagdgfc98.m3u8?st=ZhNbDnsV5yeXBLhEGsPS-M1CUWjtrhWCohxrKwNpWqs&e=1793439937
+#EXTINF:-1 tvg-chno="66" tvg-id="WNBA.dummy.us" tvg-name="[Basketball] Atlanta Dream vs. Golden State Valkyries | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/wnba.png" group-title="Live Events",[Basketball] Atlanta Dream vs. Golden State Valkyries | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream1.pro/hls/erytezaiuzeazer100.m3u8?st=II-foFhw4malJoQr2j-sM7fQ1mJBI8gtO-TnY3QOL_I&e=1793439944
+#EXTINF:-1 tvg-chno="67" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Oklahoma City Thunder vs. Houston Rockets | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Oklahoma City Thunder vs. Houston Rockets | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream1.pro/hls/aetrayytufzrdtvgx99.m3u8?st=LIorhqMevAQT_yyATuDcnlOTT3Uxkf8pLT_9wJjh6f4&e=1793439951
+#EXTINF:-1 tvg-chno="68" tvg-id="Racing.Dummy.us" tvg-name="[Racing] Mexico City Grand Prix — FP3 | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Racing] Mexico City Grand Prix — FP3 | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream4.pro/hls/hbfkazbkaznc49.m3u8?st=KncnLgxsbUvfP9PwYTpVUtRNoqIDrUq-ivCCgwgoxqY&e=1793439959
+#EXTINF:-1 tvg-chno="69" tvg-id="Racing.Dummy.us" tvg-name="[Racing] Mexico City Grand Prix — Qual | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Racing] Mexico City Grand Prix — Qual | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream6.pro/hls/hbfkazbkaznc49.m3u8?st=ALDA0miolFFpaTYB--YvH3Jrj9sTxWCp18rypqw5bRw&e=1793439967
+#EXTINF:-1 tvg-chno="70" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Hockey] Chicago Blackhawks vs. Boston Bruins | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[Hockey] Chicago Blackhawks vs. Boston Bruins | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream4.pro/hls/nbekiurtghjhfza83.m3u8?st=kPqSE3SmYow8g4WHaj3SV3DDVmU4O7fb7coZyHWz-C0&e=1793439974
+#EXTINF:-1 tvg-chno="71" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Hockey] St. Louis Blues vs. Detroit Red Wings | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[Hockey] St. Louis Blues vs. Detroit Red Wings | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream7.pro/hls/ioazuryeahrfvzed84.m3u8?st=9Y3cFe6mWMFJtPn9ICyAO-QyG_VBXL0_XIj3WYrgxFg&e=1793439981
+#EXTINF:-1 tvg-chno="72" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Hockey] Tampa Bay Lightning vs. Nashville Predators | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[Hockey] Tampa Bay Lightning vs. Nashville Predators | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream5.pro/hls/jkhfsgqghjqsd85.m3u8?st=21rtlfj5QLErocET7gJrM9CoVpSlMZmfJWNcX0RXeLo&e=1793439989
+#EXTINF:-1 tvg-chno="73" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Hockey] Edmonton Oilers vs. New York Islanders | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[Hockey] Edmonton Oilers vs. New York Islanders | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream7.pro/hls/xcxvvghzsadau86.m3u8?st=9rY0EjnM54Bqo6ALldsu8_EqKNRCz_yVnHrYKfaAncs&e=1793439996
+#EXTINF:-1 tvg-chno="74" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Hockey] Buffalo Sabres vs. Los Angeles Kings | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[Hockey] Buffalo Sabres vs. Los Angeles Kings | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream6.pro/hls/nbvevzaheafgu87.m3u8?st=-to3ujKIx3TqQH6I1VvR4dAC2Wk5iXYrS0gMuNqfYI4&e=1793440004
+#EXTINF:-1 tvg-chno="75" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Hockey] Ottawa Senators vs. San Jose Sharks | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[Hockey] Ottawa Senators vs. San Jose Sharks | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream4.pro/hls/fghsqdgauduyagz88.m3u8?st=ZKLCjINF_9KeqG8Xjdz3zbpqa7aL4i1L2NhpmA33lfg&e=1793440012
+#EXTINF:-1 tvg-chno="76" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Hockey] Pittsburgh Penguins vs. Montreal Canadiens | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[Hockey] Pittsburgh Penguins vs. Montreal Canadiens | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream6.pro/hls/ozeiruzhurfxcwas89.m3u8?st=bO9JVAWWn26iDqOdAfQ4FRC1DPdHEPwNI8z0T7YOC_g&e=1793440019
+#EXTINF:-1 tvg-chno="77" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Hockey] Toronto Maple Leafs vs. Vancouver Canucks | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[Hockey] Toronto Maple Leafs vs. Vancouver Canucks | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream6.pro/hls/dzaugyvdgazc90.m3u8?st=c9q65oRFlxFWvPJfpETWAR1s_nJ_EZ0rGx-olu2PvGI&e=1793440026
+#EXTINF:-1 tvg-chno="78" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Hockey] Columbus Blue Jackets vs. Dallas Stars | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[Hockey] Columbus Blue Jackets vs. Dallas Stars | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream2.pro/hls/fbnjzebjhcazhjg91.m3u8?st=2BwJq8VW7O0xrbo1MRrya8arVoWnmbtO2c1h4LZ-0eU&e=1793440034
+#EXTINF:-1 tvg-chno="79" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Hockey] Calgary Flames vs. Colorado Avalanche | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[Hockey] Calgary Flames vs. Colorado Avalanche | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream2.pro/hls/xwcbnfghqscxfghaz92.m3u8?st=66o1N-3B8_3Znjdjzm_xI7K8kxi1lt0s9DQ-Izb_dmc&e=1793440041
