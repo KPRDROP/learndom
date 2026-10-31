@@ -1,71 +1,26 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Süper Lig] Konyaspor vs Galatasaray | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/18.png" group-title="Live Events",[Süper Lig] Konyaspor vs Galatasaray | Main Feed (FUTLX)
+#EXTINF:-1 tvg-chno="1" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Lakers vs Warriors | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Lakers vs Warriors | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://hey.futx.nx.kg/gal/index.m3u8?token=20b4dbd5d7ba497a38891e0f7b2eb2cf950760f3-79a32d7f1c7b4590821bb6b53e5ae730-1793415520-1793414320&remote=no_check_ip
-#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Ligue 1] Le Havre vs PSG | Main Feed Fr (FUTLX)" tvg-logo="https://ligue1.com/images/Logo_Ligue_1.webp" group-title="Live Events",[Ligue 1] Le Havre vs PSG | Main Feed Fr (FUTLX)
+https://hey.futx.nx.kg/gsw/index.m3u8?token=6f2792e61f26bb699e5db78e8fd733c899aedab4-dace23b47133b0d3d01fa885676667ba-1793437878-1793436678&remote=no_check_ip
+#EXTINF:-1 tvg-chno="2" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[MMA] Eternal MMA 111: Perth | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[MMA] Eternal MMA 111: Perth | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://hey.futx.nx.kg/psg/index.m3u8?token=9ebea31eba92861c24b8b8067a1b9931c7256350-ec52e55b785595e22cf6a131d8e66a94-1793415520-1793414320&remote=no_check_ip
-#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Ligue 1] Le Havre vs PSG | Feed 2 En (FUTLX)" tvg-logo="https://ligue1.com/images/Logo_Ligue_1.webp" group-title="Live Events",[Ligue 1] Le Havre vs PSG | Feed 2 En (FUTLX)
+https://hey.futx.nx.kg/eter/index.m3u8?token=daf6f89f54f75ababf4ca56cb31d59ecbffaac35-9d384bade826f0c58b2479ad7b9d3578-1793437878-1793436678&remote=no_check_ip
+#EXTINF:-1 tvg-chno="3" tvg-id="Racing.Dummy.us" tvg-name="[F1] Mexican GP - Free Practice 1 | Main Feed (FUTLX)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] Mexican GP - Free Practice 1 | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://hey.futx.nx.kg/le/index.m3u8?token=b16113a4979127e33e71b973a0938947476c432c-186de5f8344a285c567528f710945b7d-1793415520-1793414320&remote=no_check_ip
-#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[Ligue 1] Nice vs Rennais | Main Feed (FUTLX)" tvg-logo="https://ligue1.com/images/Logo_Ligue_1.webp" group-title="Live Events",[Ligue 1] Nice vs Rennais | Main Feed (FUTLX)
+https://rip.futx.nx.kg/f1/index.m3u8?token=47184f7fc340fad71fa2163721fd3cf00c172ecd-5364e372ed0334d30fe4bce0dbd6030c-1793437878-1793436678&remote=no_check_ip
+#EXTINF:-1 tvg-chno="4" tvg-id="Racing.Dummy.us" tvg-name="[F1] Mexican GP - Free Practice 2 | Main Feed (FUTLX)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] Mexican GP - Free Practice 2 | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://hey.futx.nx.kg/nic/index.m3u8?token=25119f0b94b9255bc4d78693cf6ef46b9efa98ee-29caa8165fd66726c1067a42cb7a4219-1793415520-1793414320&remote=no_check_ip
-#EXTINF:-1 tvg-chno="5" tvg-id="Soccer.Dummy.us" tvg-name="[Bundesliga] Elversberg vs Mainz 05 | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/10.png" group-title="Live Events",[Bundesliga] Elversberg vs Mainz 05 | Main Feed (FUTLX)
+https://rip.futx.nx.kg/f1/index.m3u8?token=c6a2bd2437b4e97c74dd1836b456429951a4ee6d-6ca59a0f014d0cacb9e85d98326e518f-1793437878-1793436678&remote=no_check_ip
+#EXTINF:-1 tvg-chno="5" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] WWE: Smackdown | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[WWE] WWE: Smackdown | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://hey.futx.nx.kg/elv/index.m3u8?token=790765c2fc56190de199ffd537107a194dc42c64-a7f346051cd6bac3abd6330ba6b8239e-1793415520-1793414320&remote=no_check_ip
-#EXTINF:-1 tvg-chno="6" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Sheffield vs Wrexham | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[EFL Championship] Sheffield vs Wrexham | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://hey.futx.nx.kg/shef/index.m3u8?token=0e5d492212dbe0559ac8d8a4d1a9ed1a420e39dd-ee87e66413997bc81cc5613528f134b1-1793415520-1793414320&remote=no_check_ip
-#EXTINF:-1 tvg-chno="7" tvg-id="Soccer.Dummy.us" tvg-name="[LaLiga] Villarreal vs Espanyol | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[LaLiga] Villarreal vs Espanyol | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://hey.futx.nx.kg/vil/index.m3u8?token=0cb88bd13020bba859bcdbbb1c88362aa6cd434c-c21b446b160e5cde44e1906b286ff23b-1793415520-1793414320&remote=no_check_ip
-#EXTINF:-1 tvg-chno="8" tvg-id="Soccer.Dummy.us" tvg-name="[Ligue 1] Lille vs Lens | Main Feed (FUTLX)" tvg-logo="https://ligue1.com/images/Logo_Ligue_1.webp" group-title="Live Events",[Ligue 1] Lille vs Lens | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://hey.futx.nx.kg/lil/index.m3u8?token=3b465f992197b87650a472a8248547567260e61c-03d08717a14e90b6eb2f108fd57d1e47-1793415520-1793414320&remote=no_check_ip
-#EXTINF:-1 tvg-chno="9" tvg-id="Soccer.Dummy.us" tvg-name="[Liga Portugal] Casa Pia vs Sporting CP | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/14.png" group-title="Live Events",[Liga Portugal] Casa Pia vs Sporting CP | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://hey.futx.nx.kg/cas/index.m3u8?token=eeb4a028eee620ee41f15df2ba8f1396f9c81d45-a5dc4fe131eb194ea5f4eaaeef55b0d3-1793415520-1793414320&remote=no_check_ip
-#EXTINF:-1 tvg-chno="10" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Lakers vs Warriors | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Lakers vs Warriors | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://hey.futx.nx.kg/gsw/index.m3u8?token=ac4a3cba88f89625c509152bb4344f44fa4b5d3f-95f94226e23e1d20e2d2b411ec8ad305-1793415520-1793414320&remote=no_check_ip
-#EXTINF:-1 tvg-chno="11" tvg-id="Racing.Dummy.us" tvg-name="[F1] Mexican GP - Free Practice 1 | Main Feed (FUTLX)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] Mexican GP - Free Practice 1 | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://rip.futx.nx.kg/f1/index.m3u8?token=d3f48a303c3b0bbb02fb0b5830252ed6832b3e92-e032ec62893f30b84c73dfe3e07d779e-1793415520-1793414320&remote=no_check_ip
-#EXTINF:-1 tvg-chno="12" tvg-id="Racing.Dummy.us" tvg-name="[F1] Mexican GP - Free Practice 2 | Main Feed (FUTLX)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] Mexican GP - Free Practice 2 | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://rip.futx.nx.kg/f1/index.m3u8?token=e41e335956f326d724213f7003e69fe0d7a928cd-58099588ffc296ad282b6965281eb1ff-1793415520-1793414320&remote=no_check_ip
-#EXTINF:-1 tvg-chno="13" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Panthers @ Packers | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Panthers @ Packers | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://hey.futx.nx.kg/pan/index.m3u8?token=fc2a63dc0413be3daf5124f08c46a47fac2baea3-8dc6b4563d6016438ff4c190e9027c97-1793415520-1793414320&remote=no_check_ip
-#EXTINF:-1 tvg-chno="14" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] WWE: Smackdown | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[WWE] WWE: Smackdown | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://hey.futx.nx.kg/wwe/index.m3u8?token=6b88d0af6af055817d2a103c519038491c88e400-229d8bf16ad40cfeac2190743bc86634-1793415520-1793414320&remote=no_check_ip
+https://hey.futx.nx.kg/wwe/index.m3u8?token=78e76736655acb0da9e901cabdc261f66ad9fe75-4db934d57d4f466c8a49e88cdf1da285-1793437878-1793436678&remote=no_check_ip
