@@ -1,49 +1,49 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[Cricket] South Africa vs Australia (FAWA)" tvg-logo="https://files.catbox.moe/rwd8mv.png" group-title="Live Events",[Cricket] South Africa vs Australia (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.44/hls/XAXAXAAX.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[South Korea K League] Gwangju FC vs Gimcheon Sangmu (FAWA)" tvg-logo="https://liquipedia.net/commons/images/thumb/4/4b/K_League_1_darkmode.png/600px-K_League_1_darkmode.png" group-title="Live Events",[South Korea K League] Gwangju FC vs Gimcheon Sangmu (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.44/hls/bbbbAAA.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[Japan J League] Kashiwa Reysol vs Urawa Reds (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2199.png" group-title="Live Events",[Japan J League] Kashiwa Reysol vs Urawa Reds (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.44/hls/VVVVAA.m3u8
-#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[Rugby WXV Global Series] Japan W vs Wales W (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Rugby WXV Global Series] Japan W vs Wales W (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.44/hls/VVVVAaaA.m3u8
-#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[Rugby World Cup] New Zealand W vs Papua New Guinea W (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Rugby World Cup] New Zealand W vs Papua New Guinea W (FAWA)
+#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[Rugby World Cup] Australia vs Cook Islands (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Rugby World Cup] Australia vs Cook Islands (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.50/hls/bbbbAA.m3u8
-#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[Rugby WXV Global Series] New Zealand W vs France W (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Rugby WXV Global Series] New Zealand W vs France W (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.44/hls/VVVVAaA.m3u8
-#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[Japan J League] Vissel Kobe vs Nagoya Grampus (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2199.png" group-title="Live Events",[Japan J League] Vissel Kobe vs Nagoya Grampus (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.44/hls/VVVVA.m3u8
-#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[Japan J League] Kashima Antlers vs Cerezo Osaka (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2199.png" group-title="Live Events",[Japan J League] Kashima Antlers vs Cerezo Osaka (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.44/hls/VVVV.m3u8
-#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[Australia A-League] Melbourne City vs Sydney FC (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1308.png" group-title="Live Events",[Australia A-League] Melbourne City vs Sydney FC (FAWA)
+#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[Australia A-League] Macarthur FC vs WS Wanderers (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1308.png" group-title="Live Events",[Australia A-League] Macarthur FC vs WS Wanderers (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.44/hls/bbbbA.m3u8
+#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[Cricket] South Africa vs Australia (FAWA)" tvg-logo="https://files.catbox.moe/rwd8mv.png" group-title="Live Events",[Cricket] South Africa vs Australia (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.44/hls/XAXAXAAX.m3u8
+#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[South Korea K League] Gwangju FC vs Gimcheon Sangmu (FAWA)" tvg-logo="https://liquipedia.net/commons/images/thumb/4/4b/K_League_1_darkmode.png/600px-K_League_1_darkmode.png" group-title="Live Events",[South Korea K League] Gwangju FC vs Gimcheon Sangmu (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.44/hls/bbbbAAA.m3u8
+#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[Japan J League] Kashiwa Reysol vs Urawa Reds (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2199.png" group-title="Live Events",[Japan J League] Kashiwa Reysol vs Urawa Reds (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.44/hls/VVVVAA.m3u8
+#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[Rugby WXV Global Series] Japan W vs Wales W (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Rugby WXV Global Series] Japan W vs Wales W (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.44/hls/VVVVAaaA.m3u8
+#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[Rugby World Cup] New Zealand W vs Papua New Guinea W (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Rugby World Cup] New Zealand W vs Papua New Guinea W (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/bbbbAA.m3u8
+#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[Japan J League] Vissel Kobe vs Nagoya Grampus (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2199.png" group-title="Live Events",[Japan J League] Vissel Kobe vs Nagoya Grampus (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.44/hls/VVVVA.m3u8
+#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[Japan J League] Kashima Antlers vs Cerezo Osaka (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2199.png" group-title="Live Events",[Japan J League] Kashima Antlers vs Cerezo Osaka (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.44/hls/VVVV.m3u8
 #EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[Australia A-League] Central Coast Mariners W vs Adelaide W (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1308.png" group-title="Live Events",[Australia A-League] Central Coast Mariners W vs Adelaide W (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
