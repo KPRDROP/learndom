@@ -4,38 +4,138 @@
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.41/hls/J777AAAA.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[Malaysia Super League] Penang vs Melaka FC (FAWA)" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/73/Malaysian_Super_League_%282023%29.svg/revision/latest/scale-to-width-down/150" group-title="Live Events",[Malaysia Super League] Penang vs Melaka FC (FAWA)
+#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[China FA Cup] Yunnan Yukun vs Dalian Yingbo (FAWA)" tvg-logo="https://gbaike-image.cdn.bcebos.com/5366d0160924ab18972b91f7b4a6f1cd7b899f519de5/5366d0160924ab18972b91f7b4a6f1cd7b899f519de5_3_4?x-bce-process=image/format,f_auto" group-title="Live Events",[China FA Cup] Yunnan Yukun vs Dalian Yingbo (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/ZZZZAAAA.m3u8
+#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[Italy Serie A] Como vs Venezia (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png" group-title="Live Events",[Italy Serie A] Como vs Venezia (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/ZZZZAAA.m3u8
+#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[Spanish Liga F Women] Badalona W vs Barcelona W (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Spanish Liga F Women] Badalona W vs Barcelona W (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/ZZZZAA.m3u8
+#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[India ISL League] Mumbai City vs SC Delhi (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[India ISL League] Mumbai City vs SC Delhi (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/ZZZZA.m3u8
+#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[Italy Women Serie A] Inter W vs Lazio W (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png" group-title="Live Events",[Italy Women Serie A] Inter W vs Lazio W (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/ZZZZ.m3u8
+#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[Dutch Eredivisie] Ajax W vs Twente W (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/11.png" group-title="Live Events",[Dutch Eredivisie] Ajax W vs Twente W (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/AVVVQAAAAQQQQA.m3u8
+#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[Dutch Eredivisie] PEC Zwolle vs ADO Den Haag (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/11.png" group-title="Live Events",[Dutch Eredivisie] PEC Zwolle vs ADO Den Haag (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/AVVVQAAAAQQQQ.m3u8
+#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[Thailand Thai league 1] Sukhothai vs Ayutthaya Utd (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/thailand/1500x1500/thai-league-1.3069b0a9.png" group-title="Live Events",[Thailand Thai league 1] Sukhothai vs Ayutthaya Utd (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/AVVVQAAAAQQQ.m3u8
+#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[Ukraine Premier League] LNZ Cherkasy vs FC Kharkiv (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2023/06/Ukrainian-Premier-League-Logo-2016.png" group-title="Live Events",[Ukraine Premier League] LNZ Cherkasy vs FC Kharkiv (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/AVVVQAAAAQQ.m3u8
+#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[Ukraine Premier League] Kolos Kovalivka vs Polissya Zhytomyr (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2023/06/Ukrainian-Premier-League-Logo-2016.png" group-title="Live Events",[Ukraine Premier League] Kolos Kovalivka vs Polissya Zhytomyr (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/AVVVQAAAAQ.m3u8
+#EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[Uzbekistan Super League] Lokomotiv Tashkent vs OKMK (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/uzbekistan/1500x1500/uzbekistan-super-league.d56222d2.png" group-title="Live Events",[Uzbekistan Super League] Lokomotiv Tashkent vs OKMK (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/AVVVQAAAA.m3u8
+#EXTINF:-1 tvg-chno="13" tvg-id="Live.Event.us" tvg-name="[Vietnam V League] Ho Chi Minh vs Da Nang (FAWA)" tvg-logo="https://files.catbox.moe/gvdiyr.png" group-title="Live Events",[Vietnam V League] Ho Chi Minh vs Da Nang (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/AVVVQAAA.m3u8
+#EXTINF:-1 tvg-chno="14" tvg-id="Live.Event.us" tvg-name="[Spanish Liga F Women] Alaves W vs Real Sociedad W (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Spanish Liga F Women] Alaves W vs Real Sociedad W (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/AVVVQAA.m3u8
+#EXTINF:-1 tvg-chno="15" tvg-id="Live.Event.us" tvg-name="[Portugal Liga 2] Vizela vs Academica (FAWA)" tvg-logo="https://files.catbox.moe/s7w0we.png" group-title="Live Events",[Portugal Liga 2] Vizela vs Academica (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/AVVVQA.m3u8
+#EXTINF:-1 tvg-chno="16" tvg-id="Live.Event.us" tvg-name="[Kenya Premier League] Leopards vs Kakamega Homeboyz (FAWA)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/93/Kenyan_Premier_League_logo.png" group-title="Live Events",[Kenya Premier League] Leopards vs Kakamega Homeboyz (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/AVVVQ.m3u8
+#EXTINF:-1 tvg-chno="17" tvg-id="Live.Event.us" tvg-name="[Basketball Greece League] Olympiacos vs Peristeri (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Basketball Greece League] Olympiacos vs Peristeri (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/AVVV.m3u8
+#EXTINF:-1 tvg-chno="18" tvg-id="Live.Event.us" tvg-name="[Australia A-League] Perth W vs Wellington Phoenix W (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1308.png" group-title="Live Events",[Australia A-League] Perth W vs Wellington Phoenix W (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/TOOOAAAA.m3u8
+#EXTINF:-1 tvg-chno="19" tvg-id="Live.Event.us" tvg-name="[Turkey Super Lig] Amedspor vs Eyupspor (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/18.png" group-title="Live Events",[Turkey Super Lig] Amedspor vs Eyupspor (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/TOOOAA.m3u8
+#EXTINF:-1 tvg-chno="20" tvg-id="Live.Event.us" tvg-name="[Turkey Lig 1] Sivasspor vs Boluspor (FAWA)" tvg-logo="https://cdn.prod.website-files.com/68f550992570ca0322737dc2/6a5a1c51be53a092d0d199b9_1-lig-turkey-logo-footylogos.png" group-title="Live Events",[Turkey Lig 1] Sivasspor vs Boluspor (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/TOOOA.m3u8
+#EXTINF:-1 tvg-chno="21" tvg-id="Live.Event.us" tvg-name="[Romania Liga 2] CSM Resita vs Gloria Bistrita (FAWA)" tvg-logo="https://images.fotmob.com/image_resources/logo/leaguelogo/9113.png" group-title="Live Events",[Romania Liga 2] CSM Resita vs Gloria Bistrita (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/TOOOAAA.m3u8
+#EXTINF:-1 tvg-chno="22" tvg-id="Live.Event.us" tvg-name="[Estonia Meistriliiga] Kalju vs Kuressaare (FAWA)" tvg-logo="https://r2.thesportsdb.com/images/media/league/badge/uztem21615840481.png" group-title="Live Events",[Estonia Meistriliiga] Kalju vs Kuressaare (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/TOOO.m3u8
+#EXTINF:-1 tvg-chno="23" tvg-id="Live.Event.us" tvg-name="[Golf] Golf HotelPlanner Tour Grand Final (FAWA)" tvg-logo="https://files.catbox.moe/0u2n4x.png" group-title="Live Events",[Golf] Golf HotelPlanner Tour Grand Final (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.59/hls/6HHHAAQQQAAQQQQQ.m3u8
+#EXTINF:-1 tvg-chno="24" tvg-id="Live.Event.us" tvg-name="[Russia Premier League] Orenburg vs CSKA Moscow (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/106.png" group-title="Live Events",[Russia Premier League] Orenburg vs CSKA Moscow (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/OOOOA.m3u8
+#EXTINF:-1 tvg-chno="25" tvg-id="Live.Event.us" tvg-name="[Cyprus League] Apollon W vs OMONOIA W (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/cyprus/1500x1500/cypriot-first-division.5509f999.png" group-title="Live Events",[Cyprus League] Apollon W vs OMONOIA W (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/OOOO.m3u8
+#EXTINF:-1 tvg-chno="26" tvg-id="Live.Event.us" tvg-name="[Malaysia Super League] Penang vs Melaka FC (FAWA)" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/73/Malaysian_Super_League_%282023%29.svg/revision/latest/scale-to-width-down/150" group-title="Live Events",[Malaysia Super League] Penang vs Melaka FC (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.50/hls/DCCCA.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[Australia A-League] Perth Glory vs Adelaide United (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1308.png" group-title="Live Events",[Australia A-League] Perth Glory vs Adelaide United (FAWA)
+#EXTINF:-1 tvg-chno="27" tvg-id="Live.Event.us" tvg-name="[Australia A-League] Perth Glory vs Adelaide United (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1308.png" group-title="Live Events",[Australia A-League] Perth Glory vs Adelaide United (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.41/hls/U888A.m3u8
-#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[South Korea K League] Seoul vs Incheon (FAWA)" tvg-logo="https://liquipedia.net/commons/images/thumb/4/4b/K_League_1_darkmode.png/600px-K_League_1_darkmode.png" group-title="Live Events",[South Korea K League] Seoul vs Incheon (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/J777AAA.m3u8
-#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[South Korea K League] Daejeon vs Gwangju FC (FAWA)" tvg-logo="https://liquipedia.net/commons/images/thumb/4/4b/K_League_1_darkmode.png/600px-K_League_1_darkmode.png" group-title="Live Events",[South Korea K League] Daejeon vs Gwangju FC (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/J777AA.m3u8
-#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[Cricket] New Zealand vs India (FAWA)" tvg-logo="https://files.catbox.moe/rwd8mv.png" group-title="Live Events",[Cricket] New Zealand vs India (FAWA)
+#EXTINF:-1 tvg-chno="28" tvg-id="Live.Event.us" tvg-name="[Cricket] New Zealand vs India (FAWA)" tvg-logo="https://files.catbox.moe/rwd8mv.png" group-title="Live Events",[Cricket] New Zealand vs India (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.44/hls/DCCC.m3u8
-#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[MotoGP] MotoGP Grand Prix of Malaysia (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/03/MotoGP-Logo-500x281.png" group-title="Live Events",[MotoGP] MotoGP Grand Prix of Malaysia (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.59/hls/TTTT.m3u8
-#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[Golf LPGA] Golf LPGA Maybank Championship (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/10/PGA-Tour-Logo-500x281.png" group-title="Live Events",[Golf LPGA] Golf LPGA Maybank Championship (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.59/hls/TTTTQ.m3u8
