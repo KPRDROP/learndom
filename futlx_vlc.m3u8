@@ -3,9 +3,19 @@
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://rip.futx.nx.kg/en/index.m3u8?token=8e43a132b5dde14a260ffa2f97d7f5b9f1151178-d364d96496b43a40d20eba38e37488a9-1793645421-1793644221&remote=no_check_ip
+https://rip.futx.nx.kg/en/index.m3u8?token=095bd8354c248df393ae236755ba41b3cb22b577-e0b85e927d07cb28d0dbe01f77ac0cd1-1793646321-1793645121&remote=no_check_ip
 #EXTINF:-1 tvg-chno="2" tvg-id="Racing.Dummy.us" tvg-name="[F1] Mexican GP - Race | Feed 2 It (FUTLX)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] Mexican GP - Race | Feed 2 It (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://rip.futx.nx.kg/it/index.m3u8?token=d02b864e509a2bb84e8b71bfcbd1ca6223c96808-00b12456f04431fcdbf8a06220597498-1793645421-1793644221&remote=no_check_ip
+https://rip.futx.nx.kg/it/index.m3u8?token=afaddaaab0cb4a477887a204d6dc590ff1aea1c8-1a9c1862b657463bb1d55e4acae9175a-1793646321-1793645121&remote=no_check_ip
+#EXTINF:-1 tvg-chno="3" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] WWE: Monday Night RAW | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[WWE] WWE: Monday Night RAW | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://g.futbolx.ryzn.pro/rw/index.m3u8
+#EXTINF:-1 tvg-chno="4" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] WWE: Smackdown | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[WWE] WWE: Smackdown | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://hey.futx.nx.kg/wwe/index.m3u8?token=5bd022dc150b2d93f9dee091a5c58d2e3dfd5deb-352a9cf97b15a0069c1141bd762d9248-1793646321-1793645121&remote=no_check_ip
