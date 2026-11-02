@@ -57,3 +57,5 @@ jobs:
             echo "Push attempt $i failed, retrying in 5s..."
             sleep 5
           done
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
