@@ -32,7 +32,7 @@ jobs:
           pip install playwright "httpx[http2]" pytz "tzdata>=2026.3" "adblock>=0.6.0"
 
       - name: Run FUTLX updater
-        run:
+        run: |        
          echo "Starting FUTLX updater..."
          python -m futlx
 
