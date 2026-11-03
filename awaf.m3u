@@ -8,7 +8,7 @@ http://193.47.62.41/hls/eoooX.m3u8
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.55/hls/HCCCaXXA.m3u8
+http://193.47.62.55/hls/aHCCCaXXA.m3u8
 #EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[UEFA Champions League] FC Barcelona vs Aston Villa 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Live Events",[UEFA Champions League] FC Barcelona vs Aston Villa 2 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
@@ -28,7 +28,7 @@ https://pulltx.klmysrmyy.com/live/202_5738818_1.m3u8?txSecret=93d94f2bf59c6d7495
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.44/hls/HCCCaaaaXXA.m3u8
+http://193.47.62.55/hls/aHCCCaaaaXXA.m3u8
 #EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[UEFA Champions League] Manchester United vs AS Roma 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Live Events",[UEFA Champions League] Manchester United vs AS Roma 2 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
@@ -43,7 +43,7 @@ https://tg0o4gr4uqmtt8y41hcjzgezdrmmbqbh8c3toq73u1cjqxfozr5udctzy.100ycdn.com/ap
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.55/hls/HCCCaaaaaX.m3u8
+http://193.47.62.44/hls/HCCCaaaaaX.m3u8
 #EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[UEFA Champions League] Villarreal vs PSG 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Live Events",[UEFA Champions League] Villarreal vs PSG 2 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
@@ -58,7 +58,7 @@ https://tg0o4gr4uqmtt8y41hcjzgezdrmmbqbh8c3toq73u1cjqxfozr5udctzy.100ycdn.com/ap
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.50/hls/HCCCX.m3u8
+http://193.47.62.55/hls/HCCCX.m3u8
 #EXTINF:-1 tvg-chno="13" tvg-id="Live.Event.us" tvg-name="[UEFA Champions League] Atletico Madrid vs Bayern Munchen 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Live Events",[UEFA Champions League] Atletico Madrid vs Bayern Munchen 2 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
