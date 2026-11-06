@@ -1,35 +1,60 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[ONE] ONE Friday Fights 177 | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[ONE] ONE Friday Fights 177 | Main Feed (FUTLX)
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Bundesliga] Hamburg vs Mönchengladbach | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/10.png" group-title="Live Events",[Bundesliga] Hamburg vs Mönchengladbach | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://fup.futx.nx.kg/one/index.m3u8?token=0bd7db35077bca3d509e60df26c7dbd2014d7d09-b64e9b3d8393be6b075ef7ae9ed75f40-1793993725-1793992525&remote=no_check_ip
-#EXTINF:-1 tvg-chno="2" tvg-id="Racing.Dummy.us" tvg-name="[F1] São Paulo GP - Practice 1 | FHD (FUTLX)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] São Paulo GP - Practice 1 | FHD (FUTLX)
+https://fup.futx.nx.kg/ham/index.m3u8?token=a7108f956b2de4bcdfc8e90c5d92b6a8c9904201-197c64dd6e4c580e74e424f673d711b0-1793994626-1793993426&remote=no_check_ip
+#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Serie A] Venezia vs Udinese | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png" group-title="Live Events",[Serie A] Venezia vs Udinese | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://rip.futx.nx.kg/sky/index.m3u8?token=0dc42718520d44ce6a61c7dd983fbcc7b3c442ee-300393188872ef7fac057a4addb84b45-1793993725-1793992525&remote=no_check_ip
-#EXTINF:-1 tvg-chno="3" tvg-id="Racing.Dummy.us" tvg-name="[F1] São Paulo GP - Practice 1 | UHD (FUTLX)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] São Paulo GP - Practice 1 | UHD (FUTLX)
+https://fup.futx.nx.kg/ven/index.m3u8?token=668e66bcb2e43239a42e36b5aac2bf1d0cf73dde-baf7bea4d4b76fa8d9f8eac34b2b7c0b-1793994626-1793993426&remote=no_check_ip
+#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Ligue 1] Toulouse vs Strasbourg | Main Feed (FUTLX)" tvg-logo="https://ligue1.com/images/Logo_Ligue_1.webp" group-title="Live Events",[Ligue 1] Toulouse vs Strasbourg | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://rip.futx.nx.kg/uhd/index.m3u8?token=ce7cda73b614c8e322efc84db0bac0c3c7ce297c-016f4756c46d3c1b2f23d183be39c4d8-1793993725-1793992525&remote=no_check_ip
-#EXTINF:-1 tvg-chno="4" tvg-id="Racing.Dummy.us" tvg-name="[F1] São Paulo GP - Practice 2 | Main Feed (FUTLX)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] São Paulo GP - Practice 2 | Main Feed (FUTLX)
+https://fup.futx.nx.kg/tou/index.m3u8?token=5189d24cabe320d7a851cdb133aa19e5d17b7e49-f6d3b83836c3564a28be25a0dad4a869-1793994626-1793993426&remote=no_check_ip
+#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[EPL] Everton vs Coventry | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Live Events",[EPL] Everton vs Coventry | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://rip.futx.nx.kg/sky/index.m3u8?token=62cd206e941fddb1ac94ad4ffd469e599bbc985a-768ed19f00ed7f86f87141c6bf51d29c-1793993725-1793992525&remote=no_check_ip
-#EXTINF:-1 tvg-chno="5" tvg-id="Racing.Dummy.us" tvg-name="[F1] São Paulo GP - Practice 2 | Stream 2 UHD (FUTLX)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] São Paulo GP - Practice 2 | Stream 2 UHD (FUTLX)
+https://but.futx.nx.kg/eve/index.m3u8?token=6674f3d19e82d1e31af4963dece6e5d333648e20-ca0926b5e3ed8f9ec132947e306c3140-1793994626-1793993426&remote=no_check_ip
+#EXTINF:-1 tvg-chno="5" tvg-id="Soccer.Dummy.us" tvg-name="[LaLiga] Sevilla vs Alaves | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[LaLiga] Sevilla vs Alaves | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://rip.futx.nx.kg/uhd/index.m3u8?token=bcf64b2e125fb5aac36cb99db065c72173cc7032-42817289382e4fed6a30c269bb7f41bb-1793993725-1793992525&remote=no_check_ip
-#EXTINF:-1 tvg-chno="6" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Jaguars @ Ravens | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Jaguars @ Ravens | Main Feed (FUTLX)
+https://but.futx.nx.kg/sev/index.m3u8?token=d58a91e2604f6435d07c48ec00aa7133df26acb2-ad332408dfb8241a4cecf340e3c95582-1793994626-1793993426&remote=no_check_ip
+#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[ONE] ONE Friday Fights 177 | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[ONE] ONE Friday Fights 177 | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://fup.futx.nx.kg/bal/index.m3u8?token=6e8ec8d83943138f46f09c35542196262233ee5d-dca9111a04452b9b862106a11f6e8a01-1793993725-1793992525&remote=no_check_ip
-#EXTINF:-1 tvg-chno="7" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] WWE: Smackdown | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[WWE] WWE: Smackdown | Main Feed (FUTLX)
+https://fup.futx.nx.kg/one/index.m3u8?token=8fcec60abe4ef74e780e9ca54c11ecdfd0421017-3d47396429a44d76818f843eb69a2c21-1793994626-1793993426&remote=no_check_ip
+#EXTINF:-1 tvg-chno="7" tvg-id="Racing.Dummy.us" tvg-name="[F1] São Paulo GP - Practice 1 | FHD (FUTLX)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] São Paulo GP - Practice 1 | FHD (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://rip.futx.nx.kg/sky/index.m3u8?token=6703ccfc4b5f4eb2d978beef818337000c6fc9c7-2314e5f8ffd32a5f372dd132b244e508-1793994626-1793993426&remote=no_check_ip
+#EXTINF:-1 tvg-chno="8" tvg-id="Racing.Dummy.us" tvg-name="[F1] São Paulo GP - Practice 1 | UHD (FUTLX)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] São Paulo GP - Practice 1 | UHD (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://rip.futx.nx.kg/uhd/index.m3u8?token=841884b7f840294e326d01c1d562ac4c7414f789-a102e0f0e292ed1ba2ad730afc655197-1793994626-1793993426&remote=no_check_ip
+#EXTINF:-1 tvg-chno="9" tvg-id="Racing.Dummy.us" tvg-name="[F1] São Paulo GP - Practice 2 | Main Feed (FUTLX)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] São Paulo GP - Practice 2 | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://rip.futx.nx.kg/sky/index.m3u8?token=673614dc4c3a81554ccf5bc4e731d382dd5eafee-a195771cc72a02bf44d4f0c5bc4516b7-1793994626-1793993426&remote=no_check_ip
+#EXTINF:-1 tvg-chno="10" tvg-id="Racing.Dummy.us" tvg-name="[F1] São Paulo GP - Practice 2 | Stream 2 UHD (FUTLX)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] São Paulo GP - Practice 2 | Stream 2 UHD (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://rip.futx.nx.kg/uhd/index.m3u8?token=3b061ec5d7226996a7f8660b3c2815b6df7b6880-4069ffc2ec74e2ba2f5eb65c96cb062d-1793994626-1793993426&remote=no_check_ip
+#EXTINF:-1 tvg-chno="11" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Jaguars @ Ravens | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Jaguars @ Ravens | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://fup.futx.nx.kg/bal/index.m3u8?token=8c230bf4adf2a06a7f3a88ec1ceb8b91aa0f1cc1-7b1c164f493144d50336690f88bb7a35-1793994626-1793993426&remote=no_check_ip
+#EXTINF:-1 tvg-chno="12" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] WWE: Smackdown | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[WWE] WWE: Smackdown | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
