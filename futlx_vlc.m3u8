@@ -1,85 +1,10 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] Real Sociedad vs Lyon | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[Europa League] Real Sociedad vs Lyon | Main Feed (FUTLX)
+#EXTINF:-1 tvg-chno="1" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Jaguars @ Ravens | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Jaguars @ Ravens | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://rip.futx.nx.kg/lyon/index.m3u8?token=cd6a59356be5591f8691fd721ca4bb8e6e746b8a-6fae484532d47a82111863efc2e4a8cb-1793976621-1793975421&remote=no_check_ip
-#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] Sparta Prague vs Bournemouth | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[Europa League] Sparta Prague vs Bournemouth | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://rip.futx.nx.kg/bou/index.m3u8?token=97ec2fa4a481cb55f372f68a12ebe241c1468025-045a281866bffa12353f79995dfc517b-1793976621-1793975421&remote=no_check_ip
-#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] Crystal Palace vs Hoffenheim | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[Europa League] Crystal Palace vs Hoffenheim | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://but.futx.nx.kg/cry/index.m3u8?token=5989585460106a13784371ae7905e925aceb7c3c-183d2e6aae61756dab0c9cee653f7a88-1793976621-1793975421&remote=no_check_ip
-#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] AC Milan vs Ferencvárosi | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[Europa League] AC Milan vs Ferencvárosi | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://but.futx.nx.kg/acm/index.m3u8?token=c7db864d9706fc84506e42fd446c7a169b86dfba-07d5d5adf7ea049ff8e883b4b15517c2-1793976621-1793975421&remote=no_check_ip
-#EXTINF:-1 tvg-chno="5" tvg-id="Soccer.Dummy.us" tvg-name="[Europa Conference League] Atalanta vs Kairat | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/20296.png" group-title="Live Events",[Europa Conference League] Atalanta vs Kairat | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://fup.futx.nx.kg/ata/index.m3u8?token=9de5f4708a6bb5ac0072f12e3c4a33956acde920-845fa1c46373273b56e8524f24b37076-1793976621-1793975421&remote=no_check_ip
-#EXTINF:-1 tvg-chno="6" tvg-id="Soccer.Dummy.us" tvg-name="[Europa Conference League] Trabzonspor vs Freiburg | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/20296.png" group-title="Live Events",[Europa Conference League] Trabzonspor vs Freiburg | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://fup.futx.nx.kg/trab/index.m3u8?token=6e90c6f5c660ecb8657f49933f266ac086ed1ad2-992beb5d6658ef5197ebc76cd65bffd6-1793976621-1793975421&remote=no_check_ip
-#EXTINF:-1 tvg-chno="7" tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] Golazo Show | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[Europa League] Golazo Show | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://fup.futx.nx.kg/gol/index.m3u8?token=20811fe857326afffc2e757f07b0a7394f3e2413-4952ce096649dfb87f35172b49ae5829-1793976621-1793975421&remote=no_check_ip
-#EXTINF:-1 tvg-chno="8" tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] AZ Alkmaar vs Juventus | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[Europa League] AZ Alkmaar vs Juventus | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://rip.futx.nx.kg/juv/index.m3u8?token=6f172c7c4a91d0143b13503d81ea0fdc9b2e722c-e82dec3585b1c982765ab91ac6e9a7d7-1793976621-1793975421&remote=no_check_ip
-#EXTINF:-1 tvg-chno="9" tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] Leverkusen vs Marseille | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[Europa League] Leverkusen vs Marseille | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://rip.futx.nx.kg/mar/index.m3u8?token=b545c20b0a78b7fb49f7ea501da308cc70664e79-c615b10481e0207c9c299915d950074a-1793976621-1793975421&remote=no_check_ip
-#EXTINF:-1 tvg-chno="10" tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] Sunderland vs Dinamo Zagreb | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[Europa League] Sunderland vs Dinamo Zagreb | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://rip.futx.nx.kg/sun/index.m3u8?token=698dd8dfa397c25b3a845c6428c7b745d820f622-c6e2f125ca59c022f41ea1a562f21ede-1793976621-1793975421&remote=no_check_ip
-#EXTINF:-1 tvg-chno="11" tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] SL Benfica vs Lech | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[Europa League] SL Benfica vs Lech | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://but.futx.nx.kg/ben/index.m3u8?token=a30589746fd2a4ada58b544fbc5b2208c53633c2-9f988f1e5a5fb5c51d8a28c11ea5a360-1793976621-1793975421&remote=no_check_ip
-#EXTINF:-1 tvg-chno="12" tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] Celta Vigo vs St.Gilloise | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[Europa League] Celta Vigo vs St.Gilloise | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://but.futx.nx.kg/cel/index.m3u8?token=227511f8139b6f6fffabc4ac1f4e6d28cab6b168-b9c3dbc5f5af5403ce83840b077d6bbb-1793976621-1793975421&remote=no_check_ip
-#EXTINF:-1 tvg-chno="13" tvg-id="Soccer.Dummy.us" tvg-name="[Europa League] Celtic vs Beşiktaş | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png" group-title="Live Events",[Europa League] Celtic vs Beşiktaş | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://but.futx.nx.kg/celtic/index.m3u8?token=9941c48e7bf89bae985200bf43fc29382b741148-2a7ebb84f53d314ef512b28c17e3b6c3-1793976621-1793975421&remote=no_check_ip
-#EXTINF:-1 tvg-chno="14" tvg-id="Soccer.Dummy.us" tvg-name="[Europa Conference League] Getafe vs Brighton | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/20296.png" group-title="Live Events",[Europa Conference League] Getafe vs Brighton | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://fup.futx.nx.kg/get/index.m3u8?token=1aa01b99ea20a28dc37d3954837eb7b94c7de11f-6a41935d55fbad9805cf311efb88c89e-1793976621-1793975421&remote=no_check_ip
-#EXTINF:-1 tvg-chno="15" tvg-id="Soccer.Dummy.us" tvg-name="[Europa Conference League] Monaco vs Nordsjaelland | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/20296.png" group-title="Live Events",[Europa Conference League] Monaco vs Nordsjaelland | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://fup.futx.nx.kg/mon/index.m3u8?token=034e8e493a78a3470b6936da188f0d2d2622df4d-5f69934c88e2dfaab0507d3852e53310-1793976621-1793975421&remote=no_check_ip
-#EXTINF:-1 tvg-chno="16" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Jaguars @ Ravens | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Jaguars @ Ravens | Main Feed (FUTLX)
-#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
-#EXTVLCOPT:http-origin=https://www.futbol-x.top
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://fup.futx.nx.kg/bal/index.m3u8?token=95be885a4e8cab9d5c37c6ff414de436d42bf4bf-21c0612bdf1f3590d42940692c42fd67-1793976621-1793975421&remote=no_check_ip
-#EXTINF:-1 tvg-chno="17" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] WWE: Smackdown | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[WWE] WWE: Smackdown | Main Feed (FUTLX)
+https://fup.futx.nx.kg/bal/index.m3u8?token=c51a9cdbcf5a75eee7303625f52c221f53187650-b176946e21f61035388bda8029087c08-1793977525-1793976325&remote=no_check_ip
+#EXTINF:-1 tvg-chno="2" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] WWE: Smackdown | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[WWE] WWE: Smackdown | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
