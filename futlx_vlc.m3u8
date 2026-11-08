@@ -3,44 +3,79 @@
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://fup.futx.nx.kg/elch/index.m3u8?token=e826cfa398a5855b9368d19c8268f3ff6053b0f8-708c5924637739f3aabc73372221348f-1794146717-1794145517&remote=no_check_ip
-#EXTINF:-1 tvg-chno="2" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Boxing] Zuffa Boxing 12: Billam-Smith vs Clarke | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Boxing] Zuffa Boxing 12: Billam-Smith vs Clarke | Main Feed (FUTLX)
+https://fup.futx.nx.kg/elch/index.m3u8?token=67f29e2a03b62ab95cf46a27a9b2561a22077ec6-aeab1dfea617b7e09c41677e23152029-1794147620-1794146420&remote=no_check_ip
+#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[EPL] Crystal Palace vs Liverpool | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Live Events",[EPL] Crystal Palace vs Liverpool | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://fup.futx.nx.kg/zuff/index.m3u8?token=5d78e2c222d7d2b8da2d049779775fec66a7bde5-c083b3a163982a60c5f52e9e481f195c-1794146717-1794145517&remote=no_check_ip
-#EXTINF:-1 tvg-chno="3" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[MMA] OKTAGON 97: Severino vs Holzer | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[MMA] OKTAGON 97: Severino vs Holzer | Main Feed (FUTLX)
+https://rip.futx.nx.kg/cry/index.m3u8?token=20c260a410c88a728389fd1966108cc1e4d0a512-d6b30f79c89d5cfe75c7b901744df938-1794147620-1794146420&remote=no_check_ip
+#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[EPL] Ipswich vs Bournemouth | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Live Events",[EPL] Ipswich vs Bournemouth | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://fup.futx.nx.kg/okt/index.m3u8?token=b69f992160b355bc8c3477cc33b7de70f4cbe500-3fd4f402bf450027f71544e1f866a938-1794146717-1794145517&remote=no_check_ip
-#EXTINF:-1 tvg-chno="4" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Boxing] Buatsi vs Hutchinson 2 | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Boxing] Buatsi vs Hutchinson 2 | Main Feed (FUTLX)
+https://rip.futx.nx.kg/ips/index.m3u8?token=81270b267cc7bad803399e89c8e434c867e5c06e-8051db999e9ed9d9bcf45084d16ef8c4-1794147620-1794146420&remote=no_check_ip
+#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[EPL] Sunderland vs Chelsea | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Live Events",[EPL] Sunderland vs Chelsea | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://fup.futx.nx.kg/buat/index.m3u8?token=d68c185ce5ee5c73170fb10c120f81dc1000d16c-0ca3e62945e37673db6f40e4e695bc8d-1794146717-1794145517&remote=no_check_ip
-#EXTINF:-1 tvg-chno="5" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[MMA] UFC Fight Night: Cortes Acosta vs Walker | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[MMA] UFC Fight Night: Cortes Acosta vs Walker | Main Feed (FUTLX)
+https://but.futx.nx.kg/sun/index.m3u8?token=31e962d29b67b0b5afee11166cea62f362164231-0a79b066c3a0f26c87d44b0b9cbc7f52-1794147620-1794146420&remote=no_check_ip
+#EXTINF:-1 tvg-chno="5" tvg-id="Soccer.Dummy.us" tvg-name="[EPL] Brighton vs Brentford | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Live Events",[EPL] Brighton vs Brentford | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://but.futx.nx.kg/ufc/index.m3u8?token=7269695530f8676bdddffca9e89e3dca849e2735-5c5fd141a15cfa60ac49bb6287c3f2be-1794146717-1794145517&remote=no_check_ip
-#EXTINF:-1 tvg-chno="6" tvg-id="Racing.Dummy.us" tvg-name="[F1] São Paulo GP - Practice 3 | Main Feed (FUTLX)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] São Paulo GP - Practice 3 | Main Feed (FUTLX)
+https://but.futx.nx.kg/bri/index.m3u8?token=7046c03dcb2678e3d9fee4f4c20224603a7ea9b6-aaebc1365bbb7f3d36986ace664ee51f-1794147620-1794146420&remote=no_check_ip
+#EXTINF:-1 tvg-chno="6" tvg-id="Soccer.Dummy.us" tvg-name="[Serie A] Genoa vs AC Milan | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png" group-title="Live Events",[Serie A] Genoa vs AC Milan | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://fup.futx.nx.kg/f1/index.m3u8?token=181c0ae10fc13294f1a81f43ffa3c96262b519f6-13869121d1fe071d0bf0553571a35457-1794146717-1794145517&remote=no_check_ip
-#EXTINF:-1 tvg-chno="7" tvg-id="Racing.Dummy.us" tvg-name="[F1] São Paulo GP - Qualifying | Main Feed (FUTLX)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] São Paulo GP - Qualifying | Main Feed (FUTLX)
+https://but.futx.nx.kg/gen/index.m3u8?token=da293bd7b10a8566f3e588a1291e561c35c7fc0b-4a696c263309f4a8de1583ce6e8085ab-1794147620-1794146420&remote=no_check_ip
+#EXTINF:-1 tvg-chno="7" tvg-id="Soccer.Dummy.us" tvg-name="[Serie A] Monza vs Atalanta | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png" group-title="Live Events",[Serie A] Monza vs Atalanta | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://but.futx.nx.kg/f1/index.m3u8?token=abed709520a94422f239e298bc731058aa5744a9-ac488ee1e0cfdadf0f7443c081fce121-1794146717-1794145517&remote=no_check_ip
-#EXTINF:-1 tvg-chno="8" tvg-id="Racing.Dummy.us" tvg-name="[F1] São Paulo GP - Qualifying | Stream 2 (FUTLX)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] São Paulo GP - Qualifying | Stream 2 (FUTLX)
+https://fup.futx.nx.kg/ata/index.m3u8?token=da4ccf34f7e9c1a58218f903b4bbb80baa1016c1-7f120d77a980f9621887abc63db6e267-1794147620-1794146420&remote=no_check_ip
+#EXTINF:-1 tvg-chno="8" tvg-id="Soccer.Dummy.us" tvg-name="[Ligue 1] Rennais vs Lille | Main Feed (FUTLX)" tvg-logo="https://ligue1.com/images/Logo_Ligue_1.webp" group-title="Live Events",[Ligue 1] Rennais vs Lille | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://but.futx.nx.kg/f11/index.m3u8?token=e6790ef1bc120b9182464ca383df59e7b042532b-4179bf428c0c3bc3a33c8537284b7170-1794146717-1794145517&remote=no_check_ip
-#EXTINF:-1 tvg-chno="9" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] Crown Jewel 2026 | PPV (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[WWE] Crown Jewel 2026 | PPV (FUTLX)
+https://fup.futx.nx.kg/lill/index.m3u8?token=cf37c96878d0e36da2e4a07cba2497699e7b0d2d-e269a96b009ab620e37c2bbf41fe2e86-1794147620-1794146420&remote=no_check_ip
+#EXTINF:-1 tvg-chno="9" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Boxing] Zuffa Boxing 12: Billam-Smith vs Clarke | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Boxing] Zuffa Boxing 12: Billam-Smith vs Clarke | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://fup.futx.nx.kg/wwe/index.m3u8?token=05b0d506664390ffc9e20cd47861f11c7cb22a65-f6153cd03f6495ee235b9f3008ad1e6c-1794146717-1794145517&remote=no_check_ip
+https://fup.futx.nx.kg/zuff/index.m3u8?token=5c8346757c0596fe8e50cb8569524a59ec14e013-6aa0e92e7bc9879d8b35df873b723180-1794147620-1794146420&remote=no_check_ip
+#EXTINF:-1 tvg-chno="10" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[MMA] OKTAGON 97: Severino vs Holzer | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[MMA] OKTAGON 97: Severino vs Holzer | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://fup.futx.nx.kg/okt/index.m3u8?token=f665669c89c96e171c1afc83f34e1301ba2f47d3-8060dddc08502875fae24f9d095d169a-1794147620-1794146420&remote=no_check_ip
+#EXTINF:-1 tvg-chno="11" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Boxing] Buatsi vs Hutchinson 2 | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Boxing] Buatsi vs Hutchinson 2 | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://fup.futx.nx.kg/buat/index.m3u8?token=61d7b2d93f6b46f23864e975dfe43ba3ec111d11-c3574ef35e2de1be7e5e81e0d62aee43-1794147620-1794146420&remote=no_check_ip
+#EXTINF:-1 tvg-chno="12" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[MMA] UFC Fight Night: Cortes Acosta vs Walker | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[MMA] UFC Fight Night: Cortes Acosta vs Walker | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://but.futx.nx.kg/ufc/index.m3u8?token=35f16050b84503bc850597133247376018a85424-22e8dc04704d526ecd07645b1e8c84ef-1794147620-1794146420&remote=no_check_ip
+#EXTINF:-1 tvg-chno="13" tvg-id="Racing.Dummy.us" tvg-name="[F1] São Paulo GP - Practice 3 | Main Feed (FUTLX)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] São Paulo GP - Practice 3 | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://fup.futx.nx.kg/f1/index.m3u8?token=408d63bcec18cf86afa6e2e4920adfbdb56d5b67-6d5b03ed4cc2d05f6d9648b1e4572720-1794147620-1794146420&remote=no_check_ip
+#EXTINF:-1 tvg-chno="14" tvg-id="Racing.Dummy.us" tvg-name="[F1] São Paulo GP - Qualifying | Main Feed (FUTLX)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] São Paulo GP - Qualifying | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://but.futx.nx.kg/f1/index.m3u8?token=5a873ff6703f8a9dc6a2694ef03e3fa211d54c28-8662ca78a6c8f26fc33a7b91fd10d383-1794147620-1794146420&remote=no_check_ip
+#EXTINF:-1 tvg-chno="15" tvg-id="Racing.Dummy.us" tvg-name="[F1] São Paulo GP - Qualifying | Stream 2 (FUTLX)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] São Paulo GP - Qualifying | Stream 2 (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://but.futx.nx.kg/f11/index.m3u8?token=518e2e0426b2b6c8477589d4f66427b41967ac22-a7d7fa341d7a009bd8e5169aa9192289-1794147620-1794146420&remote=no_check_ip
+#EXTINF:-1 tvg-chno="16" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] Crown Jewel 2026 | PPV (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[WWE] Crown Jewel 2026 | PPV (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://fup.futx.nx.kg/wwe/index.m3u8?token=d97d321b82ac7240a6b36499e96f6c5592cffd09-f0ad42a0e33d1219a8b98644dc7c5dde-1794147620-1794146420&remote=no_check_ip
