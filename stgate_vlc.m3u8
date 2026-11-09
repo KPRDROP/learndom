@@ -1,282 +1,264 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[BEL_1] Racing Genk vs Union St.-Gilloise | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[BEL_1] Racing Genk vs Union St.-Gilloise | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401878943
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401878943
+#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[ARG_1] Lanús vs Central Córdoba (Santiago del Estero) | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[ARG_1] Lanús vs Central Córdoba (Santiago del Estero) | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401841668
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401841668
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401878943/master.m3u8?st=m_a8tUmYI_dOtNWD9QlEvA&e=1794184951
+https://gate4.st/live/tv401841668/master.m3u8?st=zpLg62pLpO6CI3dqb_1T5A&e=1794198384
 
-#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[BEL_1] Zulte-Waregem vs Sint-Truidense | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[BEL_1] Zulte-Waregem vs Sint-Truidense | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401878944
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401878944
+#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[CHI_1] Huachipato vs Unión La Calera | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[CHI_1] Huachipato vs Unión La Calera | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401850684
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401850684
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://gate4.st/live/tv401878944/master.m3u8?st=GwKUHMwWHrrHtV-RAFBTVg&e=1794184965
+https://instreams.pro/live/tv401850684/master.m3u8?st=spNb2Dud8yGI3pozalTh1A&e=1794198372
 
-#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Bundesliga] Schalke 04 vs TSG Hoffenheim | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/10.png" group-title="Live Events",[Bundesliga] Schalke 04 vs TSG Hoffenheim | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401884742
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401884742
+#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[CHI_1] O'Higgins vs Universidad de Concepción | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[CHI_1] O'Higgins vs Universidad de Concepción | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401850685
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401850685
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401884742/master.m3u8?st=Do1MOvnLWfULWYtQAkivzw&e=1794184969
+https://instreams.pro/live/tv401850685/master.m3u8?st=OCf4F0jlwaiv4gHmZE7FDg&e=1794198385
 
-#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[CHI_1] Cobresal vs Universidad de Chile | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[CHI_1] Cobresal vs Universidad de Chile | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401850686
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401850686
+#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[COL_1] Alianza FC vs Millonarios | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[COL_1] Alianza FC vs Millonarios | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401878024
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401878024
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401850686/master.m3u8?st=JkH8Vcpi0F8JtMQv6IEeAQ&e=1794184958
+https://instreams.pro/live/tv401878024/master.m3u8?st=ukBpvk9ZEzEguOkLXzRveA&e=1794198379
 
-#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[CHI_1] Colo Colo vs Ñublense | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[CHI_1] Colo Colo vs Ñublense | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401850691
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401850691
+#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[COL_1] América de Cali vs Deportivo Pereira | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[COL_1] América de Cali vs Deportivo Pereira | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401877919
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401877919
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401850691/master.m3u8?st=c8DYBNT9MEFUx1cGEki-Qg&e=1794184956
+https://instreams.pro/live/tv401877919/master.m3u8?st=YNzQBa_NhCWaXzs11TKSzQ&e=1794198377
 
-#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[COL_1] Deportivo Pasto vs Independiente Santa Fe | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[COL_1] Deportivo Pasto vs Independiente Santa Fe | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401877958
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401877958
+#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[COL_1] Atlético Bucaramanga vs Jaguares de Córdoba | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[COL_1] Atlético Bucaramanga vs Jaguares de Córdoba | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401878067
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401878067
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401877958/master.m3u8?st=3rNpZixXjqWaIP-ZTvF-YQ&e=1794184975
+https://gate4.st/live/tv401878067/master.m3u8?st=ZdjabIggALpqU_wQRCRJ9Q&e=1794198382
 
-#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[CRC_1] Escorpiones Belén vs Cartaginés | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[CRC_1] Escorpiones Belén vs Cartaginés | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401876822
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401876822
+#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[COL_1] Atlético Junior vs Deportivo Pasto | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[COL_1] Atlético Junior vs Deportivo Pasto | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401878034
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401878034
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401876822/master.m3u8?st=AwVrQB8WTnSb5dfmdD-y5A&e=1794184947
+https://instreams.pro/live/tv401878034/master.m3u8?st=ZYmAqam62RRdCBmjiGX4bg&e=1794198376
 
-#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[DEN_1] Sønderjyske Fodbold vs FC Midtjylland | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[DEN_1] Sønderjyske Fodbold vs FC Midtjylland | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401874556
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401874556
+#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[COL_1] Boyacá Chicó FC vs Llaneros FC | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[COL_1] Boyacá Chicó FC vs Llaneros FC | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401877890
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401877890
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://gate4.st/live/tv401874556/master.m3u8?st=kAnmKclJYUDwZ2Ntdpqxsg&e=1794184946
+https://instreams.pro/live/tv401877890/master.m3u8?st=_o-W1BBYELcq_5WvMEr5OA&e=1794198378
 
-#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[ECU_1] Independiente del Valle vs Aucas | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[ECU_1] Independiente del Valle vs Aucas | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401921323
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401921323
+#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[COL_1] Deportes Tolima vs Deportivo Cali | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[COL_1] Deportes Tolima vs Deportivo Cali | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401877893
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401877893
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://gate4.st/live/tv401921323/master.m3u8?st=Zdl3LweeNRgZ19ljL3bf-g&e=1794184973
+https://instreams.pro/live/tv401877893/master.m3u8?st=yf5xiVW26_MYrC2bu7oBhg&e=1794198376
 
-#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[ENG_FA] Sheffield Wednesday vs Oldham Athletic | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[ENG_FA] Sheffield Wednesday vs Oldham Athletic | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401931108
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401931108
+#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[COL_1] Fortaleza CEIF vs Atlético Bucaramanga | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[COL_1] Fortaleza CEIF vs Atlético Bucaramanga | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401877917
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401877917
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401931108/master.m3u8?st=idHf6b4Rj3rE9B0jL870Gg&e=1794184948
+https://instreams.pro/live/tv401877917/master.m3u8?st=BvVfAigYDi8xHtvIDrRCeg&e=1794198374
 
-#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[ESP_2] Eldense vs Las Palmas | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[ESP_2] Eldense vs Las Palmas | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401883140
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401883140
+#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[COL_1] Independiente Medellín vs Águilas Doradas | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[COL_1] Independiente Medellín vs Águilas Doradas | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401877770
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401877770
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401883140/master.m3u8?st=XLVDGKry7V-dDGcKA0kATg&e=1794184952
+https://instreams.pro/live/tv401877770/master.m3u8?st=xXgjQTGTZ8V2V2FsUEdR8g&e=1794198373
 
-#EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[ESP_2] Real Valladolid vs Sporting Gijón | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[ESP_2] Real Valladolid vs Sporting Gijón | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401883138
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401883138
+#EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[COL_1] Independiente Santa Fe vs Internacional de Bogotá | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[COL_1] Independiente Santa Fe vs Internacional de Bogotá | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401877838
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401877838
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401883138/master.m3u8?st=iaTHH3rn0E4bi8q6EuRA9A&e=1794184953
+https://gate4.st/live/tv401877838/master.m3u8?st=pqLwjWFDDF3fpu1hBpsC1A&e=1794198378
 
-#EXTINF:-1 tvg-chno="13" tvg-id="Live.Event.us" tvg-name="[ITA_2] Cremonese vs Vicenza | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[ITA_2] Cremonese vs Vicenza | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401899554
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401899554
+#EXTINF:-1 tvg-chno="13" tvg-id="Live.Event.us" tvg-name="[COL_1] Jaguares de Córdoba vs Cúcuta Deportivo | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[COL_1] Jaguares de Córdoba vs Cúcuta Deportivo | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401878043
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401878043
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401899554/master.m3u8?st=FC6yg1aUmNaEzzaOSFzu5Q&e=1794184971
+https://instreams.pro/live/tv401878043/master.m3u8?st=k3_TxX7fA2gKoTyLEUNO1w&e=1794198375
 
-#EXTINF:-1 tvg-chno="14" tvg-id="Soccer.Dummy.us" tvg-name="[La Liga] Getafe vs Villarreal | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[La Liga] Getafe vs Villarreal | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401882807
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401882807
+#EXTINF:-1 tvg-chno="14" tvg-id="Live.Event.us" tvg-name="[COL_1] Llaneros FC vs Alianza FC | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[COL_1] Llaneros FC vs Alianza FC | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401878031
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401878031
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://gate4.st/live/tv401882807/master.m3u8?st=SdU7qlo3AHfAe0VAddxFSw&e=1794184950
+https://instreams.pro/live/tv401878031/master.m3u8?st=mVLYt2c7TqMfsG5lKXKjUQ&e=1794198389
 
-#EXTINF:-1 tvg-chno="15" tvg-id="Soccer.Dummy.us" tvg-name="[La Liga] Levante vs Celta Vigo | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[La Liga] Levante vs Celta Vigo | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401882815
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401882815
+#EXTINF:-1 tvg-chno="15" tvg-id="Live.Event.us" tvg-name="[COL_1] Millonarios vs Deportes Tolima | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[COL_1] Millonarios vs Deportes Tolima | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401878070
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401878070
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401882815/master.m3u8?st=4RpObUo5Uv1OqVHBsy3pFQ&e=1794184948
+https://gate4.st/live/tv401878070/master.m3u8?st=l5rtI06XSsfpeCSUyFR2Yg&e=1794198387
 
-#EXTINF:-1 tvg-chno="16" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Boston Celtics vs Milwaukee Bucks | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Boston Celtics vs Milwaukee Bucks | English (STGATE)
+#EXTINF:-1 tvg-chno="16" tvg-id="Live.Event.us" tvg-name="[COL_1] Once Caldas vs Atlético Nacional | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[COL_1] Once Caldas vs Atlético Nacional | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401878029
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401878029
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://gate4.st/live/tv401878029/master.m3u8?st=Ty6cKviz7hkk6VlN7M755A&e=1794198374
+
+#EXTINF:-1 tvg-chno="17" tvg-id="Live.Event.us" tvg-name="[CRC_1] Inter de San Carlos vs Herediano | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[CRC_1] Inter de San Carlos vs Herediano | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401876888
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401876888
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://instreams.pro/live/tv401876888/master.m3u8?st=I0rqc85TDoUnCFjYN9Fw0A&e=1794198388
+
+#EXTINF:-1 tvg-chno="18" tvg-id="Live.Event.us" tvg-name="[CRC_1] Puntarenas FC vs Saprissa | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[CRC_1] Puntarenas FC vs Saprissa | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401876821
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401876821
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://instreams.pro/live/tv401876821/master.m3u8?st=NBuQew-13iKMHKxMdz66-A&e=1794198383
+
+#EXTINF:-1 tvg-chno="19" tvg-id="Live.Event.us" tvg-name="[ECU_1] Liga de Quito vs Barcelona SC | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[ECU_1] Liga de Quito vs Barcelona SC | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401921321
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401921321
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://instreams.pro/live/tv401921321/master.m3u8?st=LKS04YCOu17S_G3FVq1njA&e=1794198383
+
+#EXTINF:-1 tvg-chno="20" tvg-id="Live.Event.us" tvg-name="[MEX_1] Guadalajara vs León | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[MEX_1] Guadalajara vs León | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401876902
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401876902
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://gate4.st/live/tv401876902/master.m3u8?st=5dn1aK_Ry9TjoW7nCrFKaQ&e=1794198391
+
+#EXTINF:-1 tvg-chno="21" tvg-id="Live.Event.us" tvg-name="[MEX_1] Puebla vs Querétaro | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[MEX_1] Puebla vs Querétaro | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401876903
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401876903
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://gate4.st/live/tv401876903/master.m3u8?st=-iCybvvh_AybPg3MxZvqcg&e=1794198388
+
+#EXTINF:-1 tvg-chno="22" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Boston Celtics vs Milwaukee Bucks | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Boston Celtics vs Milwaukee Bucks | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401909949
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401909949
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401909949/master.m3u8?st=JSOGTUVdxgY2upCw7sYnLQ&e=1794184867
+https://instreams.pro/live/tv401909949/master.m3u8?st=V3uZa2kem03yWFIOqyrlsg&e=1794198348
 
-#EXTINF:-1 tvg-chno="17" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Brooklyn Nets vs Dallas Mavericks | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Brooklyn Nets vs Dallas Mavericks | English (STGATE)
+#EXTINF:-1 tvg-chno="23" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Brooklyn Nets vs Dallas Mavericks | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Brooklyn Nets vs Dallas Mavericks | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401909948
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401909948
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401909948/master.m3u8?st=e_6COdqHxiQV6Ybh-vlstA&e=1794184865
+https://instreams.pro/live/tv401909948/master.m3u8?st=zL3GTq_JfjqfkYT6gIPCBg&e=1794198347
 
-#EXTINF:-1 tvg-chno="18" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Los Angeles Lakers vs Detroit Pistons | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Los Angeles Lakers vs Detroit Pistons | English (STGATE)
+#EXTINF:-1 tvg-chno="24" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Los Angeles Lakers vs Detroit Pistons | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Los Angeles Lakers vs Detroit Pistons | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401909946
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401909946
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401909946/master.m3u8?st=XmxMWQdDGl_YputyAw9aMg&e=1794184862
+https://instreams.pro/live/tv401909946/master.m3u8?st=vFDsR_8w1H10dE1P1hZ-iQ&e=1794198346
 
-#EXTINF:-1 tvg-chno="19" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Miami Heat vs Sacramento Kings | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Miami Heat vs Sacramento Kings | English (STGATE)
+#EXTINF:-1 tvg-chno="25" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Miami Heat vs Sacramento Kings | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Miami Heat vs Sacramento Kings | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401909951
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401909951
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401909951/master.m3u8?st=o9fBVrHfHwI_F71xeCVJnQ&e=1794184870
+https://instreams.pro/live/tv401909951/master.m3u8?st=acY55KVYUOKPLFFtFt32aA&e=1794198349
 
-#EXTINF:-1 tvg-chno="20" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] New Orleans Pelicans vs LA Clippers | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] New Orleans Pelicans vs LA Clippers | English (STGATE)
+#EXTINF:-1 tvg-chno="26" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] New Orleans Pelicans vs LA Clippers | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] New Orleans Pelicans vs LA Clippers | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401909950
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401909950
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401909950/master.m3u8?st=zlUOE8_VieSZPPaiYhMZmw&e=1794184868
+https://instreams.pro/live/tv401909950/master.m3u8?st=h-UMabl-hyXdz8y6Zif3QA&e=1794198348
 
-#EXTINF:-1 tvg-chno="21" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Philadelphia 76ers vs Chicago Bulls | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Philadelphia 76ers vs Chicago Bulls | English (STGATE)
+#EXTINF:-1 tvg-chno="27" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Philadelphia 76ers vs Chicago Bulls | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Philadelphia 76ers vs Chicago Bulls | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401909945
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401909945
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://gate4.st/live/tv401909945/master.m3u8?st=DCRlY7hs5mjQNaWzDasExg&e=1794184860
+https://instreams.pro/live/tv401909945/master.m3u8?st=5maWOYR7Fvf_E_PkCkLVAg&e=1794198345
 
-#EXTINF:-1 tvg-chno="22" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Utah Jazz vs Minnesota Timberwolves | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Utah Jazz vs Minnesota Timberwolves | English (STGATE)
+#EXTINF:-1 tvg-chno="28" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Utah Jazz vs Minnesota Timberwolves | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Utah Jazz vs Minnesota Timberwolves | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401909947
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401909947
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401909947/master.m3u8?st=GWNnhh22vDRSe2YMEdi-Ow&e=1794184863
+https://gate4.st/live/tv401909947/master.m3u8?st=13yzNm540-oGXRFzFw3JRg&e=1794198346
 
-#EXTINF:-1 tvg-chno="23" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Arizona Cardinals vs Seattle Seahawks | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Arizona Cardinals vs Seattle Seahawks | English (STGATE)
+#EXTINF:-1 tvg-chno="29" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Arizona Cardinals vs Seattle Seahawks | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Arizona Cardinals vs Seattle Seahawks | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401873048
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401873048
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://gate4.st/live/tv401873048/master.m3u8?st=LBKarkhSVWUU14llMH5lcw&e=1794184892
+https://gate4.st/live/tv401873048/master.m3u8?st=F-cEhcnNVJjGVqs89F6hWw&e=1794198355
 
-#EXTINF:-1 tvg-chno="24" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Cleveland Browns vs New Orleans Saints | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Cleveland Browns vs New Orleans Saints | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401873039
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401873039
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://gate4.st/live/tv401873039/master.m3u8?st=jxGNMFA0Y5rQU6YdPstQRA&e=1794184880
-
-#EXTINF:-1 tvg-chno="25" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Dallas Cowboys vs Indianapolis Colts | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Dallas Cowboys vs Indianapolis Colts | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401873040
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401873040
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401873040/master.m3u8?st=7XtIeICeX1HeEbCQ1h2MTw&e=1794184874
-
-#EXTINF:-1 tvg-chno="26" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Denver Broncos vs Carolina Panthers | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Denver Broncos vs Carolina Panthers | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401873041
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401873041
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401873041/master.m3u8?st=QPlSkhwAlSsVv8CxGTOFOg&e=1794184885
-
-#EXTINF:-1 tvg-chno="27" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Detroit Lions vs Miami Dolphins | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Detroit Lions vs Miami Dolphins | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401873042
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401873042
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401873042/master.m3u8?st=i9zuGnOHC8LSg66Ft9b2jQ&e=1794184878
-
-#EXTINF:-1 tvg-chno="28" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Green Bay Packers vs New England Patriots | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Green Bay Packers vs New England Patriots | English (STGATE)
+#EXTINF:-1 tvg-chno="30" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Green Bay Packers vs New England Patriots | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Green Bay Packers vs New England Patriots | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401873049
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401873049
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://gate4.st/live/tv401873049/master.m3u8?st=SOIW6Bx_G2tuxkO0W-xl6A&e=1794184889
+https://instreams.pro/live/tv401873049/master.m3u8?st=DjVahyegOl2dVNb3BcRsww&e=1794198354
 
-#EXTINF:-1 tvg-chno="29" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Houston Texans vs Los Angeles Chargers | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Houston Texans vs Los Angeles Chargers | English (STGATE)
+#EXTINF:-1 tvg-chno="31" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Houston Texans vs Los Angeles Chargers | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Houston Texans vs Los Angeles Chargers | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401873046
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401873046
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401873046/master.m3u8?st=H_fnRgUPxN2CScw1NUwkyQ&e=1794184887
+https://instreams.pro/live/tv401873046/master.m3u8?st=XhxAxZNQWUtn1ZsJIipQ1A&e=1794198353
 
-#EXTINF:-1 tvg-chno="30" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Las Vegas Raiders vs San Francisco 49ers | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Las Vegas Raiders vs San Francisco 49ers | English (STGATE)
+#EXTINF:-1 tvg-chno="32" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Las Vegas Raiders vs San Francisco 49ers | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Las Vegas Raiders vs San Francisco 49ers | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401873047
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401873047
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://gate4.st/live/tv401873047/master.m3u8?st=Tp_ZSb-pBw1xFi9Fd5HcEw&e=1794184890
+https://gate4.st/live/tv401873047/master.m3u8?st=ZnvdaLHvdmdPR1wSdP4Txw&e=1794198354
 
-#EXTINF:-1 tvg-chno="31" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Los Angeles Rams vs Washington Commanders | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Los Angeles Rams vs Washington Commanders | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401873043
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401873043
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401873043/master.m3u8?st=35-0Bt4MlcEk7VePl4PclQ&e=1794184883
-
-#EXTINF:-1 tvg-chno="32" tvg-id="NFL.Dummy.us" tvg-name="[NFL] New York Giants vs Philadelphia Eagles | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] New York Giants vs Philadelphia Eagles | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401873044
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401873044
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://gate4.st/live/tv401873044/master.m3u8?st=yOD0_gyXu31VUOYYjJ1mRg&e=1794184881
-
-#EXTINF:-1 tvg-chno="33" tvg-id="NFL.Dummy.us" tvg-name="[NFL] New York Jets vs Kansas City Chiefs | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] New York Jets vs Kansas City Chiefs | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401873045
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401873045
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://gate4.st/live/tv401873045/master.m3u8?st=Ro6dwhZeK35X47FK8JbCbg&e=1794184876
-
-#EXTINF:-1 tvg-chno="34" tvg-id="Football.Dummy.us" tvg-name="[NFL] TBD vs NFL RedZone | English (STGATE)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[NFL] TBD vs NFL RedZone | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tvredzone20261108
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tvredzone20261108
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tvredzone20261108/master.m3u8?st=_wRxv3mprnkoZERjZTWNTQ&e=1794184872
-
-#EXTINF:-1 tvg-chno="35" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Tampa Bay Buccaneers vs Chicago Bears | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Tampa Bay Buccaneers vs Chicago Bears | English (STGATE)
+#EXTINF:-1 tvg-chno="33" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Tampa Bay Buccaneers vs Chicago Bears | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Tampa Bay Buccaneers vs Chicago Bears | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401873050
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401873050
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://gate4.st/live/tv401873050/master.m3u8?st=ZXhL0fssFcG6s8LT9tIPWQ&e=1794184894
+https://gate4.st/live/tv401873050/master.m3u8?st=xUupvC7ESVnC1nOh5jrVOA&e=1794198356
 
-#EXTINF:-1 tvg-chno="36" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Florida Panthers vs Boston Bruins | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Florida Panthers vs Boston Bruins | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401892674
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401892674
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://gate4.st/live/tv401892674/master.m3u8?st=s4gKJ388RoJ6hAEA51JiCg&e=1794184896
-
-#EXTINF:-1 tvg-chno="37" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] New Jersey Devils vs Toronto Maple Leafs | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] New Jersey Devils vs Toronto Maple Leafs | English (STGATE)
+#EXTINF:-1 tvg-chno="34" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] New Jersey Devils vs Toronto Maple Leafs | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] New Jersey Devils vs Toronto Maple Leafs | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401892676
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401892676
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://gate4.st/live/tv401892676/master.m3u8?st=nwvwMzk29s2NcDOrmvL4Nw&e=1794184904
+https://instreams.pro/live/tv401892676/master.m3u8?st=tp5Eph5xdCLaU_XZGoGVpw&e=1794198358
 
-#EXTINF:-1 tvg-chno="38" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Philadelphia Flyers vs Calgary Flames | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Philadelphia Flyers vs Calgary Flames | English (STGATE)
+#EXTINF:-1 tvg-chno="35" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Philadelphia Flyers vs Calgary Flames | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Philadelphia Flyers vs Calgary Flames | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401892678
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401892678
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://gate4.st/live/tv401892678/master.m3u8?st=wN8TmbnBkpDg5N8LVCDGng&e=1794184906
+https://gate4.st/live/tv401892678/master.m3u8?st=NCDl2WTld0dVLwdHpAZOjQ&e=1794198359
 
-#EXTINF:-1 tvg-chno="39" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Pittsburgh Penguins vs Anaheim Ducks | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Pittsburgh Penguins vs Anaheim Ducks | English (STGATE)
+#EXTINF:-1 tvg-chno="36" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Pittsburgh Penguins vs Anaheim Ducks | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Pittsburgh Penguins vs Anaheim Ducks | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401892679
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401892679
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401892679/master.m3u8?st=AycjYQN49YnHmRa58LTgug&e=1794184908
+https://instreams.pro/live/tv401892679/master.m3u8?st=w2zU9qGa7Xbcr4scdJTebg&e=1794198359
 
-#EXTINF:-1 tvg-chno="40" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Tampa Bay Lightning vs Winnipeg Jets | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Tampa Bay Lightning vs Winnipeg Jets | English (STGATE)
+#EXTINF:-1 tvg-chno="37" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Tampa Bay Lightning vs Winnipeg Jets | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Tampa Bay Lightning vs Winnipeg Jets | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401892677
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401892677
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401892677/master.m3u8?st=IlYLjNHGR9plGqys8uBNTw&e=1794184901
+https://gate4.st/live/tv401892677/master.m3u8?st=fA5_UtAaMYRSEmK6t3glsA&e=1794198358
 
-#EXTINF:-1 tvg-chno="41" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Vegas Golden Knights vs Buffalo Sabres | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Vegas Golden Knights vs Buffalo Sabres | English (STGATE)
+#EXTINF:-1 tvg-chno="38" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Vegas Golden Knights vs Buffalo Sabres | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Vegas Golden Knights vs Buffalo Sabres | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401892675
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401892675
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://gate4.st/live/tv401892675/master.m3u8?st=KlWInhMpUz3ZZ9QOoPVrqA&e=1794184898
+https://gate4.st/live/tv401892675/master.m3u8?st=GTc-EUyYjl-2YZ2XPKY-gQ&e=1794198357
 
-#EXTINF:-1 tvg-chno="42" tvg-id="Live.Event.us" tvg-name="[NOR_1] SK Brann vs Fredrikstad | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[NOR_1] SK Brann vs Fredrikstad | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401843475
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401843475
+#EXTINF:-1 tvg-chno="39" tvg-id="Live.Event.us" tvg-name="[PAR_1] Sportivo Ameliano vs Sportivo Trinidense | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[PAR_1] Sportivo Ameliano vs Sportivo Trinidense | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401888564
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401888564
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401843475/master.m3u8?st=PO01NkgwyD7oNQPXU60iAQ&e=1794184968
+https://gate4.st/live/tv401888564/master.m3u8?st=9VaAQS6xgkKfkOq63Mmttw&e=1794198384
 
-#EXTINF:-1 tvg-chno="43" tvg-id="Live.Event.us" tvg-name="[PER_1] Alianza Lima vs Los Chankas | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[PER_1] Alianza Lima vs Los Chankas | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401886122
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401886122
+#EXTINF:-1 tvg-chno="40" tvg-id="Live.Event.us" tvg-name="[PER_1] Comerciantes Unidos vs Deportivo Garcilaso | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[PER_1] Comerciantes Unidos vs Deportivo Garcilaso | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401886139
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401886139
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401886122/master.m3u8?st=RwXmr9t96EKuIt1HEkjKPQ&e=1794184960
+https://instreams.pro/live/tv401886139/master.m3u8?st=a_1oemTD_G8K2i88eDIUaA&e=1794198386
 
-#EXTINF:-1 tvg-chno="44" tvg-id="Live.Event.us" tvg-name="[POR_1] FC Porto vs Vitória de Guimaraes | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[POR_1] FC Porto vs Vitória de Guimaraes | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401885394
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401885394
+#EXTINF:-1 tvg-chno="41" tvg-id="Live.Event.us" tvg-name="[PER_1] Deportivo Moquegua vs Universitario | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[PER_1] Deportivo Moquegua vs Universitario | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401886140
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401886140
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://gate4.st/live/tv401885394/master.m3u8?st=quG-gtxcrFulyPvQpAmbBQ&e=1794184962
+https://gate4.st/live/tv401886140/master.m3u8?st=ewpq0rtMnABdydmqQIyFVg&e=1794198390
 
-#EXTINF:-1 tvg-chno="45" tvg-id="Live.Event.us" tvg-name="[RUS_1] Dynamo Makhachkala vs FC Baltika Kaliningrad | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[RUS_1] Dynamo Makhachkala vs FC Baltika Kaliningrad | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401879813
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401879813
+#EXTINF:-1 tvg-chno="42" tvg-id="Live.Event.us" tvg-name="[PER_1] UTC vs Sport Boys | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[PER_1] UTC vs Sport Boys | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401886123
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401886123
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://instreams.pro/live/tv401879813/master.m3u8?st=0wf1--bjokDQP3dMqH1cgQ&e=1794184954
+https://instreams.pro/live/tv401886123/master.m3u8?st=OJxGCpCUWhcfxN-j3IFN4g&e=1794198380
 
-#EXTINF:-1 tvg-chno="46" tvg-id="Soccer.Dummy.us" tvg-name="[Serie A] Como vs Internazionale | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png" group-title="Live Events",[Serie A] Como vs Internazionale | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401874808
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401874808
+#EXTINF:-1 tvg-chno="43" tvg-id="Live.Event.us" tvg-name="[POR_1] Benfica vs Estrela | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[POR_1] Benfica vs Estrela | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401885401
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401885401
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://gate4.st/live/tv401874808/master.m3u8?st=G4YJP0bD--csV_ZySxqStw&e=1794184945
+https://instreams.pro/live/tv401885401/master.m3u8?st=UDQdYpRaE3TNckGYKp_3yA&e=1794198380
 
-#EXTINF:-1 tvg-chno="47" tvg-id="Live.Event.us" tvg-name="[TUR_1] Genclerbirligi vs Besiktas | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[TUR_1] Genclerbirligi vs Besiktas | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401888251
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401888251
+#EXTINF:-1 tvg-chno="44" tvg-id="Live.Event.us" tvg-name="[POR_1] Braga vs Rio Ave | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[POR_1] Braga vs Rio Ave | English (STGATE)
+#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401885397
+#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401885397
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://gate4.st/live/tv401888251/master.m3u8?st=_7hhlQIIESLxH538Tim3rA&e=1794184963
+https://instreams.pro/live/tv401885397/master.m3u8?st=ZIwS0c4eNlpOFh0IB3X_HA&e=1794198381
