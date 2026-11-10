@@ -4,57 +4,47 @@
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://edgestream3.pro/sh/cdn/hls/JHDAJBDnjdna30.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Los Angeles Lakers vs. Atlanta Hawks | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Los Angeles Lakers vs. Atlanta Hawks | English (STRMCNTR)
-#EXTVLCOPT:http-referrer=https://embedcenter.st/
-#EXTVLCOPT:http-origin=https://embedcenter.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://edgestream3.pro/sh/cdn/hls/mlkijfezag65.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Cleveland Cavaliers vs. Charlotte Hornets | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Cleveland Cavaliers vs. Charlotte Hornets | English (STRMCNTR)
-#EXTVLCOPT:http-referrer=https://embedcenter.st/
-#EXTVLCOPT:http-origin=https://embedcenter.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://edgestream3.pro/sh/cdn/hls/wfazgsqtrezu66.m3u8
-#EXTINF:-1 tvg-chno="4" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Washington Wizards vs. Detroit Pistons | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Washington Wizards vs. Detroit Pistons | English (STRMCNTR)
+#EXTINF:-1 tvg-chno="2" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Washington Wizards vs. Detroit Pistons | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Washington Wizards vs. Detroit Pistons | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://edgestream3.pro/sh/cdn/hls/hfsdqtaxvb67.m3u8
-#EXTINF:-1 tvg-chno="5" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Memphis Grizzlies vs. Toronto Raptors | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Memphis Grizzlies vs. Toronto Raptors | English (STRMCNTR)
+#EXTINF:-1 tvg-chno="3" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Memphis Grizzlies vs. Toronto Raptors | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Memphis Grizzlies vs. Toronto Raptors | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://edgestream3.pro/sh/cdn/hls/zayrtezafgvdv68.m3u8
-#EXTINF:-1 tvg-chno="6" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Indiana Pacers vs. Dallas Mavericks | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Indiana Pacers vs. Dallas Mavericks | English (STRMCNTR)
+#EXTINF:-1 tvg-chno="4" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Indiana Pacers vs. Dallas Mavericks | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Indiana Pacers vs. Dallas Mavericks | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://edgestream3.pro/sh/cdn/hls/zeafwqvhfe69.m3u8
-#EXTINF:-1 tvg-chno="7" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Denver Nuggets vs. Houston Rockets | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Denver Nuggets vs. Houston Rockets | English (STRMCNTR)
+#EXTINF:-1 tvg-chno="5" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Denver Nuggets vs. Houston Rockets | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Denver Nuggets vs. Houston Rockets | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://edgestream3.pro/sh/cdn/hls/bvnsqdfvgha70.m3u8
-#EXTINF:-1 tvg-chno="8" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] San Antonio Spurs vs. Phoenix Suns | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] San Antonio Spurs vs. Phoenix Suns | English (STRMCNTR)
+#EXTINF:-1 tvg-chno="6" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] San Antonio Spurs vs. Phoenix Suns | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] San Antonio Spurs vs. Phoenix Suns | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://edgestream3.pro/sh/cdn/hls/ztyarueaghj71.m3u8
-#EXTINF:-1 tvg-chno="9" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] New Orleans Pelicans vs. Golden State Warriors | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] New Orleans Pelicans vs. Golden State Warriors | English (STRMCNTR)
+#EXTINF:-1 tvg-chno="7" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] New Orleans Pelicans vs. Golden State Warriors | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] New Orleans Pelicans vs. Golden State Warriors | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://edgestream3.pro/sh/cdn/hls/pllmazjkdzajh72.m3u8
-#EXTINF:-1 tvg-chno="10" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Hockey] New York Rangers vs. Edmonton Oilers | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[Hockey] New York Rangers vs. Edmonton Oilers | English (STRMCNTR)
+#EXTINF:-1 tvg-chno="8" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Hockey] New York Rangers vs. Edmonton Oilers | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[Hockey] New York Rangers vs. Edmonton Oilers | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://edgestream3.pro/sh/cdn/hls/uyopzarf50.m3u8
-#EXTINF:-1 tvg-chno="11" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Hockey] Philadelphia Flyers vs. Vancouver Canucks | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[Hockey] Philadelphia Flyers vs. Vancouver Canucks | English (STRMCNTR)
+#EXTINF:-1 tvg-chno="9" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Hockey] Philadelphia Flyers vs. Vancouver Canucks | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[Hockey] Philadelphia Flyers vs. Vancouver Canucks | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://edgestream3.pro/sh/cdn/hls/hjksgdfauzy51.m3u8
-#EXTINF:-1 tvg-chno="12" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Hockey] New York Islanders vs. San Jose Sharks | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[Hockey] New York Islanders vs. San Jose Sharks | English (STRMCNTR)
+#EXTINF:-1 tvg-chno="10" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[Hockey] New York Islanders vs. San Jose Sharks | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[Hockey] New York Islanders vs. San Jose Sharks | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
