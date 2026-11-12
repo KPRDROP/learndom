@@ -3,214 +3,112 @@
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401866461
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401866461
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://candyshop.st/live/tv401866461/master.m3u8?st=PnqbwPTpiQ1gFL5NreywJA&e=1794446928
+https://edge1.candyshop.st/live/tv401866461/master.m3u8?st=YS3KXD72AYrhH-eB-XWc0A&e=1794465409
 
 #EXTINF:-1 tvg-chno="2" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[CFB] Massachusetts Minutemen vs Toledo Rockets | English (STGATE)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[CFB] Massachusetts Minutemen vs Toledo Rockets | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401866463
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401866463
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://candyshop.st/live/tv401866463/master.m3u8?st=bp6y9TOdvYOzCDjubBdz1A&e=1794446929
+https://candyshop.st/live/tv401866463/master.m3u8?st=2w1eEjY-_S9q2-OLi2B7Hg&e=1794465410
 
 #EXTINF:-1 tvg-chno="3" tvg-id="NCAA.Sports.Dummy.us" tvg-name="[CFB] Sacramento State Hornets vs Central Michigan Chippewas | English (STGATE)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[CFB] Sacramento State Hornets vs Central Michigan Chippewas | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401866462
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401866462
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://candyshop.st/live/tv401866462/master.m3u8?st=HyRIUaz15GHm4p9od6CzQQ&e=1794446929
+https://candyshop.st/live/tv401866462/master.m3u8?st=BNnqllyKLsGDOM42tPns3A&e=1794465410
 
-#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[CLUB_FRIENDLY] Alemannia Aachen vs FC Wegberg-Beeck 1920 | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[CLUB_FRIENDLY] Alemannia Aachen vs FC Wegberg-Beeck 1920 | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401933769
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401933769
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge2.candyshop.st/live/tv401933769/master.m3u8?st=4ZgvkbXgZt7ZacgC-KP87g&e=1794446939
-
-#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[CLUB_FRIENDLY] Santa Clara vs Real Valladolid | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[CLUB_FRIENDLY] Santa Clara vs Real Valladolid | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401933838
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401933838
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge1.candyshop.st/live/tv401933838/master.m3u8?st=fd7U3lutcpAvIZEuiOyCjQ&e=1794446944
-
-#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[ENG_TROPHY] Accrington Stanley vs Sheffield Wednesday | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[ENG_TROPHY] Accrington Stanley vs Sheffield Wednesday | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401906340
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401906340
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://candyshop.st/live/tv401906340/master.m3u8?st=Oki4jXnSU9JoLJ9MUoByoA&e=1794446943
-
-#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[ENG_TROPHY] Oldham Athletic vs Barnsley | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[ENG_TROPHY] Oldham Athletic vs Barnsley | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401911177
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401911177
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge2.candyshop.st/live/tv401911177/master.m3u8?st=M1JLHhvE71GzmM6MZU6kiA&e=1794446943
-
-#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[ENG_W_LEAGUE_CUP] Aston Villa vs Liverpool | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[ENG_W_LEAGUE_CUP] Aston Villa vs Liverpool | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401923292
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401923292
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge1.candyshop.st/live/tv401923292/master.m3u8?st=rOOnB-HVO7YeTPlkmTRfBA&e=1794446942
-
-#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[ENG_W_LEAGUE_CUP] Crystal Palace vs Tottenham Hotspur | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[ENG_W_LEAGUE_CUP] Crystal Palace vs Tottenham Hotspur | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401923281
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401923281
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge1.candyshop.st/live/tv401923281/master.m3u8?st=9MAzs_Epzx6v57p6sJKihg&e=1794446942
-
-#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[ENG_W_LEAGUE_CUP] Durham vs Everton | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[ENG_W_LEAGUE_CUP] Durham vs Everton | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401923383
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401923383
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge.candyshop.st/live/tv401923383/master.m3u8?st=XBkzdRbLuTcthBOsEkgEZQ&e=1794446941
-
-#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[ENG_W_LEAGUE_CUP] Ipswich Town vs Charlton Athletic | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[ENG_W_LEAGUE_CUP] Ipswich Town vs Charlton Athletic | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401923298
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401923298
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge1.candyshop.st/live/tv401923298/master.m3u8?st=LwLX87vSXs8nmR1aVnG4rw&e=1794446944
-
-#EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[ENG_W_LEAGUE_CUP] Sunderland vs Birmingham City | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[ENG_W_LEAGUE_CUP] Sunderland vs Birmingham City | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401923374
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401923374
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge1.candyshop.st/live/tv401923374/master.m3u8?st=_Fj45ndxirxRPS9yf7qj5A&e=1794446941
-
-#EXTINF:-1 tvg-chno="13" tvg-id="Live.Event.us" tvg-name="[ENG_W_LEAGUE_CUP] Watford vs Brighton & Hove Albion | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[ENG_W_LEAGUE_CUP] Watford vs Brighton & Hove Albion | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401923380
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401923380
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge2.candyshop.st/live/tv401923380/master.m3u8?st=VXAKH5sktTUitXhhzbsi5w&e=1794446945
-
-#EXTINF:-1 tvg-chno="14" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Boston Celtics vs Toronto Raptors | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Boston Celtics vs Toronto Raptors | English (STGATE)
+#EXTINF:-1 tvg-chno="4" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Boston Celtics vs Toronto Raptors | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Boston Celtics vs Toronto Raptors | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401909968
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401909968
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge2.candyshop.st/live/tv401909968/master.m3u8?st=YIK099Psmhgvum-gAqMdQA&e=1794446930
+https://edge1.candyshop.st/live/tv401909968/master.m3u8?st=yBoDpI3R0CWwCeZz2lC_uQ&e=1794465412
 
-#EXTINF:-1 tvg-chno="15" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Brooklyn Nets vs New Orleans Pelicans | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Brooklyn Nets vs New Orleans Pelicans | English (STGATE)
+#EXTINF:-1 tvg-chno="5" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Brooklyn Nets vs New Orleans Pelicans | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Brooklyn Nets vs New Orleans Pelicans | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401909972
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401909972
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge.candyshop.st/live/tv401909972/master.m3u8?st=rnlqT4hYLCHDDERE0clLog&e=1794446932
+https://edge2.candyshop.st/live/tv401909972/master.m3u8?st=gmB8yHc7WlcczBTlW76jxQ&e=1794465414
 
-#EXTINF:-1 tvg-chno="16" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Cleveland Cavaliers vs New York Knicks | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Cleveland Cavaliers vs New York Knicks | English (STGATE)
+#EXTINF:-1 tvg-chno="6" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Cleveland Cavaliers vs New York Knicks | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Cleveland Cavaliers vs New York Knicks | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401909967
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401909967
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge1.candyshop.st/live/tv401909967/master.m3u8?st=TmA-8j6L9p38YIp0Me8K3w&e=1794446930
+https://edge1.candyshop.st/live/tv401909967/master.m3u8?st=Js1NEIDXzqlhPfCVLG6SxA&e=1794465412
 
-#EXTINF:-1 tvg-chno="17" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Denver Nuggets vs Memphis Grizzlies | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Denver Nuggets vs Memphis Grizzlies | English (STGATE)
+#EXTINF:-1 tvg-chno="7" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Denver Nuggets vs Memphis Grizzlies | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Denver Nuggets vs Memphis Grizzlies | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401909970
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401909970
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge1.candyshop.st/live/tv401909970/master.m3u8?st=fQjP5SpCT9KFvFfSlwDCFw&e=1794446931
+https://edge.candyshop.st/live/tv401909970/master.m3u8?st=o6np4a_RQROkP806ovaRIA&e=1794465413
 
-#EXTINF:-1 tvg-chno="18" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Golden State Warriors vs Houston Rockets | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Golden State Warriors vs Houston Rockets | English (STGATE)
+#EXTINF:-1 tvg-chno="8" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Golden State Warriors vs Houston Rockets | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Golden State Warriors vs Houston Rockets | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401909974
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401909974
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge.candyshop.st/live/tv401909974/master.m3u8?st=Ksvay1CW-fQityQWEb8c2A&e=1794446933
+https://edge.candyshop.st/live/tv401909974/master.m3u8?st=XtuKDSbuabs3T4OVsGmv3Q&e=1794465416
 
-#EXTINF:-1 tvg-chno="19" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Los Angeles Lakers vs Milwaukee Bucks | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Los Angeles Lakers vs Milwaukee Bucks | English (STGATE)
+#EXTINF:-1 tvg-chno="9" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Los Angeles Lakers vs Milwaukee Bucks | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Los Angeles Lakers vs Milwaukee Bucks | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401909971
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401909971
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge2.candyshop.st/live/tv401909971/master.m3u8?st=KxrzO9-ukgK2RK8qZbHKRQ&e=1794446932
+https://edge.candyshop.st/live/tv401909971/master.m3u8?st=W0Pyl3DbWeXNkRs4Wf2YPg&e=1794465414
 
-#EXTINF:-1 tvg-chno="20" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Oklahoma City Thunder vs Portland Trail Blazers | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Oklahoma City Thunder vs Portland Trail Blazers | English (STGATE)
+#EXTINF:-1 tvg-chno="10" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Oklahoma City Thunder vs Portland Trail Blazers | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Oklahoma City Thunder vs Portland Trail Blazers | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401909975
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401909975
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://candyshop.st/live/tv401909975/master.m3u8?st=Q5Tn7X-hHCO-k6E-Bmi1hw&e=1794446934
+https://candyshop.st/live/tv401909975/master.m3u8?st=N-7pgrEl7clqsck0fwd6hg&e=1794465416
 
-#EXTINF:-1 tvg-chno="21" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Orlando Magic vs Utah Jazz | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Orlando Magic vs Utah Jazz | English (STGATE)
+#EXTINF:-1 tvg-chno="11" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Orlando Magic vs Utah Jazz | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Orlando Magic vs Utah Jazz | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401909973
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401909973
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://candyshop.st/live/tv401909973/master.m3u8?st=z8dvgi0kQGeyP4gwCEN0NQ&e=1794446933
+https://edge2.candyshop.st/live/tv401909973/master.m3u8?st=Nw-uWSRhMNXWfPyaB2QDvw&e=1794465415
 
-#EXTINF:-1 tvg-chno="22" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] San Antonio Spurs vs Chicago Bulls | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] San Antonio Spurs vs Chicago Bulls | English (STGATE)
+#EXTINF:-1 tvg-chno="12" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] San Antonio Spurs vs Chicago Bulls | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] San Antonio Spurs vs Chicago Bulls | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401909969
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401909969
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://candyshop.st/live/tv401909969/master.m3u8?st=kQlXNTovkdkPVwuZgUSLdg&e=1794446931
+https://edge2.candyshop.st/live/tv401909969/master.m3u8?st=0NKvwDE7UEnzQFPylndPEQ&e=1794465413
 
-#EXTINF:-1 tvg-chno="23" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Washington Wizards vs Indiana Pacers | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Washington Wizards vs Indiana Pacers | English (STGATE)
+#EXTINF:-1 tvg-chno="13" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Washington Wizards vs Indiana Pacers | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Washington Wizards vs Indiana Pacers | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401909966
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401909966
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge1.candyshop.st/live/tv401909966/master.m3u8?st=pG5WBku6D53dojx4jLtK5g&e=1794446930
+https://edge1.candyshop.st/live/tv401909966/master.m3u8?st=TfGEv1KrNIH5X2PwS2rHIQ&e=1794465411
 
-#EXTINF:-1 tvg-chno="24" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Nashville Predators vs Anaheim Ducks | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Nashville Predators vs Anaheim Ducks | English (STGATE)
+#EXTINF:-1 tvg-chno="14" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Nashville Predators vs Anaheim Ducks | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Nashville Predators vs Anaheim Ducks | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401892694
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401892694
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge2.candyshop.st/live/tv401892694/master.m3u8?st=MOFoZhMBysyRguAuj5c8Gg&e=1794446936
+https://candyshop.st/live/tv401892694/master.m3u8?st=ewXHtiQby8jU-cA-tQMX3g&e=1794465419
 
-#EXTINF:-1 tvg-chno="25" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] New York Rangers vs Calgary Flames | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] New York Rangers vs Calgary Flames | English (STGATE)
+#EXTINF:-1 tvg-chno="15" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] New York Rangers vs Calgary Flames | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] New York Rangers vs Calgary Flames | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401892691
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401892691
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge1.candyshop.st/live/tv401892691/master.m3u8?st=gxZxLTKBZDn4cM5F1SwBvw&e=1794446934
+https://candyshop.st/live/tv401892691/master.m3u8?st=9wMAx0U5d6FzkzKvc1-7Jg&e=1794465417
 
-#EXTINF:-1 tvg-chno="26" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Philadelphia Flyers vs Edmonton Oilers | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Philadelphia Flyers vs Edmonton Oilers | English (STGATE)
+#EXTINF:-1 tvg-chno="16" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Philadelphia Flyers vs Edmonton Oilers | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Philadelphia Flyers vs Edmonton Oilers | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401892692
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401892692
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge1.candyshop.st/live/tv401892692/master.m3u8?st=rDxHE-9obwzXwskhpWzJzg&e=1794446935
+https://candyshop.st/live/tv401892692/master.m3u8?st=1ptLfnLAdO0pmCBs_huZJA&e=1794465418
 
-#EXTINF:-1 tvg-chno="27" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Pittsburgh Penguins vs San Jose Sharks | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Pittsburgh Penguins vs San Jose Sharks | English (STGATE)
+#EXTINF:-1 tvg-chno="17" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Pittsburgh Penguins vs San Jose Sharks | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Pittsburgh Penguins vs San Jose Sharks | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401892695
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401892695
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge.candyshop.st/live/tv401892695/master.m3u8?st=sg9O8Mktb1zrqGds17jHxA&e=1794446936
+https://edge1.candyshop.st/live/tv401892695/master.m3u8?st=ialml92td9zMT4K6TncTSQ&e=1794465419
 
-#EXTINF:-1 tvg-chno="28" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Tampa Bay Lightning vs Buffalo Sabres | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Tampa Bay Lightning vs Buffalo Sabres | English (STGATE)
+#EXTINF:-1 tvg-chno="18" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Tampa Bay Lightning vs Buffalo Sabres | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Tampa Bay Lightning vs Buffalo Sabres | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401892690
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401892690
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://candyshop.st/live/tv401892690/master.m3u8?st=bakirgxN77bOTJxxnzgyhg&e=1794446934
+https://edge.candyshop.st/live/tv401892690/master.m3u8?st=TBidrIs6ovSH-Ol04WF1jg&e=1794465417
 
-#EXTINF:-1 tvg-chno="29" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Utah Mammoth vs Vegas Golden Knights | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Utah Mammoth vs Vegas Golden Knights | English (STGATE)
+#EXTINF:-1 tvg-chno="19" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Utah Mammoth vs Vegas Golden Knights | English (STGATE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Utah Mammoth vs Vegas Golden Knights | English (STGATE)
 #EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401892693
 #EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401892693
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge1.candyshop.st/live/tv401892693/master.m3u8?st=8v6BZtxL_cOciWPAtgzOug&e=1794446935
-
-#EXTINF:-1 tvg-chno="30" tvg-id="Live.Event.us" tvg-name="[UEFA_WCHAMPIONS] Austria Vienna vs Benfica | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_WCHAMPIONS] Austria Vienna vs Benfica | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401916983
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401916983
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://candyshop.st/live/tv401916983/master.m3u8?st=S9SZSJ_naPy8OBeRUflKxg&e=1794446945
-
-#EXTINF:-1 tvg-chno="31" tvg-id="Live.Event.us" tvg-name="[UEFA_WCHAMPIONS] HB Køge vs OH Leuven | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_WCHAMPIONS] HB Køge vs OH Leuven | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401916985
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401916985
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge1.candyshop.st/live/tv401916985/master.m3u8?st=rkV_46vChW1tPVp-L_nvNw&e=1794446939
-
-#EXTINF:-1 tvg-chno="32" tvg-id="Live.Event.us" tvg-name="[UEFA_WCHAMPIONS] OL Lyonnes vs Juventus | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_WCHAMPIONS] OL Lyonnes vs Juventus | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401916984
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401916984
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge1.candyshop.st/live/tv401916984/master.m3u8?st=jIdIsYuGgoqMq9QvUcDmMQ&e=1794446945
-
-#EXTINF:-1 tvg-chno="33" tvg-id="Live.Event.us" tvg-name="[UEFA_W_EUROPA] Ajax Amsterdam vs Malmö FF | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_W_EUROPA] Ajax Amsterdam vs Malmö FF | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401928152
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401928152
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge2.candyshop.st/live/tv401928152/master.m3u8?st=RIF163dowu300smIVNeznw&e=1794446940
-
-#EXTINF:-1 tvg-chno="34" tvg-id="Live.Event.us" tvg-name="[UEFA_W_EUROPA] PSV Eindhoven vs Eintracht Frankfurt | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_W_EUROPA] PSV Eindhoven vs Eintracht Frankfurt | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401928150
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401928150
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge1.candyshop.st/live/tv401928150/master.m3u8?st=G6gp5ff_hc9k6_qhmUwCew&e=1794446938
-
-#EXTINF:-1 tvg-chno="35" tvg-id="Live.Event.us" tvg-name="[UEFA_W_EUROPA] Sparta Prague vs Torreense | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_W_EUROPA] Sparta Prague vs Torreense | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401928138
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401928138
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://candyshop.st/live/tv401928138/master.m3u8?st=3I-oRGLEMbOdQXU4isy5rQ&e=1794446940
-
-#EXTINF:-1 tvg-chno="36" tvg-id="Live.Event.us" tvg-name="[UEFA_W_EUROPA] Spartak Myjava vs Hammarby IF | English (STGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_W_EUROPA] Spartak Myjava vs Hammarby IF | English (STGATE)
-#EXTVLCOPT:http-referrer=https://xstream.st/livetv.php?stream=tv401928151
-#EXTVLCOPT:http-origin=https://xstream.st/livetv.php?stream=tv401928151
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://edge.candyshop.st/live/tv401928151/master.m3u8?st=saHGL5LKNVEl8ioPExc0kg&e=1794446940
+https://candyshop.st/live/tv401892693/master.m3u8?st=xfA1DXCQnkq9c6FZmhxySA&e=1794465418
