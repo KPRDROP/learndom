@@ -1,18 +1,18 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-11-12 01:30 UTC
+# Last Updated: 2026-11-12 09:41 UTC
 # Total Streams: 12
 
 #EXTINF:-1 tvg-chno="1" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Washington Wizards at Indiana Pacers (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Washington Wizards at Indiana Pacers (SPFIT)
 https://birchbit.s3.eu-north-1.amazonaws.com/pacers.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
 #EXTINF:-1 tvg-chno="2" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Cleveland Cavaliers at New York Knicks (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Cleveland Cavaliers at New York Knicks (SPFIT)
-https://birchbit.s3.eu-north-1.amazonaws.com/warriors.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://birchbit.s3.eu-north-1.amazonaws.com/cavaliers.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
 #EXTINF:-1 tvg-chno="3" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Boston Celtics at Toronto Raptors (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Boston Celtics at Toronto Raptors (SPFIT)
-https://birchbit.s3.eu-north-1.amazonaws.com/thunder.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://birchbit.s3.eu-north-1.amazonaws.com/celtics.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
 #EXTINF:-1 tvg-chno="4" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] San Antonio Spurs at Chicago Bulls (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] San Antonio Spurs at Chicago Bulls (SPFIT)
-https://birchbit.s3.eu-north-1.amazonaws.com/spurs.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://birchbit.s3.eu-north-1.amazonaws.com/cavaliers.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
 #EXTINF:-1 tvg-chno="5" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Denver Nuggets at Memphis Grizzlies (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Denver Nuggets at Memphis Grizzlies (SPFIT)
 https://birchbit.s3.eu-north-1.amazonaws.com/nuggets.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
@@ -27,7 +27,7 @@ https://birchbit.s3.eu-north-1.amazonaws.com/pelicans.m3u8|referer=https://edges
 https://birchbit.s3.eu-north-1.amazonaws.com/magic.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
 #EXTINF:-1 tvg-chno="9" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Golden State Warriors at Houston Rockets (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Golden State Warriors at Houston Rockets (SPFIT)
-https://birchbit.s3.eu-north-1.amazonaws.com/warriors.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
+https://birchbit.s3.eu-north-1.amazonaws.com/pacers.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
 
 #EXTINF:-1 tvg-chno="10" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Oklahoma City Thunder at Portland Trail Blazers (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Oklahoma City Thunder at Portland Trail Blazers (SPFIT)
 https://birchbit.s3.eu-north-1.amazonaws.com/thunder.m3u8|referer=https://edgesport.cfd/|origin=https://edgesport.cfd|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36
