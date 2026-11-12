@@ -1,6 +1,26 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] WWE: Smackdown | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[WWE] WWE: Smackdown | Main Feed (FUTLX)
+#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[AFCON Qualifying] Benin vs Central African Republic | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[AFCON Qualifying] Benin vs Central African Republic | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://but.futx.nx.kg/wwe/index.m3u8?token=fbe93f2b78411d4314df7909c6e74a1aab646a0c-261d14df11ae8570dc64e212290045cb-1794511224-1794510024&remote=no_check_ip
+https://fup.futx.nx.kg/ben/index.m3u8?token=e86cbce62885d2eb12116877920c0bdbf07fa1e6-209f5e3efdd55b1a9845af580e30723f-1794512118-1794510918&remote=no_check_ip
+#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[AFCON Qualifying] Cameroon vs Namibia | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[AFCON Qualifying] Cameroon vs Namibia | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://fup.futx.nx.kg/cam/index.m3u8?token=bad8707c92de197f1caefa12f79dfb1fc10d0e36-1efdaa3bd4d4f9a52876f8c9b95766d4-1794512118-1794510918&remote=no_check_ip
+#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[AFCON Qualifying] Ivory Coast vs Gambia | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[AFCON Qualifying] Ivory Coast vs Gambia | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://fup.futx.nx.kg/ivo/index.m3u8?token=55fdd84d0dec659851ad23ab93b1e8290cb40c49-b58112c82b09ec97502a84a7fdbbf32f-1794512118-1794510918&remote=no_check_ip
+#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[AFCON Qualifying] Senegal vs Sudan | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[AFCON Qualifying] Senegal vs Sudan | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://fup.futx.nx.kg/sen/index.m3u8?token=2f12fe78373175105c6af8fd3bc24ea776404f85-cae9ae7e973938bd2459f374da4dff8b-1794512118-1794510918&remote=no_check_ip
+#EXTINF:-1 tvg-chno="5" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] WWE: Smackdown | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[WWE] WWE: Smackdown | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://but.futx.nx.kg/wwe/index.m3u8?token=b1010c6f9293b2d752ecf108fc0970c2c70878be-79c987dbeeded6f52ba8aba1be48206b-1794512118-1794510918&remote=no_check_ip
