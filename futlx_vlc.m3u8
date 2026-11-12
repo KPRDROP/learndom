@@ -3,24 +3,54 @@
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://fup.futx.nx.kg/ben/index.m3u8?token=e86cbce62885d2eb12116877920c0bdbf07fa1e6-209f5e3efdd55b1a9845af580e30723f-1794512118-1794510918&remote=no_check_ip
+https://fup.futx.nx.kg/ben/index.m3u8?token=21164130fe4a7b21844e759e9ee66b26bed8d921-5c2735a05d9b82f6b332b61e597a9366-1794513025-1794511825&remote=no_check_ip
 #EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[AFCON Qualifying] Cameroon vs Namibia | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[AFCON Qualifying] Cameroon vs Namibia | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://fup.futx.nx.kg/cam/index.m3u8?token=bad8707c92de197f1caefa12f79dfb1fc10d0e36-1efdaa3bd4d4f9a52876f8c9b95766d4-1794512118-1794510918&remote=no_check_ip
+https://fup.futx.nx.kg/cam/index.m3u8?token=b4289bd405bc73998d0fe2b81605d4719b1abedf-f2581f6dc8bf77a85e456c1881b0ec98-1794513025-1794511825&remote=no_check_ip
 #EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[AFCON Qualifying] Ivory Coast vs Gambia | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[AFCON Qualifying] Ivory Coast vs Gambia | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://fup.futx.nx.kg/ivo/index.m3u8?token=55fdd84d0dec659851ad23ab93b1e8290cb40c49-b58112c82b09ec97502a84a7fdbbf32f-1794512118-1794510918&remote=no_check_ip
+https://fup.futx.nx.kg/ivo/index.m3u8?token=683292ee7340653d7961d360bf30288972b6cebd-50247074145e293d66f95c11b4121359-1794513025-1794511825&remote=no_check_ip
 #EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[AFCON Qualifying] Senegal vs Sudan | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[AFCON Qualifying] Senegal vs Sudan | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://fup.futx.nx.kg/sen/index.m3u8?token=2f12fe78373175105c6af8fd3bc24ea776404f85-cae9ae7e973938bd2459f374da4dff8b-1794512118-1794510918&remote=no_check_ip
-#EXTINF:-1 tvg-chno="5" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] WWE: Smackdown | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[WWE] WWE: Smackdown | Main Feed (FUTLX)
+https://fup.futx.nx.kg/sen/index.m3u8?token=35b3fba6f7254c458e43e8d4f3bec0b683691862-cedd46cdc89dfcece55f4632cb002958-1794513025-1794511825&remote=no_check_ip
+#EXTINF:-1 tvg-chno="5" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Nations League] Czechia vs Spain | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2395.png" group-title="Live Events",[UEFA Nations League] Czechia vs Spain | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://but.futx.nx.kg/wwe/index.m3u8?token=b1010c6f9293b2d752ecf108fc0970c2c70878be-79c987dbeeded6f52ba8aba1be48206b-1794512118-1794510918&remote=no_check_ip
+https://rip.futx.nx.kg/spa/index.m3u8?token=4279569845fd7c1499083ca93a51fc56e3365c3a-7bd34632d89ffe755d17ad9354013826-1794513025-1794511825&remote=no_check_ip
+#EXTINF:-1 tvg-chno="6" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Nations League] England vs Croatia | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2395.png" group-title="Live Events",[UEFA Nations League] England vs Croatia | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://rip.futx.nx.kg/eng/index.m3u8?token=7f988128845c3596347d1625601685d63bdd7a78-9e3d9e353d467407eefa2ae04c215abb-1794513025-1794511825&remote=no_check_ip
+#EXTINF:-1 tvg-chno="7" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Nations League] Italy vs France | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2395.png" group-title="Live Events",[UEFA Nations League] Italy vs France | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://but.futx.nx.kg/ita/index.m3u8?token=64cd178b61e8ce4a32044f09e415fe7190bc43d0-b248e90e7ed79f554cd3e6c8b8bf681f-1794513025-1794511825&remote=no_check_ip
+#EXTINF:-1 tvg-chno="8" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Nations League] Albania vs Finland | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2395.png" group-title="Live Events",[UEFA Nations League] Albania vs Finland | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://but.futx.nx.kg/alb/index.m3u8?token=59523f4a4d952a0300cbe4601aaa8b92d03ae19f-bd213eef9aa9ec7d862f1dfdbbe8fe75-1794513025-1794511825&remote=no_check_ip
+#EXTINF:-1 tvg-chno="9" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Nations League] Montenegro vs Latvia | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2395.png" group-title="Live Events",[UEFA Nations League] Montenegro vs Latvia | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://but.futx.nx.kg/mon/index.m3u8?token=02da7b0cc1910370a2b79f38bdf9a6191b8c1043-9586343c9f26486004d789e2d9d4cb35-1794513025-1794511825&remote=no_check_ip
+#EXTINF:-1 tvg-chno="10" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Nations League] San Marino vs Belarus | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2395.png" group-title="Live Events",[UEFA Nations League] San Marino vs Belarus | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://but.futx.nx.kg/san/index.m3u8?token=dafa85a85ba8d13ad24681338c946cbef52b4d9c-253c17a5173ebb376cdf38b8ae869dc9-1794513025-1794511825&remote=no_check_ip
+#EXTINF:-1 tvg-chno="11" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] WWE: Smackdown | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[WWE] WWE: Smackdown | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://but.futx.nx.kg/wwe/index.m3u8?token=899238c17a796db6d640ab8ac953672ff380965c-fe106c629d8c9498225aa68aab6aad74-1794513025-1794511825&remote=no_check_ip
