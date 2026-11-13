@@ -1,96 +1,76 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[Basketball NBL] Cairns Taipans vs Sydney (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/04/Basketball-Emoji-1536x864.png" group-title="Live Events",[Basketball NBL] Cairns Taipans vs Sydney (FAWA)
+#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Zambia vs Burundi (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Zambia vs Burundi (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/JUJUJUa.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[Golf] DP World Tour Championship (FAWA)" tvg-logo="https://files.catbox.moe/0u2n4x.png" group-title="Live Events",[Golf] DP World Tour Championship (FAWA)
+http://193.47.62.50/hls/HTTTAA.m3u8
+#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Mozambique vs Ethiopia (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Mozambique vs Ethiopia (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.59/hls/HTTTA.m3u8
+#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Comoros vs Congo (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Comoros vs Congo (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.44/hls/HTTT.m3u8
+#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Iraq vs Lebanon (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Iraq vs Lebanon (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/BBBBAAAA.m3u8
+#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Qatar vs Australia (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Qatar vs Australia (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/BBBBAAA.m3u8
+#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Saudi Arabia vs South Korea (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Saudi Arabia vs South Korea (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/BBBBAA.m3u8
+#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[Friendly Match] United Arab Emirates vs Honduras (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] United Arab Emirates vs Honduras (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/BBBBA.m3u8
+#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[MMA Fighting] MMA One Championship (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[MMA Fighting] MMA One Championship (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.55/hls/HTTTAAA.m3u8
+#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[Tennis ATP] Tennis ATP Stockholm (FAWA)" tvg-logo="https://files.catbox.moe/q8ljra.png" group-title="Live Events",[Tennis ATP] Tennis ATP Stockholm (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.55/hls/RGGG.m3u8
+#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[Golf PGA] Golf PGA Austin Championship (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/10/PGA-Tour-Logo-500x281.png" group-title="Live Events",[Golf PGA] Golf PGA Austin Championship (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/VYYYAAAAq.m3u8
+#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Singapore vs Paraguay 1 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Singapore vs Paraguay 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/BBBB.m3u8
+#EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Singapore vs Paraguay 2 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Singapore vs Paraguay 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://www.rtmpcdn.com/live/3301dc12-b310-4708-971d-2cef8a7fd82f.m3u8
+#EXTINF:-1 tvg-chno="13" tvg-id="Live.Event.us" tvg-name="[Horse Racing] Horse Racing 1 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Horse Racing] Horse Racing 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.55/hls/vavavava.m3u8
+#EXTINF:-1 tvg-chno="14" tvg-id="Live.Event.us" tvg-name="[Horse Racing] Horse Racing 2 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Horse Racing] Horse Racing 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.55/hls/vavavavaq.m3u8
+#EXTINF:-1 tvg-chno="15" tvg-id="Live.Event.us" tvg-name="[Golf] DP World Tour Championship (FAWA)" tvg-logo="https://files.catbox.moe/0u2n4x.png" group-title="Live Events",[Golf] DP World Tour Championship (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.44/hls/VFFFAAA.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[Basketball NBL] New Zealand Breakers vs Brisbane Bullets (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/04/Basketball-Emoji-1536x864.png" group-title="Live Events",[Basketball NBL] New Zealand Breakers vs Brisbane Bullets (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/JUJUJU.m3u8
-#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[NHL Hockey] Los Angeles Kings vs New York Islanders (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL Hockey] Los Angeles Kings vs New York Islanders (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/91339adf-3412-4284-82aa-68f031a6e703/master.m3u8
-#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[NHL Hockey] Utah Mammoth vs St Louis Blues (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL Hockey] Utah Mammoth vs St Louis Blues (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/a9a296fc-8e8c-4359-9194-80ad37d09842/master.m3u8
-#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[NCAA American Football] Louisiana-Monroe vs Louisiana-Lafayette (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAA American Football] Louisiana-Monroe vs Louisiana-Lafayette (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/RIIIA.m3u8
-#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[NCAA American Football] South Florida vs Memphis (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAA American Football] South Florida vs Memphis (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/RIII.m3u8
-#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[TNA Wrestling] TNA Wrestling (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[TNA Wrestling] TNA Wrestling (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/RIIIAA.m3u8
-#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[NHL Hockey] Dallas Stars vs Winnipeg Jets (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL Hockey] Dallas Stars vs Winnipeg Jets (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/c592f597-69c9-4877-87ed-8fe596c20a00/master.m3u8
-#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[NHL Hockey] Chicago Blackhawks vs Buffalo Sabres (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL Hockey] Chicago Blackhawks vs Buffalo Sabres (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/7a9cdef1-48b5-4ac7-b40e-c10f4ed49545/master.m3u8
-#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[NHL Hockey] Florida Panthers vs Detroit Red Wings (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL Hockey] Florida Panthers vs Detroit Red Wings (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/af8de94d-3ead-4b50-8c3a-c9b14d6e8b03/master.m3u8
-#EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[NHL Hockey] Toronto Maple Leafs vs Minnesota Wild (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL Hockey] Toronto Maple Leafs vs Minnesota Wild (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/510f89a4-fcb3-48f0-9395-1812ac66433f/master.m3u8
-#EXTINF:-1 tvg-chno="13" tvg-id="Live.Event.us" tvg-name="[NHL Hockey] Ottawa Senators vs Colorado Avalanche (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL Hockey] Ottawa Senators vs Colorado Avalanche (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/bba06922-d014-4a19-b4a2-15f48ecb28fd/master.m3u8
-#EXTINF:-1 tvg-chno="14" tvg-id="Live.Event.us" tvg-name="[NHL Hockey] New Jersey Devils vs Washington Capitals (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL Hockey] New Jersey Devils vs Washington Capitals (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/d187deb0-33ff-4295-b8b6-58c282a114c9/master.m3u8
-#EXTINF:-1 tvg-chno="15" tvg-id="Live.Event.us" tvg-name="[NHL Hockey] Columbus Blue Jackets vs Tampa Bay Lightning (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL Hockey] Columbus Blue Jackets vs Tampa Bay Lightning (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/c4e676ad-25b7-477a-876e-dbce4fc21611/master.m3u8
-#EXTINF:-1 tvg-chno="16" tvg-id="Live.Event.us" tvg-name="[NHL Hockey] Boston Bruins vs Montreal Canadiens (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL Hockey] Boston Bruins vs Montreal Canadiens (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/b91083f8-8052-466a-a098-57886405e79f/master.m3u8
-#EXTINF:-1 tvg-chno="17" tvg-id="Live.Event.us" tvg-name="[NCAA Basketball] Indiana vs Tennessee Tech (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAA Basketball] Indiana vs Tennessee Tech (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/NNNNr.m3u8
-#EXTINF:-1 tvg-chno="18" tvg-id="Live.Event.us" tvg-name="[NCAA Basketball] Maryland-Baltimore County vs Morgan State (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/NCAA-Logo-500x281.png" group-title="Live Events",[NCAA Basketball] Maryland-Baltimore County vs Morgan State (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/NNNN.m3u8
-#EXTINF:-1 tvg-chno="19" tvg-id="Live.Event.us" tvg-name="[Tennis WTA] Tennis WTA Finals Indian Wells (FAWA)" tvg-logo="https://files.catbox.moe/q8ljra.png" group-title="Live Events",[Tennis WTA] Tennis WTA Finals Indian Wells (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.50/hls/BUUU.m3u8
