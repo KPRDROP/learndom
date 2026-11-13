@@ -3,29 +3,39 @@
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://fup.futx.nx.kg/ken/index.m3u8?token=24434d16c299b2f1024589b1c3e810087bdf0938-b3472ca9bc3a394f678d54fa34c5d0c4-1794596724-1794595524&remote=no_check_ip
+https://fup.futx.nx.kg/ken/index.m3u8?token=c68a5dda71dd766cf4a0ba99591e4cbc599a5813-9672342e79cd48c3c64bd0dd3456bb24-1794597629-1794596429&remote=no_check_ip
 #EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[AFCON Qualifying] Nigeria vs Tanzania | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[AFCON Qualifying] Nigeria vs Tanzania | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://fup.futx.nx.kg/nig/index.m3u8?token=e03837987fa0300fbf49968e4ff77a507fbdb5bb-d6f21a006d96987e0296f1529546ff8f-1794596724-1794595524&remote=no_check_ip
+https://fup.futx.nx.kg/nig/index.m3u8?token=bb306d050a9b3de23b7ab616adb81f44c7917566-cf01ed0c10deccf164b14fec72a354f1-1794597629-1794596429&remote=no_check_ip
 #EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[AFCON Qualifying] Cape Verde vs Liberia | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[AFCON Qualifying] Cape Verde vs Liberia | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://fup.futx.nx.kg/cap/index.m3u8?token=407d755acdbc79889d377387f1a91b8b1936a630-854e9deaedd876423010c0f0a324eff2-1794596724-1794595524&remote=no_check_ip
+https://fup.futx.nx.kg/cap/index.m3u8?token=c85e4f8f095e0ae37ba4dae86aecee93ef9ce2ca-186bb14f99013dc801941706440ee789-1794597629-1794596429&remote=no_check_ip
 #EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[AFCON Qualifying] Tunisia vs Libya | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[AFCON Qualifying] Tunisia vs Libya | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://fup.futx.nx.kg/tun/index.m3u8?token=6751dc4593e3a59e7de38ad3cbcb372f74ea0195-bbbdc0d6abc3c15c7efab16cb1d070b8-1794596724-1794595524&remote=no_check_ip
-#EXTINF:-1 tvg-chno="5" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Commanders @ Giants | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Commanders @ Giants | Main Feed (FUTLX)
+https://fup.futx.nx.kg/tun/index.m3u8?token=cd3b4868dcc811f84b9544e1ffeeaf05c7b0341c-a971a415057c5fc648b27cd6687775ca-1794597629-1794596429&remote=no_check_ip
+#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[AFCON Qualifying] Egypt vs Malawi | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[AFCON Qualifying] Egypt vs Malawi | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://but.futx.nx.kg/com/index.m3u8?token=3de6c003c82a6357e1ad5d999515550100f8512c-322923d58e47ea3ee4cd915011077ee6-1794596724-1794595524&remote=no_check_ip
-#EXTINF:-1 tvg-chno="6" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] WWE: Smackdown | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[WWE] WWE: Smackdown | Main Feed (FUTLX)
+https://fup.futx.nx.kg/egy/index.m3u8?token=19d667c953d798139e6e8d8e5afc4158db16188f-c59af3a870f8e3bee26399800ad93bcf-1794597629-1794596429&remote=no_check_ip
+#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[AFCON Qualifying] Mali vs Rwanda | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[AFCON Qualifying] Mali vs Rwanda | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://but.futx.nx.kg/wwe/index.m3u8?token=fc7ad0f83d3d50e9008c0fa5acd4424b214c9293-99a9c73bb9e0c9ad7a120dc095b57d76-1794596724-1794595524&remote=no_check_ip
+https://fup.futx.nx.kg/mal/index.m3u8?token=86ea433edc5012f21b25a55186d7eb24b3a13bcc-68c4cf3f98a58557deaaf0dbe228fba9-1794597629-1794596429&remote=no_check_ip
+#EXTINF:-1 tvg-chno="7" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Commanders @ Giants | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Commanders @ Giants | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://but.futx.nx.kg/com/index.m3u8?token=11d46907484a67290fe734c569976b998724a59b-261699f6197be5a592bf1b28e3150a85-1794597629-1794596429&remote=no_check_ip
+#EXTINF:-1 tvg-chno="8" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] WWE: Smackdown | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[WWE] WWE: Smackdown | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://but.futx.nx.kg/wwe/index.m3u8?token=05372fc00a09c8d50705add31f6f9900f796e2fe-1a334d418282e4503f1767dc1a16e623-1794597629-1794596429&remote=no_check_ip
