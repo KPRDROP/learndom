@@ -1,75 +1,90 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Zambia vs Burundi (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Zambia vs Burundi (FAWA)
+#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Zambia vs Burundi 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Zambia vs Burundi 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.50/hls/HTTTAA.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Mozambique vs Ethiopia (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Mozambique vs Ethiopia (FAWA)
+#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Zambia vs Burundi 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Zambia vs Burundi 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://www.rtmpcdn.com/live/31c39035-2539-41ce-bdd4-71a12be7616d.m3u8
+#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Mozambique vs Ethiopia 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Mozambique vs Ethiopia 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.59/hls/HTTTA.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Comoros vs Congo (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Comoros vs Congo (FAWA)
+#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Mozambique vs Ethiopia 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Mozambique vs Ethiopia 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://www.rtmpcdn.com/live/dc1a6141-2a3d-43c0-8864-1e7c56eb44fe.m3u8
+#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Comoros vs Congo 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Comoros vs Congo 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.44/hls/HTTT.m3u8
-#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Iraq vs Lebanon (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Iraq vs Lebanon (FAWA)
+#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Comoros vs Congo 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Comoros vs Congo 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://www.rtmpcdn.com/live/0f2efd8b-bf9c-4d94-8076-f33ca89c8adb.m3u8
+#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Iraq vs Lebanon (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Iraq vs Lebanon (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.41/hls/BBBBAAAA.m3u8
-#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Qatar vs Australia (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Qatar vs Australia (FAWA)
+#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Qatar vs Australia (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Qatar vs Australia (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.41/hls/BBBBAAA.m3u8
-#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Saudi Arabia vs South Korea (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Saudi Arabia vs South Korea (FAWA)
+#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Saudi Arabia vs South Korea (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Saudi Arabia vs South Korea (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.41/hls/BBBBAA.m3u8
-#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[Friendly Match] United Arab Emirates vs Honduras (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] United Arab Emirates vs Honduras (FAWA)
+#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[Friendly Match] United Arab Emirates vs Honduras (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] United Arab Emirates vs Honduras (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.41/hls/BBBBA.m3u8
-#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[MMA Fighting] MMA One Championship (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[MMA Fighting] MMA One Championship (FAWA)
+#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[MMA Fighting] MMA One Championship (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[MMA Fighting] MMA One Championship (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/HTTTAAA.m3u8
-#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[Tennis ATP] Tennis ATP Stockholm (FAWA)" tvg-logo="https://files.catbox.moe/q8ljra.png" group-title="Live Events",[Tennis ATP] Tennis ATP Stockholm (FAWA)
+#EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[Tennis ATP] Tennis ATP Stockholm (FAWA)" tvg-logo="https://files.catbox.moe/q8ljra.png" group-title="Live Events",[Tennis ATP] Tennis ATP Stockholm (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/RGGG.m3u8
-#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[Golf PGA] Golf PGA Austin Championship (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/10/PGA-Tour-Logo-500x281.png" group-title="Live Events",[Golf PGA] Golf PGA Austin Championship (FAWA)
+#EXTINF:-1 tvg-chno="13" tvg-id="Live.Event.us" tvg-name="[Golf PGA] Golf PGA Austin Championship (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/10/PGA-Tour-Logo-500x281.png" group-title="Live Events",[Golf PGA] Golf PGA Austin Championship (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.50/hls/VYYYAAAAq.m3u8
-#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Singapore vs Paraguay 1 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Singapore vs Paraguay 1 (FAWA)
+#EXTINF:-1 tvg-chno="14" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Singapore vs Paraguay 1 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Singapore vs Paraguay 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.41/hls/BBBB.m3u8
-#EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Singapore vs Paraguay 2 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Singapore vs Paraguay 2 (FAWA)
+#EXTINF:-1 tvg-chno="15" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Singapore vs Paraguay 2 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Singapore vs Paraguay 2 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 https://www.rtmpcdn.com/live/3301dc12-b310-4708-971d-2cef8a7fd82f.m3u8
-#EXTINF:-1 tvg-chno="13" tvg-id="Live.Event.us" tvg-name="[Horse Racing] Horse Racing 1 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Horse Racing] Horse Racing 1 (FAWA)
+#EXTINF:-1 tvg-chno="16" tvg-id="Live.Event.us" tvg-name="[Horse Racing] Horse Racing 1 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Horse Racing] Horse Racing 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/vavavava.m3u8
-#EXTINF:-1 tvg-chno="14" tvg-id="Live.Event.us" tvg-name="[Horse Racing] Horse Racing 2 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Horse Racing] Horse Racing 2 (FAWA)
+#EXTINF:-1 tvg-chno="17" tvg-id="Live.Event.us" tvg-name="[Horse Racing] Horse Racing 2 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Horse Racing] Horse Racing 2 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/vavavavaq.m3u8
-#EXTINF:-1 tvg-chno="15" tvg-id="Live.Event.us" tvg-name="[Golf] DP World Tour Championship (FAWA)" tvg-logo="https://files.catbox.moe/0u2n4x.png" group-title="Live Events",[Golf] DP World Tour Championship (FAWA)
+#EXTINF:-1 tvg-chno="18" tvg-id="Live.Event.us" tvg-name="[Golf] DP World Tour Championship (FAWA)" tvg-logo="https://files.catbox.moe/0u2n4x.png" group-title="Live Events",[Golf] DP World Tour Championship (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
