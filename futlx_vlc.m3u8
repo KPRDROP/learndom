@@ -3,9 +3,14 @@
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://but.futx.nx.kg/nor/index.m3u8?token=ead00112f79f4ac2043d6598e08330c1279892d7-e51b2f4d8f2731e3fc385c47e623e4d6-1794699323-1794698123&remote=no_check_ip
-#EXTINF:-1 tvg-chno="2" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] WWE: Smackdown | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[WWE] WWE: Smackdown | Main Feed (FUTLX)
+https://but.futx.nx.kg/nor/index.m3u8?token=3d831e259d4e4e6ee5243808007d1e980d86e8dd-d13aa1824b8f092f96d02b65477aac19-1794700225-1794699025&remote=no_check_ip
+#EXTINF:-1 tvg-chno="2" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[MMA] Polymarket UFC 334: Gane vs Hokit | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[MMA] Polymarket UFC 334: Gane vs Hokit | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://but.futx.nx.kg/wwe/index.m3u8?token=98928bfcd9d85b0b8a0ce7b38f7d716ad4e1bf34-6d558a77738304a47a5fc3c28910e76b-1794699323-1794698123&remote=no_check_ip
+https://but.futx.nx.kg/ufc/index.m3u8?token=c24cfd05adad38ae6478ed928c9465fc0c68ce0a-ff26ce4b55097a354f2106d3812c4899-1794700225-1794699025&remote=no_check_ip
+#EXTINF:-1 tvg-chno="3" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] WWE: Smackdown | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[WWE] WWE: Smackdown | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://but.futx.nx.kg/wwe/index.m3u8?token=8e9363103323df452c6347329f189814405f923b-314fa6d5ab8797fcb48492638171f119-1794700225-1794699025&remote=no_check_ip
