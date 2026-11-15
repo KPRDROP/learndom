@@ -1,8 +1,8 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[Rugby World Cup] Australia vs New Zealand (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Rugby World Cup] Australia vs New Zealand (FAWA)
-http://193.47.62.41/hls/VRRR.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc|user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A146.0%29+Gecko%2F20100101+Firefox%2F146.0
-#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[Dutch Eerste Divisie] Maastricht vs Vitesse (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/11.png" group-title="Live Events",[Dutch Eerste Divisie] Maastricht vs Vitesse (FAWA)
+#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[Dutch Eerste Divisie] Maastricht vs Vitesse (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/11.png" group-title="Live Events",[Dutch Eerste Divisie] Maastricht vs Vitesse (FAWA)
 http://193.47.62.44/hls/G666AAAAAAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc|user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A146.0%29+Gecko%2F20100101+Firefox%2F146.0
+#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Ajax Legends vs FC Barcelona Legends (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Ajax Legends vs FC Barcelona Legends (FAWA)
+http://193.47.62.44/hls/F111.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc|user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A146.0%29+Gecko%2F20100101+Firefox%2F146.0
 #EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[Spanish Segunda Liga] Tenerife vs Ceuta (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/107.png" group-title="Live Events",[Spanish Segunda Liga] Tenerife vs Ceuta (FAWA)
 http://193.47.62.44/hls/HMMMAAAAAQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc|user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A146.0%29+Gecko%2F20100101+Firefox%2F146.0
 #EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[Darts] Darts Grand Slam (FAWA)" tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/013/468/398/small/darts-board-icon-png.png" group-title="Live Events",[Darts] Darts Grand Slam (FAWA)
@@ -55,5 +55,3 @@ http://193.47.62.55/hls/rrrrDDD.m3u8|referer=http://www.fawanews.sc/|origin=http
 http://193.47.62.44/hls/VFFFAAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc|user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A146.0%29+Gecko%2F20100101+Firefox%2F146.0
 #EXTINF:-1 tvg-chno="28" tvg-id="Live.Event.us" tvg-name="[Cricket] Australia vs England (FAWA)" tvg-logo="https://files.catbox.moe/rwd8mv.png" group-title="Live Events",[Cricket] Australia vs England (FAWA)
 http://193.47.62.50/hls/F444A.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc|user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A146.0%29+Gecko%2F20100101+Firefox%2F146.0
-#EXTINF:-1 tvg-chno="29" tvg-id="Live.Event.us" tvg-name="[Cricket] New Zealand vs India (FAWA)" tvg-logo="https://files.catbox.moe/rwd8mv.png" group-title="Live Events",[Cricket] New Zealand vs India (FAWA)
-http://193.47.62.50/hls/F444.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc|user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A146.0%29+Gecko%2F20100101+Firefox%2F146.0
