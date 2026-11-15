@@ -1,154 +1,154 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Last Updated: 2026-11-15 17:02 UTC
+# Last Updated: 2026-11-15 21:43 UTC
 # Total Streams: 25
 
 #EXTINF:-1 tvg-chno="1" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Indiana Pacers at Philadelphia 76ers (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Indiana Pacers at Philadelphia 76ers (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/76ers.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/76ers.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Los Angeles Lakers at Phoenix Suns (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Los Angeles Lakers at Phoenix Suns (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/lakers.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/lakers.m3u8
 
 #EXTINF:-1 tvg-chno="3" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Charlotte Hornets at LA Clippers (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Charlotte Hornets at LA Clippers (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/hornets.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/hornets.m3u8
 
 #EXTINF:-1 tvg-chno="4" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] San Antonio Spurs at Utah Jazz (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] San Antonio Spurs at Utah Jazz (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/spurs.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/spurs.m3u8
 
 #EXTINF:-1 tvg-chno="5" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Dallas Mavericks at Boston Celtics (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Dallas Mavericks at Boston Celtics (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/celtics.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/celtics.m3u8
 
 #EXTINF:-1 tvg-chno="6" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] New York Knicks at Toronto Raptors (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] New York Knicks at Toronto Raptors (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/raptors.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/raptors.m3u8
 
 #EXTINF:-1 tvg-chno="7" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Houston Rockets at Washington Wizards (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Houston Rockets at Washington Wizards (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/rockets.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/rockets.m3u8
 
 #EXTINF:-1 tvg-chno="8" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Atlanta Hawks at Milwaukee Bucks (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Atlanta Hawks at Milwaukee Bucks (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/bucks.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/bucks.m3u8
 
 #EXTINF:-1 tvg-chno="9" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Oklahoma City Thunder at Sacramento Kings (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Oklahoma City Thunder at Sacramento Kings (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/thunder.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/thunder.m3u8
 
 #EXTINF:-1 tvg-chno="10" tvg-id="Football.Dummy.us" tvg-name="[NFL] RedZone (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[NFL] RedZone (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/redzone.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/redzone.m3u8
 
 #EXTINF:-1 tvg-chno="11" tvg-id="NFL.Dummy.us" tvg-name="[NFL] New England Patriots at Detroit Lions (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] New England Patriots at Detroit Lions (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/chiefs.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/chiefs.m3u8
 
 #EXTINF:-1 tvg-chno="12" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Kansas City Chiefs at Atlanta Falcons (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Kansas City Chiefs at Atlanta Falcons (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/chiefs.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/chiefs.m3u8
 
 #EXTINF:-1 tvg-chno="13" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Houston Texans at Cleveland Browns (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Houston Texans at Cleveland Browns (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/browns.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/chiefs.m3u8
 
 #EXTINF:-1 tvg-chno="14" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Minnesota Vikings at Green Bay Packers (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Minnesota Vikings at Green Bay Packers (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/packers.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/packers.m3u8
 
 #EXTINF:-1 tvg-chno="15" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Jacksonville Jaguars at Tennessee Titans (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Jacksonville Jaguars at Tennessee Titans (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/jaguars.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/jaguars.m3u8
 
 #EXTINF:-1 tvg-chno="16" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Miami Dolphins at Indianapolis Colts (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Miami Dolphins at Indianapolis Colts (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/dolphins.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/dolphins.m3u8
 
 #EXTINF:-1 tvg-chno="17" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Carolina Panthers at New Orleans Saints (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Carolina Panthers at New Orleans Saints (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/saints.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/saints.m3u8
 
 #EXTINF:-1 tvg-chno="18" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Buffalo Bills at New York Jets (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Buffalo Bills at New York Jets (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/bills.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/bills.m3u8
 
 #EXTINF:-1 tvg-chno="19" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Seattle Seahawks at Las Vegas Raiders (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Seattle Seahawks at Las Vegas Raiders (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/redzone.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/seahawks.m3u8
 
 #EXTINF:-1 tvg-chno="20" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Los Angeles Rams at Arizona Cardinals (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Los Angeles Rams at Arizona Cardinals (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/redzone.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/rams.m3u8
 
 #EXTINF:-1 tvg-chno="21" tvg-id="NFL.Dummy.us" tvg-name="[NFL] San Francisco 49ers at Dallas Cowboys (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] San Francisco 49ers at Dallas Cowboys (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/redzone.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/cowboys.m3u8
 
 #EXTINF:-1 tvg-chno="22" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Pittsburgh Steelers at Cincinnati Bengals (SPFIT)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Pittsburgh Steelers at Cincinnati Bengals (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/redzone.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/redzone.m3u8
 
 #EXTINF:-1 tvg-chno="23" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[MMA] Event 67 (SPFIT)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[MMA] Event 67 (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/ufc2.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/ufc2.m3u8
 
 #EXTINF:-1 tvg-chno="24" tvg-id="Racing.Dummy.us" tvg-name="[F1] Mexico City Grand Prix (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] Mexico City Grand Prix (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/f1.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/f1.m3u8
 
 #EXTINF:-1 tvg-chno="25" tvg-id="Racing.Dummy.us" tvg-name="[F1] MSC Cruises São Paulo Grand Prix (SPFIT)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] MSC Cruises São Paulo Grand Prix (SPFIT)
 #EXTVLCOPT:http-referrer=https://edgesport.cfd/
 #EXTVLCOPT:http-origin=https://edgesport.cfd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://poplarpath.s3.eu-west-3.amazonaws.com/f1.m3u8
+https://laurellogic.s3.eu-central-1.amazonaws.com/f1.m3u8
 
