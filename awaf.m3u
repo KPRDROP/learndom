@@ -3,7 +3,7 @@
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.44/hls/cuuuu.m3u8
+http://193.47.62.59/hls/cuuuu.m3u8
 #EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[UFC Fight Night] UFC 334 : Jared Gordon vs Melquizael Costa 2 (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2017/06/Logo-UFC-500x313.png" group-title="Live Events",[UFC Fight Night] UFC 334 : Jared Gordon vs Melquizael Costa 2 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
