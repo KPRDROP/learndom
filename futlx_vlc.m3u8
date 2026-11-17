@@ -3,9 +3,29 @@
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://fup.futx.nx.kg/egy/index.m3u8?token=06b41c726a755a39e3bde2e8ab77237c0334b88f-a133667d72097530627079a863ff35c4-1794931535-1794930335&remote=no_check_ip
+https://fup.futx.nx.kg/egy/index.m3u8?token=1670d93e579283f4713c43ea76a048f020166146-e60989b08f25c98fb54f4862e284b960-1794932427-1794931227&remote=no_check_ip
 #EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[AFCON Qualifying] Tanzania vs Nigeria | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[AFCON Qualifying] Tanzania vs Nigeria | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://fup.futx.nx.kg/nig/index.m3u8?token=5e6804b524f9e852a9d6accf2563c49f45382937-b5c082668b7c28fab76adcf87ac861b0-1794931535-1794930335&remote=no_check_ip
+https://fup.futx.nx.kg/nig/index.m3u8?token=c24c693a89857d35e2eaa27362ab4115729099a4-5803747cce2abd95c4f51357f0b21fd1-1794932427-1794931227&remote=no_check_ip
+#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[AFCON Qualifying] Gambia vs Ivory Coast | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[AFCON Qualifying] Gambia vs Ivory Coast | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://fup.futx.nx.kg/gam/index.m3u8?token=f4dc7aa25a9910e7c91734b697d914941ab94036-64ac5643611e3caca713c4d2f7b700b9-1794932427-1794931227&remote=no_check_ip
+#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[AFCON Qualifying] Kenya vs South Africa | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[AFCON Qualifying] Kenya vs South Africa | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://fup.futx.nx.kg/ken/index.m3u8?token=99ea6ff9521be04794fb266cf1be09304877d28d-70d17c5eb3a15af509804435c4c994f1-1794932427-1794931227&remote=no_check_ip
+#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[AFCON Qualifying] Sierra Leone vs Congo DR | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[AFCON Qualifying] Sierra Leone vs Congo DR | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://fup.futx.nx.kg/con/index.m3u8?token=d8f1088b77582cfcb0834d018b9ba87d44464caf-132cf85319d346db44fdcfb7a70d930e-1794932428-1794931228&remote=no_check_ip
+#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[AFCON Qualifying] Togo vs Algeria | Main Feed (FUTLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[AFCON Qualifying] Togo vs Algeria | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://fup.futx.nx.kg/tog/index.m3u8?token=619d9d1c0487eca2cc9da49373a2f7b3890de3f2-368d4d41d84817ec4ff7db6546301b84-1794932428-1794931228&remote=no_check_ip
