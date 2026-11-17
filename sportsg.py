@@ -234,7 +234,7 @@ def _vlc_pipe_url(source: str, refer: str, origin: str, ua: str) -> str:
     )
 
 
-def write_vlc_m3u8(filename: str = VLC_FILE) -> None:
+def write_tivimate_m3u8(filename: str = TIVIMATE_FILE) -> None:
     try:
         with open(filename, "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
@@ -258,7 +258,7 @@ def write_vlc_m3u8(filename: str = VLC_FILE) -> None:
         log.error(f"Failed to write {filename}: {e}")
 
 
-def write_tivimate_m3u8(filename: str = TIVIMATE_FILE) -> None:
+def write_vlc_m3u8(filename: str = VLC_FILE) -> None:
     try:
         with open(filename, "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
