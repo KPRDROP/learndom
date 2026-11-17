@@ -1,225 +1,310 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Kenya vs South Africa 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Kenya vs South Africa 1 (FAWA)
+#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[UEFA Nations League] UEFA Nations League Simulcast (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2395.png" group-title="Live Events",[UEFA Nations League] UEFA Nations League Simulcast (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.50/hls/Xtbbb.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Kenya vs South Africa 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Kenya vs South Africa 2 (FAWA)
+http://193.47.62.41/hls/YDDD.m3u8
+#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[UEFA Nations League] Wales vs Portugal 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2395.png" group-title="Live Events",[UEFA Nations League] Wales vs Portugal 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://www.rtmpcdn.com/live/452f0645-0606-43ae-8692-9948da007c23.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Gambia vs Ivory Coast 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Gambia vs Ivory Coast 1 (FAWA)
+http://193.47.62.50/hls/CCCCAAAAAA.m3u8
+#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[UEFA Nations League] Denmark vs Norway 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2395.png" group-title="Live Events",[UEFA Nations League] Denmark vs Norway 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.44/hls/XtbbbA.m3u8
-#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Gambia vs Ivory Coast 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Gambia vs Ivory Coast 2 (FAWA)
+http://193.47.62.44/hls/ZZZZAAAAAA.m3u8
+#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[UEFA Nations League] Ukraine vs Georgia 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2395.png" group-title="Live Events",[UEFA Nations League] Ukraine vs Georgia 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://www.rtmpcdn.com/live/345a6ca0-7a8c-42f2-829c-40fcbfce3b22.m3u8
-#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Togo vs Algeria 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Togo vs Algeria 1 (FAWA)
+http://193.47.62.50/hls/CCCCAAAAA.m3u8
+#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[UEFA Nations League] Poland vs Sweden 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2395.png" group-title="Live Events",[UEFA Nations League] Poland vs Sweden 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.55/hls/XtbbbAA.m3u8
-#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Togo vs Algeria 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Togo vs Algeria 2 (FAWA)
+http://193.47.62.44/hls/ZZZZAAAAA.m3u8
+#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[UEFA Nations League] Israel vs Austria 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2395.png" group-title="Live Events",[UEFA Nations League] Israel vs Austria 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://www.rtmpcdn.com/live/92f14f98-fc9b-4764-a9b9-2e823f7c8029.m3u8
-#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Sierra Leone vs DR Congo 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Sierra Leone vs DR Congo 1 (FAWA)
+http://193.47.62.55/hls/CCCCAAAA.m3u8
+#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[UEFA Nations League] Ireland vs Kosovo 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2395.png" group-title="Live Events",[UEFA Nations League] Ireland vs Kosovo 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/XtbbbAAA.m3u8
-#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Sierra Leone vs DR Congo 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Sierra Leone vs DR Congo 2 (FAWA)
+http://193.47.62.44/hls/ZZZZAAAA.m3u8
+#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[UEFA Nations League] Hungary vs Northern Ireland 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2395.png" group-title="Live Events",[UEFA Nations League] Hungary vs Northern Ireland 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://www.rtmpcdn.com/live/5905dc85-a3e6-46d6-ad51-e26a7d93302b.m3u8
-#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Libya vs Tunisia 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Libya vs Tunisia 1 (FAWA)
+http://193.47.62.50/hls/CCCCAAA.m3u8
+#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[UEFA Nations League] Bosnia-Herzegovina vs Romania 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2395.png" group-title="Live Events",[UEFA Nations League] Bosnia-Herzegovina vs Romania 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/XtbbbAAAA.m3u8
-#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Libya vs Tunisia 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Libya vs Tunisia 2 (FAWA)
+http://193.47.62.44/hls/ZZZZAAA.m3u8
+#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Niger vs Morocco (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Niger vs Morocco (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://www.rtmpcdn.com/live/8bc39f53-705d-4846-9657-f661e6d41d29.m3u8
-#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Guinea Bissau vs Madagascar 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Guinea Bissau vs Madagascar 1 (FAWA)
+http://193.47.62.55/hls/CCCCAA.m3u8
+#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Rwanda vs Mali 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Rwanda vs Mali 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.55/hls/XtbbbAAAAA.m3u8
-#EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Guinea Bissau vs Madagascar 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Guinea Bissau vs Madagascar 2 (FAWA)
+http://193.47.62.59/hls/ZZZZAA.m3u8
+#EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Rwanda vs Mali 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Rwanda vs Mali 2 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://www.rtmpcdn.com/live/f1672970-f83d-4ed6-8c96-4db04cac96b2.m3u8
-#EXTINF:-1 tvg-chno="13" tvg-id="Live.Event.us" tvg-name="[Basketball Euroleague] Maccabi Tel Aviv vs Olympiacos 1 (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Maccabi Tel Aviv vs Olympiacos 1 (FAWA)
+https://www.rtmpcdn.com/live/537e7b7a-0e13-47e0-ac07-1bb84bc2c1fa.m3u8
+#EXTINF:-1 tvg-chno="13" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Mauritania vs Burkina Faso 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Mauritania vs Burkina Faso 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/J555AAAA.m3u8
-#EXTINF:-1 tvg-chno="14" tvg-id="Live.Event.us" tvg-name="[Basketball Euroleague] Maccabi Tel Aviv vs Olympiacos 2 (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Maccabi Tel Aviv vs Olympiacos 2 (FAWA)
+http://193.47.62.55/hls/CCCCA.m3u8
+#EXTINF:-1 tvg-chno="14" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Mauritania vs Burkina Faso 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Mauritania vs Burkina Faso 2 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://www.rtmpcdn.com/live/82d95ec8-ca83-432b-82e2-0242f3742306.m3u8
-#EXTINF:-1 tvg-chno="15" tvg-id="Live.Event.us" tvg-name="[Basketball Euroleague] Zalgiris Kaunas vs Bayern Munchen 1 (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Zalgiris Kaunas vs Bayern Munchen 1 (FAWA)
+https://www.rtmpcdn.com/live/8b6f5eec-b014-4dc3-8d9e-2226e50b7236.m3u8
+#EXTINF:-1 tvg-chno="15" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Liberia vs Cape Verde 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Liberia vs Cape Verde 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/HHHHAAAA.m3u8
-#EXTINF:-1 tvg-chno="16" tvg-id="Live.Event.us" tvg-name="[Basketball Euroleague] Zalgiris Kaunas vs Bayern Munchen 2 (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Zalgiris Kaunas vs Bayern Munchen 2 (FAWA)
+http://193.47.62.59/hls/ZZZZA.m3u8
+#EXTINF:-1 tvg-chno="16" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Liberia vs Cape Verde 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Liberia vs Cape Verde 2 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://www.rtmpcdn.com/live/2ab1dfb1-a9ae-401e-8408-d5894dbf46b9.m3u8
-#EXTINF:-1 tvg-chno="17" tvg-id="Live.Event.us" tvg-name="[Basketball Euroleague] Fenerbahce vs Lyon-Villeurbanne 1 (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Fenerbahce vs Lyon-Villeurbanne 1 (FAWA)
+https://www.rtmpcdn.com/live/37203718-1081-4248-9944-b20441ff36b7.m3u8
+#EXTINF:-1 tvg-chno="17" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Congo vs Comoros 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Congo vs Comoros 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/HHHHAAA.m3u8
-#EXTINF:-1 tvg-chno="18" tvg-id="Live.Event.us" tvg-name="[Basketball Euroleague] Fenerbahce vs Lyon-Villeurbanne 2 (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Fenerbahce vs Lyon-Villeurbanne 2 (FAWA)
+http://193.47.62.55/hls/CCCC.m3u8
+#EXTINF:-1 tvg-chno="18" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Congo vs Comoros 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Congo vs Comoros 2 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://www.rtmpcdn.com/live/598f92bf-430b-4fbd-8c1e-509801af30df.m3u8
-#EXTINF:-1 tvg-chno="19" tvg-id="Live.Event.us" tvg-name="[Hockey Champions League] Skelleftea vs Rogle (FAWA)" tvg-logo="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f3d2.png" group-title="Live Events",[Hockey Champions League] Skelleftea vs Rogle (FAWA)
+https://www.rtmpcdn.com/live/8b372851-1a06-4ea9-b31f-7324e5af8ea0.m3u8
+#EXTINF:-1 tvg-chno="19" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Botswana vs Uganda 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Botswana vs Uganda 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/HHHHAA.m3u8
-#EXTINF:-1 tvg-chno="20" tvg-id="Live.Event.us" tvg-name="[Hockey Champions League] Frolunda vs Vaxjo (FAWA)" tvg-logo="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f3d2.png" group-title="Live Events",[Hockey Champions League] Frolunda vs Vaxjo (FAWA)
+http://193.47.62.59/hls/ZZZZ.m3u8
+#EXTINF:-1 tvg-chno="20" tvg-id="Live.Event.us" tvg-name="[Africa Cup of Nations] Botswana vs Uganda 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png" group-title="Live Events",[Africa Cup of Nations] Botswana vs Uganda 2 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/HHHHA.m3u8
-#EXTINF:-1 tvg-chno="21" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Albania U21 vs Spain U21 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Albania U21 vs Spain U21 (FAWA)
+https://www.rtmpcdn.com/live/0489b6ea-3126-4f40-8e32-925de4f01da9.m3u8
+#EXTINF:-1 tvg-chno="21" tvg-id="Live.Event.us" tvg-name="[Basketball Euroleague] Virtus Bologna vs Panathinaikos (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Virtus Bologna vs Panathinaikos (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/HHHH.m3u8
-#EXTINF:-1 tvg-chno="22" tvg-id="Live.Event.us" tvg-name="[Euro U21 Qualification] Ireland U21 vs Finland U21 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Euro U21 Qualification] Ireland U21 vs Finland U21 (FAWA)
+http://193.47.62.41/hls/YDDDA.m3u8
+#EXTINF:-1 tvg-chno="22" tvg-id="Live.Event.us" tvg-name="[Basketball Euroleague] Partizan vs Valencia (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Partizan vs Valencia (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/J555AAAAAA.m3u8
-#EXTINF:-1 tvg-chno="23" tvg-id="Live.Event.us" tvg-name="[Euro U21 Qualification] Netherlands U21 vs Denmark U21 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Euro U21 Qualification] Netherlands U21 vs Denmark U21 (FAWA)
+http://193.47.62.41/hls/EIIIAAAQQQQA.m3u8
+#EXTINF:-1 tvg-chno="23" tvg-id="Live.Event.us" tvg-name="[Basketball Euroleague] Baskonia vs Hapoel Tel Aviv (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Baskonia vs Hapoel Tel Aviv (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/J555AAAAA.m3u8
-#EXTINF:-1 tvg-chno="24" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Poland U21 vs Serbia U21 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Poland U21 vs Serbia U21 (FAWA)
+http://193.47.62.41/hls/EIIIAAAQQQ.m3u8
+#EXTINF:-1 tvg-chno="24" tvg-id="Live.Event.us" tvg-name="[Basketball Euroleague] Barcelona vs Paris (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Barcelona vs Paris (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/J555AAA.m3u8
-#EXTINF:-1 tvg-chno="25" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Croatia U21 vs Germany U21 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Croatia U21 vs Germany U21 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/J555AA.m3u8
-#EXTINF:-1 tvg-chno="26" tvg-id="Live.Event.us" tvg-name="[Hockey Champions League] Tappara vs Adler Mannheim (FAWA)" tvg-logo="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f3d2.png" group-title="Live Events",[Hockey Champions League] Tappara vs Adler Mannheim (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/J555A.m3u8
-#EXTINF:-1 tvg-chno="27" tvg-id="Live.Event.us" tvg-name="[Hockey Champions League] Plzen vs Davos (FAWA)" tvg-logo="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f3d2.png" group-title="Live Events",[Hockey Champions League] Plzen vs Davos (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/J555.m3u8
-#EXTINF:-1 tvg-chno="28" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Kuwait vs Honduras (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Kuwait vs Honduras (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/JJJJGAAAAAA.m3u8
-#EXTINF:-1 tvg-chno="29" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Iraq vs Iran (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Iraq vs Iran (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/JJJJGAAAAA.m3u8
-#EXTINF:-1 tvg-chno="30" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Jordan vs Australia 1 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Jordan vs Australia 1 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/JJJJGA.m3u8
-#EXTINF:-1 tvg-chno="31" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Jordan vs Australia 2 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Jordan vs Australia 2 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://www.rtmpcdn.com/live/324ebf4a-01d6-44bb-ae1c-ef0870baaf9c.m3u8
-#EXTINF:-1 tvg-chno="32" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Russia vs Venezuela 1 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Russia vs Venezuela 1 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/JJJJGAA.m3u8
-#EXTINF:-1 tvg-chno="33" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Russia vs Venezuela 2 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Russia vs Venezuela 2 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://www.rtmpcdn.com/live/593bde94-727e-49d9-a807-e6694c1baa28.m3u8
-#EXTINF:-1 tvg-chno="34" tvg-id="Live.Event.us" tvg-name="[Basketball Euroleague] Dubai vs Anadolu Efes 1 (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Dubai vs Anadolu Efes 1 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/JJJJGAAAA.m3u8
-#EXTINF:-1 tvg-chno="35" tvg-id="Live.Event.us" tvg-name="[Basketball Euroleague] Dubai vs Anadolu Efes 2 (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Dubai vs Anadolu Efes 2 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://www.rtmpcdn.com/live/82d95ec8-ca83-432b-82e2-0242f3742306.m3u8
-#EXTINF:-1 tvg-chno="36" tvg-id="Live.Event.us" tvg-name="[Euro U21 Qualification] Czech Republic U21 vs Turkey U21 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Euro U21 Qualification] Czech Republic U21 vs Turkey U21 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/JJJJGAAA.m3u8
-#EXTINF:-1 tvg-chno="37" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Saudi Arabia vs Uzbekistan 1 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Saudi Arabia vs Uzbekistan 1 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/JJJJG.m3u8
-#EXTINF:-1 tvg-chno="38" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Saudi Arabia vs Uzbekistan 2 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Saudi Arabia vs Uzbekistan 2 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://www.rtmpcdn.com/live/f9223cd3-8aee-4d4a-ae67-2bc407aaf2cc.m3u8
-#EXTINF:-1 tvg-chno="39" tvg-id="Live.Event.us" tvg-name="[Friendly Match] United Arab Emirates vs Syria (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] United Arab Emirates vs Syria (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/DGGGAAAAAA.m3u8
-#EXTINF:-1 tvg-chno="40" tvg-id="Live.Event.us" tvg-name="[Hockey Champions League] Liberec vs Kolner (FAWA)" tvg-logo="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f3d2.png" group-title="Live Events",[Hockey Champions League] Liberec vs Kolner (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/JJJJ.m3u8
-#EXTINF:-1 tvg-chno="41" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Qatar vs South Korea (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Qatar vs South Korea (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/DGGGAAAAA.m3u8
-#EXTINF:-1 tvg-chno="42" tvg-id="Live.Event.us" tvg-name="[SAFF Championship] India vs Pakistan (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[SAFF Championship] India vs Pakistan (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/DGGGAAAAX.m3u8
-#EXTINF:-1 tvg-chno="43" tvg-id="Live.Event.us" tvg-name="[Tennis ATP] Tennis ATP Finalsn (FAWA)" tvg-logo="https://files.catbox.moe/q8ljra.png" group-title="Live Events",[Tennis ATP] Tennis ATP Finalsn (FAWA)
+http://193.47.62.41/hls/EIIIAAAQQ.m3u8
+#EXTINF:-1 tvg-chno="25" tvg-id="Live.Event.us" tvg-name="[Tennis ATP] Tennis ATP Finalsn (FAWA)" tvg-logo="https://files.catbox.moe/q8ljra.png" group-title="Live Events",[Tennis ATP] Tennis ATP Finalsn (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.44/hls/G666AAAAA.m3u8
-#EXTINF:-1 tvg-chno="44" tvg-id="Live.Event.us" tvg-name="[Horse Racing] Horse Racing 1 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Horse Racing] Horse Racing 1 (FAWA)
+#EXTINF:-1 tvg-chno="26" tvg-id="Live.Event.us" tvg-name="[Darts] Darts Grand Slam (FAWA)" tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/013/468/398/small/darts-board-icon-png.png" group-title="Live Events",[Darts] Darts Grand Slam (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.59/hls/BEEEAAA.m3u8
+#EXTINF:-1 tvg-chno="27" tvg-id="Live.Event.us" tvg-name="[English EFL Trophy] Luton Town vs Peterborough (FAWA)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c3/EFL_Trophy.png" group-title="Live Events",[English EFL Trophy] Luton Town vs Peterborough (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/EIIIAAAQ.m3u8
+#EXTINF:-1 tvg-chno="28" tvg-id="Live.Event.us" tvg-name="[CONCACAF Nations League] Saint Lucia vs Barbados (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2406.png" group-title="Live Events",[CONCACAF Nations League] Saint Lucia vs Barbados (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/EIIIAAA.m3u8
+#EXTINF:-1 tvg-chno="29" tvg-id="Live.Event.us" tvg-name="[CONCACAF Nations League] Dominica vs Cayman Islands (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2406.png" group-title="Live Events",[CONCACAF Nations League] Dominica vs Cayman Islands (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/EIIIAA.m3u8
+#EXTINF:-1 tvg-chno="30" tvg-id="Live.Event.us" tvg-name="[CONCACAF Nations League] Belize vs Sint Maarten (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2406.png" group-title="Live Events",[CONCACAF Nations League] Belize vs Sint Maarten (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/EIII.m3u8
+#EXTINF:-1 tvg-chno="31" tvg-id="Live.Event.us" tvg-name="[Basketball Euroleague] Maccabi Tel Aviv vs Olympiacos 1 (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Maccabi Tel Aviv vs Olympiacos 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/J555AAAA.m3u8
+#EXTINF:-1 tvg-chno="32" tvg-id="Live.Event.us" tvg-name="[Basketball Euroleague] Maccabi Tel Aviv vs Olympiacos 2 (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Maccabi Tel Aviv vs Olympiacos 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://www.rtmpcdn.com/live/82d95ec8-ca83-432b-82e2-0242f3742306.m3u8
+#EXTINF:-1 tvg-chno="33" tvg-id="Live.Event.us" tvg-name="[Basketball Euroleague] Zalgiris Kaunas vs Bayern Munchen 1 (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Zalgiris Kaunas vs Bayern Munchen 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/HHHHAAAA.m3u8
+#EXTINF:-1 tvg-chno="34" tvg-id="Live.Event.us" tvg-name="[Basketball Euroleague] Zalgiris Kaunas vs Bayern Munchen 2 (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Zalgiris Kaunas vs Bayern Munchen 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://www.rtmpcdn.com/live/2ab1dfb1-a9ae-401e-8408-d5894dbf46b9.m3u8
+#EXTINF:-1 tvg-chno="35" tvg-id="Live.Event.us" tvg-name="[Basketball Euroleague] Fenerbahce vs Lyon-Villeurbanne 1 (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Fenerbahce vs Lyon-Villeurbanne 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/HHHHAAA.m3u8
+#EXTINF:-1 tvg-chno="36" tvg-id="Live.Event.us" tvg-name="[Basketball Euroleague] Fenerbahce vs Lyon-Villeurbanne 2 (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Fenerbahce vs Lyon-Villeurbanne 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://www.rtmpcdn.com/live/598f92bf-430b-4fbd-8c1e-509801af30df.m3u8
+#EXTINF:-1 tvg-chno="37" tvg-id="Live.Event.us" tvg-name="[Hockey Champions League] Skelleftea vs Rogle (FAWA)" tvg-logo="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f3d2.png" group-title="Live Events",[Hockey Champions League] Skelleftea vs Rogle (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/HHHHAA.m3u8
+#EXTINF:-1 tvg-chno="38" tvg-id="Live.Event.us" tvg-name="[Hockey Champions League] Frolunda vs Vaxjo (FAWA)" tvg-logo="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f3d2.png" group-title="Live Events",[Hockey Champions League] Frolunda vs Vaxjo (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/HHHHA.m3u8
+#EXTINF:-1 tvg-chno="39" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Albania U21 vs Spain U21 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Albania U21 vs Spain U21 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/HHHH.m3u8
+#EXTINF:-1 tvg-chno="40" tvg-id="Live.Event.us" tvg-name="[Euro U21 Qualification] Ireland U21 vs Finland U21 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Euro U21 Qualification] Ireland U21 vs Finland U21 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/J555AAAAAA.m3u8
+#EXTINF:-1 tvg-chno="41" tvg-id="Live.Event.us" tvg-name="[Euro U21 Qualification] Netherlands U21 vs Denmark U21 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Euro U21 Qualification] Netherlands U21 vs Denmark U21 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/J555AAAAA.m3u8
+#EXTINF:-1 tvg-chno="42" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Poland U21 vs Serbia U21 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Poland U21 vs Serbia U21 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/J555AAA.m3u8
+#EXTINF:-1 tvg-chno="43" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Croatia U21 vs Germany U21 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Croatia U21 vs Germany U21 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/J555AA.m3u8
+#EXTINF:-1 tvg-chno="44" tvg-id="Live.Event.us" tvg-name="[Hockey Champions League] Tappara vs Adler Mannheim (FAWA)" tvg-logo="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f3d2.png" group-title="Live Events",[Hockey Champions League] Tappara vs Adler Mannheim (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/J555A.m3u8
+#EXTINF:-1 tvg-chno="45" tvg-id="Live.Event.us" tvg-name="[Hockey Champions League] Plzen vs Davos (FAWA)" tvg-logo="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f3d2.png" group-title="Live Events",[Hockey Champions League] Plzen vs Davos (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/J555.m3u8
+#EXTINF:-1 tvg-chno="46" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Kuwait vs Honduras (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Kuwait vs Honduras (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/JJJJGAAAAAA.m3u8
+#EXTINF:-1 tvg-chno="47" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Iraq vs Iran (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Iraq vs Iran (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/JJJJGAAAAA.m3u8
+#EXTINF:-1 tvg-chno="48" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Jordan vs Australia 1 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Jordan vs Australia 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/JJJJGA.m3u8
+#EXTINF:-1 tvg-chno="49" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Jordan vs Australia 2 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Jordan vs Australia 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://www.rtmpcdn.com/live/324ebf4a-01d6-44bb-ae1c-ef0870baaf9c.m3u8
+#EXTINF:-1 tvg-chno="50" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Russia vs Venezuela 1 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Russia vs Venezuela 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/JJJJGAA.m3u8
+#EXTINF:-1 tvg-chno="51" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Russia vs Venezuela 2 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Russia vs Venezuela 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://www.rtmpcdn.com/live/593bde94-727e-49d9-a807-e6694c1baa28.m3u8
+#EXTINF:-1 tvg-chno="52" tvg-id="Live.Event.us" tvg-name="[Basketball Euroleague] Dubai vs Anadolu Efes 1 (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Dubai vs Anadolu Efes 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/JJJJGAAAA.m3u8
+#EXTINF:-1 tvg-chno="53" tvg-id="Live.Event.us" tvg-name="[Basketball Euroleague] Dubai vs Anadolu Efes 2 (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Dubai vs Anadolu Efes 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://www.rtmpcdn.com/live/82d95ec8-ca83-432b-82e2-0242f3742306.m3u8
+#EXTINF:-1 tvg-chno="54" tvg-id="Live.Event.us" tvg-name="[Euro U21 Qualification] Czech Republic U21 vs Turkey U21 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Euro U21 Qualification] Czech Republic U21 vs Turkey U21 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/JJJJGAAA.m3u8
+#EXTINF:-1 tvg-chno="55" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Saudi Arabia vs Uzbekistan 1 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Saudi Arabia vs Uzbekistan 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/JJJJG.m3u8
+#EXTINF:-1 tvg-chno="56" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Saudi Arabia vs Uzbekistan 2 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Saudi Arabia vs Uzbekistan 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://www.rtmpcdn.com/live/f9223cd3-8aee-4d4a-ae67-2bc407aaf2cc.m3u8
+#EXTINF:-1 tvg-chno="57" tvg-id="Live.Event.us" tvg-name="[Friendly Match] United Arab Emirates vs Syria (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] United Arab Emirates vs Syria (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/DGGGAAAAAA.m3u8
+#EXTINF:-1 tvg-chno="58" tvg-id="Live.Event.us" tvg-name="[Hockey Champions League] Liberec vs Kolner (FAWA)" tvg-logo="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f3d2.png" group-title="Live Events",[Hockey Champions League] Liberec vs Kolner (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/JJJJ.m3u8
+#EXTINF:-1 tvg-chno="59" tvg-id="Live.Event.us" tvg-name="[Friendly Match] Qatar vs South Korea (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Friendly Match] Qatar vs South Korea (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/DGGGAAAAA.m3u8
+#EXTINF:-1 tvg-chno="60" tvg-id="Live.Event.us" tvg-name="[SAFF Championship] India vs Pakistan (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[SAFF Championship] India vs Pakistan (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/DGGGAAAAX.m3u8
+#EXTINF:-1 tvg-chno="61" tvg-id="Live.Event.us" tvg-name="[Horse Racing] Horse Racing 1 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Horse Racing] Horse Racing 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/vavavava.m3u8
-#EXTINF:-1 tvg-chno="45" tvg-id="Live.Event.us" tvg-name="[Horse Racing] Horse Racing 2 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Horse Racing] Horse Racing 2 (FAWA)
+#EXTINF:-1 tvg-chno="62" tvg-id="Live.Event.us" tvg-name="[Horse Racing] Horse Racing 2 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Horse Racing] Horse Racing 2 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
