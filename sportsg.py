@@ -259,10 +259,6 @@ def write_vlc_m3u8(filename: str = VLC_FILE) -> None:
 
 
 def write_tivimate_m3u8(filename: str = TIVIMATE_FILE) -> None:
-    """
-    TiviMate format using #EXTVLCOPT header block (referrer + origin + user-agent),
-    then the raw source URL on its own line (no pipe suffix), matching the example.
-    """
     try:
         with open(filename, "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
