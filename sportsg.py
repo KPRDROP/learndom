@@ -1,6 +1,7 @@
 import asyncio
 import json
 import re
+import zlib
 from functools import partial
 from typing import Any
 from urllib.parse import quote, urljoin
@@ -18,20 +19,36 @@ TAG = "SPORTSG"
 
 CACHE_FILE = Cache(TAG, exp=19_800)
 
-BASE_URL = "https://gblog.asia/private/"
+# ---- Corrected base / origin ----
+BASE_URL = "https://blogs.st/meth/"
+ORIGIN = "https://blogs.st"
+DEFAULT_REFERER = BASE_URL
 
 DEFAULT_UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/155.0.0.0 Safari/537.36"
+    "Chrome/157.0.0.0 Safari/537.36"
 )
 
-DEFAULT_REFERER = BASE_URL
+M3U8_HOST_PATTERNS = [
+    re.compile(r"^https?://mixedshop\.pw/", re.I),
+    re.compile(r"^https?://[^/]*karimianian\.store/", re.I),
+    re.compile(r"\.m3u8(\?|$)", re.I),
+]
+
+VLC_FILE = "sportsg_vlc.m3u8"
+TIVIMATE_FILE = "sportsg.tivimate.m3u8"
+
+
+def _is_m3u8_request(url: str) -> bool:
+    for p in M3U8_HOST_PATTERNS:
+        if p.search(url):
+            return True
+    return False
 
 
 def capture_req(req: Request, captured: list[str], got_one: asyncio.Event) -> None:
-    pattern = re.compile(r"^https?://karimianian.store")
-    if pattern.search(req.url):
+    if _is_m3u8_request(req.url):
         captured.append(req.url)
         got_one.set()
 
@@ -44,7 +61,7 @@ async def process_event(url: str, url_num: int, page: Page) -> str | None:
 
     try:
         resp = await page.goto(
-            url, wait_until="domcontentloaded", timeout=6_000, referer=BASE_URL
+            url, wait_until="domcontentloaded", timeout=10_000, referer=BASE_URL
         )
         if not resp or not resp.ok:
             log.error(f"URL {url_num}) Status Code: {resp.status if resp else 'None'}")
@@ -52,7 +69,7 @@ async def process_event(url: str, url_num: int, page: Page) -> str | None:
 
         wait_task = asyncio.create_task(got_one.wait())
         try:
-            await asyncio.wait_for(wait_task, timeout=6)
+            await asyncio.wait_for(wait_task, timeout=8)
         except TimeoutError:
             log.warning(f"URL {url_num}) Timed out waiting for M3U8.")
             return
@@ -75,7 +92,6 @@ async def process_event(url: str, url_num: int, page: Page) -> str | None:
 
 
 def get_events_via_cloudscraper() -> list[Event]:
-    """使用 cloudscraper 获取 API 事件列表。"""
     now = Time.rn()
     events: list[Event] = []
 
@@ -115,18 +131,16 @@ def get_events_via_cloudscraper() -> list[Event]:
         log.error(f"API response not JSON: {e}")
         return events
 
-    if not (updated_date := api_data.get("updated")):
-        return events
-
-    try:
-        updated_dt = Time.from_str(updated_date, tz_name="UTC")
-    except Exception as e:
-        log.warning(f"Could not parse updated date: {e}")
-        return events
-
-    if now.date() != updated_dt.date():
-        log.info(f"API data stale (updated {updated_date}); skipping")
-        return events
+    # Warn if stale, but still process what's returned (more events).
+    if updated_date := api_data.get("updated"):
+        try:
+            updated_dt = Time.from_str(updated_date, tz_name="UTC")
+            if now.date() != updated_dt.date():
+                log.warning(
+                    f"API data may be stale (updated {updated_date}); processing anyway"
+                )
+        except Exception as e:
+            log.warning(f"Could not parse updated date: {e}")
 
     for game in api_data.get("events", []):
         title = game.get("title")
@@ -181,6 +195,7 @@ async def scrape(browser: Browser) -> None:
                         "source": source,
                         "logo": logo,
                         "refer": ev.link,
+                        "origin": ORIGIN,
                         "timestamp": ev.timestamp,
                         "tvg-id": tvg_id or "Live.Event.us",
                     }
@@ -195,62 +210,80 @@ async def scrape(browser: Browser) -> None:
     CACHE_FILE.write(cached_sources)
 
 
-def _build_vlc_url(source: str, referer: str, ua: str) -> str:
-    return f"{source}|referer={referer}|user-agent={ua}"
+# ---------- Output writers ----------
 
-
-def _build_tivimate_url(source: str, referer: str, ua: str) -> str:
-    encoded_ua = quote(ua, safe="")
-    return f"{source}|referer={referer}|user-agent={encoded_ua}"
+def _stable_chno(key: str) -> int:
+    """Stable channel number per event (doesn't shuffle on re-run)."""
+    return (zlib.crc32(key.encode("utf-8")) % 9000) + 100
 
 
 def _sorted_entries() -> list[tuple[str, dict[str, Any]]]:
     return list(urls.items())
 
 
-def write_vlc_m3u8(filename: str = "sportsg_vlc.m3u8") -> None:
+def _resolve_refer_and_origin(entry: dict[str, Any]) -> tuple[str, str]:
+    refer = entry.get("refer") or DEFAULT_REFERER
+    origin = entry.get("origin") or ORIGIN
+    return refer, origin
+
+
+def _vlc_pipe_url(source: str, refer: str, origin: str, ua: str) -> str:
+    encoded_ua = quote(ua, safe="")
+    return (
+        f"{source}|referer={refer}|origin={origin}|user-agent={encoded_ua}"
+    )
+
+
+def write_vlc_m3u8(filename: str = VLC_FILE) -> None:
     try:
         with open(filename, "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
-            for chno, (key, entry) in enumerate(_sorted_entries(), start=1):
+            for key, entry in _sorted_entries():
                 source = entry.get("source")
                 if not source:
                     continue
-                referer = entry.get("refer") or DEFAULT_REFERER
+                refer, origin = _resolve_refer_and_origin(entry)
                 logo = entry.get("logo") or ""
                 tvg_id = entry.get("tvg-id") or "Live.Event.us"
-                vlc_key = key.replace(f"({TAG})", "(GSPORTS)")
+                chno = _stable_chno(key)
+
                 f.write(
                     f'#EXTINF:-1 tvg-chno="{chno}" tvg-id="{tvg_id}" '
-                    f'tvg-name="{vlc_key}" tvg-logo="{logo}" '
-                    f'group-title="Live Events",{vlc_key}\n'
+                    f'tvg-name="{key}" tvg-logo="{logo}" '
+                    f'group-title="Live Events",{key}\n'
                 )
-                f.write(f"#EXTVLCOPT:http-referrer={referer}\n")
-                f.write(f"#EXTVLCOPT:http-user-agent={DEFAULT_UA}\n")
-                f.write(_build_vlc_url(source, referer, DEFAULT_UA) + "\n")
+                f.write(_vlc_pipe_url(source, refer, origin, DEFAULT_UA) + "\n")
         log.info(f"Wrote {filename} ({len(urls)} event(s))")
     except Exception as e:
         log.error(f"Failed to write {filename}: {e}")
 
 
-def write_tivimate_m3u8(filename: str = "sportsg.tivimate.m3u8") -> None:
+def write_tivimate_m3u8(filename: str = TIVIMATE_FILE) -> None:
+    """
+    TiviMate format using #EXTVLCOPT header block (referrer + origin + user-agent),
+    then the raw source URL on its own line (no pipe suffix), matching the example.
+    """
     try:
         with open(filename, "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
-            for chno, (key, entry) in enumerate(_sorted_entries(), start=1):
+            for key, entry in _sorted_entries():
                 source = entry.get("source")
                 if not source:
                     continue
-                referer = entry.get("refer") or DEFAULT_REFERER
+                refer, origin = _resolve_refer_and_origin(entry)
                 logo = entry.get("logo") or ""
                 tvg_id = entry.get("tvg-id") or "Live.Event.us"
-                name = key
+                chno = _stable_chno(key)
+
                 f.write(
                     f'#EXTINF:-1 tvg-chno="{chno}" tvg-id="{tvg_id}" '
-                    f'tvg-name="{name}" tvg-logo="{logo}" '
-                    f'group-title="Live Events",{name}\n'
+                    f'tvg-name="{key}" tvg-logo="{logo}" '
+                    f'group-title="Live Events",{key}\n'
                 )
-                f.write(_build_tivimate_url(source, referer, DEFAULT_UA) + "\n")
+                f.write(f"#EXTVLCOPT:http-referrer={refer}\n")
+                f.write(f"#EXTVLCOPT:http-origin={origin}\n")
+                f.write(f"#EXTVLCOPT:http-user-agent={DEFAULT_UA}\n")
+                f.write(source + "\n")
         log.info(f"Wrote {filename} ({len(urls)} event(s))")
     except Exception as e:
         log.error(f"Failed to write {filename}: {e}")
