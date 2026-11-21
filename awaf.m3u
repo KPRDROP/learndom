@@ -1,69 +1,69 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Oklahoma City Thunder vs New Orleans Pelicans 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Oklahoma City Thunder vs New Orleans Pelicans 1 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.55/hls/UPPPA.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Oklahoma City Thunder vs New Orleans Pelicans 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Oklahoma City Thunder vs New Orleans Pelicans 2 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://www.rtmpcdn.com/live/ae9c1eb0-a887-4b80-9f75-911821bf4c0f.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Chicago Bulls vs Washington Wizards 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Chicago Bulls vs Washington Wizards 1 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.50/hls/UKKKA.m3u8
-#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Chicago Bulls vs Washington Wizards 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Chicago Bulls vs Washington Wizards 2 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://www.rtmpcdn.com/live/76800f85-99a9-482b-baf1-17ca6193b63c.m3u8
-#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Detroit Pistons vs Toronto Raptors 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Detroit Pistons vs Toronto Raptors 1 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.59/hls/FHHHA.m3u8
-#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Detroit Pistons vs Toronto Raptors 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Detroit Pistons vs Toronto Raptors 2 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://www.rtmpcdn.com/live/e1828084-ab01-4ec8-a170-ca139c36571b.m3u8
-#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Cleveland Cavaliers vs Indiana Pacers (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Cleveland Cavaliers vs Indiana Pacers (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.55/hls/UPPP.m3u8
-#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Brooklyn Nets vs Orlando Magic 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Brooklyn Nets vs Orlando Magic 1 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.50/hls/UKKK.m3u8
-#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Brooklyn Nets vs Orlando Magic 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Brooklyn Nets vs Orlando Magic 2 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://www.rtmpcdn.com/live/22507b2b-0fac-41c8-a4b7-d6b8752f4a2a.m3u8
-#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Atlanta Hawks vs Charlotte Hornets 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Atlanta Hawks vs Charlotte Hornets 1 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.59/hls/FHHH.m3u8
-#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Los Angeles Lakers vs Sacramento Kings (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Los Angeles Lakers vs Sacramento Kings (FAWA)
+#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Los Angeles Lakers vs Sacramento Kings (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Los Angeles Lakers vs Sacramento Kings (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/UPPPAA.m3u8
-#EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Denver Nuggets vs Houston Rockets (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Denver Nuggets vs Houston Rockets (FAWA)
+#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Denver Nuggets vs Houston Rockets (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Denver Nuggets vs Houston Rockets (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.50/hls/UKKKAA.m3u8
-#EXTINF:-1 tvg-chno="13" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Utah Jazz vs Phoenix Suns (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Utah Jazz vs Phoenix Suns (FAWA)
+#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Utah Jazz vs Phoenix Suns (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Utah Jazz vs Phoenix Suns (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.59/hls/FHHHAA.m3u8
+#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Oklahoma City Thunder vs New Orleans Pelicans 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Oklahoma City Thunder vs New Orleans Pelicans 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.55/hls/UPPPA.m3u8
+#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Oklahoma City Thunder vs New Orleans Pelicans 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Oklahoma City Thunder vs New Orleans Pelicans 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://www.rtmpcdn.com/live/ae9c1eb0-a887-4b80-9f75-911821bf4c0f.m3u8
+#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Chicago Bulls vs Washington Wizards 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Chicago Bulls vs Washington Wizards 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/UKKKA.m3u8
+#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Chicago Bulls vs Washington Wizards 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Chicago Bulls vs Washington Wizards 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://www.rtmpcdn.com/live/76800f85-99a9-482b-baf1-17ca6193b63c.m3u8
+#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Detroit Pistons vs Toronto Raptors 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Detroit Pistons vs Toronto Raptors 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.59/hls/FHHHA.m3u8
+#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Detroit Pistons vs Toronto Raptors 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Detroit Pistons vs Toronto Raptors 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://www.rtmpcdn.com/live/e1828084-ab01-4ec8-a170-ca139c36571b.m3u8
+#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Cleveland Cavaliers vs Indiana Pacers (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Cleveland Cavaliers vs Indiana Pacers (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.55/hls/UPPP.m3u8
+#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Brooklyn Nets vs Orlando Magic 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Brooklyn Nets vs Orlando Magic 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/UKKK.m3u8
+#EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Brooklyn Nets vs Orlando Magic 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Brooklyn Nets vs Orlando Magic 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://www.rtmpcdn.com/live/22507b2b-0fac-41c8-a4b7-d6b8752f4a2a.m3u8
+#EXTINF:-1 tvg-chno="13" tvg-id="Live.Event.us" tvg-name="[NBA Basketball] Atlanta Hawks vs Charlotte Hornets 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA Basketball] Atlanta Hawks vs Charlotte Hornets 1 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.59/hls/FHHH.m3u8
 #EXTINF:-1 tvg-chno="14" tvg-id="Live.Event.us" tvg-name="[Formula 1 GP] Formula 1 Las Vegas 1 (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[Formula 1 GP] Formula 1 Las Vegas 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
