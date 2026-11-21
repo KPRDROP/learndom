@@ -3,19 +3,29 @@
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://rip.futx.nx.kg/mci/index.m3u8?token=f17bd25ccb8abbe1f93bd3170246134e5eed4742-1deeb12406071f4743d6fd0a986edeaf-1795268131-1795266931&remote=no_check_ip
+https://rip.futx.nx.kg/mci/index.m3u8?token=36db5319bdf8d36b98f764d9bc9afbcb47e6902f-5d09c7c17eacf1779421b724205c8299-1795269027-1795267827&remote=no_check_ip
 #EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[EPL] Man City vs Fulham | Stream 2 (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Live Events",[EPL] Man City vs Fulham | Stream 2 (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://rip.futx.nx.kg/ful/index.m3u8?token=6e22dc2d08b5aac69859497b24a265376308b055-b0dc3f6b47ef9e76f3b31181d2059721-1795268131-1795266931&remote=no_check_ip
+https://rip.futx.nx.kg/ful/index.m3u8?token=0d08ed7e2c1663340f488a8655a013cf83156d28-9f802ea9a02b7d6d0c0e182143337c69-1795269027-1795267827&remote=no_check_ip
 #EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Southampton vs Derby County | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[EFL Championship] Southampton vs Derby County | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://rip.futx.nx.kg/sou/index.m3u8?token=719186969639045a029c1e11409162f6b2991c91-a95670baa8866e1e1d21a9cd2da943b5-1795268131-1795266931&remote=no_check_ip
-#EXTINF:-1 tvg-chno="4" tvg-id="Racing.Dummy.us" tvg-name="[F1] Las Vegas Grand Prix - Qualifying | Main Feed (FUTLX)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] Las Vegas Grand Prix - Qualifying | Main Feed (FUTLX)
+https://rip.futx.nx.kg/sou/index.m3u8?token=d4cd1e1e05493f45c4578fe9b1e7005507f634be-3bac0a5f8f042a43970a70693180708e-1795269027-1795267827&remote=no_check_ip
+#EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[Laliga] Alaves vs La Coruna | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Laliga] Alaves vs La Coruna | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://rip.futx.nx.kg/f1/index.m3u8?token=dc461c00b672cf09b8d1f736ce18baf01762cc49-c09d67e8d8f718070f6731b37133c0c2-1795268131-1795266931&remote=no_check_ip
+https://fup.futx.nx.kg/alav/index.m3u8?token=a6f825af8f4be68d0550367fcaaa7207eab0b0ed-4ac47d593ac0805f37b2d89ebb68816a-1795269027-1795267827&remote=no_check_ip
+#EXTINF:-1 tvg-chno="5" tvg-id="Soccer.Dummy.us" tvg-name="[Süper Lig] Galatasaray vs Samsunspor | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/18.png" group-title="Live Events",[Süper Lig] Galatasaray vs Samsunspor | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://fup.futx.nx.kg/gala/index.m3u8?token=a7f66ebdd86d13cec69d77a94ee1c94463ac455b-4e444e2131a71200b5e0caacd2da6486-1795269027-1795267827&remote=no_check_ip
+#EXTINF:-1 tvg-chno="6" tvg-id="Racing.Dummy.us" tvg-name="[F1] Las Vegas Grand Prix - Qualifying | Main Feed (FUTLX)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[F1] Las Vegas Grand Prix - Qualifying | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://rip.futx.nx.kg/f1/index.m3u8?token=7a1c1a7957974cbeb117aaddcaf6a9b493ea2fa4-6b2c5cb48f21a55b9f15524e2b88f4c8-1795269027-1795267827&remote=no_check_ip
