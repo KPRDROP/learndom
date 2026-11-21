@@ -3,7 +3,7 @@
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://edgestream2.pro/hls/JHDAJBDnjdna30.m3u8?st=Swq3OVhhFQK92CKOG4Mv_84zgXpgsdKmnJ-MmUgXxik&e=1795209867
+https://edgestream1.pro/hls/JHDAJBDnjdna30.m3u8?st=w_sXbYUPgQa8s8kvbiYsO5p1eTUhAqQsKa-WpA8ZMc0&e=1795232250
 #EXTINF:-1 tvg-chno="2" tvg-id="Football.Dummy.us" tvg-name="[American Football] Clemson Tigers vs. Duke Blue Devils | English (STRMCNTR)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/01/Football-Emoji-500x281.png" group-title="Live Events",[American Football] Clemson Tigers vs. Duke Blue Devils | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
@@ -29,73 +29,68 @@ https://edgestream3.pro/sh/cdn/hls/uheyztezgj34.m3u8
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://edgestream3.pro/sh/cdn/hls/jnknjfzbk35.m3u8
-#EXTINF:-1 tvg-chno="7" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Bayern Munich vs. FC Cologne | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Football] Bayern Munich vs. FC Cologne | English (STRMCNTR)
-#EXTVLCOPT:http-referrer=https://embedcenter.st/
-#EXTVLCOPT:http-origin=https://embedcenter.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://edgestream3.pro/sh/cdn/hls/ueyeztrazb4.m3u8
-#EXTINF:-1 tvg-chno="8" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Troyes vs. Le Havre AC | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Football] Troyes vs. Le Havre AC | English (STRMCNTR)
-#EXTVLCOPT:http-referrer=https://embedcenter.st/
-#EXTVLCOPT:http-origin=https://embedcenter.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://edgestream3.pro/sh/cdn/hls/dza5z8f69.m3u8
-#EXTINF:-1 tvg-chno="9" tvg-id="Soccer.Dummy.us" tvg-name="[Football] Athletic Club vs. Espanyol | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[Football] Athletic Club vs. Espanyol | English (STRMCNTR)
-#EXTVLCOPT:http-referrer=https://embedcenter.st/
-#EXTVLCOPT:http-origin=https://embedcenter.st
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://edgestream3.pro/sh/cdn/hls/377qj1h2727.m3u8
-#EXTINF:-1 tvg-chno="10" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Charlotte Hornets vs. Atlanta Hawks | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Charlotte Hornets vs. Atlanta Hawks | English (STRMCNTR)
+#EXTINF:-1 tvg-chno="7" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Charlotte Hornets vs. Atlanta Hawks | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Charlotte Hornets vs. Atlanta Hawks | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://edgestream3.pro/sh/cdn/hls/mlkijfezag65.m3u8
-#EXTINF:-1 tvg-chno="11" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Orlando Magic vs. Brooklyn Nets | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Orlando Magic vs. Brooklyn Nets | English (STRMCNTR)
+#EXTINF:-1 tvg-chno="8" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Orlando Magic vs. Brooklyn Nets | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Orlando Magic vs. Brooklyn Nets | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://edgestream3.pro/sh/cdn/hls/wfazgsqtrezu66.m3u8
-#EXTINF:-1 tvg-chno="12" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Indiana Pacers vs. Cleveland Cavaliers | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Indiana Pacers vs. Cleveland Cavaliers | English (STRMCNTR)
+#EXTINF:-1 tvg-chno="9" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Indiana Pacers vs. Cleveland Cavaliers | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Indiana Pacers vs. Cleveland Cavaliers | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://edgestream3.pro/sh/cdn/hls/hfsdqtaxvb67.m3u8
-#EXTINF:-1 tvg-chno="13" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Toronto Raptors vs. Detroit Pistons | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Toronto Raptors vs. Detroit Pistons | English (STRMCNTR)
+#EXTINF:-1 tvg-chno="10" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Toronto Raptors vs. Detroit Pistons | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Toronto Raptors vs. Detroit Pistons | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://edgestream3.pro/sh/cdn/hls/zayrtezafgvdv68.m3u8
-#EXTINF:-1 tvg-chno="14" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Washington Wizards vs. Chicago Bulls | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Washington Wizards vs. Chicago Bulls | English (STRMCNTR)
+#EXTINF:-1 tvg-chno="11" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Washington Wizards vs. Chicago Bulls | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Washington Wizards vs. Chicago Bulls | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://edgestream3.pro/sh/cdn/hls/zeafwqvhfe69.m3u8
-#EXTINF:-1 tvg-chno="15" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] New Orleans Pelicans vs. Oklahoma City Thunder | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] New Orleans Pelicans vs. Oklahoma City Thunder | English (STRMCNTR)
+#EXTINF:-1 tvg-chno="12" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] New Orleans Pelicans vs. Oklahoma City Thunder | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] New Orleans Pelicans vs. Oklahoma City Thunder | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://edgestream3.pro/sh/cdn/hls/bvnsqdfvgha70.m3u8
-#EXTINF:-1 tvg-chno="16" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Phoenix Suns vs. Utah Jazz | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Phoenix Suns vs. Utah Jazz | English (STRMCNTR)
+#EXTINF:-1 tvg-chno="13" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Phoenix Suns vs. Utah Jazz | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Phoenix Suns vs. Utah Jazz | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://edgestream3.pro/sh/cdn/hls/ztyarueaghj71.m3u8
-#EXTINF:-1 tvg-chno="17" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Houston Rockets vs. Denver Nuggets | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Houston Rockets vs. Denver Nuggets | English (STRMCNTR)
+#EXTINF:-1 tvg-chno="14" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Houston Rockets vs. Denver Nuggets | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Houston Rockets vs. Denver Nuggets | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://edgestream3.pro/sh/cdn/hls/pllmazjkdzajh72.m3u8
-#EXTINF:-1 tvg-chno="18" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Sacramento Kings vs. Los Angeles Lakers | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Sacramento Kings vs. Los Angeles Lakers | English (STRMCNTR)
+#EXTINF:-1 tvg-chno="15" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[Basketball] Sacramento Kings vs. Los Angeles Lakers | English (STRMCNTR)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[Basketball] Sacramento Kings vs. Los Angeles Lakers | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://edgestream3.pro/sh/cdn/hls/fdgsqdfawa73.m3u8
-#EXTINF:-1 tvg-chno="19" tvg-id="Racing.Dummy.us" tvg-name="[Racing] Heineken Las Vegas Grand Prix — FP3 | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Racing] Heineken Las Vegas Grand Prix — FP3 | English (STRMCNTR)
+#EXTINF:-1 tvg-chno="16" tvg-id="Racing.Dummy.us" tvg-name="[Racing] Heineken Las Vegas Grand Prix — FP3 | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Racing] Heineken Las Vegas Grand Prix — FP3 | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://edgestream3.pro/sh/cdn/hls/hbfkazbkaznc49.m3u8
-#EXTINF:-1 tvg-chno="20" tvg-id="Racing.Dummy.us" tvg-name="[Racing] Heineken Las Vegas Grand Prix — Qual | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Racing] Heineken Las Vegas Grand Prix — Qual | English (STRMCNTR)
+#EXTINF:-1 tvg-chno="17" tvg-id="Racing.Dummy.us" tvg-name="[Racing] Heineken Las Vegas Grand Prix — Qual | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Racing] Heineken Las Vegas Grand Prix — Qual | English (STRMCNTR)
 #EXTVLCOPT:http-referrer=https://embedcenter.st/
 #EXTVLCOPT:http-origin=https://embedcenter.st
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://edgestream3.pro/sh/cdn/hls/hbfkazbkaznc49.m3u8
+#EXTINF:-1 tvg-chno="18" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Boxing] Price vs Kotaskova | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Boxing] Price vs Kotaskova | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream3.pro/sh/cdn/hls/hbfhzbfzak46.m3u8
+#EXTINF:-1 tvg-chno="19" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[Boxing] Amari Jones 🇺🇸 vs DeAundre Pettus | English (STRMCNTR)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Boxing] Amari Jones 🇺🇸 vs DeAundre Pettus | English (STRMCNTR)
+#EXTVLCOPT:http-referrer=https://embedcenter.st/
+#EXTVLCOPT:http-origin=https://embedcenter.st
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://edgestream3.pro/sh/cdn/hls/hezfnezkfzk45.m3u8
