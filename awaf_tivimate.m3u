@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[Formula 1 GP] Formula 1 GP Las Vegas 1 (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[Formula 1 GP] Formula 1 GP Las Vegas 1 (FAWA)
-http://193.47.62.50/hls/4GGGG.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc|user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A146.0%29+Gecko%2F20100101+Firefox%2F146.0
+http://193.47.62.55/hls/4GGGG.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc|user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A146.0%29+Gecko%2F20100101+Firefox%2F146.0
 #EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[Formula 1 GP] Formula 1 GP Las Vegas 3 (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[Formula 1 GP] Formula 1 GP Las Vegas 3 (FAWA)
 https://admin2.formaturamaxi.com.br/f1.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc|user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A146.0%29+Gecko%2F20100101+Firefox%2F146.0
 #EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[Formula 1 GP] Formula 1 GP Las Vegas 2 (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png" group-title="Live Events",[Formula 1 GP] Formula 1 GP Las Vegas 2 (FAWA)
