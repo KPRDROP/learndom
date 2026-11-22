@@ -72,7 +72,7 @@ class Network:
             logger.info("Updating EasyList file")
 
             if r := await self.request(
-                "https://easylist-downloads.adblockplus.org/easylist.txt"
+                "https://easylist.to/easylist/easylist.txt"
             ):
                 easylist_file.write_bytes(r.content)
                 easylist = r.text
