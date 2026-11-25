@@ -1,80 +1,110 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[World Cup U17] Denmark U17 vs Argentina U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] Denmark U17 vs Argentina U17 (FAWA)
+#EXTINF:-1 tvg-chno="1" tvg-id="Live.Event.us" tvg-name="[AFC Champions League] Al Muharraq vs Arkadag (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2200.png" group-title="Live Events",[AFC Champions League] Al Muharraq vs Arkadag (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.55/hls/ZLLLAAAA.m3u8
+#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[AFC Champions League] Al Kuwait vs Al Wahda (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2200.png" group-title="Live Events",[AFC Champions League] Al Kuwait vs Al Wahda (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.55/hls/ZLLLAAA.m3u8
+#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[AFC Champions League] Al Jazira vs Gol Gohar (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2200.png" group-title="Live Events",[AFC Champions League] Al Jazira vs Gol Gohar (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.55/hls/ZLLLAA.m3u8
+#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[AFC Champions League] Al Faisaly Amman vs Al Rayyan (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2200.png" group-title="Live Events",[AFC Champions League] Al Faisaly Amman vs Al Rayyan (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.55/hls/ZLLLA.m3u8
+#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[Basketball Euroleague] Dubai vs Partizan (FAWA)" tvg-logo="https://www.euroleaguebasketball.net/images/logo-default.png" group-title="Live Events",[Basketball Euroleague] Dubai vs Partizan (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.55/hls/ZLLL.m3u8
+#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[World Cup U17] Denmark U17 vs Argentina U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] Denmark U17 vs Argentina U17 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/lololoaaaaqq.m3u8
-#EXTINF:-1 tvg-chno="2" tvg-id="Live.Event.us" tvg-name="[World Cup U17] Australia U17 vs Mozambique U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] Australia U17 vs Mozambique U17 (FAWA)
+#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[World Cup U17] Australia U17 vs Mozambique U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] Australia U17 vs Mozambique U17 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/WAWAWA.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[UEFA Youth League] PSG U19 vs AS Roma U19 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[UEFA Youth League] PSG U19 vs AS Roma U19 (FAWA)
+#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[UEFA Youth League] PSG U19 vs AS Roma U19 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[UEFA Youth League] PSG U19 vs AS Roma U19 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/lololoaaaa.m3u8
-#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[UEFA Youth League] Atletico Madrid U19 vs Viking U19 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[UEFA Youth League] Atletico Madrid U19 vs Viking U19 (FAWA)
+#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[UEFA Youth League] Atletico Madrid U19 vs Viking U19 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[UEFA Youth League] Atletico Madrid U19 vs Viking U19 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/lololoaaa.m3u8
-#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[Russia Cup] Dynamo Makhachkala vs Baltika (FAWA)" tvg-logo="https://i.namu.wiki/i/2iKkh5JNZ5kvezj1A84Qwd7q2FntN7ayCr4DmWSTNx7zv-NcQj9vaJ6xbtTx--nPpioPNU02J38z-kaIL5SjeQ.webp" group-title="Live Events",[Russia Cup] Dynamo Makhachkala vs Baltika (FAWA)
+#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[Russia Cup] Dynamo Makhachkala vs Baltika (FAWA)" tvg-logo="https://i.namu.wiki/i/2iKkh5JNZ5kvezj1A84Qwd7q2FntN7ayCr4DmWSTNx7zv-NcQj9vaJ6xbtTx--nPpioPNU02J38z-kaIL5SjeQ.webp" group-title="Live Events",[Russia Cup] Dynamo Makhachkala vs Baltika (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/lololoaa.m3u8
-#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[Russia Cup] Akhmat Grozny vs Krasnodar (FAWA)" tvg-logo="https://i.namu.wiki/i/2iKkh5JNZ5kvezj1A84Qwd7q2FntN7ayCr4DmWSTNx7zv-NcQj9vaJ6xbtTx--nPpioPNU02J38z-kaIL5SjeQ.webp" group-title="Live Events",[Russia Cup] Akhmat Grozny vs Krasnodar (FAWA)
+#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[Russia Cup] Akhmat Grozny vs Krasnodar (FAWA)" tvg-logo="https://i.namu.wiki/i/2iKkh5JNZ5kvezj1A84Qwd7q2FntN7ayCr4DmWSTNx7zv-NcQj9vaJ6xbtTx--nPpioPNU02J38z-kaIL5SjeQ.webp" group-title="Live Events",[Russia Cup] Akhmat Grozny vs Krasnodar (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/lololoa.m3u8
-#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[Egypt Premier League] El Gaish vs Modern Sport (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/egypt/1500x1500/egyptian-premier-league.9574aa34.png" group-title="Live Events",[Egypt Premier League] El Gaish vs Modern Sport (FAWA)
+#EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[Egypt Premier League] El Gaish vs Modern Sport (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/egypt/1500x1500/egyptian-premier-league.9574aa34.png" group-title="Live Events",[Egypt Premier League] El Gaish vs Modern Sport (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/lololo.m3u8
-#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[World Cup U17] Panama U17 vs Egypt U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] Panama U17 vs Egypt U17 (FAWA)
+#EXTINF:-1 tvg-chno="13" tvg-id="Live.Event.us" tvg-name="[World Cup U17] Panama U17 vs Egypt U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] Panama U17 vs Egypt U17 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/WAWAWAAAAQQ.m3u8
-#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[World Cup U17] Greece U17 vs Qatar U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] Greece U17 vs Qatar U17 (FAWA)
+#EXTINF:-1 tvg-chno="14" tvg-id="Live.Event.us" tvg-name="[World Cup U17] Greece U17 vs Qatar U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] Greece U17 vs Qatar U17 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/WAWAWAAAAQ.m3u8
-#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[UEFA Youth League] Club Brugge U19 vs Liverpool U19 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[UEFA Youth League] Club Brugge U19 vs Liverpool U19 (FAWA)
+#EXTINF:-1 tvg-chno="15" tvg-id="Live.Event.us" tvg-name="[UEFA Youth League] Inter U19 vs Stuttgart U19 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[UEFA Youth League] Inter U19 vs Stuttgart U19 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.55/hls/frrraaaA.m3u8
+#EXTINF:-1 tvg-chno="16" tvg-id="Live.Event.us" tvg-name="[UEFA Youth League] Club Brugge U19 vs Liverpool U19 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[UEFA Youth League] Club Brugge U19 vs Liverpool U19 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/WAWAWAAAA.m3u8
-#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[AFC Champions League II] Nasaf Qarshi vs Al Khalidiyah (FAWA)" tvg-logo="https://i.namu.wiki/i/CxVINJHhy1Ie_klMhPFDP9wkurLsVHXq8QkUwAQ9MUVDNAoqBpSDwcJxzEFwwQ-MQwaROprc6z7DpsUKBjryTA.svg" group-title="Live Events",[AFC Champions League II] Nasaf Qarshi vs Al Khalidiyah (FAWA)
+#EXTINF:-1 tvg-chno="17" tvg-id="Live.Event.us" tvg-name="[AFC Champions League II] Nasaf Qarshi vs Al Khalidiyah (FAWA)" tvg-logo="https://i.namu.wiki/i/CxVINJHhy1Ie_klMhPFDP9wkurLsVHXq8QkUwAQ9MUVDNAoqBpSDwcJxzEFwwQ-MQwaROprc6z7DpsUKBjryTA.svg" group-title="Live Events",[AFC Champions League II] Nasaf Qarshi vs Al Khalidiyah (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/WAWAWAAA.m3u8
-#EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[World Cup U17] Uruguay U17 vs France U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] Uruguay U17 vs France U17 (FAWA)
+#EXTINF:-1 tvg-chno="18" tvg-id="Live.Event.us" tvg-name="[World Cup U17] Uruguay U17 vs France U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] Uruguay U17 vs France U17 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/WAWAWAA.m3u8
-#EXTINF:-1 tvg-chno="13" tvg-id="Live.Event.us" tvg-name="[World Cup U17] Haiti U17 vs Saudi Arabia U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] Haiti U17 vs Saudi Arabia U17 (FAWA)
+#EXTINF:-1 tvg-chno="19" tvg-id="Live.Event.us" tvg-name="[World Cup U17] Haiti U17 vs Saudi Arabia U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] Haiti U17 vs Saudi Arabia U17 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/WAWAWA.m3u8
-#EXTINF:-1 tvg-chno="14" tvg-id="Live.Event.us" tvg-name="[UEFA Youth League] Sporting CP U19 vs Manchester Utd U19 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[UEFA Youth League] Sporting CP U19 vs Manchester Utd U19 (FAWA)
+#EXTINF:-1 tvg-chno="20" tvg-id="Live.Event.us" tvg-name="[UEFA Youth League] Sporting CP U19 vs Manchester Utd U19 (FAWA)" tvg-logo="https://files.catbox.moe/r05ma0.png" group-title="Live Events",[UEFA Youth League] Sporting CP U19 vs Manchester Utd U19 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/IIIIAA.m3u8
-#EXTINF:-1 tvg-chno="15" tvg-id="Live.Event.us" tvg-name="[Horse Racing] Horse Racing 1 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Horse Racing] Horse Racing 1 (FAWA)
+#EXTINF:-1 tvg-chno="21" tvg-id="Live.Event.us" tvg-name="[Horse Racing] Horse Racing 1 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Horse Racing] Horse Racing 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/vavavava.m3u8
-#EXTINF:-1 tvg-chno="16" tvg-id="Live.Event.us" tvg-name="[Horse Racing] Horse Racing 2 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Horse Racing] Horse Racing 2 (FAWA)
+#EXTINF:-1 tvg-chno="22" tvg-id="Live.Event.us" tvg-name="[Horse Racing] Horse Racing 2 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Horse Racing] Horse Racing 2 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
