@@ -1,11 +1,21 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Pistons vs Magic | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Pistons vs Magic | Main Feed (FUTLX)
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[UCL] Sabah vs Barcelona | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Live Events",[UCL] Sabah vs Barcelona | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://but.futx.nx.kg/pist/index.m3u8?token=21e0402f5c0aab0996ff63cf8a4d7bac4cb6db7a-a1507003b607737f797f4a23fc68eeee-1795628135-1795626935&remote=no_check_ip
-#EXTINF:-1 tvg-chno="2" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Celtics vs Wizards | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Celtics vs Wizards | Main Feed (FUTLX)
+https://rip.futx.nx.kg/bar/index.m3u8?token=16b62773009d396805ff2f723007dceda425df64-eaab0ea966abf7449969ecf82bb5e835-1795629032-1795627832&remote=no_check_ip
+#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[UCL] Slavia Prague vs Villarreal | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png" group-title="Live Events",[UCL] Slavia Prague vs Villarreal | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://but.futx.nx.kg/bos/index.m3u8?token=ee5bfbb9b41ff3cc3a0dea9497d31964245debb7-1bb8d6a1760db5b20a33710ca3e8e4fb-1795628135-1795626935&remote=no_check_ip
+https://rip.futx.nx.kg/villa/index.m3u8?token=d4f42f54388b981232ab08aad77aec8b2e584806-3950cfd89ce40b871290e980fe3583d3-1795629032-1795627832&remote=no_check_ip
+#EXTINF:-1 tvg-chno="3" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Pistons vs Magic | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Pistons vs Magic | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://but.futx.nx.kg/pist/index.m3u8?token=8277d34bac89826a766b157c1420d1fbf2197c7b-f36b85edcf41100ebbb22291ee8c21cf-1795629032-1795627832&remote=no_check_ip
+#EXTINF:-1 tvg-chno="4" tvg-id="NBA.Basketball.Dummy.us" tvg-name="[NBA] Celtics vs Wizards | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png" group-title="Live Events",[NBA] Celtics vs Wizards | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://but.futx.nx.kg/bos/index.m3u8?token=1e33a5d76fd570fa69838649f3de94da25efb579-d4e0a36d0055b206299756709d17ccd9-1795629032-1795627832&remote=no_check_ip
