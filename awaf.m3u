@@ -9,76 +9,76 @@ http://193.47.62.59/hls/TFFFAAAQQQ.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/76499995-c8a6-4163-b39c-99f6566e78f1/master.m3u8
-#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[Saudi Premier League] Al Qadsiah vs Al Fayha (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Premier League] Al Qadsiah vs Al Fayha (FAWA)
+#EXTINF:-1 tvg-chno="3" tvg-id="Live.Event.us" tvg-name="[CAF Confederation Cup] Azam vs Al Ahly Tripoli (FAWA)" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/97/CAFCCOr.png/revision/latest" group-title="Live Events",[CAF Confederation Cup] Azam vs Al Ahly Tripoli (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.41/hls/TFFFAAAQQ.m3u8
+#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[Saudi Premier League] Al Qadsiah vs Al Fayha (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Premier League] Al Qadsiah vs Al Fayha (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.44/hls/TDDDAAAA.m3u8
-#EXTINF:-1 tvg-chno="4" tvg-id="Live.Event.us" tvg-name="[World Cup U17] Ireland U17 vs Tanzania U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] Ireland U17 vs Tanzania U17 (FAWA)
+#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[World Cup U17] Ireland U17 vs Tanzania U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] Ireland U17 vs Tanzania U17 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.44/hls/TDDDAA.m3u8
-#EXTINF:-1 tvg-chno="5" tvg-id="Live.Event.us" tvg-name="[World Cup U17] Costa Rica U17 vs Brazil U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] Costa Rica U17 vs Brazil U17 (FAWA)
+#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[World Cup U17] Costa Rica U17 vs Brazil U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] Costa Rica U17 vs Brazil U17 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.44/hls/TDDDA.m3u8
-#EXTINF:-1 tvg-chno="6" tvg-id="Live.Event.us" tvg-name="[India ISL League] Inter Kashi vs Churchill Brothers (FAWA)" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3a/Indian_Super_League_white_logo_sponsorless.png/revision/latest" group-title="Live Events",[India ISL League] Inter Kashi vs Churchill Brothers (FAWA)
+#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[India ISL League] Inter Kashi vs Churchill Brothers (FAWA)" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3a/Indian_Super_League_white_logo_sponsorless.png/revision/latest" group-title="Live Events",[India ISL League] Inter Kashi vs Churchill Brothers (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.44/hls/TDDDAAA.m3u8
-#EXTINF:-1 tvg-chno="7" tvg-id="Live.Event.us" tvg-name="[MMA Fighting] MMA ONE Championship (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[MMA Fighting] MMA ONE Championship (FAWA)
+#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[MMA Fighting] MMA ONE Championship (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[MMA Fighting] MMA ONE Championship (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.44/hls/TDDD.m3u8
-#EXTINF:-1 tvg-chno="8" tvg-id="Live.Event.us" tvg-name="[CAF Confederation Cup] Azam vs Al Ahly Tripoli (FAWA)" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/97/CAFCCOr.png/revision/latest" group-title="Live Events",[CAF Confederation Cup] Azam vs Al Ahly Tripoli (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.50/hls/TFFFAAAQQ.m3u8
-#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[Qatar QSL] Al Sailiya vs Al Gharafa (FAWA)" tvg-logo="https://www.qsl.qa/sites/default/files/2021-09/QSL_Logo_Port_CMYK3.png" group-title="Live Events",[Qatar QSL] Al Sailiya vs Al Gharafa (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.50/hls/TFFFAAAQ.m3u8
-#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[Tanzania Ligi Kuu Bara] Pamba vs Namungo (FAWA)" tvg-logo="https://www.ligikuu.co.tz/wp-content/uploads/2020/12/Untitled-2.png" group-title="Live Events",[Tanzania Ligi Kuu Bara] Pamba vs Namungo (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.50/hls/TFFFAAA.m3u8
-#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[World Cup U17] Honduras U17 vs Japan U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] Honduras U17 vs Japan U17 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.55/hls/TFFFAA.m3u8
-#EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[World Cup U17] Colombia U17 vs Serbia U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] Colombia U17 vs Serbia U17 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.55/hls/TFFFA.m3u8
-#EXTINF:-1 tvg-chno="13" tvg-id="Live.Event.us" tvg-name="[Darts] Darts Players Championship Finals (FAWA)" tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/013/468/398/small/darts-board-icon-png.png" group-title="Live Events",[Darts] Darts Players Championship Finals (FAWA)
+#EXTINF:-1 tvg-chno="9" tvg-id="Live.Event.us" tvg-name="[Darts] Darts Players Championship Finals (FAWA)" tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/013/468/398/small/darts-board-icon-png.png" group-title="Live Events",[Darts] Darts Players Championship Finals (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/TFFF.m3u8
-#EXTINF:-1 tvg-chno="14" tvg-id="Live.Event.us" tvg-name="[Golf LPGA] Golf LPGA Andalucia Costa del Sol (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/10/PGA-Tour-Logo-500x281.png" group-title="Live Events",[Golf LPGA] Golf LPGA Andalucia Costa del Sol (FAWA)
+#EXTINF:-1 tvg-chno="10" tvg-id="Live.Event.us" tvg-name="[World Cup U17] Honduras U17 vs Japan U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] Honduras U17 vs Japan U17 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.55/hls/TFFFAA.m3u8
+#EXTINF:-1 tvg-chno="11" tvg-id="Live.Event.us" tvg-name="[World Cup U17] Colombia U17 vs Serbia U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] Colombia U17 vs Serbia U17 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.55/hls/TFFFA.m3u8
+#EXTINF:-1 tvg-chno="12" tvg-id="Live.Event.us" tvg-name="[Qatar QSL] Al Sailiya vs Al Gharafa (FAWA)" tvg-logo="https://www.qsl.qa/sites/default/files/2021-09/QSL_Logo_Port_CMYK3.png" group-title="Live Events",[Qatar QSL] Al Sailiya vs Al Gharafa (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.50/hls/TFFFAAAQ.m3u8
+#EXTINF:-1 tvg-chno="13" tvg-id="Live.Event.us" tvg-name="[Golf LPGA] Golf LPGA Andalucia Costa del Sol (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/10/PGA-Tour-Logo-500x281.png" group-title="Live Events",[Golf LPGA] Golf LPGA Andalucia Costa del Sol (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.41/hls/DEDEDEDEAA.m3u8
-#EXTINF:-1 tvg-chno="15" tvg-id="Live.Event.us" tvg-name="[Malaysia Super League] DPMM vs Kelantan Red Warrior (FAWA)" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/73/Malaysian_Super_League_%282023%29.svg/revision/latest/scale-to-width-down/150" group-title="Live Events",[Malaysia Super League] DPMM vs Kelantan Red Warrior (FAWA)
+#EXTINF:-1 tvg-chno="14" tvg-id="Live.Event.us" tvg-name="[Malaysia Super League] DPMM vs Kelantan Red Warrior (FAWA)" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/73/Malaysian_Super_League_%282023%29.svg/revision/latest/scale-to-width-down/150" group-title="Live Events",[Malaysia Super League] DPMM vs Kelantan Red Warrior (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/DEDEDEAAAAQQQ.m3u8
-#EXTINF:-1 tvg-chno="16" tvg-id="Live.Event.us" tvg-name="[Saudi Premier League] Al Kholood vs Al Khaleej (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Premier League] Al Kholood vs Al Khaleej (FAWA)
+#EXTINF:-1 tvg-chno="15" tvg-id="Live.Event.us" tvg-name="[Saudi Premier League] Al Kholood vs Al Khaleej (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Premier League] Al Kholood vs Al Khaleej (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.55/hls/DEDEDEAAAAQQ.m3u8
+#EXTINF:-1 tvg-chno="16" tvg-id="Live.Event.us" tvg-name="[Cross-country skiing] Cross-Country skiing World Cup (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Cross-country skiing] Cross-Country skiing World Cup (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.44/hls/BEEEAA.m3u8
 #EXTINF:-1 tvg-chno="17" tvg-id="Live.Event.us" tvg-name="[Israel Ligat ha'Al] Maccabi Petah Tikva vs Hapoel Tel Aviv (FAWA)" tvg-logo="https://assets.footylogos.com/previews/israeli-premier-league/israeli-premier-league-logo-footylogos-1200.webp" group-title="Live Events",[Israel Ligat ha'Al] Maccabi Petah Tikva vs Hapoel Tel Aviv (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
@@ -154,43 +154,8 @@ http://193.47.62.44/hls/VVVV.m3u8
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.44/hls/BEEEAAA.m3u8
-#EXTINF:-1 tvg-chno="32" tvg-id="Live.Event.us" tvg-name="[Cross-country skiing] Cross-Country skiing World Cup (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Cross-country skiing] Cross-Country skiing World Cup (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.44/hls/BEEEAA.m3u8
-#EXTINF:-1 tvg-chno="33" tvg-id="Live.Event.us" tvg-name="[Basketball World Cup] Iran vs Australia (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/04/Basketball-Emoji-1536x864.png" group-title="Live Events",[Basketball World Cup] Iran vs Australia (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.44/hls/BEEEA.m3u8
-#EXTINF:-1 tvg-chno="34" tvg-id="Live.Event.us" tvg-name="[AFL Aussie Rules] North Melbourne W vs Melbourne Demons W (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/afl.png" group-title="Live Events",[AFL Aussie Rules] North Melbourne W vs Melbourne Demons W (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/FRFRFRVA.m3u8
-#EXTINF:-1 tvg-chno="35" tvg-id="Live.Event.us" tvg-name="[Australia A-League] Macarthur FC vs Melbourne City 1 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1308.png" group-title="Live Events",[Australia A-League] Macarthur FC vs Melbourne City 1 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/FRFRFR.m3u8
-#EXTINF:-1 tvg-chno="36" tvg-id="Live.Event.us" tvg-name="[Australia A-League] Macarthur FC vs Melbourne City 2 (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1308.png" group-title="Live Events",[Australia A-League] Macarthur FC vs Melbourne City 2 (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-https://www.rtmpcdn.com/live/b9149b1d-db70-42f9-a0b9-1581ad9ee25e.m3u8
-#EXTINF:-1 tvg-chno="37" tvg-id="Live.Event.us" tvg-name="[Cricket] Australia vs England (FAWA)" tvg-logo="https://files.catbox.moe/rwd8mv.png" group-title="Live Events",[Cricket] Australia vs England (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.41/hls/viii.m3u8
-#EXTINF:-1 tvg-chno="38" tvg-id="Live.Event.us" tvg-name="[MotoGP] MotoGP Grand Prix of Valencia (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/03/MotoGP-Logo-500x281.png" group-title="Live Events",[MotoGP] MotoGP Grand Prix of Valencia (FAWA)
+#EXTINF:-1 tvg-chno="32" tvg-id="Live.Event.us" tvg-name="[MotoGP] MotoGP Grand Prix of Valencia (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2021/03/MotoGP-Logo-500x281.png" group-title="Live Events",[MotoGP] MotoGP Grand Prix of Valencia (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 http://193.47.62.41/hls/FRFRFRV.m3u8
-#EXTINF:-1 tvg-chno="39" tvg-id="Live.Event.us" tvg-name="[Basketball World Cup] Indonesia vs Thailand (FAWA)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/04/Basketball-Emoji-1536x864.png" group-title="Live Events",[Basketball World Cup] Indonesia vs Thailand (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-origin=http://www.fawanews.sc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
-http://193.47.62.44/hls/BEEE.m3u8
