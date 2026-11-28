@@ -3,44 +3,44 @@
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://tf.futbol-tv.online/brem/index.m3u8?token=a17e5a259ae0bd32840de6e9d75be0447e7b2527-601803277bb7410877f3721e78c379a8-1795833327-1795832127&remote=no_check_ip
+https://tf.futbol-tv.online/brem/index.m3u8?token=68c96f97426d21e114b6023a5fdfc6f6d822990a-95c962a35db0a36843594996bf06914b-1795834229-1795833029&remote=no_check_ip
 #EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[Ligue 1] Brestois vs Paris FC | Main Feed (FUTLX)" tvg-logo="https://ligue1.com/images/Logo_Ligue_1.webp" group-title="Live Events",[Ligue 1] Brestois vs Paris FC | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://tf.futbol-tv.online/brest/index.m3u8?token=15297f11456ec9ea11e4a926eb6742010d90f08f-6b4f1acb5aa21bec12cd7d48b80351d9-1795833327-1795832127&remote=no_check_ip
+https://tf.futbol-tv.online/brest/index.m3u8?token=5884600903c665a89debd5a82831fdfcc8b9e4e4-97c6dff29a91f9b3760f497154aa7b8b-1795834229-1795833029&remote=no_check_ip
 #EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[Serie A] Venezia vs Bologna | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png" group-title="Live Events",[Serie A] Venezia vs Bologna | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://tf.futbol-tv.online/ven/index.m3u8?token=55f459410bf7177a0f5343c0ab91aa03febf81cb-e71d299b3901f01f83134fd6746890c3-1795833327-1795832127&remote=no_check_ip
+https://tf.futbol-tv.online/ven/index.m3u8?token=2721ac4b57515df4323eb6759765b5b370c57213-656dc8881d028e3ecb97823570c68135-1795834229-1795833029&remote=no_check_ip
 #EXTINF:-1 tvg-chno="4" tvg-id="Soccer.Dummy.us" tvg-name="[EPL] Nottingham vs Chelsea | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Live Events",[EPL] Nottingham vs Chelsea | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://test.futbol-tv.online/notti/index.m3u8?token=43bd2696bee77e61889e630c5098e06c7c33ae36-229760996dd8e9866e3e3476aa502470-1795833327-1795832127&remote=no_check_ip
+https://test.futbol-tv.online/notti/index.m3u8?token=1ffaf732debf4cc1453515666e5097fb36454f9a-bc6007e6404d4cf44c8a1a1ca1a95cb9-1795834229-1795833029&remote=no_check_ip
 #EXTINF:-1 tvg-chno="5" tvg-id="Soccer.Dummy.us" tvg-name="[EPL] Nottingham vs Chelsea | Stream 2 (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png" group-title="Live Events",[EPL] Nottingham vs Chelsea | Stream 2 (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://test.futbol-tv.online/che/index.m3u8?token=35b8118fa4211f77a50f3c599bf3058311dc9ceb-4e3f6c48c4a843b5809c4245956110cf-1795833327-1795832127&remote=no_check_ip
+https://test.futbol-tv.online/che/index.m3u8?token=a016afb872b23fa142ab0e4d7a7cf29bf3687de9-23d1bc7894b84636c5aee5c62ebbb0e0-1795834229-1795833029&remote=no_check_ip
 #EXTINF:-1 tvg-chno="6" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Southampton vs Middlesbrough | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[EFL Championship] Southampton vs Middlesbrough | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://test.futbol-tv.online/sou/index.m3u8?token=3cfe73e492145fd914c2a9bcbec9beac9d2ac534-9e650f6a25404b23ab8164545f7c1c44-1795833327-1795832127&remote=no_check_ip
+https://test.futbol-tv.online/sou/index.m3u8?token=a27c8b8739cbc1cbe2ff74e561eb3a8b7d771124-f597515114c6fca3b651a1105b6d099b-1795834229-1795833029&remote=no_check_ip
 #EXTINF:-1 tvg-chno="7" tvg-id="Soccer.Dummy.us" tvg-name="[LaLiga] Levante vs Racing | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[LaLiga] Levante vs Racing | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://tf.futbol-tv.online/lev/index.m3u8?token=31f1a1031d093a404026b0fc5e8190e9244d0bdf-70e6bf82d97c46ec6ef139098601424a-1795833327-1795832127&remote=no_check_ip
+https://tf.futbol-tv.online/lev/index.m3u8?token=06058284f6902aa8aacaa90ebd3f223389bae897-7dedfb7d05c6fdeb68649e4133badb3b-1795834229-1795833029&remote=no_check_ip
 #EXTINF:-1 tvg-chno="8" tvg-id="Soccer.Dummy.us" tvg-name="[MLS] Crew vs Inter Miami | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/19.png" group-title="Live Events",[MLS] Crew vs Inter Miami | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://tf.futbol-tv.online/mia/index.m3u8?token=44c46f32c8228d36a5e5e3cf5e5575fff9f76c05-4b89a340f77a8e491fc34b85cf8c4bf7-1795833327-1795832127&remote=no_check_ip
+https://tf.futbol-tv.online/mia/index.m3u8?token=c543e5e058a693115bb76802b05d7fc264c5f4b8-d4ee7b465714520c8c21ea1363cab467-1795834229-1795833029&remote=no_check_ip
 #EXTINF:-1 tvg-chno="9" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Broncos @ Steelers | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Broncos @ Steelers | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://tf.futbol-tv.online/bron/index.m3u8?token=3be819bd365d570ce6bbe7ca086ff55a9c1c5447-582b486688f9e08a3a7409bad223afa9-1795833327-1795832127&remote=no_check_ip
+https://tf.futbol-tv.online/bron/index.m3u8?token=21a094e86a3346f752c627c5dc0479fe90fe6fb3-244a4b1000a72c06f8f4b6553dd6f281-1795834229-1795833029&remote=no_check_ip
