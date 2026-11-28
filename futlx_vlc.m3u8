@@ -1,6 +1,21 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Broncos @ Steelers | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Broncos @ Steelers | Main Feed (FUTLX)
+#EXTINF:-1 tvg-chno="1" tvg-id="Soccer.Dummy.us" tvg-name="[SPL] Al Hazem vs Al Nassr FC | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[SPL] Al Hazem vs Al Nassr FC | Main Feed (FUTLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top/
 #EXTVLCOPT:http-origin=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
-https://tf.futbol-tv.online/bron/index.m3u8?token=6eb16399ba122f16b0d568165dfa4aa15adfc526-2306fa156a30e83ecef339e1af069a7d-1795868445-1795867245&remote=no_check_ip
+https://tf.futbol-tv.online/alns/index.m3u8?token=a5bd29ce70e03e7c6d0e9aef523f5bea12d22d8f-4fb6ea26f0cbef715bac2c6aae5699f1-1795869346-1795868146&remote=no_check_ip
+#EXTINF:-1 tvg-chno="2" tvg-id="Soccer.Dummy.us" tvg-name="[EFL Championship] Lincoln City vs Wolves | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png" group-title="Live Events",[EFL Championship] Lincoln City vs Wolves | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://tf.futbol-tv.online/wol/index.m3u8?token=a9fcab44b4c0cf0b66147b360f1699be30aa7884-1b1e0fa36582b66e29b88ac50f73e4eb-1795869346-1795868146&remote=no_check_ip
+#EXTINF:-1 tvg-chno="3" tvg-id="Soccer.Dummy.us" tvg-name="[LaLiga] Real Betis vs Vallecano | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[LaLiga] Real Betis vs Vallecano | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://tf.futbol-tv.online/bet/index.m3u8?token=75981c7dd56287e4d6594d85b97a962fa31213f2-d00127d1a60e04e168b63e09d1aead93-1795869346-1795868146&remote=no_check_ip
+#EXTINF:-1 tvg-chno="4" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Broncos @ Steelers | Main Feed (FUTLX)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Broncos @ Steelers | Main Feed (FUTLX)
+#EXTVLCOPT:http-referrer=https://www.futbol-x.top/
+#EXTVLCOPT:http-origin=https://www.futbol-x.top
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://tf.futbol-tv.online/bron/index.m3u8?token=0e4a3d5873454463baa24f1549a26fcb7a33d206-fd53609c41eb5dfa16f063fda7a2d2a6-1795869346-1795868146&remote=no_check_ip
